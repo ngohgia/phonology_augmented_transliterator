@@ -1,0 +1,19 @@
+- GetBestRule_improved:
+  -> Get best_lex_hyp_file
+- SplitWordWithSearchSpace:
+  get_best_search_space -> GetSearchSpace
+      -> read_lex_hyps_from_file
+
+
+pen = (N_GRAM_LEN-gram_len) * int(math.pow(3, N_GRAM_LEN-gram_len)) + int(math.pow(3, gram_balance))
+
+TODO: version 6.2
+	Test tesla, beveredge, landsdale, granique, cascade, torresmoling, libreville, nateville, estrada, leone
+	- Add ‘gn’ to valid_onset, test bologne
+	Allow ‘dh’ to be in front of schwa
+	- Average phone mapping :Check the phone mapping of o and O, iquitos, torngat marts, check kawasaki, gilgit
+	Make tone setting depends on position of the syllable: always _3 after @ if the syllable is at the middle of the word, always _1 at the end, check bauer
+	Allow j to be vowel -> pontrjagin
+	Check maharashtra
+	Check neumann
+	Add tw to the valid_onset
