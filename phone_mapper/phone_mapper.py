@@ -17,16 +17,11 @@ DEFAULT_CODA_ONSET = 't'
 
 if __name__ == '__main__':
   try:
-    script, lex_hyp_file_path, test_units_roles_name, t2p_decoder = sys.argv
+    script, lex_hyp_file_path, test_units_roles_path, run_dir, t2p_decoder = sys.argv
   except ValueError:
-    print "Syntax: phone_mapper.py         train_dev_lex      test_units_roles       t2p_decoder"
+    print "Syntax: phone_mapper.py \t lex_hyp_file_path \t test_units_roles_path \t run_dir \t t2p_decoder"
     sys.exit(1)
 
-common_input_path = train_dev_lex_path
-search_space_path = common_input_path + ".search_space"
-
-t2p_input_path = common_input_path + ".t2p.input"
-t2p_output_path = common_input_path + ".t2p.output"
 t2p_decoder_path = os.path.abspath(t2p_decoder)
 
 ONSET = "O"
@@ -256,14 +251,16 @@ def get_vie_phone_for_syl(syl, all_coords_ranks, search_space):
 
 
 #------------------------- GET SEARCH SPACE -----------------------------#
-all_train_dev_words = read_split_lex_file(train_dev_lex_path)
-create_input_for_t2p(all_train_dev_words, t2p_input_path)
-create_input_for_t2p(all_train_dev_words, t2p_input_path)
-get_phonemes_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path)
-add_en_phonemes_to_syls(all_train_dev_words, t2p_output_path)
-sys.exit(1)
+all_train_dev_words = read_split_lex_file(lex_hyp_file_path)
 
-new_search_space = SearchSpace()
+phon_t2p_input_path = os.path.abspath(os.path.join(run_dir, "phon_t2p_input.txt"))
+phon_t2p_output_path = os.path.abspath(os.path.join(run_dir, "phon_t2p_output.txt"))
+create_input_for_t2p(all_train_dev_words, phon_t2p_input_path)
+get_phonemes_with_g2p(t2p_decoder_path, phon_t2p_input_path, phon_t2p_output_path)
+add_en_phonemes_to_syls(all_train_dev_words, phon_t2p_output_path)
+
+search_space_path = os.path.abspath(os.path.join(run_dir, "phon_search_space.txt"))
+tone_searchspace = SearchSpace()
 for word in all_train_dev_words:
   for syl in word.syls:
     new_coord = Coord()
@@ -275,34 +272,33 @@ for word in all_train_dev_words:
 
     for coord in all_coords:
       #coord.print_str()
-      new_search_space.add_new_search_point(coord)
+      tone_searchspace.add_new_search_point(coord)
 
-new_search_space.normalize()
-
-print_search_space_to_file(new_search_space, search_space_path)
+tone_searchspace.normalize()
+print_search_space_to_file(tone_searchspace, search_space_path)
 
 #------------------------- DECODE ---------------------------------------#
-test_units_roles_path = os.path.abspath(test_units_roles_name)
-t2p_input_path = test_units_roles_path + ".t2p.input"
-t2p_output_path = test_units_roles_path + ".t2p.output"
-test_output_path = "/".join(test_units_roles_path.split("/")[0:-1]) + "/test.toneless_with_roles.output"
-
 all_test_words = read_test_units_roles(test_units_roles_path)
 
-create_input_for_t2p(all_test_words, t2p_input_path)
-get_phonemes_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path)
-add_en_phonemes_to_syls(all_test_words, t2p_output_path)
+test_units_roles_t2p_input_path = os.path.abspath(os.path.join(run_dir, "test_units_roles_t2p_input.txt"))
+test_units_roles_t2p_output_path = os.path.abspath(os.path.join(run_dir, "test_units_roles_t2p_output.txt"))
+print all_test_words
+create_input_for_t2p(all_test_words, test_units_roles_t2p_input_path)
+get_phonemes_with_g2p(t2p_decoder_path, test_units_roles_t2p_input_path, test_units_roles_t2p_output_path)
+add_en_phonemes_to_syls(all_test_words, test_units_roles_t2p_output_path)
 
-get_all_test_coords(all_test_words, new_search_space.space)
+get_all_test_coords(all_test_words, tone_searchspace.space)
 
-test_output_file = open(test_output_path, "w")
+test_toneless_output_path = os.path.abspath(os.path.join(run_dir, "test.toneless_with_roles.txt"))
+test_toneless_output_file = open(test_toneless_output_path, "w")
 for word in all_test_words:
   result = " . ".join([syl.get_vie_phonemes_str() for syl in word.syls])
   result = result + "\t" + " . ".join([syl.get_roles_str() for syl in word.syls])
   # print result
-  test_output_file.write(result + "\n")
-test_output_file.close()
+  test_toneless_output_file.write(result + "\n")
+test_toneless_output_file.close()
 
+print test_units_roles_t2p_input_path
 
 #------------------------- UNIT TEST ------------------------------------#
 # for word in all_words:
@@ -321,7 +317,7 @@ test_output_file.close()
 #   # if found:
 #   #   word.print_str()
 
-# new_search_space = SearchSpace()
+# tone_searchspace = SearchSpace()
 # for word in all_words:
 #   for syl in word.syls:
 #     new_coord = Coord()
@@ -332,7 +328,7 @@ test_output_file.close()
 #     new_coord.extrapolate(unit_list, all_coords, 0)
 
 #     for coord in all_coords:
-#       new_search_space.add_new_search_point(coord)
+#       tone_searchspace.add_new_search_point(coord)
 
-# print_search_space_to_file(new_search_space, search_space_path)
+# print_search_space_to_file(tone_searchspace, search_space_path)
 

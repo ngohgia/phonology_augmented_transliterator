@@ -27,16 +27,16 @@ RANK_WEIGHT = 1.0
 
 if __name__ == '__main__':
   try:
-    script, train_dev_lex_name, toneless_vie_phones_with_roles_name, test_output_file_path = sys.argv
+    script, lex_hyp_path, toneless_targ_phon_with_role_path, run_dir, test_output_file_path = sys.argv
   except ValueError:
-    print "Syntax: tone_setter.py      train_dev_lex_name      toneless_vie_phones_with_roles    test_output_file_path"
+    print "Syntax: tone_setter.py \t lex_hyp_path \t toneless_targ_phon_with_role_path \t run_dir \t test_output_file_path"
     sys.exit(1)
 
-def read_train_dev_lex_file(train_dev_lex_path):
-  train_dev_lex_file = open(train_dev_lex_path, "r")
+def read_lex_hyp_file(lex_hyp_path):
+  lex_hyp_file = open(lex_hyp_path, "r")
 
   all_words = []
-  for line in train_dev_lex_file:
+  for line in lex_hyp_file:
     [en_syls_str, roles_str, vie_syls_str] = line.split("\t")[2:5]
     # print vie_syls_str
 
@@ -62,14 +62,14 @@ def read_train_dev_lex_file(train_dev_lex_path):
     all_words.append(new_word)
 
   return all_words
-  train_dev_lex_file.close()
+  lex_hyp_file.close()
 
 
-def read_toneless_vie_phones_with_roles_file(toneless_vie_phones_with_roles_path):
-  toneless_vie_phones_with_roles_file = open(toneless_vie_phones_with_roles_path, "r")
+def read_toneless_targ_phon_with_role_file(toneless_targ_phon_with_role_path):
+  toneless_targ_phon_with_role_file = open(toneless_targ_phon_with_role_path, "r")
 
   all_words = []
-  for line in toneless_vie_phones_with_roles_file:
+  for line in toneless_targ_phon_with_role_file:
     [vie_syls_str, roles_str] = line.split("\t")
 
     vie_syls = [[unit.strip() for unit in vie_syl.split(" ")] for vie_syl in vie_syls_str.split(" . ")]
@@ -84,7 +84,7 @@ def read_toneless_vie_phones_with_roles_file(toneless_vie_phones_with_roles_path
     all_words.append(new_word)
 
   return all_words
-  toneless_vie_phones_with_roles_file.close()
+  toneless_targ_phon_with_role_file.close()
 
 def get_best_word(word, possible_tones, max_tone_score, syl_idx, best_word, searchspace):
   if syl_idx >= len(word.syls):
@@ -140,17 +140,16 @@ def score_tone_assignment(word, searchspace):
         syl_score = syl_score + searchspace.space[search_point.coord][search_point.val]/(RANK_WEIGHT * rank)
         rank_sum = rank_sum + 1.0/(RANK_WEIGHT * rank)
 
-    syl_score = syl_score / rank_sum
+    if rank_sum != 0:
+      syl_score = syl_score / rank_sum
     word_score = word_score * syl_score
 
   return word_score
 
 
 # GET TRAINING DEV DATA
-train_dev_lex_path = os.path.abspath(train_dev_lex_name)
-train_dev_searchspace_path = train_dev_lex_path + ".tones.searchspace"
-
-all_train_dev_words = read_train_dev_lex_file(train_dev_lex_name)
+tones_searchspace_path = os.path.join(run_dir, "tones.searchspace.txt")
+all_train_dev_words = read_lex_hyp_file(lex_hyp_path)
 
 searchspace = SearchSpace()
 for word in all_train_dev_words:
@@ -176,15 +175,11 @@ for word in all_train_dev_words:
 # NORMALIZE THE SEARCH SPACE
 searchspace.normalize()
 
-train_dev_searchspace_file = open(train_dev_searchspace_path, "w");
-train_dev_searchspace_file.write(str(searchspace))
+tones_searchspace_file = open(tones_searchspace_path, "w");
+tones_searchspace_file.write(str(searchspace))
 
 # GET TEST DATA
-toneless_vie_phones_with_roles_path = os.path.abspath(toneless_vie_phones_with_roles_name)
-test_output_file_root = ".".join(toneless_vie_phones_with_roles_path.split(".")[0:-2])
-local_output_path = test_output_file_root + ".output"
-
-all_test_words = read_toneless_vie_phones_with_roles_file(toneless_vie_phones_with_roles_path)
+all_test_words = read_toneless_targ_phon_with_role_file(toneless_targ_phon_with_role_path)
 
 result_words = []
 for word in all_test_words:
@@ -229,9 +224,4 @@ for word in all_test_words:
 test_output_file = open(test_output_file_path, "w")
 for word in result_words:
   test_output_file.write(" . ".join([str(syl) for syl in word.syls]) + "\n")
-test_output_file.close()
-
-local_test_output_file = open(local_output_path, "w")
-for word in result_words:
-  local_test_output_file.write(" . ".join([str(syl) for syl in word.syls]) + "\n")
 test_output_file.close()

@@ -52,15 +52,17 @@ test_units_roles_path = os.path.join(run_dir, "units_roles.txt")
 command = "python phone_mapper/phone_mapper.py" + \
     " " + lex_hyp_file_path + \
     " " + test_units_roles_path + \
+    " " + run_dir + \
     " " + t2p_decoder_path
 report(command)
 run_shell_command(command)
 
 # Tone setting
-toneles_targ_phones_with_roles_path = os.path.join(run_dir, "test.toneless_with_roles.output.txt")
+toneles_targ_phones_with_roles_path = os.path.join(run_dir, "test.toneless_with_roles.txt")
 command = "python tone_setter/tone_setter.py" +  \
     " " + lex_hyp_file_path + \
     " " + toneles_targ_phones_with_roles_path + \
-    " " + output_name
+    " " + run_dir + \
+    " " + output_file_path
 report(command)
 run_shell_command(command)

@@ -44,7 +44,7 @@ def run_exp(data_dir, output_dir):
         report("[TEST GRAPH PATH]: %s" % test_graph_file_path)
         report("[TEST PHON PATH]: %s" % test_phon_file_path)
 
-  output_file_path = os.path.join(output_dir, base_name + '.targ.test.txt')
+  output_file_path = os.path.join(output_dir, base_name + '.output.targ.phon.txt')
   report("[OUTPUT PATH]: %s" % output_file_path)
 
   # Run experiment on the iter data
@@ -71,9 +71,9 @@ def get_test_graph_phon_file_path(data_dir):
   targ_graph_file_path = ""
   targ_phon_file_path = ""
   for fname in os.listdir(data_dir):
-    if "src.txt" in fname:
+    if "src.graph.txt" in fname:
       targ_graph_file_path = os.path.abspath(os.path.join(data_dir, fname))
-    elif "targ.phonemes.txt" in fname:
+    elif "targ.phon.txt" in fname:
       targ_phon_file_path = os.path.abspath(os.path.join(data_dir, fname))
   return [targ_graph_file_path, targ_phon_file_path]
 
