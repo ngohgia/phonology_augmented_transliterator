@@ -3,7 +3,7 @@ import os
 import time
 import logging
 
-from syl_struct_generator.SylStructGenerator_improved import *
+from syl_struct_generator.SylStructGenerator import *
 from approx_phone_alignment.ApproxPhoneAlignment import get_approx_phone_alignment
 from approx_phone_alignment.ApproxPhoneAlignment import score_hyp_with_phone_alignment
 from en_phonemes_generator.EnPhonemesGenerator import *
@@ -17,27 +17,26 @@ if __name__ == '__main__':
 
 #----------------------------------- LOG ---------------------------------------#
 run_dir = os.path.abspath(run_dir)
-ts = run_dir.split("__")[-1]
-if not os.path.exists(run_dir):
-  os.makedirs(run_dir)
 
-log_file = os.path.join(run_dir, "log_" + ts)
+log_file = os.path.abspath(os.path.join(run_dir, "log", "GetBestRules_log"))
 logging.basicConfig(filename= log_file, level= logging.DEBUG, format='%(message)s')
-unresolved_file = open(run_dir + "/unresolved_words_" + ts, "w")
-least_mod_pen_file = open(run_dir + "/least_mod_pen_" + ts, "w")
 
-lex_hyp_file = open(run_dir + "/best_lex_hyp_" + ts, "w")
-simple_words_hyp_path = os.path.abspath(run_dir + "/simple_words_hyp_" + ts)
-complex_words_hyp_path = os.path.abspath(run_dir + "/complex_words_hyp_" + ts)
+unresolved_file = open(os.path.abspath(os.path.join(run_dir, "unresolved_words.txt")), "w")
+least_mod_pen_file = open(os.path.abspath(os.path.join(run_dir, "least_mod_pen.txt")), "w")
+
+lex_hyp_file = open(os.path.abspath(os.path.join(run_dir, "lex_hyp.txt")), "w")
+
+simple_words_hyp_path = os.path.abspath(os.path.join(run_dir, "simple_words_hyp.txt"))
+complex_words_hyp_path = os.path.abspath(run_dir + "complex_words_hyp.txt")
 simple_words_hyp_file = open(simple_words_hyp_path, "w")
 complex_words_hyp_file = open(complex_words_hyp_path, "w")
-split_words_file = open(run_dir + "/split_words_" + ts, "w")
+
+split_words_file = open(os.path.abspath(os.path.join(run_dir, "split_words.txt")), "w")
 
 #-------------------------------------------------------------------------------#
 
 
 t2p_decoder_path = os.path.abspath(t2p_decoder)
-training_dev_lex_path = os.path.abspath(training_dev_lex_path)
 
 training_dev_lex_file = open(training_dev_lex_path, "r")
 training_dev_lex = []
@@ -59,25 +58,25 @@ def get_best_hyps_from_single_training(training_lex):
     least_mod_pen_file.write("\n#----------------------------------------------#\n")
     word = training_lex[idx][0]
 
-    # Format input Vietnamese words
-    vie_word = training_lex[idx][-1].strip()
-    encoded_vie_units = encode_vie_word(vie_word)
+    # Format targ words
+    targ_word = training_lex[idx][-1].strip()
+    targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
     labels = label_letters(word)
 
     best_word_hyps_list = []
     # Generate possible roles for letters in the foreign word
-    best_word_hyps_list = generate_roles(word, labels, encoded_vie_units)
+    best_word_hyps_list = generate_roles(word, labels, targ_syl_struct)
 
     if len(best_word_hyps_list) == 0:
       report("No hypothesis found for %s" % word)
       unresolved_file.write("\t".join(training_lex[idx]))
     else:
       for idx in range(len(best_word_hyps_list)):
-        best_word_hyps_list[idx].vie_ref = vie_word
-        vie_syls = vie_word.split(".")
+        best_word_hyps_list[idx].vie_ref = targ_word
+        vie_syls = targ_word.split(".")
         toneless_vie_syls = [(" ").join(syl.strip().split(" ")[0:len(syl.strip().split(" "))-1]) for syl in vie_syls]
         best_word_hyps_list[idx].vie_ref_toneless = toneless_vie_syls
-        best_word_hyps_list[idx].vie_roles = encoded_vie_units
+        best_word_hyps_list[idx].vie_roles = targ_syl_struct
 
       for word_hyp in best_word_hyps_list:
         # Count the number of generic vowels in the word
@@ -99,27 +98,27 @@ def get_best_hyps_from_single_training(training_lex):
         simple_words_hyp_file.write(word + "\t" + " ".join(hyp.roles) + 
         "\t" + str(hyp.reconstructed_word) + "\t" + \
         hyp.reconstructed_word.get_encoded_units() + "\t" + 
-        vie_word.strip() + "\n")
+        targ_word.strip() + "\n")
       else:
         # Solve the more complicated words
         best_hyps = sorted(best_word_hyps_list, key=lambda hyp: hyp.mod_pen)
         complex_words_hyps.append(best_hyps[0:10])
   
-  simple_words_t2p_input = os.path.abspath(run_dir + "/simple_words_t2p_input_" + ts)
-  complex_words_t2p_input = os.path.abspath(run_dir + "/complex_words_hyp_t2p_input_" + ts)
-  complex_words_t2p_output = os.path.abspath(run_dir + "/complex_words_hyp_t2p_output_" + ts)
+  simple_words_t2p_input_path = os.path.abspath(os.path.join(run_dir, "simple_words_t2p_input.txt"))
+  complex_words_t2p_input_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp_t2p_input.txt"))
+  complex_words_t2p_output_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp_t2p_output.txt"))
 
   # Get t2p output on simple words
-  create_input_for_t2p(simple_words_hyps, simple_words_t2p_input)
+  create_input_for_t2p(simple_words_hyps, simple_words_t2p_input_path)
 
   # Get t2p output on complex words
   all_complex_words = []
   for word_hyps in complex_words_hyps:
     all_complex_words.append(word_hyps[0])
-  create_input_for_t2p(all_complex_words, complex_words_t2p_input)
+  create_input_for_t2p(all_complex_words, complex_words_t2p_input_path)
 
-  get_phonemes_with_g2p(t2p_decoder_path, complex_words_t2p_input, complex_words_t2p_output)
-  all_phonemes = get_en_phonemes(complex_words_t2p_output)
+  get_phonemes_with_g2p(t2p_decoder_path, complex_words_t2p_input_path, complex_words_t2p_output_path)
+  all_phonemes = get_en_phonemes(complex_words_t2p_output_path)
 
   for i in range(len(complex_words_hyps)):
     for j in range(len(complex_words_hyps[i])):

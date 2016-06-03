@@ -17,12 +17,11 @@ DEFAULT_CODA_ONSET = 't'
 
 if __name__ == '__main__':
   try:
-    script, train_dev_lex_name, test_units_roles_name, t2p_decoder = sys.argv
+    script, lex_hyp_file_path, test_units_roles_name, t2p_decoder = sys.argv
   except ValueError:
     print "Syntax: phone_mapper.py         train_dev_lex      test_units_roles       t2p_decoder"
     sys.exit(1)
 
-train_dev_lex_path = os.path.abspath(train_dev_lex_name)
 common_input_path = train_dev_lex_path
 search_space_path = common_input_path + ".search_space"
 

@@ -13,11 +13,11 @@ from LangAssets.Rule import Rule
 from GetSearchSpace import get_search_space_from_lex_hyps
 from GetSearchSpace import read_lex_hyps_from_file
 
-from syl_struct_generator.SylStructGenerator_improved import label_letters
-from syl_struct_generator.SylStructGenerator_improved import set_thres_per_role
-from syl_struct_generator.SylStructGenerator_improved import construct_syls
-from syl_struct_generator.SylStructGenerator_improved import are_all_subsyl_units_valid
-from syl_struct_generator.SylStructGenerator_improved import are_all_letters_used
+from syl_struct_generator.SylStructGenerator import label_letters
+from syl_struct_generator.SylStructGenerator import set_thres_per_role
+from syl_struct_generator.SylStructGenerator import construct_syls
+from syl_struct_generator.SylStructGenerator import are_all_subsyl_units_valid
+from syl_struct_generator.SylStructGenerator import are_all_letters_used
 
 from phone_mapping_prep_code.create_reformatted_data import create_reformatted_data
 from phone_mapping_prep_code.create_syls_from_split_test_file import create_syls_from_split_test_file
@@ -30,9 +30,9 @@ from en_phonemes_generator.EnPhonemesGenerator import get_phonemes_with_g2p
 
 if __name__ == '__main__':
   try:
-    script, best_lex_hyp_file_name, targ_file_name, run_dir, t2p_decoder_path = sys.argv
+    script, best_lex_hyp_file_name, targ_graph_file_path, run_dir, t2p_decoder_path = sys.argv
   except ValueError:
-    print "Syntax: SplitWordWithSearchSpace.py    best_lex_hyp_file_name       targ_file_name      run_dir     t2p_decoder_path"
+    print "Syntax: SplitWordWithSearchSpace.py    best_lex_hyp_file_name       targ_graph_file_path      run_dir     t2p_decoder_path"
     sys.exit(1)
 
 t2p_decoder_path = os.path.abspath(t2p_decoder_path)
@@ -70,20 +70,20 @@ DELIMITER = LangAssets.DELIMITER
 GENERIC_VOWEL = LangAssets.GENERIC_VOWEL
 
 PossibleRoles = LangAssets.POSSIBLE_ROLES
-ValidEnConsos = lang_assets.valid_en_consos
-ValidEnVowels = lang_assets.valid_en_vowels
+ValidSrcConsos = lang_assets.valid_src_consos
+ValidSrcVowels = lang_assets.valid_src_vowels
 
-ValidVieConsos = lang_assets.valid_vie_consos
-ValidVieVowels = lang_assets.valid_vie_vowels
+ValidTargConsos = lang_assets.valid_targ_consos
+VaildTargVowels = lang_assets.valid_targ_vowels
 
 # Strict role constraints
 ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
 ValidVowelRoles = [NUCLEUS, NUCLEUS_CODA, ONSET_NUCLEUS_CODA, REMOVE]
 
 ValidSubSylUnit = {
-  ONSET: lang_assets.valid_en_onsets,
-  NUCLEUS: lang_assets.valid_en_nuclei,
-  CODA: lang_assets.valid_en_codas
+  ONSET: lang_assets.valid_src_onsets,
+  NUCLEUS: lang_assets.valid_src_nuclei,
+  CODA: lang_assets.valid_src_codas
 }
 
 # Each role can only be assigned to more than a specific ratio of all the letters
@@ -103,9 +103,6 @@ MAX_ROLES_RATIOS = {
   ONSET_NUCLEUS_CODA: 0.0,
   REMOVE: 0.1,
 }
-
-run_dir = os.path.abspath(run_dir)
-ts = run_dir.split("__")[-1]
 
 #---------------- GET BEST SEARCH SPACE ------------------#
 # Retrieve the best search space from the training + dev
@@ -662,35 +659,35 @@ start_time = time.time()
 # ser_csv_writer = csv.writer(ser_stats_file)
 
 # Try 10 iterations
-targ_file_name = os.path.abspath(targ_file_name)
-targ_file = open(targ_file_name, "r")
+targ_graph_file = open(targ_graph_file_path, "r")
 
-targ_file_t2p_input_name = targ_file_name + ".cap"
-targ_file_t2p_input = open(targ_file_t2p_input_name, "w")
+targ_graph_file_t2p_input_path = os.path.abspath(os.path.join(run_dir, "test.src.cap.txt"))
+targ_graph_file_t2p_input_file = open(targ_graph_file_t2p_input_path, "w")
 
-for line in targ_file:
-  targ_file_t2p_input.write(line.upper())
-targ_file_t2p_input.close()
-targ_file.close()
+for line in targ_graph_file:
+  targ_graph_file_t2p_input_file.write(line.upper())
+targ_graph_file_t2p_input_file.close()
+targ_graph_file.close()
 
-targ_file_t2p_output_name = targ_file_name + ".phones"
-get_phonemes_with_g2p(t2p_decoder_path, targ_file_t2p_input_name, targ_file_t2p_output_name)
+targ_t2p_output_path = os.path.abspath(os.path.join(run_dir, "test.src.phones.txt"))
+get_phonemes_with_g2p(t2p_decoder_path, targ_graph_file_t2p_input_path, targ_t2p_output_path)
 
 test_phones = []
-targ_file_t2p_output = open(targ_file_t2p_output_name, "r")
-for line in targ_file_t2p_output:
+targ_graph_file_t2p_output = open(targ_t2p_output_path, "r")
+for line in targ_graph_file_t2p_output:
   test_phones.append(line.strip().split(" "))
-targ_file_t2p_output.close()
+targ_graph_file_t2p_output.close()
 
 [search_space, valid_units] = get_best_search_space()
 
-test_split_file = open(run_dir + "/test_split_" + ts, "w")
-units_and_roles_file = open(run_dir + "/units_roles_" + ts, "w")
-log_file = os.path.join(run_dir, "test_split_log_" + ts)
-logging.basicConfig(filename= log_file, level= logging.DEBUG, format='%(message)s')
+test_split_file = open(os.path.abspath(os.path.join(run_dir, "test_split.txt")), "w")
+units_and_roles_file = open(os.path.abspath(os.path.join(run_dir, "units_roles.txt")), "w")
+
+log_file_path = os.path.join(run_dir, "log", "test_split_log.txt")
+logging.basicConfig(filename= log_file_path, level= logging.DEBUG, format='%(message)s')
 report("---------------------- DECODING TEST FILE ------------------------------")
 
-search_space_file = open(run_dir + "/search_space_" + ts, "w")
+search_space_file = open(os.path.abspath(os.path.join(run_dir, "search_space.txt")), "w")
 
 search_space_file.write(search_space.to_str())
 search_space_file.close()
@@ -698,10 +695,9 @@ search_space_file.close()
 solution_found = True
 count = 0
 
-targ_file = open(targ_file_name, "r")
-print targ_file_name
+targ_graph_file = open(targ_graph_file_path, "r")
 
-for line in targ_file:
+for line in targ_graph_file:
   start_time = time.time()
 
   word = line.strip()
@@ -741,7 +737,7 @@ for line in targ_file:
 
 test_split_file.close()
 units_and_roles_file.close()
-targ_file.close()
+targ_graph_file.close()
 
 # word = 'granique'
 # labels = label_letters(word)

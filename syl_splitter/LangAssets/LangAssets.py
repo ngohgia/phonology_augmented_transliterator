@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import os
 
 class LangAssets:
@@ -48,34 +50,23 @@ class LangAssets:
   def __init__(self):
     cur_dir = os.path.dirname(__file__) + "/"
 
-    self.valid_en_vowels = self.get_valid_letters(cur_dir + "/valid_english_vowels.txt")
-    self.valid_en_consos = self.get_valid_letters(cur_dir + "valid_english_consos.txt")
+    self.valid_src_vowels = self.get_valid_units(cur_dir + "valid_src_vowels.txt")
+    self.valid_src_consos = self.get_valid_units(cur_dir + "valid_src_consos.txt")
 
-    self.valid_vie_vowels = self.get_valid_letters(cur_dir + "valid_vie_vowels.txt")
-    self.valid_vie_consos = self.get_valid_letters(cur_dir + "valid_vie_consos.txt")
+    self.valid_targ_vowels = self.get_valid_units(cur_dir + "valid_targ_vowels.txt")
+    self.valid_targ_consos = self.get_valid_units(cur_dir + "valid_targ_consos.txt")
 
-    self.valid_en_codas = self.get_valid_syl_units(cur_dir + "valid_english_codas.txt")
-    self.valid_en_nuclei = self.get_valid_syl_units(cur_dir + "valid_english_nuclei.txt")
+    self.valid_src_codas = self.get_valid_units(cur_dir + "valid_src_codas.txt")
+    self.valid_src_nuclei = self.get_valid_units(cur_dir + "valid_src_nuclei.txt")
     # !!!! Added "tr" to list of valid onsets
     # !!!! Added "c", "l", "h", "j", "z" to list of valid codas
-    self.valid_en_onsets = self.get_valid_syl_units(cur_dir + "valid_english_onsets.txt")
+    self.valid_src_onsets = self.get_valid_units(cur_dir + "valid_src_onsets.txt")
 
-  def get_valid_letters(self, input_fname):
+  def get_valid_units(self, input_fname):
     input_file = open(input_fname, "r")
     result = []
 
     for line in input_file:
       if line.strip() not in result:
         result.append(line.strip())
-    return result
-
-  def get_valid_syl_units(self, input_fname):
-    input_file = open(input_fname, "r")
-    result = []
-
-    for line in input_file:
-      units = [unit.strip() for unit in line.split("\t\t")[-1].split(" ")]
-      for unit in units:
-        if unit not in result:
-          result.append(unit)
     return result

@@ -5,7 +5,7 @@ import copy
 from LangAssets.Rule import Rule
 from LangAssets.SearchSpace import SearchSpace
 from LangAssets.LangAssets import LangAssets
-from syl_struct_generator.SylStructGenerator_improved import *
+from syl_struct_generator.SylStructGenerator import *
 
 # For each lexicon's hypothesis file, produce ITER_NUMBER of search spaces
 ITER_NUMBER = 1
@@ -22,12 +22,12 @@ ONSET = LangAssets.ONSET
 NUCLEUS = LangAssets.NUCLEUS
 CODA = LangAssets.CODA
 
-ValidEnConsos = lang_assets.valid_en_consos
-ValidEnVowels = lang_assets.valid_en_vowels
+ValidSrcConsos = lang_assets.valid_src_consos
+ValidSrcVowels = lang_assets.valid_src_vowels
 
-ValidEnOnsets = lang_assets.valid_en_onsets
-ValidEnNuclei = lang_assets.valid_en_nuclei
-ValidEnCodas = lang_assets.valid_en_codas
+ValidSrcOnsets = lang_assets.valid_src_onsets
+ValidSrcNuclei = lang_assets.valid_src_nuclei
+ValidSrcCodas = lang_assets.valid_src_codas
 
 def read_lex_hyps_from_file(fname):
   fi = open(fname, "r")
@@ -46,14 +46,13 @@ def read_lex_hyps_from_file(fname):
   return lex_hyps
 
 def get_search_space_from_lex_hyps(lex_hyps, run_dir):
-  ts = run_dir.split("__")[-1]
   valid_units = {ONSET: [], NUCLEUS: [], CODA: []}
 
   # For each word in the lexicon, randomly pick out
   # a hypothesis
   search_space = SearchSpace()
-  training_dev_split_file = open(run_dir + "/training_dev_split_" + ts + ".split.lex", "w")
-  trained_valid_units_file = open(run_dir + "/trained_valid_units_" + ts + ".split.lex", "w")
+  training_dev_split_file = open(run_dir + "/training_dev_split.split.lex", "w")
+  trained_valid_units_file = open(run_dir + "/trained_valid_units.split.lex", "w")
   
   for word in lex_hyps:
     # print word
@@ -198,9 +197,9 @@ def further_further_extrapolate_rule(rule):
 
 # Map a letter to its label
 def map_letter_to_label(letter):
-  if letter in ValidEnVowels:
+  if letter in ValidSrcVowels:
     return VOWEL
-  elif letter in ValidEnConsos:
+  elif letter in ValidSrcConsos:
     return CONSONANT
   else:
     print "Letter %s cannot be mapped to a label" % letter

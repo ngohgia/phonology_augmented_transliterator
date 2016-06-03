@@ -12,7 +12,7 @@ import math
 from LangAssets import LangAssets
 from Rule import Rule
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from syl_struct_generator.SylStructGenerator_improved import label_letters
+from syl_struct_generator.SylStructGenerator import label_letters
 
 SEARCH_LVL_WEIGHT = 2
 N_GRAM_WEIGHT = 3
@@ -26,8 +26,8 @@ ANY  = LangAssets.ANY
 N_GRAM_LEN = LangAssets.N_GRAM_LEN
 
 lang_assets = LangAssets()
-ValidEnConsos = lang_assets.valid_en_consos
-ValidEnVowels = lang_assets.valid_en_vowels
+ValidSrcConsos = lang_assets.valid_src_consos
+ValidSrcVowels = lang_assets.valid_src_vowels
 
 class SearchCoord:
   def __init__(self):
@@ -158,9 +158,9 @@ class SearchCoord:
 
 # Map a letter to its label
 def map_letter_to_label(letter):
-  if letter in ValidEnVowels:
+  if letter in ValidSrcVowels:
     return VOWEL
-  elif letter in ValidEnConsos:
+  elif letter in ValidSrcConsos:
     return CONSONANT
   else:
     print "Letter %s cannot be mapped to a label" % letter

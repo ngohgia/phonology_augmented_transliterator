@@ -7,21 +7,15 @@ import logging
 
 if __name__ == '__main__':
   try:
-    script, training_lex_file_path, test_en_file_path, output_name, t2p_decoder_path, log_file = sys.argv
+    script, training_dev_lex_file_path, test_en_file_path, output_file_path, run_dir, t2p_decoder_path = sys.argv
   except ValueError:
-    print "Syntax: RunTransliterationWrapper.py    training_lex_file_path     test_en_file_path     t2p_decoder_path   log_file_path"
+    print "Syntax: RunTransliterationWrapper.py \t training_dev_lex_file_path \t test_en_file_path \t output_name \t run_dir \t t2p_decoder_path"
     sys.exit(1)
 
 # Log file
-logging.basicConfig(filename= log_file, level= logging.DEBUG, format='%(message)s')
+log_path = os.path.join(run_dir, 'log', 'RunTransliterationWrapper_log.txt')
+logging.basicConfig(filename= log_path, level= logging.DEBUG, format='%(message)s')
 
-test_en_file_path = os.path.abspath(test_en_file_path)
-training_lex_file_path = os.path.abspath(training_lex_file_path)
-t2p_decoder_path = os.path.abspath(t2p_decoder_path)
-
-# ts = log_file.split("__")[-1]
-ts = "2015-01-28_22-51-28"
-run_dir = "/".join(training_lex_file_path.split("/")[0:-2]) + "/run__" + ts
 
 
 # Helper function to log and print a message
@@ -34,41 +28,39 @@ def run_shell_command(command):
   p = subprocess.Popen(command, shell=True)
   p.communicate()
 
-
-report("Processing directory: " + run_dir)
-
-# #Train syllable splitting
-# command = "python syl_splitter/GetBestRules_improved.py " + \
-#    training_lex_file_path + " " \
-#    + run_dir + " " + \
-#    t2p_decoder_path
-# report(command)   
-# run_shell_command(command)
+#Train syllable splitting
+command = "python syl_splitter/GetBestRules.py " + \
+   training_dev_lex_file_path + " " \
+   + run_dir + " " + \
+   t2p_decoder_path
+report("[COMMAND]: %s" % command)
+run_shell_command(command)
 
 # # Syllable splitting
-best_lex_hyp_file_name = run_dir + "/best_lex_hyp_" + ts
-# command = "python syl_splitter/SplitWordWithSearchSpace.py" + \
-#     " " + best_lex_hyp_file_name + \
-#     " " + test_en_file_path + \
-#     " " + run_dir + \
-#     " " + t2p_decoder_path
-# report(command)
-# run_shell_command(command)
+lex_hyp_file_path = os.path.join(run_dir, "lex_hyp.txt")
+report("[BEST LEX HYP PATH]: %s" % lex_hyp_file_path)
+command = "python syl_splitter/SplitWordWithSearchSpace.py" + \
+    " " + lex_hyp_file_path + \
+    " " + test_en_file_path + \
+    " " + run_dir + \
+    " " + t2p_decoder_path
+report("[COMMAND]: %s" % command)
+run_shell_command(command)
 
 # Phone mapping
-test_units_roles_file = run_dir + "/units_roles_" + ts
+test_units_roles_path = os.path.join(run_dir, "units_roles.txt")
 command = "python phone_mapper/phone_mapper.py" + \
-    " " + best_lex_hyp_file_name + \
-    " " + test_units_roles_file + \
+    " " + lex_hyp_file_path + \
+    " " + test_units_roles_path + \
     " " + t2p_decoder_path
 report(command)
 run_shell_command(command)
 
-# # Tone setting
-# toneless_vie_phones_with_roles_file = run_dir + "/test.toneless_with_roles.output"
-# command = "python tone_setter/tone_setter.py" +  \
-#     " " + best_lex_hyp_file_name + \
-#     " " + toneless_vie_phones_with_roles_file + \
-#     " " + output_name
-# report(command)
-# run_shell_command(command)
+# Tone setting
+toneles_targ_phones_with_roles_path = os.path.join(run_dir, "test.toneless_with_roles.output.txt")
+command = "python tone_setter/tone_setter.py" +  \
+    " " + lex_hyp_file_path + \
+    " " + toneles_targ_phones_with_roles_path + \
+    " " + output_name
+report(command)
+run_shell_command(command)
