@@ -46,16 +46,16 @@ def read_split_lex_file(lex_file_path):
 
   all_words = []
   for line in lex_file:
-    [en_syls_str, roles_str, vie_syls_str] = line.split("\t")[2:5]
+    [src_syls_str, roles_str, targ_syls_str] = line.split("\t")[2:5]
 
-    en_syls = [[unit.strip() for unit in en_syl.strip().split(" ")] for en_syl in en_syls_str[1:len(en_syls_str)-1].split("] [")]
+    src_syls = [[unit.strip() for unit in src_syl.strip().split(" ")] for src_syl in src_syls_str[1:len(src_syls_str)-1].split("] [")]
     roles = [[unit.strip() for unit in roles_grp.split(" ")] for roles_grp in roles_str.split(" . ")]
-    vie_syls = [[unit.strip() for unit in vie_syl.split(" ")[0:len(vie_syl.split(" "))-1]] for vie_syl in vie_syls_str.split(" . ")]
+    targ_syls = [[unit.strip() for unit in targ_syl.split(" ")[0:len(targ_syl.split(" "))-1]] for targ_syl in targ_syls_str.split(" . ")]
 
     new_word = Word()
-    for idx in range(len(en_syls)):
+    for idx in range(len(src_syls)):
       new_syl = Syllable()
-      new_syl.create_new_syl(en_syls[idx], roles[idx], [], vie_syls[idx])
+      new_syl.create_new_syl(src_syls[idx], roles[idx], [], targ_syls[idx])
       new_word.add_new_syl(new_syl)
 
     all_words.append(new_word)
@@ -69,12 +69,12 @@ def create_input_for_t2p(all_words, t2p_input_path):
   for word in all_words:
     word.print_str()
     for syl in word.syls:
-      print "".join(syl.en_graphemes).upper()
-      t2p_input_file.write("".join(syl.en_graphemes).upper() + "\n")
+      print "".join(syl.src_graphs).upper()
+      t2p_input_file.write("".join(syl.src_graphs).upper() + "\n")
 
   t2p_input_file.close()
 
-def get_phonemes_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
+def get_phons_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
   t2p_output_path_tmp = t2p_output_path + ".tmp"
 
   curr_dir = "/".join(os.path.realpath(__file__).split("/")[0:-2])
@@ -100,7 +100,7 @@ def get_phonemes_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
   t2p_output_file_tmp.close()
   t2p_output_file.close()
 
-def add_en_phonemes_to_syls(all_words, t2p_output_path):
+def add_src_phons_to_syls(all_words, t2p_output_path):
   count = 0;
   all_phonemes = []
 
@@ -112,39 +112,39 @@ def add_en_phonemes_to_syls(all_words, t2p_output_path):
   for word in all_words:
     for syl in word.syls:
       idx = 0
-      for i in range(len(syl.en_graphemes)):
-        if len(syl.en_graphemes[i]) == 1:
-          syl.en_phonemes.append([all_phonemes[count][idx]])
+      for i in range(len(syl.src_graphs)):
+        if len(syl.src_graphs[i]) == 1:
+          syl.src_phons.append([all_phonemes[count][idx]])
           idx = idx + 1
         else:
-          syl.en_phonemes.append(all_phonemes[count][idx:idx+len(syl.en_graphemes[i])])
-          idx = idx + len(syl.en_graphemes[i])   
+          syl.src_phons.append(all_phonemes[count][idx:idx+len(syl.src_graphs[i])])
+          idx = idx + len(syl.src_graphs[i])   
       count = count + 1;
 
   # Remove indeterminate phonemes
   for word in all_words:
     for syl in word.syls:
-      for i in range(len(syl.en_graphemes)):
+      for i in range(len(syl.src_graphs)):
         tmp_unit_phonemes = ""
-        for phoneme in syl.en_phonemes[i]:
+        for phoneme in syl.src_phons[i]:
           if phoneme != "_":
             tmp_unit_phonemes = tmp_unit_phonemes + phoneme
             # Just pick the first phoneme
             break
-        syl.en_phonemes[i] = tmp_unit_phonemes
+        syl.src_phons[i] = tmp_unit_phonemes
 
   # Solve the special cases of compound R-colored ER and AXR
   for word in all_words:
     for syl in word.syls:
-      for j in range(len(syl.en_phonemes)-1):
-        if syl.en_phonemes[j] == "" and \
-        (syl.en_phonemes[j+1] == "ER" or syl.en_phonemes[j+1] == "AXR"):
-          if syl.en_phonemes[j+1] == "ER":
-            syl.en_phonemes[j] = "EH"
-            syl.en_phonemes[j+1] = "R"
-          if syl.en_phonemes[j+1] == "AXR":
-            syl.en_phonemes[j] = "AX"
-            syl.en_phonemes[j+1] = "R"
+      for j in range(len(syl.src_phons)-1):
+        if syl.src_phons[j] == "" and \
+        (syl.src_phons[j+1] == "ER" or syl.src_phons[j+1] == "AXR"):
+          if syl.src_phons[j+1] == "ER":
+            syl.src_phons[j] = "EH"
+            syl.src_phons[j+1] = "R"
+          if syl.src_phons[j+1] == "AXR":
+            syl.src_phons[j] = "AX"
+            syl.src_phons[j+1] = "R"
   for word in all_words:
     word.print_str()
 
@@ -171,7 +171,7 @@ def read_test_units_roles(units_roles_path):
     new_word = Word()
     for idx in range(len(unit_syls)):
       new_syl = Syllable()
-      new_syl.en_graphemes = [part.strip() for part in unit_syls[idx].split(" ")]
+      new_syl.src_graphs = [part.strip() for part in unit_syls[idx].split(" ")]
       new_syl.roles = [part.strip() for part in role_syls[idx].split(" ")]
 
       new_word.add_new_syl(new_syl)
@@ -194,10 +194,10 @@ def get_all_test_coords(all_words, search_space):
         for extrapolated_coord_rank in tmp:
           all_extrapolated_coords_ranks.append(extrapolated_coord_rank)
 
-      get_vie_phone_for_syl(syl, all_extrapolated_coords_ranks, search_space)
+      get_targ_phons_from_syl(syl, all_extrapolated_coords_ranks, search_space)
 
 
-def get_vie_phone_for_syl(syl, all_coords_ranks, search_space):
+def get_targ_phons_from_syl(syl, all_coords_ranks, search_space):
   search_pt_rank_by_role = {ONSET: [], NUCLEUS: [], CODA: []}
   for role in syl.roles:
     for coord_rank in all_coords_ranks:
@@ -209,7 +209,7 @@ def get_vie_phone_for_syl(syl, all_coords_ranks, search_space):
 
   for idx in range(len(syl.roles)):
     role = syl.roles[idx]
-    en_grapheme = syl.en_graphemes[idx]
+    en_grapheme = syl.src_graphs[idx]
 
     if en_grapheme != GENERIC_VOWEL:
       all_matches = {}
@@ -243,9 +243,9 @@ def get_vie_phone_for_syl(syl, all_coords_ranks, search_space):
           best_match = DEFAULT_CODA_ONSET
 
       # print best_match
-      syl.vie_phonemes.append(best_match)
+      syl.targ_phons.append(best_match)
     else:
-      syl.vie_phonemes.append(LangAssets.SCHWA)
+      syl.targ_phons.append(LangAssets.SCHWA)
 
 
 
@@ -256,8 +256,8 @@ all_train_dev_words = read_split_lex_file(lex_hyp_file_path)
 phon_t2p_input_path = os.path.abspath(os.path.join(run_dir, "phon_t2p_input.txt"))
 phon_t2p_output_path = os.path.abspath(os.path.join(run_dir, "phon_t2p_output.txt"))
 create_input_for_t2p(all_train_dev_words, phon_t2p_input_path)
-get_phonemes_with_g2p(t2p_decoder_path, phon_t2p_input_path, phon_t2p_output_path)
-add_en_phonemes_to_syls(all_train_dev_words, phon_t2p_output_path)
+get_phons_with_g2p(t2p_decoder_path, phon_t2p_input_path, phon_t2p_output_path)
+add_src_phons_to_syls(all_train_dev_words, phon_t2p_output_path)
 
 search_space_path = os.path.abspath(os.path.join(run_dir, "phon_search_space.txt"))
 tone_searchspace = SearchSpace()
@@ -284,15 +284,15 @@ test_units_roles_t2p_input_path = os.path.abspath(os.path.join(run_dir, "test_un
 test_units_roles_t2p_output_path = os.path.abspath(os.path.join(run_dir, "test_units_roles_t2p_output.txt"))
 print all_test_words
 create_input_for_t2p(all_test_words, test_units_roles_t2p_input_path)
-get_phonemes_with_g2p(t2p_decoder_path, test_units_roles_t2p_input_path, test_units_roles_t2p_output_path)
-add_en_phonemes_to_syls(all_test_words, test_units_roles_t2p_output_path)
+get_phons_with_g2p(t2p_decoder_path, test_units_roles_t2p_input_path, test_units_roles_t2p_output_path)
+add_src_phons_to_syls(all_test_words, test_units_roles_t2p_output_path)
 
 get_all_test_coords(all_test_words, tone_searchspace.space)
 
 test_toneless_output_path = os.path.abspath(os.path.join(run_dir, "test.toneless_with_roles.txt"))
 test_toneless_output_file = open(test_toneless_output_path, "w")
 for word in all_test_words:
-  result = " . ".join([syl.get_vie_phonemes_str() for syl in word.syls])
+  result = " . ".join([syl.get_targ_phons_str() for syl in word.syls])
   result = result + "\t" + " . ".join([syl.get_roles_str() for syl in word.syls])
   # print result
   test_toneless_output_file.write(result + "\n")
@@ -308,8 +308,8 @@ print test_units_roles_t2p_input_path
 # for word in all_words:
 #   found = False
 #   for syl in word.syls:
-#     for i in range(len(syl.en_graphemes)):
-#       if syl.en_graphemes[i] != "@" and syl.en_phonemes[i] == "":
+#     for i in range(len(syl.src_graphs)):
+#       if syl.src_graphs[i] != "@" and syl.src_phons[i] == "":
 #         found = True
 #         break
 #     if found:

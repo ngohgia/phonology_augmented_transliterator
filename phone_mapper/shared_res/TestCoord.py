@@ -27,9 +27,9 @@ class TestCoord:
   def create_from_syl(self, syl):
     for idx in range(len(syl.roles)):
       role = syl.roles[idx]
-      self.units[role][GRAPHEME] = syl.en_graphemes[idx]
-      if syl.en_phonemes[idx] != "":
-        self.units[role][PHONEME] = syl.en_phonemes[idx]
+      self.units[role][GRAPHEME] = syl.src_graphs[idx]
+      if syl.src_phons[idx] != "":
+        self.units[role][PHONEME] = syl.src_phons[idx]
       else:self.units[role][PHONEME] = "_"
 
 

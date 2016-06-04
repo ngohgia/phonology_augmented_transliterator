@@ -19,14 +19,14 @@ from syl_struct_generator.SylStructGenerator import construct_syls
 from syl_struct_generator.SylStructGenerator import are_all_subsyl_units_valid
 from syl_struct_generator.SylStructGenerator import are_all_letters_used
 
-from phone_mapping_prep_code.create_reformatted_data import create_reformatted_data
-from phone_mapping_prep_code.create_syls_from_split_test_file import create_syls_from_split_test_file
-from phone_mapping_prep_code.combine_lex_cols import combine_lex_cols
-from phone_mapping_prep_code.run_g2p import *
-from phone_mapping_prep_code.reconstruct_vie_from_syls import reconstruct_vie_from_syls
-from phone_mapping_prep_code.run_sclite import run_sclite
+from phon_mapping_prep_code.create_reformatted_data import create_reformatted_data
+from phon_mapping_prep_code.create_syls_from_split_test_file import create_syls_from_split_test_file
+from phon_mapping_prep_code.combine_lex_cols import combine_lex_cols
+from phon_mapping_prep_code.run_g2p import *
+from phon_mapping_prep_code.reconstruct_targ_phons_from_syls import reconstruct_targ_phons_from_syls
+from phon_mapping_prep_code.run_sclite import run_sclite
 
-from en_phonemes_generator.EnPhonemesGenerator import get_phonemes_with_g2p
+from src_phons_generator.SrcPhonsGenerator import get_phons_with_t2p
 
 if __name__ == '__main__':
   try:
@@ -35,7 +35,12 @@ if __name__ == '__main__':
     print "Syntax: SplitWordWithSearchSpace.py    best_lex_hyp_file_name       targ_graph_file_path      run_dir     t2p_decoder_path"
     sys.exit(1)
 
+run_dir = os.path.abspath(run_dir)
 t2p_decoder_path = os.path.abspath(t2p_decoder_path)
+
+#----------------------------------- LOG ---------------------------------------#
+log_file = os.path.abspath(os.path.join(run_dir, "log", "SplitWordWithSearchSpace_log"))
+logging.basicConfig(filename= log_file, level= logging.DEBUG, format='%(message)s')
 
 N_GRAM_LEN = LangAssets.N_GRAM_LEN
 
@@ -424,7 +429,7 @@ def generate_roles_no_ref(word, labels, en_phones, search_space, COORD_EPSILON):
       # print ("Roles generation time: %0.1f" % (time.time() - start_time))  
 
       for idx in range(len(best_word_hyps_list)):
-        best_word_hyps_list[idx].original_en_phonemes = en_phones
+        best_word_hyps_list[idx].original_src_phons = en_phones
       return best_word_hyps_list
     
     thres_lvl = thres_lvl + 1
@@ -566,7 +571,7 @@ def get_units_roles_from_word(word):
 
   return [units, roles]
 
-def get_phonemes_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
+def get_phons_with_t2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
   t2p_output_path_tmp = t2p_output_path + ".tmp"
 
   curr_dir = os.path.dirname(os.path.realpath(__file__))
@@ -597,7 +602,7 @@ def get_phonemes_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
 def evaluate_phones_score(hyp):
   phones_score = 0
 
-  for idx in range(len(hyp.original_en_phonemes)):
+  for idx in range(len(hyp.original_src_phons)):
     #if is_correct_compound_phone(hyp, idx) or is_correct_phone_removal(hyp, idx):
     if is_correct_compound_phone(hyp, idx):
       phones_score = phones_score + 1
@@ -608,15 +613,15 @@ def is_correct_compound_phone(hyp, idx):
   EN_DIPTHONGS = ["EY", "AY", "OW", "AW", "OY", "ER", "AXR", "UW", "IY", "AX", "AO", "UH"]
   COMPOUND_EN_CONSOS = ["CH", "TH", "DH", "SH", "K", "TS"]
 
-  curr_phone = hyp.original_en_phonemes[idx]; curr_role = hyp.roles[idx]
+  curr_phone = hyp.original_src_phons[idx]; curr_role = hyp.roles[idx]
   if curr_phone in EN_DIPTHONGS or curr_phone in COMPOUND_EN_CONSOS:
     prev_phone = "" ; prev_role = ""
     next_phone = "" ; next_role = ""
     if idx > 0:
-      prev_phone = hyp.original_en_phonemes[idx-1]
+      prev_phone = hyp.original_src_phons[idx-1]
       prev_role = hyp.roles[idx-1]
-    if idx < len(hyp.original_en_phonemes) - 1:
-      next_phone = hyp.original_en_phonemes[idx+1]
+    if idx < len(hyp.original_src_phons) - 1:
+      next_phone = hyp.original_src_phons[idx+1]
       next_role = hyp.roles[idx+1]
     if prev_phone == "_":
       if prev_role.split("_")[-1] == curr_role.split("_")[0]:
@@ -627,12 +632,12 @@ def is_correct_compound_phone(hyp, idx):
   return False
 
 def is_correct_phone_removal(hyp, idx):
-  curr_phone = hyp.original_en_phonemes[idx]; curr_role = hyp.roles[idx]
+  curr_phone = hyp.original_src_phons[idx]; curr_role = hyp.roles[idx]
   if curr_phone == "_" and hyp.roles[idx] == "R":
     if idx > 0:
       if not is_correct_compound_phone(hyp, idx-1):
         return True
-    if idx < len(hyp.original_en_phonemes) - 1:
+    if idx < len(hyp.original_src_phons) - 1:
       if not is_correct_compound_phone(hyp, idx+1):
         return True
   return False
@@ -670,7 +675,7 @@ targ_graph_file_t2p_input_file.close()
 targ_graph_file.close()
 
 targ_t2p_output_path = os.path.abspath(os.path.join(run_dir, "test.src.phones.txt"))
-get_phonemes_with_g2p(t2p_decoder_path, targ_graph_file_t2p_input_path, targ_t2p_output_path)
+get_phons_with_t2p(t2p_decoder_path, targ_graph_file_t2p_input_path, targ_t2p_output_path)
 
 test_phones = []
 targ_graph_file_t2p_output = open(targ_t2p_output_path, "r")

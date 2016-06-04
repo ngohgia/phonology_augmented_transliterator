@@ -30,6 +30,6 @@ def reconstruct(syls_seq_file_name, syls_output_file_name, mapping_dict):
   syls_output_file.close()
   return True
 
-def reconstruct_targ_phon_from_syls(syls_seq_file, syls_mapping_file, syls_output_file):
+def reconstruct_targ_phons_from_syls(syls_seq_file, syls_mapping_file, syls_output_file):
   mapping_dict = retrieve_syls_mapping(syls_mapping_file)
   return reconstruct(syls_seq_file, syls_output_file, mapping_dict)

@@ -17,15 +17,15 @@ class Coord:
   def encode_unit_to_coord(self, syl):
     for idx in range(len(syl.roles)):
       role = syl.roles[idx]
-      grapheme = syl.en_graphemes[idx]
-      phoneme = syl.en_phonemes[idx]
+      grapheme = syl.src_graphs[idx]
+      phoneme = syl.src_phons[idx]
       if phoneme == "":
         phoneme = "_"
 
       self.coords[role][GRAPHEME] = grapheme
       self.coords[role][PHONEME] = phoneme
 
-      self.vals[role] = syl.vie_phonemes[idx]
+      self.vals[role] = syl.targ_phons[idx]
 
   def gp_str(self, gp):
     return "<" + gp[GRAPHEME] + ">/" + gp[PHONEME] + "/"
