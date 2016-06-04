@@ -6,18 +6,16 @@ import logging
 from syl_struct_generator.SylStructGenerator import *
 from approx_phone_alignment.ApproxPhoneAlignment import get_approx_phone_alignment
 from approx_phone_alignment.ApproxPhoneAlignment import score_hyp_with_phone_alignment
-from en_phonemes_generator.EnPhonemesGenerator import *
+from src_phons_generator.SrcPhonsGenerator import *
 
 if __name__ == '__main__':
   try:
-    script, training_dev_lex_path, run_dir, t2p_decoder = sys.argv
+    script, hyp_lex_path, run_dir, t2p_decoder = sys.argv
   except ValueError:
-    print "Syntax: GetBestRules.py      training_dev_lex_path      run_dir     t2p_decoder"
+    print "Syntax: GetBestRules.py \t hyp_lex_path \t run_dir \t t2p_decoder"
     sys.exit(1)
 
 #----------------------------------- LOG ---------------------------------------#
-run_dir = os.path.abspath(run_dir)
-
 log_file = os.path.abspath(os.path.join(run_dir, "log", "GetBestRules_log"))
 logging.basicConfig(filename= log_file, level= logging.DEBUG, format='%(message)s')
 
@@ -34,17 +32,15 @@ complex_words_hyp_file = open(complex_words_hyp_path, "w")
 split_words_file = open(os.path.abspath(os.path.join(run_dir, "split_words.txt")), "w")
 
 #-------------------------------------------------------------------------------#
-
-
 t2p_decoder_path = os.path.abspath(t2p_decoder)
 
-training_dev_lex_file = open(training_dev_lex_path, "r")
-training_dev_lex = []
+hyp_lex_file = open(hyp_lex_path, "r")
+hyp_lex = []
 
 # Get words from training-dev lex file
-for line in training_dev_lex_file:
-  training_dev_lex.append([part for part in line.split("\t")])
-training_dev_lex_file.close()
+for line in hyp_lex_file:
+  hyp_lex.append([part for part in line.split("\t")])
+hyp_lex_file.close()
 
 #------- GET ALL THE BEST WORD HYPOTHESIS FROM A SINGLE TRAINING FILE -----------#
 def get_best_hyps_from_single_training(training_lex):
@@ -72,11 +68,11 @@ def get_best_hyps_from_single_training(training_lex):
       unresolved_file.write("\t".join(training_lex[idx]))
     else:
       for idx in range(len(best_word_hyps_list)):
-        best_word_hyps_list[idx].vie_ref = targ_word
-        vie_syls = targ_word.split(".")
-        toneless_vie_syls = [(" ").join(syl.strip().split(" ")[0:len(syl.strip().split(" "))-1]) for syl in vie_syls]
-        best_word_hyps_list[idx].vie_ref_toneless = toneless_vie_syls
-        best_word_hyps_list[idx].vie_roles = targ_syl_struct
+        best_word_hyps_list[idx].ref_targ = targ_word
+        targ_syls = targ_word.split(".")
+        toneless_targ_syls = [(" ").join(syl.strip().split(" ")[0:len(syl.strip().split(" "))-1]) for syl in targ_syls]
+        best_word_hyps_list[idx].toneless_targ_ref = toneless_targ_syls
+        best_word_hyps_list[idx].targ_roles = targ_syl_struct
 
       for word_hyp in best_word_hyps_list:
         # Count the number of generic vowels in the word
@@ -117,19 +113,19 @@ def get_best_hyps_from_single_training(training_lex):
     all_complex_words.append(word_hyps[0])
   create_input_for_t2p(all_complex_words, complex_words_t2p_input_path)
 
-  get_phonemes_with_g2p(t2p_decoder_path, complex_words_t2p_input_path, complex_words_t2p_output_path)
-  all_phonemes = get_en_phonemes(complex_words_t2p_output_path)
+  get_phons_with_t2p(t2p_decoder_path, complex_words_t2p_input_path, complex_words_t2p_output_path)
+  all_phons = get_src_phons(complex_words_t2p_output_path)
 
   for i in range(len(complex_words_hyps)):
     for j in range(len(complex_words_hyps[i])):
-      complex_words_hyps[i][j].original_en_phonemes = all_phonemes[i]
+      complex_words_hyps[i][j].original_en_phonemes = all_phons[i]
 
 
   simple_words_hyp_file.close()
   complex_words_hyp_file.close()
 
   # Get approximate phoneme alignment using simple words
-  approx_phone_alignments = get_approx_phone_alignment(simple_words_hyp_path)
+  approx_phone_alignments = get_approx_phone_alignment(simple_words_hyp_path, run_dir)
   
   best_complex_words_hyps = []
 
@@ -149,7 +145,7 @@ def get_best_hyps_from_single_training(training_lex):
       lex_hyp_file.write(hyp.original + "\t" + " ".join(hyp.roles) + 
         "\t" + str(hyp.reconstructed_word) + "\t" + \
         hyp.reconstructed_word.get_encoded_units() + "\t" + 
-        hyp.vie_ref + "\n")
+        hyp.ref_targ + "\n")
 
 
 #------- GET HYPOTHESIS WITH LEAST MODIFICATION PENALTY --------------------#
@@ -203,6 +199,6 @@ def report(msg):
   print "%s\n" % msg
   logging.info(msg)
 
-get_best_hyps_from_single_training(training_dev_lex)
+get_best_hyps_from_single_training(hyp_lex)
 unresolved_file.close()
 split_words_file.close()

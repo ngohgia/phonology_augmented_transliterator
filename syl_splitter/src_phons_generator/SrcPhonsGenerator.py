@@ -10,7 +10,7 @@ def create_input_for_t2p(all_words, t2p_input_path):
 
   t2p_input_file.close()
 
-def get_phonemes_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
+def get_phons_with_t2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
   t2p_output_path_tmp = t2p_output_path + ".tmp"
 
   curr_dir = os.path.dirname(os.path.realpath(__file__))
@@ -36,7 +36,7 @@ def get_phonemes_with_g2p(t2p_decoder_path, t2p_input_path, t2p_output_path):
   t2p_output_file_tmp.close()
   t2p_output_file.close()
 
-def get_en_phonemes(t2p_output_path):
+def get_src_phons(t2p_output_path):
   count = 0;
   all_phonemes = []
 

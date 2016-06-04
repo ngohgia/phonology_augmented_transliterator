@@ -8,8 +8,8 @@ class Word:
     self.syls.append(new_syl)
 
   def print_str(self):
-    print "Graphemes: " + " . ".join([syl.get_en_graphemes_str() for syl in self.syls])
+    print "Graphemes: " + " . ".join([syl.get_src_graphs_str() for syl in self.syls])
     print "Roles: " + " . ".join([syl.get_roles_str() for syl in self.syls])
-    print "English phonemes: " + " . ".join([syl.get_en_phonemes_str() for syl in self.syls])
-    print "Vietnamese phonemes: " + " . ".join([syl.get_vie_phonemes_str() for syl in self.syls])
+    print "Source phonemes: " + " . ".join([syl.get_src_phons_str() for syl in self.syls])
+    print "Target phonemes: " + " . ".join([syl.get_targ_phons_str() for syl in self.syls])
     print "\n"

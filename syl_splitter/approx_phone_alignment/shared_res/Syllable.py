@@ -1,26 +1,26 @@
 class Syllable:
   def __init__(self):
-    self.en_graphemes = []
+    self.src_graphs = []
     self.roles = []
-    self.en_phonemes = []
-    self.vie_phonemes = []
+    self.src_phons = []
+    self.targ_phons = []
 
-  def create_new_syl(self, en_graphemes, roles, en_phonemes, vie_phonemes):
-    self.en_graphemes = en_graphemes
-    self.en_phonemes = en_phonemes
+  def create_new_syl(self, src_graphs, roles, src_phons, targ_phons):
+    self.src_graphs = src_graphs
+    self.src_phons = src_phons
     self.roles = roles
-    self.vie_phonemes = vie_phonemes
+    self.targ_phons = targ_phons
 
-  def get_en_graphemes_str(self):
-    return (" ").join(self.en_graphemes)
+  def get_src_graphs_str(self):
+    return (" ").join(self.src_graphs)
 
   def get_roles_str(self):
     return (" ").join(self.roles)
 
-  def get_en_phonemes_str(self):
-    print str(self.en_phonemes)
-    return (" - ").join(self.en_phonemes)
+  def get_src_phons_str(self):
+    print str(self.src_phons)
+    return (" - ").join(self.src_phons)
 
-  def get_vie_phonemes_str(self):
-    return (" ").join(self.vie_phonemes)
+  def get_targ_phons_str(self):
+    return (" ").join(self.targ_phons)
 

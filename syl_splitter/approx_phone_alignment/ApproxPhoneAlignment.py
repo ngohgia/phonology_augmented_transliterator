@@ -16,16 +16,16 @@ def read_split_lex_file(lex_file_path):
 
   all_words = []
   for line in lex_file:
-    [en_syls_str, roles_str, vie_syls_str] = line.split("\t")[2:5]
+    [src_syls_str, roles_str, targ_syls_str] = line.split("\t")[2:5]
 
-    en_syls = [[unit.strip() for unit in en_syl.strip().split(" ")] for en_syl in en_syls_str[1:len(en_syls_str)].split("] [")]
+    src_syls = [[unit.strip() for unit in src_syl.strip().split(" ")] for src_syl in src_syls_str[1:len(src_syls_str)].split("] [")]
     roles = [[unit.strip() for unit in roles_grp.split(" ")] for roles_grp in roles_str.split(" . ")]
-    vie_syls = [[unit.strip() for unit in vie_syl.split(" ")[0:len(vie_syl.split(" "))]] for vie_syl in vie_syls_str.split(" . ")]
+    targ_syls = [[unit.strip() for unit in targ_syl.split(" ")[0:len(targ_syl.split(" "))]] for targ_syl in targ_syls_str.split(" . ")]
 
     new_word = Word()
-    for idx in range(len(en_syls)):
+    for idx in range(len(src_syls)):
       new_syl = Syllable()
-      new_syl.create_new_syl(en_syls[idx], roles[idx], [], vie_syls[idx])
+      new_syl.create_new_syl(src_syls[idx], roles[idx], [], targ_syls[idx])
       new_word.add_new_syl(new_syl)
 
     all_words.append(new_word)
@@ -33,75 +33,74 @@ def read_split_lex_file(lex_file_path):
   return all_words
   lex_file.close()
 
-def get_approx_phone_alignment(lex_file_path):
+def get_approx_phone_alignment(lex_file_path, run_dir):
   all_words = read_split_lex_file(lex_file_path);
   phone_alignment_by_role = {ONSET: {}, NUCLEUS: {}, CODA: {}}
-  vie_to_en_phone_alignment_prob = {ONSET: {}, NUCLEUS: {}, CODA: {}}
+  targ_to_src_phon_alignment_prob = {ONSET: {}, NUCLEUS: {}, CODA: {}}
 
   for word in all_words:
     for syl in word.syls:
       for idx in range(len(syl.roles)):
         role = syl.roles[idx]
-        en_grapheme = syl.en_graphemes[idx]
-        vie_phoneme = syl.vie_phonemes[idx]
-        if en_grapheme not in phone_alignment_by_role[role]:
-          phone_alignment_by_role[role][en_grapheme] = [vie_phoneme]
+        src_graph = syl.src_graphs[idx]
+        targ_phon = syl.targ_phons[idx]
+        if src_graph not in phone_alignment_by_role[role]:
+          phone_alignment_by_role[role][src_graph] = [targ_phon]
         else:
-          if vie_phoneme not in phone_alignment_by_role[role][en_grapheme]:
-            phone_alignment_by_role[role][en_grapheme].append(vie_phoneme)
+          if targ_phon not in phone_alignment_by_role[role][src_graph]:
+            phone_alignment_by_role[role][src_graph].append(targ_phon)
 
-        if vie_phoneme not in vie_to_en_phone_alignment_prob[role]:
-          vie_to_en_phone_alignment_prob[role][vie_phoneme] = {en_grapheme: 1}
+        if targ_phon not in targ_to_src_phon_alignment_prob[role]:
+          targ_to_src_phon_alignment_prob[role][targ_phon] = {src_graph: 1}
         else:
-          if en_grapheme not in vie_to_en_phone_alignment_prob[role][vie_phoneme]:
-            vie_to_en_phone_alignment_prob[role][vie_phoneme][en_grapheme] = 1
+          if src_graph not in targ_to_src_phon_alignment_prob[role][targ_phon]:
+            targ_to_src_phon_alignment_prob[role][targ_phon][src_graph] = 1
           else:
-            vie_to_en_phone_alignment_prob[role][vie_phoneme][en_grapheme] = vie_to_en_phone_alignment_prob[role][vie_phoneme][en_grapheme] + 1
+            targ_to_src_phon_alignment_prob[role][targ_phon][src_graph] = targ_to_src_phon_alignment_prob[role][targ_phon][src_graph] + 1
 
-  # normalize vie_to_en_phone_alignment_prob
-  for role in vie_to_en_phone_alignment_prob:
-    for vie_phoneme in vie_to_en_phone_alignment_prob[role]:
-      sum_count = sum(vie_to_en_phone_alignment_prob[role][vie_phoneme].values())
-      for en_grapheme in vie_to_en_phone_alignment_prob[role][vie_phoneme]:
-        vie_to_en_phone_alignment_prob[role][vie_phoneme][en_grapheme] = 1.0 * vie_to_en_phone_alignment_prob[role][vie_phoneme][en_grapheme] / sum_count
+  # normalize targ_to_src_phon_alignment_prob
+  for role in targ_to_src_phon_alignment_prob:
+    for targ_phon in targ_to_src_phon_alignment_prob[role]:
+      sum_count = sum(targ_to_src_phon_alignment_prob[role][targ_phon].values())
+      for src_graph in targ_to_src_phon_alignment_prob[role][targ_phon]:
+        targ_to_src_phon_alignment_prob[role][targ_phon][src_graph] = 1.0 * targ_to_src_phon_alignment_prob[role][targ_phon][src_graph] / sum_count
 
-  tmp = lex_file_path.split("_")
-  phone_alignment_dict_file = open("/".join(lex_file_path.split("/")[0:len(lex_file_path.split("/"))-1]) + "/phone_alignment_dict_" + ("_").join(lex_file_path.split("_")[len(tmp)-2:len(tmp)]), "w")
-  vie_to_en_phone_alignment_file = open("/".join(lex_file_path.split("/")[0:len(lex_file_path.split("/"))-1]) + "/vie_to_en_phone_alignment_" + ("_").join(lex_file_path.split("_")[len(tmp)-2:len(tmp)]), "w")
+  phone_alignment_dict_file = open(os.path.join(run_dir, "phone_alignment_dict.txt"), "w")
+  targ_to_src_phone_alignment_file = open(os.path.join(run_dir, "targ_to_src_phon_alignment.txt"), "w")
 
   phone_alignment_dict_file.write("ONSET\n")
   phone_alignment_dict_file.write(str(phone_alignment_by_role[ONSET]) + "\n\n")
-  vie_to_en_phone_alignment_file.write("ONSET\n")
-  vie_to_en_phone_alignment_file.write(str(vie_to_en_phone_alignment_prob[ONSET]) + "\n\n")
+  targ_to_src_phone_alignment_file.write("ONSET\n")
+  targ_to_src_phone_alignment_file.write(str(targ_to_src_phon_alignment_prob[ONSET]) + "\n\n")
 
   phone_alignment_dict_file.write("NUCLEUS\n")
   phone_alignment_dict_file.write(str(phone_alignment_by_role[NUCLEUS]) + "\n\n")
-  vie_to_en_phone_alignment_file.write("NUCLEUS\n")
-  vie_to_en_phone_alignment_file.write(str(vie_to_en_phone_alignment_prob[NUCLEUS]) + "\n\n")
+  targ_to_src_phone_alignment_file.write("NUCLEUS\n")
+  targ_to_src_phone_alignment_file.write(str(targ_to_src_phon_alignment_prob[NUCLEUS]) + "\n\n")
 
   phone_alignment_dict_file.write("CODA\n")
   phone_alignment_dict_file.write(str(phone_alignment_by_role[CODA]) + "\n\n")
-  vie_to_en_phone_alignment_file.write("CODA\n")
-  vie_to_en_phone_alignment_file.write(str(vie_to_en_phone_alignment_prob[CODA]) + "\n\n")
+  targ_to_src_phone_alignment_file.write("CODA\n")
+  targ_to_src_phone_alignment_file.write(str(targ_to_src_phon_alignment_prob[CODA]) + "\n\n")
 
   phone_alignment_dict_file.close()
-  vie_to_en_phone_alignment_file.close()
+  targ_to_src_phone_alignment_file.close()
 
 
   return phone_alignment_by_role
 
 def identify_compound_phones_in_hyp(hyp):
   correct_compound_phones_count = 0
-  for idx in range(len(hyp.original_en_phonemes)):
-    curr_phone = hyp.original_en_phonemes[idx]; curr_role = hyp.roles[idx]
+  for idx in range(len(hyp.original_src_phons)):
+    curr_phone = hyp.original_src_phonmes[idx]; curr_role = hyp.roles[idx]
     if curr_phone in EN_DIPTHONGS or curr_phone in COMPOUND_EN_CONSOS:
       prev_phone = "" ; prev_role = ""
       next_phone = "" ; next_role = ""
       if idx > 0:
-        prev_phone = hyp.original_en_phonemes[idx-1]
+        prev_phone = hyp.original_src_phonmes[idx-1]
         prev_role = hyp.roles[idx-1]
-      if idx < len(hyp.original_en_phonemes) - 1:
-        next_phone = hyp.original_en_phonemes[idx+1]
+      if idx < len(hyp.original_src_phonmes) - 1:
+        next_phone = hyp.original_src_phonmes[idx+1]
         next_role = hyp.roles[idx+1]
       if prev_phone == "_":
         if prev_role.split("_")[-1] == curr_role.split("_")[0]:
@@ -119,23 +118,23 @@ def score_hyp_with_phone_alignment(word_hyps, phone_alignment_dict):
   best_hyps = []
 
   for hyp in word_hyps:
-    vie_phones = [syl.strip().split() for syl in hyp.vie_ref_toneless]
-    vie_roles = [syl.strip().split() for syl in hyp.vie_roles.split(" . ")]
+    targ_phons = [syl.strip().split() for syl in hyp.toneless_targ_ref]
+    targ_roles = [syl.strip().split() for syl in hyp.targ_roles.split(" . ")]
 
-    tmp_en_word = str(hyp.reconstructed_word)[1:-1]
-    en_phones = [syl.strip().split(" ") for syl in tmp_en_word.split(" ] [")]
+    tmp_src_word = str(hyp.reconstructed_word)[1:-1]
+    src_phons = [syl.strip().split(" ") for syl in tmp_src_word.split(" ] [")]
 
     phone_alignment_pen = 0
-    for syl_idx in range(len(vie_roles)):
-      for role_idx in range(len(vie_roles[syl_idx])):
-        role = vie_roles[syl_idx][role_idx]
-        vie_phone = vie_phones[syl_idx][role_idx]
-        en_phone = en_phones[syl_idx][role_idx]
+    for syl_idx in range(len(targ_roles)):
+      for role_idx in range(len(targ_roles[syl_idx])):
+        role = targ_roles[syl_idx][role_idx]
+        targ_phon = targ_phons[syl_idx][role_idx]
+        src_phon = src_phons[syl_idx][role_idx]
 
-        if en_phone != GENERIC_VOWEL:
-          if en_phone in phone_alignment_dict[role]:
-            if vie_phone not in phone_alignment_dict[role][en_phone]:
-              print("Wrong phone alignment: " + " - ".join([role, en_phone, vie_phone]))
+        if src_phon != GENERIC_VOWEL:
+          if src_phon in phone_alignment_dict[role]:
+            if targ_phon not in phone_alignment_dict[role][src_phon]:
+              print("Wrong phone alignment: " + " - ".join([role, src_phon, targ_phon]))
               phone_alignment_pen = phone_alignment_pen + 1
     hyp.phone_alignment_pen = phone_alignment_pen
     # print hyp.get_str()

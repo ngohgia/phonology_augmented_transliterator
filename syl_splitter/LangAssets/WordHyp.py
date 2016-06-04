@@ -19,10 +19,10 @@ GENERIC_VOWEL = LangAssets.GENERIC_VOWEL
 class WordHyp:
   def __init__(self):
     self.original = ''
-    self.original_en_phonemes = []
-    self.vie_ref = ''
-    self.vie_ref_toneless = []
-    self.vie_roles = ''
+    self.original_src_phons = []
+    self.targ_ref = ''
+    self.toneless_targ_ref = []
+    self.targ_roles = ''
     self.labels = []
     self.roles = []
     self.reconstructed_word = []
@@ -43,10 +43,10 @@ class WordHyp:
 
   def get_str(self):
     text = "Original: " + self.original + "\n"
-    text = text + "Original English phonemes: " + str(self.original_en_phonemes) + "\n"
-    text = text + "Vie ref: " + str(self.vie_ref) + "\n"
-    text = text + "Vie toneless syls: " + str(self.vie_ref_toneless) + "\n"
-    text = text + "Vie roles: " + str(self.vie_roles) + "\n"
+    text = text + "Original source phonemes: " + str(self.original_src_phons) + "\n"
+    text = text + "Target reference: " + str(self.targ_ref) + "\n"
+    text = text + "Toneless target syllables: " + str(self.toneless_targ_ref) + "\n"
+    text = text + "Target roles: " + str(self.targ_roles) + "\n"
     text = text + "Labels: " + str(self.labels) + "\n"
     text = text + "Roles: " + (" , ").join(self.roles) + "\n"
     text = text + "Reconstructed word: " + self.reconstructed_word.to_plain_text() + "\n"

@@ -528,18 +528,6 @@ def are_all_subsyl_units_valid(new_word):
 
 #---------------- UPDATE BEST HYP WORD LIST -------------------------#
 def update_best_hyp_words_list(orig_word, targ_syl_struct, roles, new_word, checked, best_word_hyps_list):
-  # print "targ_syl_struct: " + encoded_vie_units
-  # print "new_word.get_encoded_unit: " + new_word.get_encoded_units()
-
-  # print "new_word: " + str(new_word)
-  # print "roles: " + str(roles)
-  # print "are_all_subsyl_units_valid(new_word): " + str(are_all_subsyl_units_valid(new_word))
-  # print "are_all_letters_used(checked): " + str(are_all_letters_used(checked))
-  # print "checked: " + str(checked)
-  # print "targ_syl_struct: " + encoded_vie_units
-  # print "new_word.encoded_units: " + str(new_word.get_encoded_units())
-  # print "\n"
-
   if not are_all_subsyl_units_valid(new_word):
     return
 

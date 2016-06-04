@@ -33,14 +33,14 @@ def read_lex_hyps_from_file(fname):
   fi = open(fname, "r")
   lex_hyps = {}
   for line in fi:
-    [word, roles, reconstructed_word, reconstructed_roles, vie_word] = line.strip().split("\t")
+    [word, roles, reconstructed_word, reconstructed_roles, targ_word] = line.strip().split("\t")
     roles = roles.split(" ")
     reconstruected_roles = reconstructed_roles.split(" ")
 
     if word not in lex_hyps:
-      lex_hyps[word] = [[roles, reconstructed_word, reconstructed_roles, vie_word]]
+      lex_hyps[word] = [[roles, reconstructed_word, reconstructed_roles, targ_word]]
     else:
-      lex_hyps[word].append([roles, reconstructed_word, reconstructed_roles, vie_word])
+      lex_hyps[word].append([roles, reconstructed_word, reconstructed_roles, targ_word])
 
   fi.close()
   return lex_hyps
@@ -63,7 +63,7 @@ def get_search_space_from_lex_hyps(lex_hyps, run_dir):
     for syl in lex_hyps[word][rand_idx][2].split("."):
       for role in syl.strip().split(" "):
         reconstructed_roles.append(role.strip())
-    vie_word = lex_hyps[word][rand_idx][3]
+    targ_word = lex_hyps[word][rand_idx][3]
     #print reconstructed_roles
 
     # Reformat the reconstructed_word
@@ -82,7 +82,7 @@ def get_search_space_from_lex_hyps(lex_hyps, run_dir):
 
 
     # Save the reconstructed words as training_dev for phone mapping
-    training_dev_split_file.write(reconstructed_word + "\t" + vie_word + "\n")
+    training_dev_split_file.write(reconstructed_word + "\t" + targ_word + "\n")
 
 
     # Convert the word and the letters to a rule and add

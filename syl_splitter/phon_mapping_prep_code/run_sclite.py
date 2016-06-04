@@ -4,10 +4,10 @@ import re
 import subprocess
 
 # Run scoring tests on output file
-def run_stats(path_to_sclite, test_out, test_vie):
+def run_stats(path_to_sclite, hyp_path, ref_path):
   # Run sclite
-  ref_file = index_file(test_vie)
-  hyp_file = index_file(test_out)
+  ref_file = index_file(ref_path)
+  hyp_file = index_file(hyp_path)
 
   sclite_exec = os.path.join(path_to_sclite, "sclite")    
   sclite_cmd = sclite_exec + \
@@ -22,7 +22,7 @@ def run_stats(path_to_sclite, test_out, test_vie):
   os.remove(ref_file)
   os.remove(hyp_file)
 
-  return test_out + ".indexed.dtl"
+  return hyp_path + ".indexed.dtl"
 
 # Helper function to run a shell command
 def run_shell_command(command):
@@ -60,6 +60,6 @@ def index_file(input):
 
   return indexed_name
 
-def run_sclite(path_to_sclite, output_file, vie_file):
-  stats_file = run_stats(path_to_sclite, output_file, vie_file)
+def run_sclite(path_to_sclite, hyp_path, ref_path):
+  stats_file = run_stats(path_to_sclite, hyp_path, ref_path)
   return scoop_dtl(stats_file)
