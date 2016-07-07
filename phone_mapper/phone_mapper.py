@@ -211,41 +211,38 @@ def get_targ_phons_from_syl(syl, all_coords_ranks, search_space):
     role = syl.roles[idx]
     en_grapheme = syl.src_graphs[idx]
 
-    if en_grapheme != GENERIC_VOWEL:
-      all_matches = {}
+    all_matches = {}
 
-      for search_pt_rank in search_pt_rank_by_role[role]:
-        search_pt = search_pt_rank.search_pt
-        rank = search_pt_rank.rank
+    for search_pt_rank in search_pt_rank_by_role[role]:
+      search_pt = search_pt_rank.search_pt
+      rank = search_pt_rank.rank
 
-        if search_pt in search_space:     
-          tmp_matches = search_space[search_pt]
-          
-          for phoneme in tmp_matches:
-            if phoneme not in all_matches:
-              all_matches[phoneme] = tmp_matches[phoneme]/(rank * RANK_WEIGHT)
-            else:
-              all_matches[phoneme] = all_matches[phoneme] + tmp_matches[phoneme]/(rank * RANK_WEIGHT)
+      if search_pt in search_space:     
+        tmp_matches = search_space[search_pt]
+        
+        for phoneme in tmp_matches:
+          if phoneme not in all_matches:
+            all_matches[phoneme] = tmp_matches[phoneme]/(rank * RANK_WEIGHT)
+          else:
+            all_matches[phoneme] = all_matches[phoneme] + tmp_matches[phoneme]/(rank * RANK_WEIGHT)
 
-      # print all_matches
+    # print all_matches
 
-      max_score = 0.0
-      best_match = ""
-      if len(all_matches) > 0:
-        for phoneme in all_matches.keys():
-          if all_matches[phoneme] > max_score:
-            max_score = all_matches[phoneme]
-            best_match = phoneme
-      else:
-        if role == NUCLEUS:
-          best_match = DEFAULT_NUCLEUS
-        else:
-          best_match = DEFAULT_CODA_ONSET
-
-      # print best_match
-      syl.targ_phons.append(best_match)
+    max_score = 0.0
+    best_match = ""
+    if len(all_matches) > 0:
+      for phoneme in all_matches.keys():
+        if all_matches[phoneme] > max_score:
+          max_score = all_matches[phoneme]
+          best_match = phoneme
     else:
-      syl.targ_phons.append(LangAssets.SCHWA)
+      if role == NUCLEUS:
+        best_match = DEFAULT_NUCLEUS
+      else:
+        best_match = DEFAULT_CODA_ONSET
+
+    # print best_match
+    syl.targ_phons.append(best_match)
 
 
 
