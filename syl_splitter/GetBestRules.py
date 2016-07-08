@@ -25,7 +25,7 @@ least_mod_pen_file = open(os.path.abspath(os.path.join(run_dir, "least_mod_pen.t
 lex_hyp_file = open(os.path.abspath(os.path.join(run_dir, "lex_hyp.txt")), "w")
 
 simple_words_hyp_path = os.path.abspath(os.path.join(run_dir, "simple_words_hyp.txt"))
-complex_words_hyp_path = os.path.abspath(run_dir + "complex_words_hyp.txt")
+complex_words_hyp_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp.txt"))
 simple_words_hyp_file = open(simple_words_hyp_path, "w")
 complex_words_hyp_file = open(complex_words_hyp_path, "w")
 
@@ -46,7 +46,7 @@ hyp_lex_file.close()
 def get_best_hyps_from_single_training(training_lex):
   simple_words_hyps = []
   complex_words_hyps = []
-  
+
   for idx in range(len(training_lex)):
     start_time = time.time()
 
@@ -91,15 +91,15 @@ def get_best_hyps_from_single_training(training_lex):
       and best_hyps[0].generic_vowel_count == 0:
         hyp = best_hyps[0]
         simple_words_hyps.append(hyp)
-        simple_words_hyp_file.write(word + "\t" + " ".join(hyp.roles) + 
+        simple_words_hyp_file.write(word + "\t" + " ".join(hyp.roles) +
         "\t" + str(hyp.reconstructed_word) + "\t" + \
-        hyp.reconstructed_word.get_encoded_units() + "\t" + 
+        hyp.reconstructed_word.get_encoded_units() + "\t" +
         targ_word.strip() + "\n")
       else:
         # Solve the more complicated words
         best_hyps = sorted(best_word_hyps_list, key=lambda hyp: hyp.mod_pen)
         complex_words_hyps.append(best_hyps[0:10])
-  
+
   simple_words_t2p_input_path = os.path.abspath(os.path.join(run_dir, "simple_words_t2p_input.txt"))
   complex_words_t2p_input_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp_t2p_input.txt"))
   complex_words_t2p_output_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp_t2p_output.txt"))
@@ -126,7 +126,7 @@ def get_best_hyps_from_single_training(training_lex):
 
   # Get approximate phoneme alignment using simple words
   approx_phone_alignments = get_approx_phone_alignment(simple_words_hyp_path, run_dir)
-  
+
   best_complex_words_hyps = []
 
   # Score the hypothesis on complex words
@@ -142,9 +142,9 @@ def get_best_hyps_from_single_training(training_lex):
     if hyp.phone_alignment_pen <= 2:
       split_words_file.write(str(hyp.reconstructed_word) + "\n")
       least_mod_pen_file.write(hyp.get_str())
-      lex_hyp_file.write(hyp.original + "\t" + " ".join(hyp.roles) + 
+      lex_hyp_file.write(hyp.original + "\t" + " ".join(hyp.roles) +
         "\t" + str(hyp.reconstructed_word) + "\t" + \
-        hyp.reconstructed_word.get_encoded_units() + "\t" + 
+        hyp.reconstructed_word.get_encoded_units() + "\t" +
         hyp.ref_targ + "\n")
 
 
@@ -164,7 +164,7 @@ def get_least_mod_pen_hyps(best_word_hyps_list):
   return best_mod_pen_hyps
 
 #------- GET HYPOTHESIS WITH LEAST REMOVAL COUNT --------------------#
-# Reconstructed word with the fewest number of letters removed from the 
+# Reconstructed word with the fewest number of letters removed from the
 # original word is favored
 
 def get_least_removal_count_hyps(hyps_list):
