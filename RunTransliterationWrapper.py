@@ -13,9 +13,10 @@ if __name__ == '__main__':
     sys.exit(1)
 
 # Log file
-log_path = os.path.join(run_dir, 'log', 'RunTransliterationWrapper_log.txt')
+log_dir = os.path.join(run_dir, 'log')
+os.mkdir(log_dir)
+log_path = os.path.join(log_dir, 'RunTransliterationWrapper_log.txt')
 logging.basicConfig(filename= log_path, level= logging.DEBUG, format='%(message)s')
-
 
 
 # Helper function to log and print a message
