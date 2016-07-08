@@ -112,14 +112,22 @@ def export_syl_struct_of_targ_word(word):
       if targ_phons[1] in ValidTargVowels:
         syl_struct = [ONSET, NUCLEUS, CODA]
       else:
-        report("[ERROR] Syllable of 3 units does not have a valid nucleus")
+        print("[ERROR] Syllable of 3 units does not have a valid nucleus")
+        print "Syllable: " + syl
+        print "Word: " + word
+        raise SystemExit
+        sys.exit(1)
     elif len(targ_phons) == 2:
       if targ_phons[1] in ValidTargVowels:
         syl_struct = [ONSET, NUCLEUS]
       elif targ_phons[0] in ValidTargVowels:
         syl_struct = [NUCLEUS, CODA]
       else:
-        report("[ERROR] Syllable of 2 units does not have a valid nucleus")
+        print("[ERROR] Syllable of 2 units does not have a valid nucleus")
+        print "Syllable: " + syl
+        print "Word: " + word
+        raise SystemExit
+        sys.exit(1)
     elif len(targ_phons) == 1:
       if targ_phons[0] in ValidTargVowels:
         syl_struct = [NUCLEUS]
@@ -190,7 +198,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
     (roles[pos] == CODA or roles[pos] == NUCLEUS or roles[pos] == CODA_ONSET \
       or roles[pos] == CODA_ONSET_NUCLEUS):
       return False
-  
+
   # if pos is at the end of the word
   # check if the final letter is a valid subsyllabic unit
   if pos == len(roles) - 1:
@@ -270,8 +278,8 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
       # check the previous sub-syllabic unit is valid
       else:
         curr_role = roles[last_non_R_pos]
-      
-      end_of_unit = last_non_R_pos   
+
+      end_of_unit = last_non_R_pos
     else:
       if roles[pos] != roles[last_non_R_pos]:
         curr_role = roles[last_non_R_pos].split("_")[-1]
@@ -288,7 +296,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
         else:
           curr_role = roles[pos]
           end_of_unit = len(roles)-1
-    
+
     # If an ONSET is immediately followed by a CODA, CODA_ONSET_NUCLEUS
     # or ONSET_NUCLEUS_CODA, return false
     if roles[last_non_R_pos].split("_")[-1] == ONSET and \
@@ -330,7 +338,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
       #print "i: " + str(i)
       if roles[i] == REMOVE:
         continue
-      
+
       # break if NUCLEUS_CODA or ONSET_NUCLEUS_CODA is hit
       elif roles[i] == NUCLEUS_CODA or roles[i] == ONSET_NUCLEUS_CODA:
         break
@@ -429,7 +437,7 @@ def construct_syls(word, labels, roles, checked):
       idx = idx + 1
     else:
       idx = idx + 1
-    
+
 
   return reconstructed_word
 
@@ -487,7 +495,7 @@ def are_all_letters_used(checked):
 def are_all_subsyl_units_valid(new_word):
   roles_txt = new_word.get_encoded_units()
   roles_by_syl = [syl.strip().split() for syl in roles_txt.split(" . ")]
- 
+
   # check if the number of syllables and the number of syls in
   # roles by syl match
   if len(roles_by_syl) != len(new_word.syls):
@@ -509,7 +517,7 @@ def are_all_subsyl_units_valid(new_word):
         return False
       if syl.onset not in ValidSubSylUnit[ONSET]:
         # print "Invalid reconstructed onset: " + syl.onset
-        return False 
+        return False
     if syl.nucleus != "":
       if GENERIC_VOWEL in syl.nucleus and syl.nucleus != GENERIC_VOWEL:
         # print "Invalid reconstructed nucleus: " + syl.nucleus
@@ -522,8 +530,8 @@ def are_all_subsyl_units_valid(new_word):
         return False
       if syl.coda not in ValidSubSylUnit[CODA]:
         # print "Invalid reconstructed coda: " + syl.coda
-        return False 
-    
+        return False
+
   return True
 
 #---------------- UPDATE BEST HYP WORD LIST -------------------------#
@@ -540,7 +548,7 @@ def update_best_hyp_words_list(orig_word, targ_syl_struct, roles, new_word, chec
     new_word_hyp.labels = label_letters(orig_word)
     new_word_hyp.roles = roles
     new_word_hyp.reconstructed_word = new_word
-    
+
     new_word_hyp.compute_mod_error()
     new_word_hyp.award_hyp()
     new_word_hyp.extra_letter_count = new_word.to_plain_text().count(GENERIC_VOWEL)
@@ -600,13 +608,13 @@ def generate_roles(word, labels, targ_syl_struct):
         #print hyp.get_str()
         if hyp.mod_pen > min_mod_pen:
           break
-      print ("Roles generation time: %0.1f" % (time.time() - start_time))  
+      print ("Roles generation time: %0.1f" % (time.time() - start_time))
 
       return best_word_hyps_list
-    
+
     thres_lvl = thres_lvl + 1
     print "New threshold per role"
-  
+
   return []
 
 
