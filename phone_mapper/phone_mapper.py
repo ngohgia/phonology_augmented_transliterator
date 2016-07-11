@@ -12,7 +12,7 @@ from shared_res.LangAssets import LangAssets
 
 RANK_WEIGHT = LangAssets.RANK_WEIGHT
 
-DEFAULT_NUCLEUS = LangAssets.SCHWA
+DEFAULT_NUCLEUS = 'e'
 DEFAULT_CODA_ONSET = 't'
 
 if __name__ == '__main__':
