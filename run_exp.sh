@@ -3,9 +3,9 @@ t2p_path=~/srproject/t2p/t2p_dt.pl
 g2p=g2p.py
 
 root=$(pwd)
-exp_dir="${root}/test_exp"
-data_file=${root}/data/randomized_short_train.lex
-size=200
+exp_dir=$root/test_exp
+data_file=$root/data/randomized_short_train.lex
+size=1000
 
 main() {
 	_s=$(($size/5))
@@ -16,13 +16,13 @@ main() {
     for i in $(eval echo {1..$_s}); do
         echo "($i)" >> $tag_file
     done
-    for i in {1..2}; do
+    for i in {1..5}; do
         part1=size$size
         part2=_iter$i
         work_dir="$exp_dir/$part1$part2"
         mkdir -p $work_dir 
         input_file="$work_dir/input.lex"
-        shuf $data_file > $input_file 
+        # shuf $data_file > $input_file 
         mkdir -p $work_dir/corpus
         train_file=$work_dir/corpus/train.lex
         test_file=$work_dir/corpus/test.lex
@@ -44,10 +44,9 @@ main() {
         line+=,`grep 'Total Error' report.dtl | tr -s " " | cut -d' ' -f5 | tr -d "%"`
         line+=,`grep 'with errors' report.dtl | tr -s " " | cut -d' ' -f4 | tr -d "%"`
         cd $root
-        echo $line >> report.csv
+        echo $line >> "${exp_dir}/report.csv"
 
         echo "Finish size $size, $i run"
-        cd $root
     done
 }
 

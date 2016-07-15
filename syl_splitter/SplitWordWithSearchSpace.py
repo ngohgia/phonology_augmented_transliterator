@@ -99,13 +99,13 @@ MAX_ROLES_RATIOS = {
   CODA: 0.3,
   ONSET_NUCLEUS: 0.0,
   CODA_ONSET_NUCLEUS: 0.2,
-  NUCLEUS_ONSET: 0.0,
-  NUCLEUS_NUCLEUS: 0.0,
+  NUCLEUS_ONSET: 0.1,
+  NUCLEUS_NUCLEUS: 0.1,
   NUCLEUS_CODA: 0.4,
   CODA_ONSET: 0.0,
-  CODA_NUCLEUS: 0.0,
+  CODA_NUCLEUS: 0.1,
   CODA_CODA: 0.0,
-  ONSET_NUCLEUS_CODA: 0.0,
+  ONSET_NUCLEUS_CODA: 0.1,
   REMOVE: 0.1,
 }
 
@@ -224,7 +224,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
     (roles[pos] == CODA or roles[pos] == NUCLEUS or roles[pos] == CODA_ONSET \
       or roles[pos] == CODA_ONSET_NUCLEUS):
       return False
-  
+
   # if pos is at the end of the word
   # check if the final letter is a valid subsyllabic unit
   if pos == len(roles) - 1:
@@ -304,8 +304,8 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
       # check the previous sub-syllabic unit is valid
       else:
         curr_role = roles[last_non_R_pos]
-      
-      end_of_unit = last_non_R_pos   
+
+      end_of_unit = last_non_R_pos
     else:
       if roles[pos] != roles[last_non_R_pos]:
         curr_role = roles[last_non_R_pos].split("_")[-1]
@@ -322,7 +322,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
         else:
           curr_role = roles[pos]
           end_of_unit = len(roles)-1
-    
+
     # If an ONSET is immediately followed by a CODA, CODA_ONSET_NUCLEUS
     # or ONSET_NUCLEUS_CODA, return false
     if roles[last_non_R_pos].split("_")[-1] == ONSET and \
@@ -365,7 +365,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
       #print "i: " + str(i)
       if roles[i] == REMOVE:
         continue
-      
+
       # break if NUCLEUS_CODA or ONSET_NUCLEUS_CODA is hit
       elif roles[i] == NUCLEUS_CODA or roles[i] == ONSET_NUCLEUS_CODA:
         break
@@ -426,15 +426,15 @@ def generate_roles_no_ref(word, labels, en_phones, search_space, COORD_EPSILON):
 
     # Pick out the top 20 hyps
     if len(best_word_hyps_list) > 0:
-      # print ("Roles generation time: %0.1f" % (time.time() - start_time))  
+      # print ("Roles generation time: %0.1f" % (time.time() - start_time))
 
       for idx in range(len(best_word_hyps_list)):
         best_word_hyps_list[idx].original_src_phons = en_phones
       return best_word_hyps_list
-    
+
     thres_lvl = thres_lvl + 1
     print "New threshold per role"
-  
+
   return []
 
 #---------------- GET MOST PROBABLE HYPOTHESIS -------------------------#
@@ -474,7 +474,7 @@ def get_most_prob_hyp(hyps_list, search_space):
       new_search_coord.coord = coord
 
       hyps_list[hyp_id].prob_by_letter[idx] = search_space.get_best_matched_coord_prob(new_search_coord)
-    
+
     # print str(hyp.roles)
     # print str(hyp.prob_by_letter)
     hyps_list[hyp_id].construction_prob = reduce(lambda x, y: x*y, hyps_list[hyp_id].prob_by_letter)
@@ -506,7 +506,7 @@ def compute_compound_score(hyps_list):
   # Subtract all hypothesis' mod pens by max_mod_pen and inverse
   for i in range(len(hyps_list)):
     hyps_list[i][0].normalized_mod_score = -(hyps_list[i][0].mod_pen - max_mod_pen)
-  
+
   max_mod_score = max([hyp[0].normalized_mod_score for hyp in hyps_list])
   # normalize mod pen
   for i in range(len(hyps_list)):
@@ -550,7 +550,7 @@ def update_hyps_list(orig_word, roles, new_word, checked, best_word_hyps_list):
   new_word_hyp.labels = label_letters(orig_word)
   new_word_hyp.roles = roles
   new_word_hyp.reconstructed_word = new_word
-  
+
   new_word_hyp.compute_mod_error()
   new_word_hyp.award_hyp()
   new_word_hyp.extra_letter_count = new_word.to_plain_text().count(GENERIC_VOWEL)
@@ -722,7 +722,7 @@ for line in targ_graph_file:
       #   hyp.get_str()
 
       best_hyp = get_most_prob_hyp(hyps_list, search_space)
-      
+
       reconstructed_word = str(best_hyp.reconstructed_word)
       reconstructed_word = reconstructed_word[1:-1]
       reconstructed_word = [part.strip().split(" ") for part in reconstructed_word.split(" ] [ ")]

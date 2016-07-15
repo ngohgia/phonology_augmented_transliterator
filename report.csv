@@ -1,2 +1,10 @@
-size200_iter1,,
-size200_iter2,,
+g2p size200_iter1,68.6,100.0,40.3,100.0,35.1,92.5,35.7,92.5,34.4,92.5,33.1,92.5
+g2p size200_iter2,67.9,100.0,39.4,95.0,31.9,80.0,31.0,82.5,31.0,82.5,31.0,82.5
+g2p size200_iter3,68.6,100.0,42.2,100.0,34.5,100.0,33.3,97.5,35.8,97.5,35.8,100.0
+g2p size200_iter4,70.9,100.0,37.3,92.5,37.1,90.0,35.6,90.0,36.4,87.5,36.4,87.5
+g2p size200_iter5,68.4,100.0,45.8,97.5,37.7,95.0,37.9,95.0,37.7,95.0,37.5,95.0
+g2p size1000_iter1,19.3,73.0
+g2p size1000_iter2,18.3,64.0
+g2p size1000_iter3,19.7,63.0
+g2p size1000_iter4,Binaryfile/home/anon/Gia/NEWS2016_EnMandari_phonology_augmented_transliterator/size1000_iter4/6-gram_report.dtlmatches,literator/size1000_iter4/6-gram_report.dtlmatches
+g2p size1000_iter5,20.6,70.0
