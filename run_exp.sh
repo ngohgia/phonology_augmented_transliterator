@@ -1,11 +1,13 @@
 #!/bin/bash
-t2p_path=~/srproject/t2p/t2p_dt.pl
+t2p_path=/data/users/ngohgia/data_drive/transliterator/utilities/t2p/t2p_dt.pl
+sclite_path=/mnt/eql/p1/users/imganalysis/ngohgia/transliterator/utilities/sclite/sclite
 g2p=g2p.py
 
 root=$(pwd)
 exp_dir=$root/test_exp
 data_file=$root/data/randomized_short_train.lex
-size=1000
+size=100
+num_samples=1
 
 main() {
 	_s=$(($size/5))
@@ -16,13 +18,13 @@ main() {
     for i in $(eval echo {1..$_s}); do
         echo "($i)" >> $tag_file
     done
-    for i in {1..5}; do
+    for i in $(eval echo {1..$num_samples}); do
         part1=size$size
         part2=_iter$i
         work_dir="$exp_dir/$part1$part2"
         mkdir -p $work_dir 
         input_file="$work_dir/input.lex"
-        # shuf $data_file > $input_file 
+        shuf $data_file > $input_file 
         mkdir -p $work_dir/corpus
         train_file=$work_dir/corpus/train.lex
         test_file=$work_dir/corpus/test.lex
@@ -38,7 +40,7 @@ main() {
 
         paste -d' ' $output_file $tag_file > $hyp_file
         cd $work_dir
-        sclite -h $hyp_file -r $ref_file -i wsj -o dtl -n report > /dev/null
+        $sclite_path -h $hyp_file -r $ref_file -i wsj -o dtl -n report > /dev/null
         line=$part1$part2
         echo $(pwd)
         line+=,`grep 'Total Error' report.dtl | tr -s " " | cut -d' ' -f5 | tr -d "%"`
