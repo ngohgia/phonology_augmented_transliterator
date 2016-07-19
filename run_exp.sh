@@ -1,11 +1,11 @@
 #!/bin/bash
-t2p_path=/data/users/ngohgia/data_drive/transliterator/utilities/t2p/t2p_dt.pl
-sclite_path=/mnt/eql/p1/users/imganalysis/ngohgia/transliterator/utilities/sclite/sclite
+t2p_path=/home/ngohgia/Work/utilities/t2p/t2p_dt.pl
+sclite_path=/home/ngohgia/Work/utilities/sclite/sclite
 g2p=g2p.py
 
 root=$(pwd)
 exp_dir=$root/test_exp
-data_file=$root/data/randomized_short_train.lex
+data_file=$root/data/NEWS2016EnThai_sylSplitLex_simpleWords.txt
 size=100
 num_samples=1
 
