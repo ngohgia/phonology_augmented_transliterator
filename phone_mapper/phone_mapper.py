@@ -288,10 +288,11 @@ get_all_test_coords(all_test_words, tone_searchspace.space)
 
 test_toneless_output_path = os.path.abspath(os.path.join(run_dir, "test.toneless_with_roles.txt"))
 test_toneless_output_file = open(test_toneless_output_path, "w")
+print "\nPHONE MAPPING RESULTS"
 for word in all_test_words:
   result = " . ".join([syl.get_targ_phons_str() for syl in word.syls])
   result = result + "\t" + " . ".join([syl.get_roles_str() for syl in word.syls])
-  # print result
+  print result
   test_toneless_output_file.write(result + "\n")
 test_toneless_output_file.close()
 

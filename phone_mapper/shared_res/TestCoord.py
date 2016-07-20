@@ -53,7 +53,7 @@ class TestCoord:
     all_tagged_coords = []
     for unit in self.tags:
       new_coord = copy.deepcopy(self)
-      if new_coord.units[unit][GRAPHEME] != GENERIC_VOWEL and new_coord.units[unit][GRAPHEME] != "#":
+      if new_coord.units[unit][GRAPHEME] != "#":
         new_coord.tags[unit] = 1
         all_tagged_coords.append(new_coord)
     return all_tagged_coords
@@ -168,7 +168,7 @@ class TestCoord:
             + "|" + "<" + units[NUCLEUS][GRAPHEME] + ">/" + units[NUCLEUS][PHONEME] + "/" \
             + "," + "<" + units[CODA][GRAPHEME] + ">/" + units[CODA][PHONEME] + "/"
 
-          elif unit == NUCLEUS and units[NUCLEUS][GRAPHEME] != "@":
+          elif unit == NUCLEUS:
             search_pt = "<" + units[ONSET][GRAPHEME] + ">/" + units[ONSET][PHONEME] + "/" \
             + "|" + "<" + units[NUCLEUS][GRAPHEME] + ">/" + units[NUCLEUS][PHONEME] + "/" \
             + "|" + "<" + units[CODA][GRAPHEME] + ">/" + units[CODA][PHONEME] + "/"
