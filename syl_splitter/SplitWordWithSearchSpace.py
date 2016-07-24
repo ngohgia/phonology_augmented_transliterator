@@ -83,7 +83,7 @@ VaildTargVowels = lang_assets.valid_targ_vowels
 
 # Strict role constraints
 ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
-ValidVowelRoles = [NUCLEUS, NUCLEUS_CODA, ONSET_NUCLEUS_CODA, REMOVE]
+ValidVowelRoles = [NUCLEUS, NUCLEUS_NUCLEUS, NUCLEUS_CODA, ONSET_NUCLEUS_CODA, REMOVE]
 
 ValidSubSylUnit = {
   ONSET: lang_assets.valid_src_onsets,
