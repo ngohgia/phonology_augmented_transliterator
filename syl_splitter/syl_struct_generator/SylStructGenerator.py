@@ -101,6 +101,8 @@ def label_letters(word):
 
 #---------------- ENCODE A VIETNAMESE ENTRY IN SUBSYLLABIC UNITS ------------------#
 def export_syl_struct_of_targ_word(word):
+  GLIDED_VOWEL_DASH = '-'
+
   syls = word.split(".")
   toneless_syls = [(" ").join(syl.strip().split(" ")[:-1]) for syl in syls]
 
@@ -109,7 +111,7 @@ def export_syl_struct_of_targ_word(word):
     targ_phons = syl.split(" ")
 
     if len(targ_phons) == 3:
-      if targ_phons[1] in ValidTargVowels:
+      if targ_phons[1] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[1]:
         syl_struct = [ONSET, NUCLEUS, CODA]
       else:
         print("[ERROR] Syllable of 3 units does not have a valid nucleus")
@@ -118,9 +120,9 @@ def export_syl_struct_of_targ_word(word):
         raise SystemExit
         sys.exit(1)
     elif len(targ_phons) == 2:
-      if targ_phons[1] in ValidTargVowels:
+      if targ_phons[1] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[1]:
         syl_struct = [ONSET, NUCLEUS]
-      elif targ_phons[0] in ValidTargVowels:
+      elif targ_phons[0] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[0]:
         syl_struct = [NUCLEUS, CODA]
       else:
         print("[ERROR] Syllable of 2 units does not have a valid nucleus")
@@ -129,7 +131,7 @@ def export_syl_struct_of_targ_word(word):
         raise SystemExit
         sys.exit(1)
     elif len(targ_phons) == 1:
-      if targ_phons[0] in ValidTargVowels:
+      if targ_phons[0] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[0]:
         syl_struct = [NUCLEUS]
     encoded_units.append(" ".join(syl_struct))
 
@@ -1069,18 +1071,17 @@ start_time = time.time()
 # word = "grumell"
 # targ_word = "g e _2 . l u _3 . m ei _2 . e r _3"
 
-word = 'neulen'
-targ_word = 'n uo _4 . y i _1 . l u n _2'
- 
-labels = label_letters(word)
-targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
-best_word_hyps_list = []
-best_word_hyps_list = generate_roles(word, labels, targ_syl_struct)
-
-best_word_hyps_list = sorted(best_word_hyps_list, key=lambda hyp: hyp.mod_pen)
-
-for word_hyp in best_word_hyps_list:
-  print word_hyp.get_str()
-
-print ("Roles generation time: %0.1f" % (time.time() - start_time))
-sys.exit(1)
+# word = 'neulen'
+# targ_word = 'n uo _4 . y i _1 . l u n _2'
+#  
+# labels = label_letters(word)
+# targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
+# best_word_hyps_list = []
+# best_word_hyps_list = generate_roles(word, labels, targ_syl_struct)
+# 
+# best_word_hyps_list = sorted(best_word_hyps_list, key=lambda hyp: hyp.mod_pen)
+# 
+# for word_hyp in best_word_hyps_list:
+#   print word_hyp.get_str()
+# 
+# print ("Roles generation time: %0.1f" % (time.time() - start_time))
