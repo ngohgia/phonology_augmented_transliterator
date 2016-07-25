@@ -42,7 +42,7 @@ main() {
           #PBS -l nodes=1:ppn=1
           #PBS -m ae
             cd $root
-            python $root/RunTransliterationWrapper.py $train_file $test_file $output_file $work_dir $t2p_path
+            python $root/RunTransliterationWrapper.py $train_file $test_file $output_file $work_dir $t2p_path > /dev/null
           `
           echo "JobID = ${JOB} submitted"
     done

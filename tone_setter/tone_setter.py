@@ -101,6 +101,24 @@ def get_best_word(word, possible_tones, max_tone_score, syl_idx, best_word, sear
       word.syls[syl_idx].tone = tone
       get_best_word(word, possible_tones, max_tone_score, syl_idx +1, best_word, searchspace)
 
+def post_process_word(word):
+  GLIDES = ['w', 'y']
+  GLIDE_VOWEL_DASH = '-'
+
+  new_syls = []
+  for i in range(len(word.syls)):
+    syl = word.syls[i]
+    new_vie_phonemes = []
+
+    for glide in GLIDES:
+      if glide in syl.vie_phonemes[0] and GLIDE_VOWEL_DASH in syl.vie_phonemes[0]:
+        new_vie_phonemes = new_vie_phonemes + syl.vie_phonemes[0].split(GLIDE_VOWEL_DASH)
+        break
+    for j in range(1, len(syl.vie_phonemes)):
+      new_vie_phonemes.append(syl.vie_phonemes[j])
+    word.syls[i].vie_phonemes = new_vie_phonemes
+  return word
+
 def score_tone_assignment(word, searchspace):
   word_score = 1.0
 
@@ -218,6 +236,7 @@ for word in all_test_words:
   get_best_word(word, possible_tones, [0.0], 0, best_word, searchspace)
 
   best_word = best_word[0]
+  best_word = post_process_word(best_word)
   result_words.append(best_word)
 
 
