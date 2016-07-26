@@ -49,7 +49,7 @@ ValidTargVowels = lang_assets.valid_targ_vowels
 
 # Strict role constraints
 ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
-ValidVowelRoles = [NUCLEUS, NUCLEUS_CODA, ONSET_NUCLEUS_CODA, REMOVE]
+ValidVowelRoles = [NUCLEUS, NUCLEUS_NUCLEUS, NUCLEUS_CODA, ONSET_NUCLEUS_CODA, REMOVE]
 
 ValidSubSylUnit = {
   ONSET: lang_assets.valid_src_onsets,
@@ -101,6 +101,8 @@ def label_letters(word):
 
 #---------------- ENCODE A VIETNAMESE ENTRY IN SUBSYLLABIC UNITS ------------------#
 def export_syl_struct_of_targ_word(word):
+  GLIDED_VOWEL_DASH = '-'
+
   syls = word.split(".")
   toneless_syls = [(" ").join(syl.strip().split(" ")[:-1]) for syl in syls]
 
@@ -109,7 +111,7 @@ def export_syl_struct_of_targ_word(word):
     targ_phons = syl.split(" ")
 
     if len(targ_phons) == 3:
-      if targ_phons[1] in ValidTargVowels:
+      if targ_phons[1] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[1]:
         syl_struct = [ONSET, NUCLEUS, CODA]
       else:
         print("[ERROR] Syllable of 3 units does not have a valid nucleus")
@@ -118,9 +120,9 @@ def export_syl_struct_of_targ_word(word):
         raise SystemExit
         sys.exit(1)
     elif len(targ_phons) == 2:
-      if targ_phons[1] in ValidTargVowels:
+      if targ_phons[1] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[1]:
         syl_struct = [ONSET, NUCLEUS]
-      elif targ_phons[0] in ValidTargVowels:
+      elif targ_phons[0] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[0]:
         syl_struct = [NUCLEUS, CODA]
       else:
         print("[ERROR] Syllable of 2 units does not have a valid nucleus")
@@ -129,7 +131,7 @@ def export_syl_struct_of_targ_word(word):
         raise SystemExit
         sys.exit(1)
     elif len(targ_phons) == 1:
-      if targ_phons[0] in ValidTargVowels:
+      if targ_phons[0] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[0]:
         syl_struct = [NUCLEUS]
     encoded_units.append(" ".join(syl_struct))
 
@@ -214,6 +216,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
       if roles[word_ending] == ONSET or roles[word_ending] == CODA_ONSET or roles[word_ending] == NUCLEUS:
         return False
 
+
   last_non_R_pos = -1
   end_of_unit = -1
   curr_role = ""
@@ -296,6 +299,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
         else:
           curr_role = roles[pos]
           end_of_unit = len(roles)-1
+  
 
     # If an ONSET is immediately followed by a CODA, CODA_ONSET_NUCLEUS
     # or ONSET_NUCLEUS_CODA, return false
@@ -385,7 +389,7 @@ def construct_syls(word, labels, roles, checked):
       reconstructed_word.add_new_syl(new_syl)
 
     elif roles[idx] == NUCLEUS or roles[idx] == NUCLEUS_CODA or \
-    roles[idx] == ONSET_NUCLEUS or roles[idx] == CODA_ONSET_NUCLEUS:
+    roles[idx] == NUCLEUS_NUCLEUS or roles[idx] == ONSET_NUCLEUS or roles[idx] == CODA_ONSET_NUCLEUS:
       new_syl = Syllable()
       # print idx
       # look for onset
@@ -395,7 +399,18 @@ def construct_syls(word, labels, roles, checked):
         new_syl = add_onset(word, labels, roles, checked, new_syl, idx-1)
       checked[idx] = True
 
-      if roles[idx] == CODA_ONSET_NUCLEUS:
+      if roles[idx] == NUCLEUS_NUCLEUS:
+        new_syl.nucleus = word[idx]
+        reconstructed_word.add_new_syl(new_syl)
+
+        # add another syllable
+        new_syl = Syllable()
+        new_syl.nucleus = word[idx]
+        idx = idx + 1
+        [new_syl, idx] = add_coda(word, labels, roles, checked, new_syl, idx)
+        reconstructed_word.add_new_syl(new_syl)
+
+      elif roles[idx] == CODA_ONSET_NUCLEUS:
         new_syl.onset = word[idx]
         new_syl.nucleus = GENERIC_VOWEL
         idx = idx + 1
@@ -446,14 +461,15 @@ def add_onset(word, labels, roles, checked, new_syl, end_idx):
   # Search backwards from the end_idx to 0 to find all letters
   # that can be prepended to the new_syl's onset
   for idx in reversed(range(0, end_idx+1)):
+    # print "AA: " + str(idx) + "   " + str(roles[idx])
     if roles[idx] == REMOVE:
       checked[idx] = True
       continue
     elif roles[idx].split("_")[-1] == ONSET:
-      #print "onset idx: " + str(idx)
+      # print "onset idx: " + str(idx)
       new_syl.onset = word[idx] + new_syl.onset
       checked[idx] = True
-      #print "onset checked: " + str(checked)
+      # print "onset checked: " + str(checked)
       if len(roles[idx].split("_")) > 1:
         return new_syl
     else:
@@ -605,7 +621,7 @@ def generate_roles(word, labels, targ_syl_struct):
       #   print word_hyp.get_str()
       min_mod_pen = best_word_hyps_list[0].mod_pen
       for hyp in best_word_hyps_list:
-        #print hyp.get_str()
+        print hyp.get_str()
         if hyp.mod_pen > min_mod_pen:
           break
       print ("Roles generation time: %0.1f" % (time.time() - start_time))
@@ -763,15 +779,6 @@ start_time = time.time()
 # word = "puniques"
 # roles = ['O', 'N_Cd', 'O', 'N', 'Cd', 'Cd', 'Cd', 'R']
 
-# labels = label_letters(word)
-# print ("Word: %s" % word)
-# print ("Labels: %s" % str(labels))
-# print ("Roles: %s" % str(roles))
-# for i in range(len(roles)):
-#   print ("\nPosition %d" % (i))
-#   print ("Valid at position %d: %s" % (i, str(is_valid_subsyllabic_unit(word, labels, roles, i))))
-
-
 
 # -------- Unit test for syllables construction ------------
 #word = "palestine"
@@ -856,6 +863,9 @@ start_time = time.time()
 # # roles = ['O', 'N', 'Cd', 'O', 'N', 'Cd']
 # roles = ['O', 'N', 'Cd', 'O', 'N', 'N_Cd']
 
+# word = "grumell"
+# roles = ['O_N', 'O', 'N_Cd', 'O', 'N_N', 'Cd', 'Cd']
+# 
 # labels = label_letters(word)
 # checked = [False] * len(roles)
 # constructed_syls = construct_syls(word, labels, roles, checked)
@@ -864,7 +874,7 @@ start_time = time.time()
 # print ("Roles: %s" % str(roles))
 # print ("Constructed syllables: %s" % str(constructed_syls))
 # print ("Checked list: %s" % str(checked))
-
+ 
 # -------- Unit test for role generation ------------
 # word = "estenssoro"
 # targ_word = "E t _2 . s @: _3 . t E n _1 . s o _1 . r\ o _1"
@@ -1058,14 +1068,20 @@ start_time = time.time()
 # word = "boltzmann"
 # targ_word = "b_< o n _1 . z @: _1 . m a: n _1"
 
+# word = "grumell"
+# targ_word = "g e _2 . l u _3 . m ei _2 . e r _3"
+
+# word = 'neulen'
+# targ_word = 'n uo _4 . y i _1 . l u n _2'
+#  
 # labels = label_letters(word)
 # targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
 # best_word_hyps_list = []
 # best_word_hyps_list = generate_roles(word, labels, targ_syl_struct)
-
+# 
 # best_word_hyps_list = sorted(best_word_hyps_list, key=lambda hyp: hyp.mod_pen)
-
+# 
 # for word_hyp in best_word_hyps_list:
 #   print word_hyp.get_str()
-
+# 
 # print ("Roles generation time: %0.1f" % (time.time() - start_time))

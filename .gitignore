@@ -1,4 +1,4 @@
 *.pyc
 .DS_Store
-test_exp
+test_exp*
 stdout

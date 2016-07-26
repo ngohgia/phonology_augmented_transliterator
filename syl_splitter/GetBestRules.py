@@ -42,6 +42,15 @@ for line in hyp_lex_file:
   hyp_lex.append([part for part in line.split("\t")])
 hyp_lex_file.close()
 
+def add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_struct):
+  for idx in range(len(best_word_hyps_list)):
+    best_word_hyps_list[idx].ref_targ = targ_word
+    targ_syls = targ_word.split(".")
+    toneless_targ_syls = [(" ").join(syl.strip().split(" ")[0:len(syl.strip().split(" "))-1]) for syl in targ_syls]
+    best_word_hyps_list[idx].toneless_targ_ref = toneless_targ_syls
+    best_word_hyps_list[idx].targ_roles = targ_syl_struct
+
+
 #------- GET ALL THE BEST WORD HYPOTHESIS FROM A SINGLE TRAINING FILE -----------#
 def get_best_hyps_from_single_training(training_lex):
   simple_words_hyps = []
@@ -53,27 +62,32 @@ def get_best_hyps_from_single_training(training_lex):
     report("\n#----------------------------------------------#\n")
     least_mod_pen_file.write("\n#----------------------------------------------#\n")
     word = training_lex[idx][0]
+    labels = label_letters(word)
 
+    # TRY GENERATING THE ORIGINAL WORD
     # Format targ words
     targ_word = training_lex[idx][-1].strip()
     targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
-    labels = label_letters(word)
 
     best_word_hyps_list = []
     # Generate possible roles for letters in the foreign word
     best_word_hyps_list = generate_roles(word, labels, targ_syl_struct)
+    add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_struct)
+    
+    # TRY BACK OFF THE FOREIGN WORD
+    new_targ_word = back_off_words_with_glides(targ_word)
+    if new_targ_word != None:
+      targ_syl_struct = export_syl_struct_of_targ_word(new_targ_word)
+      new_best_word_hyps_list = []
+      # Generate possible roles for letters in the foreign word
+      new_best_word_hyps_list = generate_roles(word, labels, targ_syl_struct)
+      add_targ_word_to_best_word_hyps(new_best_word_hyps_list, new_targ_word, targ_syl_struct)
+      best_word_hyps_list = best_word_hyps_list + new_best_word_hyps_list
 
     if len(best_word_hyps_list) == 0:
       report("No hypothesis found for %s" % word)
       unresolved_file.write("\t".join(training_lex[idx]))
     else:
-      for idx in range(len(best_word_hyps_list)):
-        best_word_hyps_list[idx].ref_targ = targ_word
-        targ_syls = targ_word.split(".")
-        toneless_targ_syls = [(" ").join(syl.strip().split(" ")[0:len(syl.strip().split(" "))-1]) for syl in targ_syls]
-        best_word_hyps_list[idx].toneless_targ_ref = toneless_targ_syls
-        best_word_hyps_list[idx].targ_roles = targ_syl_struct
-
       for word_hyp in best_word_hyps_list:
         # Count the number of generic vowels in the word
         word_hyp.count_generic_vowel()
@@ -193,6 +207,30 @@ def get_least_compound_role_count_hyps(hyps_list):
       best_hyps.append(hyp)
 
   return best_hyps
+
+#------- BACK OFF ENTRIES WITH GLIDES --------------------#
+# If no hypothesis can be found for a word with glides, merge the glides to the succeeding vowels
+def back_off_words_with_glides(targ_word):
+  GLIDES = ['y', 'w']
+  DASH = '-'
+
+  syls = [part.strip() for part in targ_word.split('.')]
+  new_syls = []
+  for syl in syls:
+    units = [unit.strip() for unit in syl.split()]
+    new_units = []
+    if units[0] in GLIDES:
+      new_units.append(units[0] + '-' + units[1])
+      for i in range(2, len(units)):
+        new_units.append(units[i])
+    else:
+      new_units = units
+    new_syls.append(' '.join(new_units))
+  new_targ_word = ' . '.join(new_syls)
+  if new_targ_word != targ_word:
+    return new_targ_word
+  else:
+    return None
 
 # Helper function to log and print a message
 def report(msg):
