@@ -3,7 +3,7 @@ import os, subprocess, sys, shlex, math
 import os.path as op
 import pdb
 
-size = 2000
+#size = 16000
 order = 6
 iterations = 10
 FNULL = open(os.devnull, 'w')
@@ -14,13 +14,14 @@ def main():
     root = op.join(os.getcwd(), 'test_exp');
     output_file = op.join(root, 'report.csv')
     try:
-        for i in xrange(1, iterations + 1):
-            fname = 'size{0}_iter{1}'.format(size, i)
-            subfolder = op.join(root, fname)
-            print subfolder
-            result = run_experiment(order, subfolder)
-            with open(output_file, 'a') as output_filehandler:
-                print >> output_filehandler, ','.join(['g2p_' + fname] + [str(a) for a  in result])
+	for size in [100, 200, 500, 1000, 2000]:
+		for i in xrange(1, iterations + 1):
+		    fname = 'size{0}_iter{1}'.format(size, i)
+		    subfolder = op.join(root, fname)
+		    print subfolder
+		    result = run_experiment(order, subfolder)
+		    with open(output_file, 'a') as output_filehandler:
+			print >> output_filehandler, ','.join(['g2p_' + fname] + [str(a) for a  in result])
     except Exception as ex:
         template = "An exception of type {0} occured. Arguments:\n{1!r}"
         message = template.format(type(ex).__name__, ex.args)
