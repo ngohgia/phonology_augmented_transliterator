@@ -7,6 +7,7 @@ root=$(pwd)
 exp_dir=$root/test_exp
 #data_file=$root/data/randomized_short_train.lex
 data_file=$root/data/randomized_training_set_g2p_form.lex
+#data_file=$root/data/randomized_long_train.lex
 size=2000
 num_samples=10
 
@@ -14,11 +15,13 @@ main() {
 	_s=$(($size/5))
 	make_testset_cmd=$(echo "sed -n '1,$(($_s))p; $(($_s+1))q'")
 	make_trainset_cmd=$(echo "sed -n '$(($_s+1)),$(($size))p; $(($size+1))q'")
+    mkdir -p $exp_dir
     tag_file=$exp_dir/tags
-    cat /dev/null > $tag_file
-    for i in $(eval echo {1..$_s}); do
-        echo "($i)" >> $tag_file
-    done
+    seq -f '(%1.f)' $_s > $tag_file
+   # cat /dev/null > $tag_file
+   # for i in $(eval echo {1..$_s}); do
+   #     echo "($i)" >> $tag_file
+   # done
     for i in $(eval echo {1..$num_samples}); do
         part1=size$size
         part2=_iter$i
