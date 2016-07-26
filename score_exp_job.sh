@@ -7,8 +7,9 @@ root=$(pwd)
 exp_dir=$root/test_exp
 #data_file=$root/data/randomized_short_train.lex
 data_file=$root/data/randomized_training_set_g2p_form.lex
-size=200
+size=1000
 num_samples=10
+report_file=$root/report-`date +%m%d`.csv
 
 main() {
 	_s=$(($size/5))
@@ -32,24 +33,18 @@ main() {
         hyp_file=$work_dir/test.hyp
         ref_file=$work_dir/test.ref
 
-        JOB=`/apps/sysapps/TORQUE/bin/qsub -l nodes=1:ppn=1,mem=10gb -V -q circ-spool<<EOJ
-          #!/bin/bash
-          #PBS -l walltime=48:00:00
-          #PBS -l nodes=1:ppn=1
-          #PBS -m ae
-		paste -d' ' $output_file $tag_file > $hyp_file
-		cd $work_dir
-		$sclite_path -h $hyp_file -r $ref_file -i wsj -o dtl -n report > /dev/null
+	paste -d' ' $output_file $tag_file > $hyp_file
+	cd $work_dir
+	$sclite_path -h $hyp_file -r $ref_file -i wsj -o dtl -n report > /dev/null
 
-		echo $(pwd)
-		echo $part1$part2
-		grep 'Total Error' report.dtl | tr -s " " | cut -d' ' -f5 | tr -d "%"
-		grep 'with errors' report.dtl | tr -s " " | cut -d' ' -f4 | tr -d "%"
-		echo "Finish size $size, $i run"
+	echo $(pwd)
+        line=$part1$part2
+	line+=,`grep 'Total Error' report.dtl | tr -s " " | cut -d' ' -f5 | tr -d "%"`
+	line+=,`grep 'with errors' report.dtl | tr -s " " | cut -d' ' -f4 | tr -d "%"`
+        echo $line >> $report_file
+	echo "Finish size $size, $i run"
 
-		cd $root
-          `
-          echo "JobID = ${JOB} submitted"
+	cd $root
     done
 }
 
