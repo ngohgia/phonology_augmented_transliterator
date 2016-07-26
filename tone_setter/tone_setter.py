@@ -110,10 +110,15 @@ def post_process_word(word):
     syl = word.syls[i]
     new_vie_phonemes = []
 
+    hasGlide = False
     for glide in GLIDES:
       if glide in syl.vie_phonemes[0] and GLIDE_VOWEL_DASH in syl.vie_phonemes[0]:
         new_vie_phonemes = new_vie_phonemes + syl.vie_phonemes[0].split(GLIDE_VOWEL_DASH)
+        hasGlide = True
         break
+    if not hasGlide:
+      new_vie_phonemes.append(syl.vie_phonemes[0])
+      
     for j in range(1, len(syl.vie_phonemes)):
       new_vie_phonemes.append(syl.vie_phonemes[j])
     word.syls[i].vie_phonemes = new_vie_phonemes
