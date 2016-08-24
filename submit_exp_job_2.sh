@@ -7,13 +7,8 @@ root=$(pwd)
 exp_dir=$root/test_exp
 #data_file=$root/data/randomized_short_train.lex
 data_file=$root/data/randomized_training_set_g2p_form.lex
-<<<<<<< d4abed0874a49d0c5998429eea1e231d12dbaa20
-size=100
-num_samples=1
-=======
 size=1000
 num_samples=10
->>>>>>> temp2
 
 main() {
 	_s=$(($size/5))
