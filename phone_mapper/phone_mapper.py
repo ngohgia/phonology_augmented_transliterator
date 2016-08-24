@@ -183,10 +183,9 @@ def get_all_test_coords(all_words, search_space):
   all_test_coords = []
 
   for word in all_words:
-    prev_syl_coord = None
     for syl in word.syls:
       new_test_coord = TestCoord()
-      new_test_coord.create_from_syl(syl, prev_syl_coord)
+      new_test_coord.create_from_syl(syl)
       all_tagged_coords = new_test_coord.get_tagged_coords()
       all_extrapolated_coords_ranks = []
 
@@ -196,7 +195,6 @@ def get_all_test_coords(all_words, search_space):
           all_extrapolated_coords_ranks.append(extrapolated_coord_rank)
 
       get_targ_phons_from_syl(syl, all_extrapolated_coords_ranks, search_space)
-      prev_syl_coord = new_test_coord
 
 
 def get_targ_phons_from_syl(syl, all_coords_ranks, search_space):
@@ -218,7 +216,6 @@ def get_targ_phons_from_syl(syl, all_coords_ranks, search_space):
     for search_pt_rank in search_pt_rank_by_role[role]:
       search_pt = search_pt_rank.search_pt
       rank = search_pt_rank.rank
-      print str(search_pt)
 
       if search_pt in search_space:     
         tmp_matches = search_space[search_pt]
@@ -229,7 +226,7 @@ def get_targ_phons_from_syl(syl, all_coords_ranks, search_space):
           else:
             all_matches[phoneme] = all_matches[phoneme] + tmp_matches[phoneme]/(rank * RANK_WEIGHT)
 
-    print all_matches
+    # print all_matches
 
     max_score = 0.0
     best_match = ""
@@ -262,19 +259,17 @@ add_src_phons_to_syls(all_train_dev_words, phon_t2p_output_path)
 search_space_path = os.path.abspath(os.path.join(run_dir, "phon_search_space.txt"))
 tone_searchspace = SearchSpace()
 for word in all_train_dev_words:
-  prev_syl_coord = None
   for syl in word.syls:
     new_coord = Coord()
-    new_coord.encode_unit_to_coord(syl, prev_syl_coord)
+    new_coord.encode_unit_to_coord(syl)
     unit_list = new_coord.to_list()
 
     all_coords = []
-    new_coord.extrapolate(unit_list, all_coords)
+    new_coord.extrapolate(unit_list, all_coords, 0)
 
     for coord in all_coords:
       #coord.print_str()
       tone_searchspace.add_new_search_point(coord)
-    prev_syl_coord = new_coord
 
 tone_searchspace.normalize()
 print_search_space_to_file(tone_searchspace, search_space_path)
@@ -328,7 +323,7 @@ print test_units_roles_t2p_input_path
 #     unit_list = new_coord.to_list()
 
 #     all_coords = []
-#     new_coord.extrapolate(unit_list, all_coords)
+#     new_coord.extrapolate(unit_list, all_coords, 0)
 
 #     for coord in all_coords:
 #       tone_searchspace.add_new_search_point(coord)

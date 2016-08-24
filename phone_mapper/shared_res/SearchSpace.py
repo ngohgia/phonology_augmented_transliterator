@@ -5,8 +5,6 @@ NUCLEUS = "N"
 CODA = "Cd"
 GRAPHEME = "G"
 PHONEME = "P"
-PREV_SYL_NUCLEUS = "PSN"
-PREV_SYL_CODA = "PSC"
 
 class SearchPoint:
   def __init__(self):
@@ -34,10 +32,6 @@ class SearchPoint:
       + "," + "<" + coords[NUCLEUS][GRAPHEME] + ">/" + coords[NUCLEUS][PHONEME] + "/" \
       + "|" + "<" + coords[CODA][GRAPHEME] + ">/" + coords[CODA][PHONEME] + "/"
       self.val = vals[CODA]
-    
-    self.coord = "<" + coords[PREV_SYL_NUCLEUS][GRAPHEME] + ">/" + coords[PREV_SYL_NUCLEUS][PHONEME] + "/" \
-                + "," + "<" + coords[PREV_SYL_CODA][GRAPHEME] + ">/" + coords[PREV_SYL_CODA][PHONEME] + "/" \
-                + "@" + self.coord
 
   def __str__(self):
     return self.coord + " => " + self.val
