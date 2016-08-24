@@ -3,7 +3,7 @@
 import os
 
 class LangAssets:
-  N_GRAM_LEN = 5
+  N_GRAM_LEN = 7
 
   # Possible labels of an alphabet
   VOWEL = "V"
