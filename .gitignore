@@ -2,3 +2,6 @@
 .DS_Store
 test_exp*
 stdout
+20160824_train_old_test_new
+manually_split_exp
+*.csv

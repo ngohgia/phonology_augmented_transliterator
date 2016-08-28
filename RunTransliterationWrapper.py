@@ -14,7 +14,8 @@ if __name__ == '__main__':
 
 # Log file
 log_dir = os.path.join(run_dir, 'log')
-os.mkdir(log_dir)
+if not os.path.exists(log_dir):
+  os.mkdir(log_dir)
 log_path = os.path.join(log_dir, 'RunTransliterationWrapper_log.txt')
 logging.basicConfig(filename= log_path, level= logging.DEBUG, format='%(message)s')
 
