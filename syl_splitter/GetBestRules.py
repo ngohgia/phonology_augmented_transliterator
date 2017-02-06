@@ -8,11 +8,14 @@ from approx_phone_alignment.ApproxPhoneAlignment import get_approx_phone_alignme
 from approx_phone_alignment.ApproxPhoneAlignment import score_hyp_with_phone_alignment
 from src_phons_generator.SrcPhonsGenerator import *
 
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from preprocess.PreProcess import replace_syllables
+
 if __name__ == '__main__':
   try:
-    script, hyp_lex_path, run_dir, t2p_decoder = sys.argv
+    script, training_lex_path, run_dir, t2p_decoder = sys.argv
   except ValueError:
-    print "Syntax: GetBestRules.py \t hyp_lex_path \t run_dir \t t2p_decoder"
+    print "Syntax: GetBestRules.py \t training_lex_path \t run_dir \t t2p_decoder"
     sys.exit(1)
 
 #----------------------------------- LOG ---------------------------------------#
@@ -34,13 +37,13 @@ split_words_file = open(os.path.abspath(os.path.join(run_dir, "split_words.txt")
 #-------------------------------------------------------------------------------#
 t2p_decoder_path = os.path.abspath(t2p_decoder)
 
-hyp_lex_file = open(hyp_lex_path, "r")
-hyp_lex = []
+training_lex_file = open(training_lex_path, "r")
+training_lex = []
 
 # Get words from training-dev lex file
-for line in hyp_lex_file:
-  hyp_lex.append([part for part in line.split("\t")])
-hyp_lex_file.close()
+for line in training_lex_file:
+  training_lex.append([part for part in line.split("\t")])
+training_lex_file.close()
 
 def add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_struct):
   for idx in range(len(best_word_hyps_list)):
@@ -55,6 +58,8 @@ def add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_str
 def get_best_hyps_from_single_training(training_lex):
   simple_words_hyps = []
   complex_words_hyps = []
+
+  training_lex = replace_syllables(training_lex)
 
   for idx in range(len(training_lex)):
     start_time = time.time()
@@ -237,6 +242,6 @@ def report(msg):
   print "%s\n" % msg
   logging.info(msg)
 
-get_best_hyps_from_single_training(hyp_lex)
+get_best_hyps_from_single_training(training_lex)
 unresolved_file.close()
 split_words_file.close()

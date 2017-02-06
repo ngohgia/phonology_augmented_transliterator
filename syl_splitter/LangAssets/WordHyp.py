@@ -34,6 +34,7 @@ class WordHyp:
     self.normalized_mod_score = 0
     self.compound_mod_score = 0
     self.generic_vowel_count = 0
+    self.coda_follows_schwa_pen = 0
     self.phone_alignment_pen = 0
     self.compound_pen = 0
     self.search_lvl = 0
@@ -61,6 +62,7 @@ class WordHyp:
     text = text + "Modification penalty: " + str(self.mod_pen) + "\n"
     text = text + "Normalized mod score: " + str(self.normalized_mod_score) + "\n"
     text = text + "Compound score: " + str(self.compound_mod_score) + "\n"
+    text = text + "Coda follows schwa penalty: " + str(self.coda_follows_schwa_pen) + "\n"
     text = text + "Phone alignment penalty: " + str(self.phone_alignment_pen) + "\n"
     text = text + "Phones score: " + str(self.phones_score) + "\n"
     text = text + "Compound penalty: " + str(self.compound_pen) + "\n"
@@ -101,6 +103,7 @@ class WordHyp:
         for j in range(i+1, len(self.roles)):
           if self.roles[j] != REMOVE:
             if self.roles[j].split("_")[0] == CODA:
+              self.coda_follows_schwa_pen += 5
               self.mod_pen = self.mod_pen + 5
             break
 

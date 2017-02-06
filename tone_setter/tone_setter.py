@@ -10,6 +10,10 @@ from shared_res.SearchSpace import SearchSpace
 from shared_res.SearchSpace import SearchPoint
 
 from shared_res.LangAssets import LangAssets
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from postprocess.PostProcess import replace_syllables
+
 ANY_UNIT  = LangAssets.ANY_UNIT
 TERMINAL  = LangAssets.TERMINAL
 
@@ -246,6 +250,11 @@ for word in all_test_words:
 
 
 test_output_file = open(test_output_file_path, "w")
+outputs = []
 for word in result_words:
-  test_output_file.write(" . ".join([str(syl) for syl in word.syls]) + "\n")
+  outputs.append(" . ".join([str(syl) for syl in word.syls]))
+
+outputs = replace_syllables(outputs)
+for entry in outputs:
+  test_output_file.write(entry+ "\n")
 test_output_file.close()

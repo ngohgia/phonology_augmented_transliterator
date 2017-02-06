@@ -638,7 +638,8 @@ def generate_roles(word, labels, targ_syl_struct):
 start_time = time.time()
 
 # -------- Unit test for target word encoding ------------
-# targ_word = "ว เ-ิ ม _5 . ร อ บ _4 . ี ล _0"
+# targ_word = "g e _1 . NULL_O e-r _3 . k e _1 . w ei _1 . c i _2"
+# targ_word = "g e _1 . NULLO e-n _1 . k e _1 . w ei _1 . c i _2"
 # targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
 # print ("Target word: %s" % targ_word)
 # print ("Target syllabic structure: %s" % targ_syl_struct)

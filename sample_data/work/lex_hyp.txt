@@ -1,0 +1,6 @@
+clarey	O_N O N_Cd O N N_Cd	[ c @  ] [ l a  ] [ r ey  ]	O N . O N . O N	k e _4 . l a _1 . l i _3
+drouin	O_N O N N_Cd N Cd	[ d @  ] [ r ou  ] [  i n ]	O N . O N . N Cd	d e _2 . l ao _2 . y-i n _1
+grazier	O_N O N_Cd O N N_Cd O_N	[ g @  ] [ r a  ] [ z ie  ] [ r @  ]	O N . O N . O N . O N	g e _2 . l ei _2 . q i _2 . NULL_O e-r _3
+musselman	O N_Cd O_N O N N_Cd O N Cd	[ m u  ] [ s @  ] [ s el  ] [ m a n ]	O N . O N . O N . O N Cd	m a _3 . s ai _4 . NULL_O e-r _3 . m a n _4
+sonne	O N_Cd R O N_Cd	[ s o  ] [ n e  ]	O N . O N	s uo _3 . NULL_O e-n _1
+sheen	O O N N_Cd O_N	[ sh ee  ] [ n @  ]	O N . O N	x i _1 . NULL_O e-n _1

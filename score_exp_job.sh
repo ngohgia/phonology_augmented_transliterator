@@ -4,7 +4,7 @@ sclite_path=/mnt/eql/p1/users/imganalysis/ngohgia/transliterator/utilities/sclit
 g2p=g2p.py
 
 root=$(pwd)
-exp_dir=$root/test_exp
+exp_dir=$root/exp_20160829
 #data_file=$root/data/randomized_short_train.lex
 data_file=$root/data/randomized_training_set_g2p_form.lex
 size=1000

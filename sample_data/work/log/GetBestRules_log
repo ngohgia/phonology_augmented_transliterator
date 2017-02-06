@@ -1,0 +1,4907 @@
+
+#----------------------------------------------#
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 13
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.2
+
+#----------------------------------------------#
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 1.0
+
+#----------------------------------------------#
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.9
+
+#----------------------------------------------#
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 11.0
+
+#----------------------------------------------#
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+
+#----------------------------------------------#
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+SCORE HYP WITH PHONE ALIGMENTS
+
+#----------------------------------------------#
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 13
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.2
+
+#----------------------------------------------#
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 1.0
+
+#----------------------------------------------#
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.9
+
+#----------------------------------------------#
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 11.0
+
+#----------------------------------------------#
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+
+#----------------------------------------------#
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+SCORE HYP WITH PHONE ALIGMENTS
+
+#----------------------------------------------#
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 13
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.2
+
+#----------------------------------------------#
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 1.0
+
+#----------------------------------------------#
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.9
+
+#----------------------------------------------#
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 11.0
+
+#----------------------------------------------#
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+
+#----------------------------------------------#
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+SCORE HYP WITH PHONE ALIGMENTS
+
+#----------------------------------------------#
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 13
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.2
+
+#----------------------------------------------#
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 1.0
+
+#----------------------------------------------#
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.9
+
+#----------------------------------------------#
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 11.1
+
+#----------------------------------------------#
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+
+#----------------------------------------------#
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+SCORE HYP WITH PHONE ALIGMENTS
+
+#----------------------------------------------#
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 13
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.2
+
+#----------------------------------------------#
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 1.0
+
+#----------------------------------------------#
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.9
+
+#----------------------------------------------#
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 11.0
+
+#----------------------------------------------#
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+
+#----------------------------------------------#
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+SCORE HYP WITH PHONE ALIGMENTS
+
+#----------------------------------------------#
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 13
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.2
+
+#----------------------------------------------#
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 1.0
+
+#----------------------------------------------#
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.9
+
+#----------------------------------------------#
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 11.0
+
+#----------------------------------------------#
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+
+#----------------------------------------------#
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 10
+Normalized mod score: 0
+Compound score: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+SCORE HYP WITH PHONE ALIGMENTS
+
+#----------------------------------------------#
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.2
+
+#----------------------------------------------#
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 1.0
+
+#----------------------------------------------#
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.9
+
+#----------------------------------------------#
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 5
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 11.1
+
+#----------------------------------------------#
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+
+#----------------------------------------------#
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.1
+SCORE HYP WITH PHONE ALIGMENTS

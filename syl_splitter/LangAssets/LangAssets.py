@@ -45,7 +45,7 @@ class LangAssets:
       ONSET_NUCLEUS, NUCLEUS_NUCLEUS, NUCLEUS_CODA, CODA_ONSET, REMOVE]
 
   # SET OF CONSONANTS ALLOWED TO PRECEDE SCHWA
-  VALID_CONSO_PRECED_SCHWA = ['p', 'r', 'b', 't', 'd', 'k', 'g', 's', 'f', 'z']
+  VALID_CONSO_PRECED_SCHWA = ['p', 'n', 'l', 'r', 'b', 't', 'd', 'k', 'g', 's', 'f', 'z']
 
   def __init__(self):
     cur_dir = os.path.dirname(__file__) + "/"

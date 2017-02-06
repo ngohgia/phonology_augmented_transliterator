@@ -1,0 +1,6313 @@
+
+#----------------------------------------------#
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 0.2
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Roles generation time: 0.2
+
+
+#----------------------------------------------#
+
+
+New threshold per role
+New threshold per role
+New threshold per role
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 1.3
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Roles generation time: 1.0
+
+
+#----------------------------------------------#
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 2.2
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Roles generation time: 0.9
+
+
+#----------------------------------------------#
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 13.3
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 5
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Roles generation time: 11.1
+
+
+#----------------------------------------------#
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 13.4
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Roles generation time: 0.1
+
+
+#----------------------------------------------#
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Roles generation time: 13.5
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Roles generation time: 0.1
+
+SCORE HYP WITH PHONE ALIGMENTS
+
+---------------- COMPLEX WORDS BEST HYPS ----------------------
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , R
+Reconstructed word: c@lare
+New word: [ c @  ] [ l a  ] [ r e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , R , O , N , N_Cd
+Reconstructed word: c@l@rey
+New word: [ c @  ] [ l @  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , R , N_Cd
+Reconstructed word: c@lary
+New word: [ c @  ] [ l a  ] [ r y  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 9
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDBEST HYP ----------------------
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDS BEST HYPS ----------------------
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r o  ] [  ui n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , N , R , Cd
+Reconstructed word: d@roun
+New word: [ d @  ] [ r o  ] [  u n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , R , N_Cd , N , Cd
+Reconstructed word: d@ruin
+New word: [ d @  ] [ r u  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , R , N , Cd
+Reconstructed word: d@roin
+New word: [ d @  ] [ r o  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 6
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDBEST HYP ----------------------
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDS BEST HYPS ----------------------
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , R , O_N
+Reconstructed word: g@razir@
+New word: [ g @  ] [ r a  ] [ z i  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , R , N_Cd , O_N
+Reconstructed word: g@razer@
+New word: [ g @  ] [ r a  ] [ z e  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDBEST HYP ----------------------
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDS BEST HYPS ----------------------
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O , R , N_Cd , O_N , O , N , Cd
+Reconstructed word: musel@man
+New word: [ m u  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O , R , N , Cd
+Reconstructed word: mus@selan
+New word: [ m u  ] [ s @  ] [ s e  ] [ l a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , R , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@s@selman
+New word: [ m @  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 8
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O_N , R , Cd
+Reconstructed word: mus@selm@n
+New word: [ m u  ] [ s @  ] [ s el  ] [ m @ n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 2
+Modification penalty: 14
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 5
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDBEST HYP ----------------------
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDS BEST HYPS ----------------------
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O , R , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDBEST HYP ----------------------
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDS BEST HYPS ----------------------
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , R , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , R , N_Cd , O_N
+Reconstructed word: shen@
+New word: [ sh e  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , R , N , N_Cd , O_N
+Reconstructed word: seen@
+New word: [ s ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 1
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+---------------- COMPLEX WORDBEST HYP ----------------------
+Original: clarey
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['k e', 'l a', 'l i']
+Target roles: O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: drouin
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['d e', 'l ao', 'y-i n']
+Target roles: O N . O N . N Cd
+Labels: ['C', 'C', 'V', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , N , Cd
+Reconstructed word: d@rouin
+New word: [ d @  ] [ r ou  ] [  i n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: grazier
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['g e', 'l ei', 'q i', 'NULL_O e-r']
+Target roles: O N . O N . O N . O N
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 2
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: musselman
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['m a', 's ai', 'NULL_O e-r', 'm a n']
+Target roles: O N . O N . O N . O N Cd
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: sonne
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['s uo', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+Original: sheen
+Original source phonemes: []
+Target reference: 
+Toneless target syllables: ['x i', 'NULL_O e-n']
+Target roles: O N . O N
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: []
+Construction Probability: 0.0
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 1
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0.0
+Search lvl: 0
+
+
+---------------------- DECODING TEST FILE ------------------------------
+
+Decoding word: clarey
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.4000000000000004, 'N': 3.4000000000000004, 'O_N_Cd': 1.0, 'Cd': 3.4000000000000004, 'N_N': 1.6, 'N_O': 1.0, 'N_Cd': 3.4000000000000004, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.6}
+New threshold per role
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.4000000000000004, 'N': 3.4000000000000004, 'O_N_Cd': 1.0, 'Cd': 3.4000000000000004, 'N_N': 1.6, 'N_O': 1.0, 'N_Cd': 3.4000000000000004, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.6}
+New threshold per role
+{'Cd_Cd': 2.0, 'Cd_N': 2.0, 'Cd_O': 2.0, 'O': 4.4, 'N': 4.4, 'O_N_Cd': 2.0, 'Cd': 4.4, 'N_N': 2.6, 'N_O': 2.0, 'N_Cd': 4.4, 'Cd_O_N': 2.0, 'R': 2.0, 'O_N': 2.6}
+New threshold per role
+No splitting could be found for clarey
+
+Lowering threshold clarey
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.4000000000000004, 'N': 3.4000000000000004, 'O_N_Cd': 1.0, 'Cd': 3.4000000000000004, 'N_N': 1.6, 'N_O': 1.0, 'N_Cd': 3.4000000000000004, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.6}
+---------------------- TOP COMPOUND SCORE HYPS ------------------------------
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: [0.9950984393772087, 0.9992147698958589, 0.996778153897633, 0.9983078488636536, 0.9985278777334348, 0.9987909278539131]
+Construction Probability: 0.986785297448
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 1.0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O , N_Cd , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r e  ] [  y  ]
+Construction probability by letter: [0.9950984393772087, 0.9992147698958589, 0.996778153897633, 0.9983078488636536, 0.3792572327159284, 0.9987909278539131]
+Construction Probability: 0.374797208511
+Encoded subsyllabic units: O N . O N . O N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0.37981636885
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N , O , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r ey  ]
+Construction probability by letter: [0.9950984393772087, 0.9992147698958589, 0.35858590355483344, 0.9983078488636536, 0.9985278777334348, 0.9987909278539131]
+Construction Probability: 0.354991023947
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0.359744946408
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , N_Cd , O , N , N_Cd
+Reconstructed word: c@l@arey
+New word: [ c @  ] [ l @  ] [  a  ] [ r ey  ]
+Construction probability by letter: [0.9950984393772087, 0.2727272727272727, 0.996778153897633, 0.9983078488636536, 0.9985278777334348, 0.9987909278539131]
+Construction Probability: 0.269334752696
+Encoded subsyllabic units: O N . O N . N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0.272941594684
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N , O , N_Cd , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a  ] [ r e  ] [  y  ]
+Construction probability by letter: [0.9950984393772087, 0.9992147698958589, 0.35858590355483344, 0.9983078488636536, 0.3792572327159284, 0.9987909278539131]
+Construction Probability: 0.13483140169
+Encoded subsyllabic units: O N . O N . O N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0.136637019257
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , O_N , N_Cd , N_Cd
+Reconstructed word: c@lar@ey
+New word: [ c @  ] [ l a  ] [ r @  ] [  e  ] [  y  ]
+Construction probability by letter: [0.9950984393772087, 0.9992147698958589, 0.996778153897633, 0.3415705790855553, 0.3792572327159284, 0.9987909278539131]
+Construction Probability: 0.128236695421
+Encoded subsyllabic units: O N . O N . O N . N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0.129953998861
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: R , O , N_Cd , O , N , N_Cd
+Reconstructed word: larey
+New word: [ l a  ] [ r ey  ]
+Construction probability by letter: [0.11038961038961038, 0.9992147698958589, 0.996778153897633, 0.9983078488636536, 0.9985278777334348, 0.9987909278539131]
+Construction Probability: 0.109467405648
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.110933356964
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N_Cd , R , N , N_Cd
+Reconstructed word: c@laey
+New word: [ c @  ] [ l a  ] [  ey  ]
+Construction probability by letter: [0.9950984393772087, 0.9992147698958589, 0.996778153897633, 0.10774410774410774, 0.9985278777334348, 0.9987909278539131]
+Construction Probability: 0.106500516378
+Encoded subsyllabic units: O N . O N . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 7
+Normalized mod score: 0
+Compound score: 0.107926736093
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O_N , N_Cd , O , N_Cd , N_Cd
+Reconstructed word: c@l@arey
+New word: [ c @  ] [ l @  ] [  a  ] [ r e  ] [  y  ]
+Construction probability by letter: [0.9950984393772087, 0.2727272727272727, 0.996778153897633, 0.9983078488636536, 0.3792572327159284, 0.9987909278539131]
+Construction Probability: 0.102297747774
+Encoded subsyllabic units: O N . O N . N . O N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0.103667685401
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: clarey
+Original source phonemes: ['K', 'L', 'EH', 'R', '_', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V']
+Roles: O_N , O , N , Cd , N , N_Cd
+Reconstructed word: c@larey
+New word: [ c @  ] [ l a r ] [  ey  ]
+Construction probability by letter: [0.9950984393772087, 0.9992147698958589, 0.35858590355483344, 0.22929292929292927, 0.9985278777334348, 0.9987909278539131]
+Construction Probability: 0.0815349011291
+Encoded subsyllabic units: O N . O N Cd . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0.0826267895762
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Generation time: 9.04362106323
+
+Decoding word: droui
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+New threshold per role
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+New threshold per role
+{'Cd_Cd': 2.0, 'Cd_N': 2.0, 'Cd_O': 2.0, 'O': 4.0, 'N': 4.0, 'O_N_Cd': 2.0, 'Cd': 4.0, 'N_N': 2.5, 'N_O': 2.0, 'N_Cd': 4.0, 'Cd_O_N': 2.0, 'R': 2.0, 'O_N': 2.5}
+New threshold per role
+No splitting could be found for droui
+
+Lowering threshold droui
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+---------------------- TOP COMPOUND SCORE HYPS ------------------------------
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: O_N , O , N , N_Cd , N_Cd
+Reconstructed word: d@roui
+New word: [ d @  ] [ r ou  ] [  i  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.9980407973795467, 0.9977265666701339, 0.8406250000000001]
+Construction Probability: 0.83257676833
+Encoded subsyllabic units: O N . O N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 1.0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: O_N , O , N_Cd , N_Cd , N_Cd
+Reconstructed word: d@roui
+New word: [ d @  ] [ r o  ] [  u  ] [  i  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.46138834623909064, 0.9977265666701339, 0.8406250000000001]
+Construction Probability: 0.384895306149
+Encoded subsyllabic units: O N . O N . N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -2
+Normalized mod score: 0
+Compound score: 0.462294074
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: O_N , O , N_Cd , N , N_Cd
+Reconstructed word: d@roui
+New word: [ d @  ] [ r o  ] [  ui  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.46138834623909064, 0.6094553589796339, 0.8406250000000001]
+Construction Probability: 0.235111016199
+Encoded subsyllabic units: O N . O N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0.282389594741
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: O_N , O_N , N_Cd , N_Cd , N_Cd
+Reconstructed word: d@r@oui
+New word: [ d @  ] [ r @  ] [  o  ] [  u  ] [  i  ]
+Construction probability by letter: [0.9950984393772087, 0.2547932275381984, 0.46138834623909064, 0.9977265666701339, 0.8406250000000001]
+Construction Probability: 0.0981147686868
+Encoded subsyllabic units: O N . O N . N . N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0.117844711045
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: R , O , N , N_Cd , N_Cd
+Reconstructed word: roui
+New word: [ r ou  ] [  i  ]
+Construction probability by letter: [0.11038961038961038, 0.9995306377496117, 0.9980407973795467, 0.9977265666701339, 0.8406250000000001]
+Construction Probability: 0.092360535841
+Encoded subsyllabic units: O N . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.110933356964
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: O_N , O_N , N_Cd , N , N_Cd
+Reconstructed word: d@r@oui
+New word: [ d @  ] [ r @  ] [  o  ] [  ui  ]
+Construction probability by letter: [0.9950984393772087, 0.2547932275381984, 0.46138834623909064, 0.6094553589796339, 0.8406250000000001]
+Construction Probability: 0.0599328248528
+Encoded subsyllabic units: O N . O N . N . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0.0719847431882
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: R , O , N_Cd , N_Cd , N_Cd
+Reconstructed word: roui
+New word: [ r o  ] [  u  ] [  i  ]
+Construction probability by letter: [0.11038961038961038, 0.9995306377496117, 0.46138834623909064, 0.9977265666701339, 0.8406250000000001]
+Construction Probability: 0.0426977283908
+Encoded subsyllabic units: O N . N . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0.0512838335334
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: R , O , N_Cd , N , N_Cd
+Reconstructed word: roui
+New word: [ r o  ] [  ui  ]
+Construction probability by letter: [0.11038961038961038, 0.9995306377496117, 0.46138834623909064, 0.6094553589796339, 0.8406250000000001]
+Construction Probability: 0.0260816542862
+Encoded subsyllabic units: O N . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.0313264257162
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: R , O_N , N_Cd , N_Cd , N_Cd
+Reconstructed word: r@oui
+New word: [ r @  ] [  o  ] [  u  ] [  i  ]
+Construction probability by letter: [0.11038961038961038, 0.2547932275381984, 0.46138834623909064, 0.9977265666701339, 0.8406250000000001]
+Construction Probability: 0.0108842006582
+Encoded subsyllabic units: O N . N . N . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.0130729093967
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: droui
+Original source phonemes: ['D', 'R', '_', 'UW', 'IY']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'V']
+Roles: R , O_N , N_Cd , N , N_Cd
+Reconstructed word: r@oui
+New word: [ r @  ] [  o  ] [  ui  ]
+Construction probability by letter: [0.11038961038961038, 0.2547932275381984, 0.46138834623909064, 0.6094553589796339, 0.8406250000000001]
+Construction Probability: 0.00664854945324
+Encoded subsyllabic units: O N . N . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0.00798550921205
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Generation time: 2.28383207321
+
+Decoding word: grazier
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.8000000000000003, 'N': 3.8000000000000003, 'O_N_Cd': 1.0, 'Cd': 3.8000000000000003, 'N_N': 1.7000000000000002, 'N_O': 1.0, 'N_Cd': 3.8000000000000003, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.7000000000000002}
+New threshold per role
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.8000000000000003, 'N': 3.8000000000000003, 'O_N_Cd': 1.0, 'Cd': 3.8000000000000003, 'N_N': 1.7000000000000002, 'N_O': 1.0, 'N_Cd': 3.8000000000000003, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.7000000000000002}
+New threshold per role
+{'Cd_Cd': 2.0, 'Cd_N': 2.0, 'Cd_O': 2.0, 'O': 4.800000000000001, 'N': 4.800000000000001, 'O_N_Cd': 2.0, 'Cd': 4.800000000000001, 'N_N': 2.7, 'N_O': 2.0, 'N_Cd': 4.800000000000001, 'Cd_O_N': 2.0, 'R': 2.0, 'O_N': 2.7}
+New threshold per role
+No splitting could be found for grazier
+
+Lowering threshold grazier
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.8000000000000003, 'N': 3.8000000000000003, 'O_N_Cd': 1.0, 'Cd': 3.8000000000000003, 'N_N': 1.7000000000000002, 'N_O': 1.0, 'N_Cd': 3.8000000000000003, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.7000000000000002}
+---------------------- TOP COMPOUND SCORE HYPS ------------------------------
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.9964110417926009, 0.9991926712149078, 0.9995121461539299, 0.998223768276068, 0.9846819824851336]
+Construction Probability: 0.972885882093
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 1.0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.9964110417926009, 0.9991926712149078, 0.9995121461539299, 0.3897360922428169, 0.9846819824851336]
+Construction Probability: 0.379843431839
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.390429585659
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , O , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.37329762420127266, 0.9991926712149078, 0.9995121461539299, 0.998223768276068, 0.9846819824851336]
+Construction Probability: 0.36448410663
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.374642199398
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , O , N , N , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.37329762420127266, 0.9991926712149078, 0.9995121461539299, 0.3897360922428169, 0.9846819824851336]
+Construction Probability: 0.142305378731
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0.146271398681
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N , Cd
+Reconstructed word: g@razier
+New word: [ g @  ] [ r a  ] [ z ie r ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.9964110417926009, 0.9991926712149078, 0.9995121461539299, 0.3897360922428169, 0.32996632996632996]
+Construction Probability: 0.127285301646
+Encoded subsyllabic units: O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0.130832715315
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: R , O , N_Cd , O , N , N_Cd , O_N
+Reconstructed word: razier@
+New word: [ r a  ] [ z ie  ] [ r @  ]
+Construction probability by letter: [0.11038961038961038, 0.9995306377496117, 0.9964110417926009, 0.9991926712149078, 0.9995121461539299, 0.998223768276068, 0.9846819824851336]
+Construction Probability: 0.107925496843
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0.110933356964
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , R , N , N_Cd , O_N
+Reconstructed word: g@raier@
+New word: [ g @  ] [ r a  ] [  ie  ] [ r @  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.9964110417926009, 0.10774410774410774, 0.9995121461539299, 0.998223768276068, 0.9846819824851336]
+Construction Probability: 0.10490741608
+Encoded subsyllabic units: O N . O N . N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0.107831162946
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , Cd , N , N_Cd , O_N
+Reconstructed word: g@razier@
+New word: [ g @  ] [ r a z ] [  ie  ] [ r @  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.37329762420127266, 0.22929292929292927, 0.9995121461539299, 0.998223768276068, 0.9846819824851336]
+Construction Probability: 0.0836411544015
+Encoded subsyllabic units: O N . O N Cd . N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.0859722151807
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N , N , N_Cd
+Reconstructed word: g@razier
+New word: [ g @  ] [ r a  ] [ z ier  ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.9964110417926009, 0.9991926712149078, 0.9995121461539299, 0.3897360922428169, 0.16329966329966328]
+Construction Probability: 0.0629932360185
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0.0647488438038
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: grazier
+Original source phonemes: ['G', 'R', 'EY', 'ZH', '_', '_', 'AXR']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N_Cd , O , N_Cd , N , Cd
+Reconstructed word: g@razier
+New word: [ g @  ] [ r a  ] [ z i  ] [  e r ]
+Construction probability by letter: [0.9950984393772087, 0.9995306377496117, 0.9964110417926009, 0.9991926712149078, 0.3875946969696969, 0.3897360922428169, 0.32996632996632996]
+Construction Probability: 0.0493591879897
+Encoded subsyllabic units: O N . O N . O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0.0507348178222
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Generation time: 15.1596009731
+
+Decoding word: musselman
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 4.6, 'N': 4.6, 'O_N_Cd': 1.0, 'Cd': 4.6, 'N_N': 1.9, 'N_O': 1.0, 'N_Cd': 4.6, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.9}
+New threshold per role
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 4.6, 'N': 4.6, 'O_N_Cd': 1.0, 'Cd': 4.6, 'N_N': 1.9, 'N_O': 1.0, 'N_Cd': 4.6, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.9}
+New threshold per role
+{'Cd_Cd': 2.0, 'Cd_N': 2.0, 'Cd_O': 2.0, 'O': 5.6, 'N': 5.6, 'O_N_Cd': 2.0, 'Cd': 5.6, 'N_N': 2.9, 'N_O': 2.0, 'N_Cd': 5.6, 'Cd_O_N': 2.0, 'R': 2.0, 'O_N': 2.9}
+New threshold per role
+No splitting could be found for musselman
+
+Lowering threshold musselman
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 4.6, 'N': 4.6, 'O_N_Cd': 1.0, 'Cd': 4.6, 'N_N': 1.9, 'N_O': 1.0, 'N_Cd': 4.6, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.9}
+---------------------- TOP COMPOUND SCORE HYPS ------------------------------
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: [0.9981896245940947, 0.9988801304645479, 0.9961245132266947, 0.999562634153869, 0.9960105558463892, 0.9969807160850215, 0.9998569693097278, 0.992858546803542, 0.9607711029801346]
+Construction Probability: 0.940255656208
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 1.0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: mus@selman
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: [0.9981896245940947, 0.41453598484848486, 0.9961245132266947, 0.999562634153869, 0.9960105558463892, 0.9969807160850215, 0.9998569693097278, 0.992858546803542, 0.9607711029801346]
+Construction Probability: 0.390206785147
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0.415000731525
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , O_N , O , N , Cd
+Reconstructed word: mus@sel@man
+New word: [ m u  ] [ s @  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: [0.9981896245940947, 0.9988801304645479, 0.9961245132266947, 0.999562634153869, 0.9960105558463892, 0.39155844155844155, 0.9998569693097278, 0.992858546803542, 0.9607711029801346]
+Construction Probability: 0.369280000577
+Encoded subsyllabic units: O N . O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.392744247949
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O_N , N_Cd , O_N , O , N , N_Cd , O , N , Cd
+Reconstructed word: m@us@selman
+New word: [ m @  ] [  u  ] [ s @  ] [ s el  ] [ m a n ]
+Construction probability by letter: [0.38636363636363635, 0.9988801304645479, 0.9961245132266947, 0.999562634153869, 0.9960105558463892, 0.9969807160850215, 0.9998569693097278, 0.992858546803542, 0.9607711029801346]
+Construction Probability: 0.363939461494
+Encoded subsyllabic units: O N . N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 5
+Normalized mod score: 0
+Compound score: 0.387064368176
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N , O_N
+Reconstructed word: mus@selman@
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a  ] [ n @  ]
+Construction probability by letter: [0.9981896245940947, 0.9988801304645479, 0.9961245132266947, 0.999562634153869, 0.9960105558463892, 0.9969807160850215, 0.9998569693097278, 0.992858546803542, 0.3165238784334693]
+Construction Probability: 0.309765110648
+Encoded subsyllabic units: O N . O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0.329447750304
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , R , O , N , N_Cd , O , N , Cd
+Reconstructed word: muselman
+New word: [ m u  ] [ s el  ] [ m a n ]
+Construction probability by letter: [0.9981896245940947, 0.9988801304645479, 0.21580888247554914, 0.999562634153869, 0.9960105558463892, 0.9969807160850215, 0.9998569693097278, 0.992858546803542, 0.9607711029801346]
+Construction Probability: 0.203704978357
+Encoded subsyllabic units: O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.216648500875
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , R , O , N , Cd
+Reconstructed word: mus@seman
+New word: [ m u  ] [ s @  ] [ s e  ] [ m a n ]
+Construction probability by letter: [0.9981896245940947, 0.9988801304645479, 0.9961245132266947, 0.999562634153869, 0.9960105558463892, 0.21580888247554914, 0.9998569693097278, 0.992858546803542, 0.9607711029801346]
+Construction Probability: 0.203530037376
+Encoded subsyllabic units: O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0.216462444051
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N_Cd , O_N
+Reconstructed word: mus@selman@
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a  ] [ n @  ]
+Construction probability by letter: [0.9981896245940947, 0.9988801304645479, 0.9961245132266947, 0.999562634153869, 0.9960105558463892, 0.9969807160850215, 0.9998569693097278, 0.6120389580794344, 0.3165238784334693]
+Construction Probability: 0.190951990272
+Encoded subsyllabic units: O N . O N . O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0.203085181154
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N_Cd , O_N , O , N , Cd
+Reconstructed word: mus@sel@man
+New word: [ m u  ] [ s @  ] [ s e  ] [ l @  ] [ m a n ]
+Construction probability by letter: [0.9981896245940947, 0.9988801304645479, 0.9961245132266947, 0.999562634153869, 0.48739353478983904, 0.39155844155844155, 0.9998569693097278, 0.992858546803542, 0.9607711029801346]
+Construction Probability: 0.180705599707
+Encoded subsyllabic units: O N . O N . O N . O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0.19218772949
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: musselman
+Original source phonemes: ['M', 'AH', 'S', '_', 'AX', 'L', 'M', 'AX', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V', 'C', 'C', 'V', 'C']
+Roles: O , N_Cd , O_N , O , N , N_Cd , O , N_Cd , R
+Reconstructed word: mus@selma
+New word: [ m u  ] [ s @  ] [ s el  ] [ m a  ]
+Construction probability by letter: [0.9981896245940947, 0.9988801304645479, 0.9961245132266947, 0.999562634153869, 0.9960105558463892, 0.9969807160850215, 0.9998569693097278, 0.6120389580794344, 0.2729556264714891]
+Construction Probability: 0.164668208884
+Encoded subsyllabic units: O N . O N . O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.175131314336
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Generation time: 30.3230381012
+
+Decoding word: sonne
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+New threshold per role
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+New threshold per role
+{'Cd_Cd': 2.0, 'Cd_N': 2.0, 'Cd_O': 2.0, 'O': 4.0, 'N': 4.0, 'O_N_Cd': 2.0, 'Cd': 4.0, 'N_N': 2.5, 'N_O': 2.0, 'N_Cd': 4.0, 'Cd_O_N': 2.0, 'R': 2.0, 'O_N': 2.5}
+New threshold per role
+No splitting could be found for sonne
+
+Lowering threshold sonne
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+---------------------- TOP COMPOUND SCORE HYPS ------------------------------
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: [0.9964155893245423, 0.9971081777390731, 0.9953592461215032, 0.9988357284713554, 0.9834053262708349]
+Construction Probability: 0.9713802556
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 1.0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N , R , O , N_Cd
+Reconstructed word: sone
+New word: [ s o  ] [ n e  ]
+Construction probability by letter: [0.9964155893245423, 0.46303184705823713, 0.9953592461215032, 0.9988357284713554, 0.9834053262708349]
+Construction Probability: 0.45108445
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0.464374736258
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O_N , O , N_Cd
+Reconstructed word: son@ne
+New word: [ s o  ] [ n @  ] [ n e  ]
+Construction probability by letter: [0.9964155893245423, 0.9971081777390731, 0.29921850794931565, 0.9988357284713554, 0.9834053262708349]
+Construction Probability: 0.292010097726
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0.300613581594
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O_N , N_Cd , R , O , N_Cd
+Reconstructed word: s@one
+New word: [ s @  ] [  o  ] [ n e  ]
+Construction probability by letter: [0.29750073078047357, 0.9971081777390731, 0.9953592461215032, 0.9988357284713554, 0.9834053262708349]
+Construction Probability: 0.290025907867
+Encoded subsyllabic units: O N . N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0.298570931615
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , R , O_N , N_Cd
+Reconstructed word: son@e
+New word: [ s o  ] [ n @  ] [  e  ]
+Construction probability by letter: [0.9964155893245423, 0.9971081777390731, 0.9953592461215032, 0.2153383281222347, 0.9834053262708349]
+Construction Probability: 0.209419221048
+Encoded subsyllabic units: O N . O N . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.215589332644
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N , Cd , O , N_Cd
+Reconstructed word: sonne
+New word: [ s o n ] [ n e  ]
+Construction probability by letter: [0.9964155893245423, 0.46303184705823713, 0.4022144945321762, 0.9988357284713554, 0.9834053262708349]
+Construction Probability: 0.182278614234
+Encoded subsyllabic units: O N Cd . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0.187649083027
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N , R , Cd , N_Cd
+Reconstructed word: sone
+New word: [ s o n ] [  e  ]
+Construction probability by letter: [0.9964155893245423, 0.46303184705823713, 0.9953592461215032, 0.3348121054805026, 0.9834053262708349]
+Construction Probability: 0.151204577639
+Encoded subsyllabic units: O N Cd . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0.155659513118
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N , O_N , O , N_Cd
+Reconstructed word: son@ne
+New word: [ s o  ] [ n @  ] [ n e  ]
+Construction probability by letter: [0.9964155893245423, 0.46303184705823713, 0.29921850794931565, 0.9988357284713554, 0.9834053262708349]
+Construction Probability: 0.135602112116
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0.139597352668
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N_Cd , O_N , Cd , N_Cd
+Reconstructed word: son@ne
+New word: [ s o  ] [ n @ n ] [  e  ]
+Construction probability by letter: [0.9964155893245423, 0.9971081777390731, 0.29921850794931565, 0.3348121054805026, 0.9834053262708349]
+Construction Probability: 0.0978824774227
+Encoded subsyllabic units: O N . O N Cd . N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 4
+Normalized mod score: 0
+Compound score: 0.100766385623
+Coda follows schwa penalty: 5
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sonne
+Original source phonemes: ['S', 'AA', 'N', '_', '_']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'V', 'C', 'C', 'V']
+Roles: O , N , R , O_N , N_Cd
+Reconstructed word: son@e
+New word: [ s o  ] [ n @  ] [  e  ]
+Construction probability by letter: [0.9964155893245423, 0.46303184705823713, 0.9953592461215032, 0.2153383281222347, 0.9834053262708349]
+Construction Probability: 0.0972489955417
+Encoded subsyllabic units: O N . O N . N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0.100114239487
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Generation time: 2.93874716759
+
+Decoding word: sheen
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+New threshold per role
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+New threshold per role
+{'Cd_Cd': 2.0, 'Cd_N': 2.0, 'Cd_O': 2.0, 'O': 4.0, 'N': 4.0, 'O_N_Cd': 2.0, 'Cd': 4.0, 'N_N': 2.5, 'N_O': 2.0, 'N_Cd': 4.0, 'Cd_O_N': 2.0, 'R': 2.0, 'O_N': 2.5}
+New threshold per role
+No splitting could be found for sheen
+
+Lowering threshold sheen
+
+{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 3.0, 'O_N_Cd': 1.0, 'Cd': 3.0, 'N_N': 1.5, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.5}
+---------------------- TOP COMPOUND SCORE HYPS ------------------------------
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: [0.9831903658532042, 0.9998465056033646, 0.998098497850459, 0.9974924353735121, 0.9274675099125119]
+Construction Probability: 0.907721589662
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 1.0
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , O_N
+Reconstructed word: s@heen@
+New word: [ s @  ] [ h ee  ] [ n @  ]
+Construction probability by letter: [0.46988294581530826, 0.9998465056033646, 0.998098497850459, 0.9974924353735121, 0.9274675099125119]
+Construction Probability: 0.433815168806
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.477916548142
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N , O_N
+Reconstructed word: sheen@
+New word: [ sh ee  ] [ n @  ]
+Construction probability by letter: [0.9831903658532042, 0.9998465056033646, 0.998098497850459, 0.42445555910882343, 0.9274675099125119]
+Construction Probability: 0.38625603683
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.425522584489
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N , Cd
+Reconstructed word: sheen
+New word: [ sh ee n ]
+Construction probability by letter: [0.9831903658532042, 0.9998465056033646, 0.998098497850459, 0.42445555910882343, 0.5569857125863208]
+Construction Probability: 0.231964022044
+Encoded subsyllabic units: O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 0
+Normalized mod score: 0
+Compound score: 0.255545339767
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N , N_Cd , R
+Reconstructed word: shee
+New word: [ sh ee  ]
+Construction probability by letter: [0.9831903658532042, 0.9998465056033646, 0.998098497850459, 0.9974924353735121, 0.1941250946568095]
+Construction Probability: 0.189992142724
+Encoded subsyllabic units: O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0.209306625388
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N , O_N
+Reconstructed word: s@heen@
+New word: [ s @  ] [ h ee  ] [ n @  ]
+Construction probability by letter: [0.46988294581530826, 0.9998465056033646, 0.998098497850459, 0.42445555910882343, 0.9274675099125119]
+Construction Probability: 0.184598151821
+Encoded subsyllabic units: O N . O N . O N
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 2
+Normalized mod score: 0
+Compound score: 0.203364284736
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N , Cd
+Reconstructed word: s@heen
+New word: [ s @  ] [ h ee n ]
+Construction probability by letter: [0.46988294581530826, 0.9998465056033646, 0.998098497850459, 0.42445555910882343, 0.5569857125863208]
+Construction Probability: 0.110859444709
+Encoded subsyllabic units: O N . O N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: 1
+Normalized mod score: 0
+Compound score: 0.122129346675
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: R , O , N , N_Cd , O_N
+Reconstructed word: heen@
+New word: [ h ee  ] [ n @  ]
+Construction probability by letter: [0.11038961038961038, 0.9998465056033646, 0.998098497850459, 0.9974924353735121, 0.9274675099125119]
+Construction Probability: 0.101916206775
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0.112276944754
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O_N , O , N , N_Cd , R
+Reconstructed word: s@hee
+New word: [ s @  ] [ h ee  ]
+Construction probability by letter: [0.46988294581530826, 0.9998465056033646, 0.998098497850459, 0.9974924353735121, 0.1941250946568095]
+Construction Probability: 0.0908003890249
+Encoded subsyllabic units: O N . O N
+Compound role count: 0
+Removal count: 2
+Extra letter count: 0
+Modification penalty: 3
+Normalized mod score: 0
+Compound score: 0.100031099909
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Original: sheen
+Original source phonemes: ['_', 'SH', 'IY', '_', 'N']
+Target reference: 
+Toneless target syllables: []
+Target roles: 
+Labels: ['C', 'C', 'V', 'V', 'C']
+Roles: O , O , N_Cd , N , Cd
+Reconstructed word: sheen
+New word: [ sh e  ] [  e n ]
+Construction probability by letter: [0.9831903658532042, 0.9998465056033646, 0.3716569335346699, 0.42445555910882343, 0.5569857125863208]
+Construction Probability: 0.0863752799037
+Encoded subsyllabic units: O N . N Cd
+Compound role count: 0
+Removal count: 0
+Extra letter count: 0
+Modification penalty: -1
+Normalized mod score: 0
+Compound score: 0.0951561369558
+Coda follows schwa penalty: 0
+Phone alignment penalty: 0
+Phones score: 0
+Compound penalty: 0
+Search lvl: 0
+
+
+
+Generation time: 3.35438895226
+
+Source graphemes: c @ . l a . r ey
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: k e . l a . l i
+
+
+C@
+LA
+REY
+Source graphemes: d @ . r ou . i n
+Roles: O N . O N . N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d e . l ao . y-i n
+
+
+D@
+ROU
+IN
+Source graphemes: g @ . r a . z ie . r @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: g e . l ei . q i . NULL_O e-r
+
+
+G@
+RA
+ZIE
+R@
+Source graphemes: m u . s @ . s el . m a n
+Roles: O N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: m a . s ai . NULL_O e-r . m a n
+
+
+MU
+S@
+SEL
+MAN
+Source graphemes: s o . n e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s uo . NULL_O e-n
+
+
+SO
+NE
+Source graphemes: sh ee . n @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: x i . NULL_O e-n
+
+
+SHEE
+N@
+Source graphemes: c @ . l a . r ey
+Roles: O N . O N . O N
+['K', '']
+['L', 'AA']
+['R', 'EY']
+Source phonemes: K -  . L - AA . R - EY
+Target phonemes: k e . l a . l i
+
+
+Source graphemes: d @ . r ou . i n
+Roles: O N . O N . N Cd
+['D', '']
+['R', 'UW']
+['IH', 'N']
+Source phonemes: D -  . R - UW . IH - N
+Target phonemes: d e . l ao . y-i n
+
+
+Source graphemes: g @ . r a . z ie . r @
+Roles: O N . O N . O N . O N
+['NG', '']
+['R', 'AX']
+['Z', 'IY']
+['R', '']
+Source phonemes: NG -  . R - AX . Z - IY . R - 
+Target phonemes: g e . l ei . q i . NULL_O e-r
+
+
+Source graphemes: m u . s @ . s el . m a n
+Roles: O N . O N . O N . O N Cd
+['M', 'UW']
+['S', '']
+['S', 'AX']
+['M', 'AE', 'N']
+Source phonemes: M - UW . S -  . S - AX . M - AE - N
+Target phonemes: m a . s ai . NULL_O e-r . m a n
+
+
+Source graphemes: s o . n e
+Roles: O N . O N
+['S', 'OW']
+['N', '']
+Source phonemes: S - OW . N - 
+Target phonemes: s uo . NULL_O e-n
+
+
+Source graphemes: sh ee . n @
+Roles: O N . O N
+['SH', '']
+['N', '']
+Source phonemes: SH -  . N - 
+Target phonemes: x i . NULL_O e-n
+
+
+[<shared_res.Word.Word instance at 0x7ffff71871b8>, <shared_res.Word.Word instance at 0x7ffff7187c20>, <shared_res.Word.Word instance at 0x7ffff7187bd8>, <shared_res.Word.Word instance at 0x7ffff7187cb0>, <shared_res.Word.Word instance at 0x7ffff717ed88>, <shared_res.Word.Word instance at 0x7ffff717e998>]
+Source graphemes: c @ . l a . r ey
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes:  .  . 
+
+
+C@
+LA
+REY
+Source graphemes: d @ . r ou . i
+Roles: O N . O N . N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes:  .  . 
+
+
+D@
+ROU
+I
+Source graphemes: g @ . r a . z ie . r @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes:  .  .  . 
+
+
+G@
+RA
+ZIE
+R@
+Source graphemes: m u . s @ . s el . m a n
+Roles: O N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes:  .  .  . 
+
+
+MU
+S@
+SEL
+MAN
+Source graphemes: s o . n e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes:  . 
+
+
+SO
+NE
+Source graphemes: sh ee . n @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes:  . 
+
+
+SHEE
+N@
+Source graphemes: c @ . l a . r ey
+Roles: O N . O N . O N
+['K', '']
+['L', 'AA']
+['R', 'EY']
+Source phonemes: K -  . L - AA . R - EY
+Target phonemes:  .  . 
+
+
+Source graphemes: d @ . r ou . i
+Roles: O N . O N . N
+['D', '']
+['R', 'UW']
+['AY']
+Source phonemes: D -  . R - UW . AY
+Target phonemes:  .  . 
+
+
+Source graphemes: g @ . r a . z ie . r @
+Roles: O N . O N . O N . O N
+['NG', '']
+['R', 'AX']
+['Z', 'IY']
+['R', '']
+Source phonemes: NG -  . R - AX . Z - IY . R - 
+Target phonemes:  .  .  . 
+
+
+Source graphemes: m u . s @ . s el . m a n
+Roles: O N . O N . O N . O N Cd
+['M', 'UW']
+['S', '']
+['S', 'AX']
+['M', 'AE', 'N']
+Source phonemes: M - UW . S -  . S - AX . M - AE - N
+Target phonemes:  .  .  . 
+
+
+Source graphemes: s o . n e
+Roles: O N . O N
+['S', 'OW']
+['N', '']
+Source phonemes: S - OW . N - 
+Target phonemes:  . 
+
+
+Source graphemes: sh ee . n @
+Roles: O N . O N
+['SH', '']
+['N', '']
+Source phonemes: SH -  . N - 
+Target phonemes:  . 
+
+
+
+PHONE MAPPING RESULTS
+k e . l a . l i	O N . O N . O N
+d e . l ao . y-i	O N . O N . N
+g e . l ei . q i . NULL_O e-r	O N . O N . O N . O N
+m a . s ai . NULL_O e-r . m a n	O N . O N . O N . O N Cd
+s uo . NULL_O e-n	O N . O N
+x i . NULL_O e-n	O N . O N
+/data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work/test_units_roles_t2p_input.txt
+Roles: O N . O N . O N
+Vietnamese phonemes: k e _1 . l a _1 . l i _1
+
+
+Found: #,k|e|#,1 => 2
+{'4': 1.0}
+Found: _,k|e|#,1 => 2
+{'4': 1.0}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 1
+{'1': 1.0}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 1,l|i|#,# => 1
+{'3': 1.0}
+Found: _,l|i|#,# => 1
+{'3': 1.0}
+Found: 1,l|i|#,_ => 1
+{'3': 1.0}
+Found: _,l|i|#,_ => 1
+{'3': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 1
+{'3': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,1 => 2
+{'4': 1.0}
+Found: _,k|e|#,1 => 2
+{'4': 1.0}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,3 => 1
+{'1': 1.0}
+Found: _,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 1
+{'1': 1.0}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 1,l|i|#,# => 3
+{'3': 1.0}
+Found: _,l|i|#,# => 3
+{'3': 1.0}
+Found: 1,l|i|#,_ => 3
+{'3': 1.0}
+Found: _,l|i|#,_ => 3
+{'3': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 3
+{'3': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,1 => 2
+{'4': 1.0}
+Found: _,k|e|#,1 => 2
+{'4': 1.0}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 1
+{'1': 1.0}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 1,l|i|#,# => 2
+{'3': 1.0}
+Found: _,l|i|#,# => 2
+{'3': 1.0}
+Found: 1,l|i|#,_ => 2
+{'3': 1.0}
+Found: _,l|i|#,_ => 2
+{'3': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 2
+{'3': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 3
+{'1': 1.0}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 1
+{'3': 1.0}
+Found: _,l|i|#,_ => 1
+{'3': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 1
+{'3': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,3 => 3
+{'1': 1.0}
+Found: _,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 3
+{'1': 1.0}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 3
+{'3': 1.0}
+Found: _,l|i|#,_ => 3
+{'3': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 3
+{'3': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 3
+{'1': 1.0}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 2
+{'3': 1.0}
+Found: _,l|i|#,_ => 2
+{'3': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 2
+{'3': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 4
+{'1': 1.0}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 1
+{'3': 1.0}
+Found: _,l|i|#,_ => 1
+{'3': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 1
+{'3': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,3 => 4
+{'1': 1.0}
+Found: _,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 4
+{'1': 1.0}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 3
+{'3': 1.0}
+Found: _,l|i|#,_ => 3
+{'3': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 3
+{'3': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,k|e|#,_ => 2
+{'4': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 2
+{'4': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 4
+{'1': 1.0}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 2
+{'3': 1.0}
+Found: _,l|i|#,_ => 2
+{'3': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 2
+{'3': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,1 => 4
+{'4': 1.0}
+Found: _,k|e|#,1 => 4
+{'4': 1.0}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 1
+{'1': 1.0}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 1,l|i|#,# => 1
+{'3': 1.0}
+Found: _,l|i|#,# => 1
+{'3': 1.0}
+Found: 1,l|i|#,_ => 1
+{'3': 1.0}
+Found: _,l|i|#,_ => 1
+{'3': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 1
+{'3': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,1 => 4
+{'4': 1.0}
+Found: _,k|e|#,1 => 4
+{'4': 1.0}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,3 => 1
+{'1': 1.0}
+Found: _,l|a|#,3 => 1
+{'1': 1.0}
+Found: 4,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 1
+{'1': 1.0}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 1,l|i|#,# => 3
+{'3': 1.0}
+Found: _,l|i|#,# => 3
+{'3': 1.0}
+Found: 1,l|i|#,_ => 3
+{'3': 1.0}
+Found: _,l|i|#,_ => 3
+{'3': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 3
+{'3': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,1 => 4
+{'4': 1.0}
+Found: _,k|e|#,1 => 4
+{'4': 1.0}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,l|a|#,_ => 1
+{'1': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 1
+{'1': 1.0}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 1,l|i|#,# => 2
+{'3': 1.0}
+Found: _,l|i|#,# => 2
+{'3': 1.0}
+Found: 1,l|i|#,_ => 2
+{'3': 1.0}
+Found: _,l|i|#,_ => 2
+{'3': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 2
+{'3': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 3
+{'1': 1.0}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 1
+{'3': 1.0}
+Found: _,l|i|#,_ => 1
+{'3': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 1
+{'3': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,3 => 3
+{'1': 1.0}
+Found: _,l|a|#,3 => 3
+{'1': 1.0}
+Found: 4,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 3
+{'1': 1.0}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 3
+{'3': 1.0}
+Found: _,l|i|#,_ => 3
+{'3': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 3
+{'3': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,l|a|#,_ => 3
+{'1': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 3
+{'1': 1.0}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 2
+{'3': 1.0}
+Found: _,l|i|#,_ => 2
+{'3': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 2
+{'3': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 4
+{'1': 1.0}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 1
+{'3': 1.0}
+Found: _,l|i|#,_ => 1
+{'3': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 1
+{'3': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,3 => 4
+{'1': 1.0}
+Found: _,l|a|#,3 => 4
+{'1': 1.0}
+Found: 4,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 4
+{'1': 1.0}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 3
+{'3': 1.0}
+Found: _,l|i|#,_ => 3
+{'3': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 3
+{'3': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,k|e|#,_ => 4
+{'4': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,k|e|_,_ => 4
+{'4': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,l|a|#,_ => 4
+{'1': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,l|a|_,_ => 4
+{'1': 1.0}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|i|#,# => 2
+{'3': 1.0}
+Found: _,l|i|#,_ => 2
+{'3': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,l|i|_,_ => 2
+{'3': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Roles: O N . O N . N
+Vietnamese phonemes: d e _1 . l ao _1 . y-i _1
+
+
+Found: #,d|e|#,2 => 2
+{'2': 1.0}
+Found: _,d|e|#,2 => 2
+{'2': 1.0}
+Found: #,d|e|#,_ => 2
+{'2': 1.0}
+Found: _,d|e|#,_ => 2
+{'2': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,d|e|_,_ => 2
+{'2': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,l|ao|#,1 => 2
+{'2': 1.0}
+Found: _,l|ao|#,1 => 2
+{'2': 1.0}
+Found: 2,l|ao|#,_ => 2
+{'2': 1.0}
+Found: _,l|ao|#,_ => 2
+{'2': 1.0}
+Found: _,_|ao|#,_ => 2
+{'2': 1.0}
+Found: _,_|ao|#,_ => 2
+{'2': 1.0}
+Found: _,l|ao|_,_ => 2
+{'2': 1.0}
+Found: _,_|ao|_,_ => 2
+{'2': 1.0}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,#|y-i|_,_ => 1
+{'1': 1.0}
+Found: _,_|y-i|_,_ => 1
+{'1': 1.0}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,d|e|#,2 => 4
+{'2': 1.0}
+Found: _,d|e|#,2 => 4
+{'2': 1.0}
+Found: #,d|e|#,_ => 4
+{'2': 1.0}
+Found: _,d|e|#,_ => 4
+{'2': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,d|e|_,_ => 4
+{'2': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|ao|#,1 => 2
+{'2': 1.0}
+Found: _,l|ao|#,_ => 2
+{'2': 1.0}
+Found: _,_|ao|#,_ => 2
+{'2': 1.0}
+Found: _,_|ao|#,_ => 2
+{'2': 1.0}
+Found: _,l|ao|_,_ => 2
+{'2': 1.0}
+Found: _,_|ao|_,_ => 2
+{'2': 1.0}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,#|y-i|_,_ => 1
+{'1': 1.0}
+Found: _,_|y-i|_,_ => 1
+{'1': 1.0}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Roles: O N . O N . O N . O N
+Vietnamese phonemes: g e _1 . l ei _1 . q i _1 . NULL_O e-r _1
+
+
+Found: #,g|e|#,2 => 2
+{'2': 1.0}
+Found: _,g|e|#,2 => 2
+{'2': 1.0}
+Found: #,g|e|#,_ => 2
+{'2': 1.0}
+Found: _,g|e|#,_ => 2
+{'2': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,g|e|_,_ => 2
+{'2': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,q|i|#,3 => 1
+{'2': 1.0}
+Found: _,q|i|#,3 => 1
+{'2': 1.0}
+Found: 2,q|i|#,_ => 1
+{'2': 1.0}
+Found: _,q|i|#,_ => 1
+{'2': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,q|i|_,_ => 1
+{'2': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,NULL_O|e-r|#,# => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,g|e|#,2 => 2
+{'2': 1.0}
+Found: _,g|e|#,2 => 2
+{'2': 1.0}
+Found: #,g|e|#,_ => 2
+{'2': 1.0}
+Found: _,g|e|#,_ => 2
+{'2': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,g|e|_,_ => 2
+{'2': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,q|i|#,3 => 3
+{'2': 1.0}
+Found: _,q|i|#,3 => 3
+{'2': 1.0}
+Found: 2,q|i|#,_ => 3
+{'2': 1.0}
+Found: _,q|i|#,_ => 3
+{'2': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,q|i|_,_ => 3
+{'2': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,NULL_O|e-r|#,# => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,g|e|#,2 => 2
+{'2': 1.0}
+Found: _,g|e|#,2 => 2
+{'2': 1.0}
+Found: #,g|e|#,_ => 2
+{'2': 1.0}
+Found: _,g|e|#,_ => 2
+{'2': 1.0}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,g|e|_,_ => 2
+{'2': 1.0}
+Found: _,_|e|_,_ => 2
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,l|ei|#,2 => 2
+{'2': 1.0}
+Found: _,l|ei|#,2 => 2
+{'2': 1.0}
+Found: 2,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,q|i|#,3 => 2
+{'2': 1.0}
+Found: _,q|i|#,3 => 2
+{'2': 1.0}
+Found: 2,q|i|#,_ => 2
+{'2': 1.0}
+Found: _,q|i|#,_ => 2
+{'2': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,q|i|_,_ => 2
+{'2': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,NULL_O|e-r|#,# => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,# => 3
+{'3': 1.0}
+Found: 2,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,g|e|#,2 => 4
+{'2': 1.0}
+Found: _,g|e|#,2 => 4
+{'2': 1.0}
+Found: #,g|e|#,_ => 4
+{'2': 1.0}
+Found: _,g|e|#,_ => 4
+{'2': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,g|e|_,_ => 4
+{'2': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,q|i|#,3 => 1
+{'2': 1.0}
+Found: _,q|i|#,3 => 1
+{'2': 1.0}
+Found: 2,q|i|#,_ => 1
+{'2': 1.0}
+Found: _,q|i|#,_ => 1
+{'2': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,q|i|_,_ => 1
+{'2': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,NULL_O|e-r|#,# => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,g|e|#,2 => 4
+{'2': 1.0}
+Found: _,g|e|#,2 => 4
+{'2': 1.0}
+Found: #,g|e|#,_ => 4
+{'2': 1.0}
+Found: _,g|e|#,_ => 4
+{'2': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,g|e|_,_ => 4
+{'2': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,q|i|#,3 => 3
+{'2': 1.0}
+Found: _,q|i|#,3 => 3
+{'2': 1.0}
+Found: 2,q|i|#,_ => 3
+{'2': 1.0}
+Found: _,q|i|#,_ => 3
+{'2': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,q|i|_,_ => 3
+{'2': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,NULL_O|e-r|#,# => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,g|e|#,2 => 4
+{'2': 1.0}
+Found: _,g|e|#,2 => 4
+{'2': 1.0}
+Found: #,g|e|#,_ => 4
+{'2': 1.0}
+Found: _,g|e|#,_ => 4
+{'2': 1.0}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|e|#,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,g|e|_,_ => 4
+{'2': 1.0}
+Found: _,_|e|_,_ => 4
+{'2': 0.6666666666666666, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,l|ei|#,2 => 2
+{'2': 1.0}
+Found: _,l|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,_|ei|#,_ => 2
+{'2': 1.0}
+Found: _,l|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|ei|_,_ => 2
+{'2': 1.0}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,q|i|#,3 => 2
+{'2': 1.0}
+Found: _,q|i|#,3 => 2
+{'2': 1.0}
+Found: 2,q|i|#,_ => 2
+{'2': 1.0}
+Found: _,q|i|#,_ => 2
+{'2': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,q|i|_,_ => 2
+{'2': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 2,NULL_O|e-r|#,# => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,# => 3
+{'3': 1.0}
+Found: 2,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Roles: O N . O N . O N . O N Cd
+Vietnamese phonemes: m a _1 . s ai _1 . NULL_O e-r _1 . m a n _1
+
+
+Found: #,m|a|#,4 => 1
+{'3': 1.0}
+Found: _,m|a|#,4 => 1
+{'3': 1.0}
+Found: #,m|a|#,_ => 1
+{'3': 1.0}
+Found: _,m|a|#,_ => 1
+{'3': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 1
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 1
+{'4': 1.0}
+Found: _,m|a|n,# => 1
+{'4': 1.0}
+Found: 3,m|a|n,_ => 1
+{'4': 1.0}
+Found: _,m|a|n,_ => 1
+{'4': 1.0}
+Found: _,_|a|n,_ => 1
+{'4': 1.0}
+Found: _,_|a|n,_ => 1
+{'4': 1.0}
+Found: _,m|a|_,_ => 1
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 1
+{'1': 0.5, '4': 0.5}
+Found: #,m|a|#,4 => 1
+{'3': 1.0}
+Found: _,m|a|#,4 => 1
+{'3': 1.0}
+Found: #,m|a|#,_ => 1
+{'3': 1.0}
+Found: _,m|a|#,_ => 1
+{'3': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 1
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 3
+{'4': 1.0}
+Found: _,m|a|n,# => 3
+{'4': 1.0}
+Found: 3,m|a|n,_ => 3
+{'4': 1.0}
+Found: _,m|a|n,_ => 3
+{'4': 1.0}
+Found: _,_|a|n,_ => 3
+{'4': 1.0}
+Found: _,_|a|n,_ => 3
+{'4': 1.0}
+Found: _,m|a|_,_ => 3
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 3
+{'1': 0.5, '4': 0.5}
+Found: #,m|a|#,4 => 1
+{'3': 1.0}
+Found: _,m|a|#,4 => 1
+{'3': 1.0}
+Found: #,m|a|#,_ => 1
+{'3': 1.0}
+Found: _,m|a|#,_ => 1
+{'3': 1.0}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 1
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 1
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,4 => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,4 => 3
+{'3': 1.0}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 4
+{'4': 1.0}
+Found: _,m|a|n,# => 4
+{'4': 1.0}
+Found: 3,m|a|n,_ => 4
+{'4': 1.0}
+Found: _,m|a|n,_ => 4
+{'4': 1.0}
+Found: _,_|a|n,_ => 4
+{'4': 1.0}
+Found: _,_|a|n,_ => 4
+{'4': 1.0}
+Found: _,m|a|_,_ => 4
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 4
+{'1': 0.5, '4': 0.5}
+Found: #,m|a|#,4 => 3
+{'3': 1.0}
+Found: _,m|a|#,4 => 3
+{'3': 1.0}
+Found: #,m|a|#,_ => 3
+{'3': 1.0}
+Found: _,m|a|#,_ => 3
+{'3': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 3
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: 3,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 1
+{'4': 1.0}
+Found: _,m|a|n,# => 1
+{'4': 1.0}
+Found: 3,m|a|n,_ => 1
+{'4': 1.0}
+Found: _,m|a|n,_ => 1
+{'4': 1.0}
+Found: _,_|a|n,_ => 1
+{'4': 1.0}
+Found: _,_|a|n,_ => 1
+{'4': 1.0}
+Found: _,m|a|_,_ => 1
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 1
+{'1': 0.5, '4': 0.5}
+Found: #,m|a|#,4 => 3
+{'3': 1.0}
+Found: _,m|a|#,4 => 3
+{'3': 1.0}
+Found: #,m|a|#,_ => 3
+{'3': 1.0}
+Found: _,m|a|#,_ => 3
+{'3': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 3
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: 3,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 3
+{'4': 1.0}
+Found: _,m|a|n,# => 3
+{'4': 1.0}
+Found: 3,m|a|n,_ => 3
+{'4': 1.0}
+Found: _,m|a|n,_ => 3
+{'4': 1.0}
+Found: _,_|a|n,_ => 3
+{'4': 1.0}
+Found: _,_|a|n,_ => 3
+{'4': 1.0}
+Found: _,m|a|_,_ => 3
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 3
+{'1': 0.5, '4': 0.5}
+Found: #,m|a|#,4 => 3
+{'3': 1.0}
+Found: _,m|a|#,4 => 3
+{'3': 1.0}
+Found: #,m|a|#,_ => 3
+{'3': 1.0}
+Found: _,m|a|#,_ => 3
+{'3': 1.0}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 3
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 3
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: 3,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,4 => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,4 => 3
+{'3': 1.0}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 4
+{'4': 1.0}
+Found: _,m|a|n,# => 4
+{'4': 1.0}
+Found: 3,m|a|n,_ => 4
+{'4': 1.0}
+Found: _,m|a|n,_ => 4
+{'4': 1.0}
+Found: _,_|a|n,_ => 4
+{'4': 1.0}
+Found: _,_|a|n,_ => 4
+{'4': 1.0}
+Found: _,m|a|_,_ => 4
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 4
+{'1': 0.5, '4': 0.5}
+Found: #,m|a|#,4 => 4
+{'3': 1.0}
+Found: _,m|a|#,4 => 4
+{'3': 1.0}
+Found: #,m|a|#,_ => 4
+{'3': 1.0}
+Found: _,m|a|#,_ => 4
+{'3': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 4
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 1
+{'4': 1.0}
+Found: _,m|a|n,# => 1
+{'4': 1.0}
+Found: 3,m|a|n,_ => 1
+{'4': 1.0}
+Found: _,m|a|n,_ => 1
+{'4': 1.0}
+Found: _,_|a|n,_ => 1
+{'4': 1.0}
+Found: _,_|a|n,_ => 1
+{'4': 1.0}
+Found: _,m|a|_,_ => 1
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 1
+{'1': 0.5, '4': 0.5}
+Found: #,m|a|#,4 => 4
+{'3': 1.0}
+Found: _,m|a|#,4 => 4
+{'3': 1.0}
+Found: #,m|a|#,_ => 4
+{'3': 1.0}
+Found: _,m|a|#,_ => 4
+{'3': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 4
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 3
+{'4': 1.0}
+Found: _,m|a|n,# => 3
+{'4': 1.0}
+Found: 3,m|a|n,_ => 3
+{'4': 1.0}
+Found: _,m|a|n,_ => 3
+{'4': 1.0}
+Found: _,_|a|n,_ => 3
+{'4': 1.0}
+Found: _,_|a|n,_ => 3
+{'4': 1.0}
+Found: _,m|a|_,_ => 3
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 3
+{'1': 0.5, '4': 0.5}
+Found: #,m|a|#,4 => 4
+{'3': 1.0}
+Found: _,m|a|#,4 => 4
+{'3': 1.0}
+Found: #,m|a|#,_ => 4
+{'3': 1.0}
+Found: _,m|a|#,_ => 4
+{'3': 1.0}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,_|a|#,_ => 4
+{'1': 0.5, '3': 0.5}
+Found: _,m|a|_,_ => 4
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,s|ai|#,3 => 4
+{'4': 1.0}
+Found: _,s|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,_|ai|#,_ => 4
+{'4': 1.0}
+Found: _,s|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|ai|_,_ => 4
+{'4': 1.0}
+Found: _,_|_|#,_ => 4
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 4,NULL_O|e-r|#,4 => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,4 => 3
+{'3': 1.0}
+Found: 4,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|#,_ => 3
+{'3': 1.0}
+Found: _,NULL_O|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|e-r|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,m|a|n,# => 4
+{'4': 1.0}
+Found: _,m|a|n,# => 4
+{'4': 1.0}
+Found: 3,m|a|n,_ => 4
+{'4': 1.0}
+Found: _,m|a|n,_ => 4
+{'4': 1.0}
+Found: _,_|a|n,_ => 4
+{'4': 1.0}
+Found: _,_|a|n,_ => 4
+{'4': 1.0}
+Found: _,m|a|_,_ => 4
+{'3': 0.5, '4': 0.5}
+Found: _,_|a|_,_ => 4
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '4': 0.3333333333333333}
+Found: _,_|_|n,_ => 4
+{'1': 0.5, '4': 0.5}
+Roles: O N . O N
+Vietnamese phonemes: s uo _1 . NULL_O e-n _1
+
+
+Found: #,s|uo|#,1 => 3
+{'3': 1.0}
+Found: _,s|uo|#,1 => 3
+{'3': 1.0}
+Found: #,s|uo|#,_ => 3
+{'3': 1.0}
+Found: _,s|uo|#,_ => 3
+{'3': 1.0}
+Found: _,_|uo|#,_ => 3
+{'3': 1.0}
+Found: _,_|uo|#,_ => 3
+{'3': 1.0}
+Found: _,s|uo|_,_ => 3
+{'3': 1.0}
+Found: _,_|uo|_,_ => 3
+{'3': 1.0}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,NULL_O|e-n|#,# => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|#,# => 1
+{'1': 1.0}
+Found: 3,NULL_O|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|_,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|_,_ => 1
+{'1': 1.0}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Roles: O N . O N
+Vietnamese phonemes: x i _1 . NULL_O e-n _1
+
+
+Found: #,x|i|#,1 => 1
+{'1': 1.0}
+Found: _,x|i|#,1 => 1
+{'1': 1.0}
+Found: #,x|i|#,_ => 1
+{'1': 1.0}
+Found: _,x|i|#,_ => 1
+{'1': 1.0}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,x|i|_,_ => 1
+{'1': 1.0}
+Found: _,_|i|_,_ => 1
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 1,NULL_O|e-n|#,# => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|#,# => 1
+{'1': 1.0}
+Found: 1,NULL_O|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|_,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|_,_ => 1
+{'1': 1.0}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,x|i|#,1 => 3
+{'1': 1.0}
+Found: _,x|i|#,1 => 3
+{'1': 1.0}
+Found: #,x|i|#,_ => 3
+{'1': 1.0}
+Found: _,x|i|#,_ => 3
+{'1': 1.0}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,x|i|_,_ => 3
+{'1': 1.0}
+Found: _,_|i|_,_ => 3
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 3
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: 3,NULL_O|e-n|#,# => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|#,# => 1
+{'1': 1.0}
+Found: 3,NULL_O|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|_,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|_,_ => 1
+{'1': 1.0}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: #,x|i|#,1 => 2
+{'1': 1.0}
+Found: _,x|i|#,1 => 2
+{'1': 1.0}
+Found: #,x|i|#,_ => 2
+{'1': 1.0}
+Found: _,x|i|#,_ => 2
+{'1': 1.0}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|i|#,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,x|i|_,_ => 2
+{'1': 1.0}
+Found: _,_|i|_,_ => 2
+{'1': 0.3333333333333333, '3': 0.3333333333333333, '2': 0.3333333333333333}
+Found: _,_|_|#,_ => 2
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+Found: _,NULL_O|e-n|#,# => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|#,_ => 1
+{'1': 1.0}
+Found: _,NULL_O|e-n|_,_ => 1
+{'1': 1.0}
+Found: _,_|e-n|_,_ => 1
+{'1': 1.0}
+Found: _,_|_|#,_ => 1
+{'1': 0.25, '3': 0.3125, '2': 0.3125, '4': 0.125}
+[COMMAND]: python syl_splitter/GetBestRules.py /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/training.lex /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work /data/users/ngohgia/data_drive/transliterator/utilities/t2p/t2p_dt.pl
+
+[BEST LEX HYP PATH]: /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work/lex_hyp.txt
+
+[COMMAND]: python syl_splitter/SplitWordWithSearchSpace.py /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work/lex_hyp.txt /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/test.en /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work /data/users/ngohgia/data_drive/transliterator/utilities/t2p/t2p_dt.pl
+
+python phone_mapper/phone_mapper.py /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work/lex_hyp.txt /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work/units_roles.txt /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work /data/users/ngohgia/data_drive/transliterator/utilities/t2p/t2p_dt.pl
+
+python tone_setter/tone_setter.py /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work/lex_hyp.txt /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work/test.toneless_with_roles.txt /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/work /data/users/ngohgia/data_drive/transliterator/NEWS2016EnMandarin_PhonoTransliterator/sample_data/test.out
+

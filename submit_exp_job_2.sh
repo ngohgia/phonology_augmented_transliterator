@@ -4,10 +4,10 @@ sclite_path=/mnt/eql/p1/users/imganalysis/ngohgia/transliterator/utilities/sclit
 g2p=g2p.py
 
 root=$(pwd)
-exp_dir=$root/test_exp
+exp_dir=$root/exp_20160829
 #data_file=$root/data/randomized_short_train.lex
 data_file=$root/data/randomized_training_set_g2p_form.lex
-size=1000
+size=2000
 num_samples=10
 
 main() {
@@ -38,9 +38,9 @@ main() {
         # eval $make_testset_cmd $input_file | cut -f1 > $test_file
         # eval $make_testset_cmd $input_file | cut -f2 | paste -d' ' - $tag_file > $ref_file
 
-        JOB=`/apps/sysapps/TORQUE/bin/qsub -l nodes=1:ppn=1,mem=50gb -V -q circ-spool<<EOJ
+        JOB=`/apps/sysapps/TORQUE/bin/qsub -l nodes=1:ppn=1,mem=10gb -V -q circ-spool<<EOJ
           #!/bin/bash
-          #PBS -l walltime=5:00:00
+          #PBS -l walltime=48:00:00
           #PBS -l nodes=1:ppn=1
           #PBS -m ae
             cd $root
