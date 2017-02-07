@@ -8,4 +8,5 @@ data_for_exp
 exp_*
 STDIN.e*
 STDIN.o*
+reports
 *.csv

@@ -2,6 +2,7 @@
 import os, subprocess, sys, shlex, math
 import os.path as op
 import pdb
+import datetime
 
 size = 200
 order = 6
@@ -10,6 +11,9 @@ FNULL = open(os.devnull, 'w')
 
 def main():
     root = op.join(os.getcwd(), 'test_exp');
+    ts = datetime.datetime.fromtimestamp(ts).strftime('%Y%m%d')
+    print ts
+    sys.exit(1)
     output_file = op.join(root, 'report.csv')
     try:
         for i in xrange(1, iterations + 1):
