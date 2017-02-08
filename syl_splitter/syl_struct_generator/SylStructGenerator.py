@@ -640,6 +640,7 @@ start_time = time.time()
 # -------- Unit test for target word encoding ------------
 # targ_word = "g e _1 . NULL_O e-r _3 . k e _1 . w ei _1 . c i _2"
 # targ_word = "g e _1 . NULLO e-n _1 . k e _1 . w ei _1 . c i _2"
+# targ_word = "e _2 . l u-n _2 . d ai _4 . NULL_O e-n _1"
 # targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
 # print ("Target word: %s" % targ_word)
 # print ("Target syllabic structure: %s" % targ_syl_struct)

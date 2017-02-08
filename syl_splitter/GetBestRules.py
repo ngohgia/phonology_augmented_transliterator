@@ -9,7 +9,7 @@ from approx_phone_alignment.ApproxPhoneAlignment import score_hyp_with_phone_ali
 from src_phons_generator.SrcPhonsGenerator import *
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from preprocess.PreProcess import replace_syllables
+from preprocess.PreProcess import preprocess
 
 if __name__ == '__main__':
   try:
@@ -59,7 +59,7 @@ def get_best_hyps_from_single_training(training_lex):
   simple_words_hyps = []
   complex_words_hyps = []
 
-  training_lex = replace_syllables(training_lex)
+  training_lex = preprocess(training_lex)
 
   for idx in range(len(training_lex)):
     start_time = time.time()
@@ -73,6 +73,8 @@ def get_best_hyps_from_single_training(training_lex):
     # Format targ words
     targ_word = training_lex[idx][-1].strip()
     targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
+    print targ_word
+    print targ_syl_struct
 
     best_word_hyps_list = []
     # Generate possible roles for letters in the foreign word

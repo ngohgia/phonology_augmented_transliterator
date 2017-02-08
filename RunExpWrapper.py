@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
 
 ts = time.strftime("%Y-%m-%d_%H-%M-%S")
-# Run directory
+# Manual directory
 run_dir = os.path.join(output_dir, 'run_' + ts)
 log_dir = os.path.join(run_dir, 'log')
 os.makedirs(run_dir)

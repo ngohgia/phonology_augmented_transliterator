@@ -126,6 +126,9 @@ def score_hyp_with_phone_alignment(word_hyps, phone_alignment_dict):
 
     phone_alignment_pen = 0
     for syl_idx in range(len(targ_roles)):
+      if len(targ_roles[syl_idx]) != len(targ_phons[syl_idx]):
+        print targ_roles
+        print targ_phons
       for role_idx in range(len(targ_roles[syl_idx])):
         role = targ_roles[syl_idx][role_idx]
         targ_phon = targ_phons[syl_idx][role_idx]
