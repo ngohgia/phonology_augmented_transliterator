@@ -4,7 +4,6 @@ test_exp*
 stdout
 20160824_train_old_test_new
 manually_split_exp
-data_for_exp
 exp_*
 STDIN.e*
 STDIN.o*
