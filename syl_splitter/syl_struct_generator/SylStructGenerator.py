@@ -48,8 +48,17 @@ ValidTargConsos = lang_assets.valid_targ_consos
 ValidTargVowels = lang_assets.valid_targ_vowels
 
 # Strict role constraints
-ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
-ValidVowelRoles = [NUCLEUS, NUCLEUS_NUCLEUS, NUCLEUS_CODA, ONSET_NUCLEUS_CODA, REMOVE]
+# ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
+ValidConsoRoles = [ONSET, 
+                   ONSET_NUCLEUS, # add a schwa following the onset
+                   REMOVE]
+ValidVowelRoles = [NUCLEUS,
+                   NUCLEUS_NUCLEUS, # double the nucleus - ending nucleus of one syllable and beginning nucleus of the following syllable
+                   NUCLEUS_CODA, # syllable-ending nucleus, there is no following coda
+                   ONSET_NUCLEUS_CODA, # act as a single syllable
+                   REMOVE]
+
+POSSIBLE_SRC_CODA_LETTER = ['n']
 
 ValidSubSylUnit = {
   ONSET: lang_assets.valid_src_onsets,
@@ -61,9 +70,9 @@ ValidSubSylUnit = {
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
   ONSET: 0.4,
-  NUCLEUS: 0.4,
-  CODA: 0.4,
-  ONSET_NUCLEUS: 0.1,
+  NUCLEUS: 0.1,
+  CODA: 0.1,
+  ONSET_NUCLEUS: 0.3,
   CODA_ONSET_NUCLEUS: 0.0,
   NUCLEUS_ONSET: 0.0,
   NUCLEUS_NUCLEUS: 0.1,
@@ -156,8 +165,13 @@ def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps
     return
 
   if labels[pos] == CONSONANT:
-    for idx in range(len(ValidConsoRoles)):
-      role = ValidConsoRoles[idx]
+    tmpValidConsoRoles = ValidConsoRoles
+    currentLetter = word[pos]
+    if currentLetter in POSSIBLE_SRC_CODA_LETTER:
+      tmpValidConsoRoles += [CODA]
+
+    for idx in range(len(tmpValidConsoRoles)):
+      role = tmpValidConsoRoles[idx]
       if role_count[role] >= (MAX_ROLES_COUNT[role]):
         continue
       else:
@@ -167,10 +181,10 @@ def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps
         role_count[role] = role_count[role] - 1
   elif labels[pos] == VOWEL:
     tmp_ValidVowelRoles = ValidVowelRoles
-    if word[pos] == "y" or word[pos] == "i" or word[pos] == "u" or word[pos] == "e":
-      tmp_ValidVowelRoles = tmp_ValidVowelRoles + [ONSET]
-    if word[pos] == "u" or word[pos] == "e":
-      tmp_ValidVowelRoles = tmp_ValidVowelRoles + [CODA]
+    # if word[pos] == "y" or word[pos] == "i" or word[pos] == "u" or word[pos] == "e":
+    #   tmp_ValidVowelRoles = tmp_ValidVowelRoles + [ONSET]
+    # if word[pos] == "u" or word[pos] == "e":
+    #   tmp_ValidVowelRoles = tmp_ValidVowelRoles + [CODA]
     for idx in range(len(tmp_ValidVowelRoles)):
       role = tmp_ValidVowelRoles[idx]
       if role_count[role] >= (MAX_ROLES_COUNT[role]):
