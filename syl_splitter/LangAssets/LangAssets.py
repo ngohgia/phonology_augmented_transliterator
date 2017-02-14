@@ -45,7 +45,7 @@ class LangAssets:
       ONSET_NUCLEUS, NUCLEUS_NUCLEUS, NUCLEUS_CODA, CODA_ONSET, REMOVE]
 
   # SET OF CONSONANTS ALLOWED TO PRECEDE SCHWA
-  VALID_CONSO_PRECED_SCHWA = ['p', 'n', 'l', 'r', 'b', 't', 'd', 'k', 'g', 's', 'f', 'z']
+  VALID_CONSO_PRECED_SCHWA = ['p', 'w', 'r', 'b', 't', 'd', 'k', 'g', 's', 'f', 'z', 'q']
 
   def __init__(self):
     cur_dir = os.path.dirname(__file__) + "/"
@@ -58,8 +58,6 @@ class LangAssets:
 
     self.valid_src_codas = self.get_valid_units(cur_dir + "valid_src_codas.txt")
     self.valid_src_nuclei = self.get_valid_units(cur_dir + "valid_src_nuclei.txt")
-    # !!!! Added "tr" to list of valid onsets
-    # !!!! Added "c", "l", "h", "j", "z" to list of valid codas
     self.valid_src_onsets = self.get_valid_units(cur_dir + "valid_src_onsets.txt")
 
   def get_valid_units(self, input_fname):

@@ -59,8 +59,6 @@ def get_best_hyps_from_single_training(training_lex):
   simple_words_hyps = []
   complex_words_hyps = []
 
-  training_lex = preprocess(training_lex)
-
   for idx in range(len(training_lex)):
     start_time = time.time()
 

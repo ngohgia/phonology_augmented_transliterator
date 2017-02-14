@@ -61,12 +61,7 @@ command = "python phone_mapper/phone_mapper.py" + \
 report(command)
 run_shell_command(command)
 
-# Tone setting
 toneles_targ_phones_with_roles_path = os.path.join(run_dir, "test.toneless_with_roles.txt")
-command = "python tone_setter/tone_setter.py" +  \
-    " " + hyp_lex_file_path + \
-    " " + toneles_targ_phones_with_roles_path + \
-    " " + run_dir + \
-    " " + output_file_path
+command = "mv"  + toneles_targ_phones_with_roles_path + output_file_path
 report(command)
 run_shell_command(command)
