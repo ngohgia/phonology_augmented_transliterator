@@ -32,6 +32,7 @@ ONSET_NUCLEUS_CODA = "O_N_Cd"
 CODA_ONSET_NUCLEUS = "Cd_O_N"
 REMOVE = "R"
 
+MAX_THRESH_LEVEL = 1
 
 lang_assets = LangAssets()
 VOWEL = LangAssets.VOWEL
@@ -50,15 +51,17 @@ ValidTargVowels = lang_assets.valid_targ_vowels
 # Strict role constraints
 # ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
 ValidConsoRoles = [ONSET, 
+                   CODA,
                    ONSET_NUCLEUS, # add a schwa following the onset
+                   CODA_ONSET, # double the consonant - ending coda of one syllable and beginning onset of the following syllable
                    REMOVE]
 ValidVowelRoles = [NUCLEUS,
-                   NUCLEUS_NUCLEUS, # double the nucleus - ending nucleus of one syllable and beginning nucleus of the following syllable
+                   # NUCLEUS_NUCLEUS, # double the nucleus - ending nucleus of one syllable and beginning nucleus of the following syllable
                    NUCLEUS_CODA, # syllable-ending nucleus, there is no following coda
                    ONSET_NUCLEUS_CODA, # act as a single syllable
                    REMOVE]
 
-POSSIBLE_SRC_CODA_LETTER = ['n']
+POSSIBLE_SRC_GLIDE_LETTER = ['r']
 
 ValidSubSylUnit = {
   ONSET: lang_assets.valid_src_onsets,
@@ -69,14 +72,14 @@ ValidSubSylUnit = {
 # Each role can only be assigned to more than a specific ratio of all the letters
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
-  ONSET: 0.4,
-  NUCLEUS: 0.1,
-  CODA: 0.1,
-  ONSET_NUCLEUS: 0.3,
+  ONSET: 0.3,
+  NUCLEUS: 0.3,
+  CODA: 0,
+  ONSET_NUCLEUS: 0,
   CODA_ONSET_NUCLEUS: 0.0,
   NUCLEUS_ONSET: 0.0,
-  NUCLEUS_NUCLEUS: 0.1,
-  NUCLEUS_CODA: 0.4,
+  NUCLEUS_NUCLEUS: 0,
+  NUCLEUS_CODA: 0.1,
   CODA_ONSET: 0.0,
   CODA_NUCLEUS: 0.0,
   CODA_CODA: 0.0,
@@ -108,19 +111,17 @@ def label_letters(word):
 
   return labels
 
-#---------------- ENCODE A VIETNAMESE ENTRY IN SUBSYLLABIC UNITS ------------------#
+#---------------- ENCODE A TARG ENTRY IN SUBSYLLABIC UNITS ------------------#
 def export_syl_struct_of_targ_word(word):
-  GLIDED_VOWEL_DASH = '-'
-
-  syls = word.split(".")
-  toneless_syls = [(" ").join(syl.strip().split(" ")[:-1]) for syl in syls]
+  syls = [syl.strip() for syl in word.split(".")]
 
   encoded_units = []
-  for syl in toneless_syls:
+  for syl in syls:
     targ_phons = syl.split(" ")
+    print targ_phons
 
     if len(targ_phons) == 3:
-      if targ_phons[1] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[1]:
+      if targ_phons[1] in ValidTargVowels:
         syl_struct = [ONSET, NUCLEUS, CODA]
       else:
         print("[ERROR] Syllable of 3 units does not have a valid nucleus")
@@ -129,9 +130,9 @@ def export_syl_struct_of_targ_word(word):
         raise SystemExit
         sys.exit(1)
     elif len(targ_phons) == 2:
-      if targ_phons[1] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[1]:
+      if targ_phons[1] in ValidTargVowels:
         syl_struct = [ONSET, NUCLEUS]
-      elif targ_phons[0] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[0]:
+      elif targ_phons[0] in ValidTargVowels:
         syl_struct = [NUCLEUS, CODA]
       else:
         print("[ERROR] Syllable of 2 units does not have a valid nucleus")
@@ -140,7 +141,7 @@ def export_syl_struct_of_targ_word(word):
         raise SystemExit
         sys.exit(1)
     elif len(targ_phons) == 1:
-      if targ_phons[0] in ValidTargVowels or GLIDED_VOWEL_DASH in targ_phons[0]:
+      if targ_phons[0] in ValidTargVowels:
         syl_struct = [NUCLEUS]
     encoded_units.append(" ".join(syl_struct))
 
@@ -155,20 +156,20 @@ for role in PossibleRoles:
 
 def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps_list, MAX_ROLES_COUNT):
   if pos >= len(labels):
-    # print ("Word: %s" % word)
-    # print ("Labels: %s" % str(labels))
-    # print ("Roles: %s" % str(roles))
+    print ("Word: %s" % word)
+    print ("Labels: %s" % str(labels))
+    print ("Roles: %s" % str(roles))
     checked = [False] * len(roles)
     hyp_word = construct_syls(word, labels, roles, checked)
-    # print ("hyp_word: %s" % str(hyp_word))
+    print ("hyp_word: %s" % str(hyp_word))
     update_best_hyp_words_list(word, targ_syl_struct, roles, hyp_word, checked, best_word_hyps_list)
     return
 
   if labels[pos] == CONSONANT:
     tmpValidConsoRoles = ValidConsoRoles
     currentLetter = word[pos]
-    if currentLetter in POSSIBLE_SRC_CODA_LETTER:
-      tmpValidConsoRoles += [CODA]
+    if currentLetter in POSSIBLE_SRC_GLIDE_LETTER:
+      tmpValidConsoRoles += [NUCLEUS_CODA]
 
     for idx in range(len(tmpValidConsoRoles)):
       role = tmpValidConsoRoles[idx]
@@ -611,6 +612,9 @@ def set_thres_per_role(lvl, word, MAX_ROLES_COUNT):
     for role in MAX_ROLES_RATIOS:
       MAX_ROLES_COUNT[role] = MAX_ROLES_RATIOS[role] * len(word) + lvl
 
+  # print MAX_ROLES_COUNT
+  # MAX_ROLES_COUNT = {'Cd_Cd': 0, 'Cd_N': 0, 'Cd_O': 0, 'O': 2, 'N': 3, 'O_N_Cd': 0, 'Cd': 1, 'N_N': 0, 'N_O': 0, 'N_Cd': 1, 'Cd_O_N': 0, 'R': 0, 'O_N': 0}
+  # ['O', 'N', 'N', 'Cd', 'O', 'N', 'N_Cd']
   return MAX_ROLES_COUNT
 
 
@@ -620,7 +624,7 @@ def generate_roles(word, labels, targ_syl_struct):
 
   MAX_ROLES_COUNT = {}
 
-  while thres_lvl < 3:
+  while thres_lvl < MAX_THRESH_LEVEL:
     MAX_ROLES_COUNT = set_thres_per_role(thres_lvl, word, MAX_ROLES_COUNT)
 
 
@@ -652,9 +656,7 @@ def generate_roles(word, labels, targ_syl_struct):
 start_time = time.time()
 
 # -------- Unit test for target word encoding ------------
-# targ_word = "g e _1 . NULL_O e-r _3 . k e _1 . w ei _1 . c i _2"
-# targ_word = "g e _1 . NULLO e-n _1 . k e _1 . w ei _1 . c i _2"
-# targ_word = "e _2 . l u-n _2 . d ai _4 . NULL_O e-n _1"
+# targ_word = "s ya . u . d i n"
 # targ_syl_struct = export_syl_struct_of_targ_word(targ_word)
 # print ("Target word: %s" % targ_word)
 # print ("Target syllabic structure: %s" % targ_syl_struct)
@@ -665,20 +667,20 @@ start_time = time.time()
 #print ("Labels: %s" % str(labels))
 
 # -------- Unit test for checking if a subsyllabic unit is valid ------------
-#word = "asterisk"
-#print ("Word: %s" % word)
-#labels = label_letters(word)
-#roles = [NUCLEUS, ONSET, ONSET, NUCLEUS, NUCLEUS_ONSET, NUCLEUS, CODA, CODA]
-#print "Valid onset at position 2: " + str(is_valid_subsyllabic_unit(word, labels, roles, 2))
-#print "Valid nucleus at position 4: " + str(is_valid_subsyllabic_unit(word, labels, roles, 4))
+# word = "mueller"
+# print ("Word: %s" % word)
+# labels = label_letters(word)
+# roles = [ONSET, NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS, NUCLEUS_CODA]
+# for pos in range(len(labels)):
+#   print "Valid onset at position" + str(pos) + ": " + str(is_valid_subsyllabic_unit(word, labels, roles, pos))
 
 # -------- Unit test for syllables construction ------------
-#word = "palestine"
-#labels = label_letters(word)
-#roles = [ONSET, NUCLEUS, ONSET, NUCLEUS, CODA_NUCLEUS, ONSET, NUCLEUS, CODA, REMOVE]
-#roles = ['O', 'N', 'O', 'O', 'Cd_O', 'Cd', 'N', 'N', 'N']
-
-#constructed_syls = construct_syls(word, labels, roles)
+# word = "mueller"
+# labels = label_letters(word)
+# roles = [ONSET, NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS, NUCLEUS_CODA]
+# checked = [True] * len(labels)
+# 
+# constructed_syls = construct_syls(word, labels, roles, checked)
 # print ("Word: %s" % word)
 # print ("Labels: %s" % str(labels))
 # print ("Roles: %s" % str(roles))
