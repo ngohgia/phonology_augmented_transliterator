@@ -32,7 +32,7 @@ ONSET_NUCLEUS_CODA = "O_N_Cd"
 CODA_ONSET_NUCLEUS = "Cd_O_N"
 REMOVE = "R"
 
-MAX_THRESH_LEVEL = 1
+MAX_THRESH_LEVEL = 2
 
 lang_assets = LangAssets()
 VOWEL = LangAssets.VOWEL
@@ -73,9 +73,9 @@ ValidSubSylUnit = {
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
   ONSET: 0.3,
-  NUCLEUS: 0.3,
-  CODA: 0,
-  ONSET_NUCLEUS: 0,
+  NUCLEUS: 0.2,
+  CODA: 0.3,
+  ONSET_NUCLEUS: 0.1,
   CODA_ONSET_NUCLEUS: 0.0,
   NUCLEUS_ONSET: 0.0,
   NUCLEUS_NUCLEUS: 0,
@@ -156,12 +156,12 @@ for role in PossibleRoles:
 
 def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps_list, MAX_ROLES_COUNT):
   if pos >= len(labels):
-    print ("Word: %s" % word)
-    print ("Labels: %s" % str(labels))
-    print ("Roles: %s" % str(roles))
+    # print ("Word: %s" % word)
+    # print ("Labels: %s" % str(labels))
+    # print ("Roles: %s" % str(roles))
     checked = [False] * len(roles)
     hyp_word = construct_syls(word, labels, roles, checked)
-    print ("hyp_word: %s" % str(hyp_word))
+    # print ("hyp_word: %s" % str(hyp_word))
     update_best_hyp_words_list(word, targ_syl_struct, roles, hyp_word, checked, best_word_hyps_list)
     return
 
@@ -169,7 +169,7 @@ def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps
     tmpValidConsoRoles = ValidConsoRoles
     currentLetter = word[pos]
     if currentLetter in POSSIBLE_SRC_GLIDE_LETTER:
-      tmpValidConsoRoles += [NUCLEUS_CODA]
+      tmpValidConsoRoles = ValidConsoRoles + [NUCLEUS_CODA]
 
     for idx in range(len(tmpValidConsoRoles)):
       role = tmpValidConsoRoles[idx]
@@ -608,11 +608,14 @@ def set_thres_per_role(lvl, word, MAX_ROLES_COUNT):
   if lvl == 0:
     for role in MAX_ROLES_RATIOS:
       MAX_ROLES_COUNT[role] = MAX_ROLES_RATIOS[role] * len(word) + 1
+      # if MAX_ROLES_RATIOS[role] == 0:
+      #   MAX_ROLES_COUNT[role] = 0
   else:
     for role in MAX_ROLES_RATIOS:
       MAX_ROLES_COUNT[role] = MAX_ROLES_RATIOS[role] * len(word) + lvl
 
-  # print MAX_ROLES_COUNT
+  print MAX_ROLES_COUNT
+  # raw_input('Continue?')
   # MAX_ROLES_COUNT = {'Cd_Cd': 0, 'Cd_N': 0, 'Cd_O': 0, 'O': 2, 'N': 3, 'O_N_Cd': 0, 'Cd': 1, 'N_N': 0, 'N_O': 0, 'N_Cd': 1, 'Cd_O_N': 0, 'R': 0, 'O_N': 0}
   # ['O', 'N', 'N', 'Cd', 'O', 'N', 'N_Cd']
   return MAX_ROLES_COUNT

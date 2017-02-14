@@ -6,8 +6,8 @@ import shutil
 import logging
 import time
 
-# root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size100_iter1')
-root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size1_iter1')
+root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size100_iter1')
+# root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size1_iter1')
 data_dir = os.path.join(root_dir, 'corpus')
 
 ts = time.strftime("%Y-%m-%d_%H-%M-%S")

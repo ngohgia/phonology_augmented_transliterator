@@ -9,4 +9,5 @@ exp_*
 STDIN.e*
 STDIN.o*
 reports
+tmp_log
 *.csv
