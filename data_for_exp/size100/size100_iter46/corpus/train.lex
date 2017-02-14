@@ -1,80 +1,80 @@
-balzac	b a l . j a . k eu
-coimbra	k o . i m . b eu . l a
-smetana	s eu . m e . t a . n a
-karel	k a . l e l
-disraeli	d i . j eu . l e . i l . l i
-biel	b i . e l
-potter	p o . t eo
-kutter	k u . t eo
-sol	s o l
-macaulay	m ae . k o l . l i
-lyttelton	l i . t eu l . t eo n
-dahl	d a l
-nkrumah	eu n . k eu . l u . m a
-clements	k eu l . l e . m eo n . ch eu
-elmo	e l . m o
-conway	k o n . we . i
-booth	b u . d eu
-breuer	b eu . l o . i . eo
-peres	p e . l e . s eu
-inga	i ng . g a
-zbigniew	j eu . b i . g eu . n i . e . p eu
-naha	n a . h a
-murry	m eo . l i
-curt	k u . l eu . t eu
-behring	b e . l i ng
-kinnear	k eo . n i . eo
-foch	p o . s yu
-magnitogorsk	m a . g eu . n i . t o . g o . l eu . s eu . k eu
-barletta	b a . l eu l . l e . t a
-hereford	h e . l i . p eo . d eu
-litvinov	l i . t eu . b i . n o . p eu
-slobodan	s eu l . l o . b o . d a n
-sassoon	s eo . s u n
-haeckel	h e . k e l
-maria	m a . l i . a
-gierek	g i . e . l e . k eu
-dubcek	d u . b eu . ch e . k eu
-roebuck	l o . b eo g
-duisburg	d wi . s eu . b u . l eu . k eu
-delius	d i l . l i . eo . s eu
-wesley	we . s eu l . l i
-harnack	h a . l eu . n a . k eu
-sacchetti	s a . k e . t i
-gilbreth	g i l . b eu . l e . s eu
-rossetti	l o . s e . t i
-jouvet	j u . b e
-perrin	p e . l ae ng
-maxine	m ae g . s i n
-goncourt	g o ng . k u . l eu
-immermann	i . m eo . m a n
-nicolae	n i . k o l . l a . e
-saxon	s ae g . s eu n
-walsh	wa l . s i
-hewlett	h yu . l e s
-david	d a . b i . d eu
-theresa	t e . l e . s a
-madeline	m ae . d eu l . l i n
-broch	b eu . l o . h eu
-argento	a . l eu . j e n . t o
-asimov	a . s i . m o . p eu
-obi	o . b i
-madeira	m a . d e . i . l a
-achille	a . k i l . l e
-goodwin	g u s . wi n
-smirnov	s eu . m i . l eu . n o . p eu
-toronto	t o . l o n . t o
-bowden	b o . u . d e n
-joinville	j u . ae ng . b i l
-idris	i . d eu . l i . s eu
-leipold	l a . i . p o l . t eu
-menon	m e . n o n
+stanton	s eu . t ae n . t eo n
+caine	k e . i n
+fonteyn	p o n . t e . i n
+lukas	l u . k a . s eu
+flavius	p eu l . l a . b i . u . s eu
+urey	yu . l i
+barbara	b a . b eo . l a
+everett	e . b eo . l e s
+octavio	o g . t a . b i . o
+peltier	p e l . t i . e
+posse	p o . s e
+brassens	b eu . l a . s a ng . s eu
+balboa	b a l . b o . a
+rivas	l i . b a . s eu
+pedersen	p i . d eo . s eu n
+frege	p eu . l e . g e
+fisher	p i . s yeo
+verissimo	b e . l i . s i . m o
+ustinov	yu . s eu . t i . n o . p eu
+koestler	k e . s eu . t eu l . l eo
+gauguin	g o . g ae ng
+hebron	h e . b eu . l o n
+felicia	p e l . l i . s i . a
+kiribati	k i . l i . b a . s i
+casablanca	k a . s a . b eu l . l a ng . k a
+bang	b a ng
+granada	g eu . l a . n a . d a
+palembang	p a l . l e m . b a ng
+burckhardt	b u . l eu . k eu . h a . l eu . t eu
+alabama	ae l . l a . b ae . m a
+hahn	a n
+grafton	g eu . l a . p eu . t eu n
+keaton	k i . t eu n
+mississippi	m i . s i . s i . p i
+pestalozzi	p e . s eu . t a l . l o . ch i
+wilm	b i l . l eu m
+beaufort	b o . p eo . t eu
+susie	s u . j i
+valentin	b a l . l e n . t i n
+konstanz	k o n . s eu . t a n . ch eu
+gokhale	g o . k a l . l e
+jacob	ya . g o b
+remnant	l e m . n eo n . t eu
+marek	m a . l e g
+kolar	k o l . l a . l eu
+prosper	p eu . l o . s eu . p e . l eu
+lully	l wi l . l i
+bari	b a . l i
+giambattista	j a m . b a . t i . s eu . t a
+lawton	l o . t eo n
+habermas	h a . b eo . m a . s eu
+finch	p i n . ch i
+adler	a . d eu l . l eo
+guillaumin	g i . yo . m ae ng
+king	k i ng
+kimberley	k i m . b eo l . l i
+romain	l o . m ae ng
+kate	k e . i . t eu
+loewe	l oe . b e
+andrade	a n . d eu . l a . d e
+frunze	p eu . l u n . j e
+gisela	j i . j e l . l a
+angle	ae ng . g eu l
+nico	n i . k o
+orr	o . eo
+carr	k a
+previn	p eu . l e . b i n
+cochin	k o . ch i n
+stockholm	s eu . t o g . h o l . l eu m
+ionesco	i . o . n e . s eu . k o
+diouf	d i . u . p eu
+abba	a . b a
+chagall	s ya . g a l
+gaumont	g o . m o ng
+nossack	n o . s a . k eu
+castillo	k a . s eu . t i l . l o
+butterfield	b eo . t eo . p i l . d eu
+stark	s yu . t a . l eu . k eu
+catherine	k a . t eu . l i n
 picabia	p i . k a . b i . a
-millar	m i l . l eo
-kautsky	k a . u . ch eu . k i
-philippi	b i l . l i b . b o
-rude	l wi . d eu
-couto	k o . t u
-most	m o . s eu . t eu
-jane	j e . i n
-asmara	a . s eu . m a . l a

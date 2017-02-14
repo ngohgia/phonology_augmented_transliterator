@@ -1,80 +1,80 @@
-pontormo	p o n . t o . l eu . m o
-cecchetti	ch e . k e . t i
-bracton	b eu . l ae g . t eo n
-gooch	g u . ch i
-brandes	b eu . l a . d e . s eu
-chandra	ch a n . d eu . l a
-fiske	p i . s eu . k eu
-worms	b o . l eu m . s eu
-hale	h e . i l
-mojave	m o . h a . b i
-sturm	s eu . t eo m
-bell	b e l
-basil	b ae . j eo l
-szell	s e l
-dion	d i . o ng
-berto	b e . l eu . t o
-egypt	i . j i b . t eu
-blanche	b eu l . l a ng . s wi
+angelou	ae n . j e l . l u
+defoe	d i . p o
+amundsen	a . m u n . j e n
+ross	l o . s eu
+juliet	j u l . l i . e s
+latimer	l e . i . t i . m eo
+clarendon	k eu l . l ae . l eo n . d eo n
+myers	m a . i . eo . s eu
+house	h a . u . s eu
+holmes	h o m . s eu
+bayard	b a . ya . l eu
+maxine	m ae g . s i n
+morin	m o . l ae ng
+michie	m i . ch i . e
+catalonia	k a . t a l . l o . n i . a
+discovery	d i . s eu . k eo . b eo . l i
+glenn	g eu l . l e n
+chamberlain	ch e . i m . b eo l . l i n
+pagano	p a . g a . n o
+macdonald	m ae g . d o . n eo l . d eu
+mirabeau	m i . l a . b o
+douglas	d eo . g eu l . l eo . s eu
+kuhnau	k u . n a . u
+diderot	d i . d eu . l o
+das	d a . s eu
+geijer	ye . i . ye . l eu
+courtney	k o . t eu . n i
+lagerkvist	l a . g e . l eu . k eu . b i . s eu . t eu
+decker	d e . k eo
+lamarr	l a . m a
+jacobsen	ya . k o b . s e n
+jacksonville	j ae g . s eu n . b i l
+helm	h e l . l eu m
+arnhem	a . l eu n . h e m
+mandeville	m ae n . d eo . b i l
+voltaire	b o l . t e . l eu
+steiner	s yu . t a . i . n eo
+taft	t ae . p eu . t eu
+toland	t o l . l eo n . d eu
+willy	b i l . l i
+kenneth	k e . n e . s eu
+yul	yu l
+hellsing	h e l . s i ng
+speyer	s yu . p a . i . eo
+paris	p a . l i
+laforgue	l a . p o . l eu . g eu
+lanier	l eo . n i . eo
+philipp	p i l . l i . p eu
+theodore	t e . o . d o . l eu
+rumford	l eo m . p eo . d eu
+sor	s o . l eu
+montaigne	m o ng . t e . n yu
+hummel	h u m . m e l
+amyot	a . m i . yo
+gotthelf	g o . t eu . h e l . p eu
+kieran	k i . l eo n
+ronge	l o ng . i
 minaux	m i . n o
-domingo	d o . m i ng . g o
-gutierrez	g u . t i . e . l e . s eu
-hering	h e . l i ng
-althusser	a l . t wi . s e . l eu
-freitas	p eu . l e . i . t a . s eu
-mark	m a . l eu . k eu
-ogilvy	o . g eu l . b i
-catilina	k a . t i l . l i . n a
-brockman	b eu . l o . k eu . m a n
-indiana	i n . d e . e . n a
-rademacher	l a . d e . m a . h eo
-edward	e . d eu . wo . d eu
-mitropoulos	m i . t eu . l o . p o l . l o . s eu
-valente	b a l . l e n . t e
-djibouti	j i . b u . t i
-volgograd	b o l . g o . g eu . l a . d eu
-goodman	g u s . m ae n
-bogomolov	b o . g o . m o . l o . p eu
-ruby	l u . b i
-belloc	b e l . l o g
-schumann	s yu . m a n
-theodor	t e . eo . d o . eo
-jude	yu . d a
-labrador	l ae . b eu . l a . d o
-rous	l a . u . s eu
-syria	s i . l i . a
-semenov	s e . m yo . n o . p eu
-audubon	o . d yu . b o n
-milestone	m a . i l . s eu . t o n
-fessenden	p e . s e n . d e n
-portman	p o . t eu . m a n
-leo	l e . o
-goethe	g oe . t e
-kowalski	k o . wa l . s eu . k i
-frederick	p eu . l e . d e . l i g
-bonds	b o n . j eu
-unsworth	eo n . s eu . wo . s eu
-harmon	h a . m eo n
-susie	s u . j i
-behrens	b e . l e n . s eu
-stratford	s eu . t eu . l ae s . p o . d eu
-eugen	o . i . g e n
-yorktown	yo . k eu . t a . u n
-fridtjof	p eu . l i . d eu . s yo . p eu
-lake	l e . i . k eu
-frei	p eu . l e . i
-muscat	m u . s eu . k a . t eu
-gromyko	g eu . l o . m i . k o
-ansel	eo n . s e l
-forester	p o . l e . s eu . t eo
-brooks	b eu . l u g . s eu
-bessemer	b e . s e . m eo
-lama	l a . m a
-dudley	d eo . d eu l . l i
-millard	m i l . l eo . d eu
-barthes	b a . l eu . t eu
-dustin	d eo . s eu . t i n
-northcliffe	n o . s eu . k eu l . l i . p eu
-bali	b a l . l i
-khrushchev	h eu . l u . s i . ch o . p eu
-clarence	k eu l . l ae . l eo n . s eu
+clint	k eu l . l i n . t eu
+tuvalu	t u . b a l . l u
+ricken	l i . k e n
+dovzhenko	d o . p eu . j e n . k o
+janis	j e . n i . s eu
+isaacs	i . s a g . s eu
+trimble	t eu . l i m . b eu l
+fort	p o . l eu
+goldsworthy	g o l . j eu . wo . d i
+harlem	h a l . l e m
+cendrars	s a ng . d eu . l a . l eu
+malipiero	m a l . l i . p i . e . l o
+stieglitz	s eu . t i . g eu l . l i . ch eu
+herbart	h e . l eu . b a . l eu . t eu
+bean	b i n
+algiers	a l . j e
+kathmandu	k a . t eu . m a n . d u
+damon	d e . i . m eo n
+rufus	l u . p eo . s eu
+grillo	g eu . l i l . l o
+kielland	s ye l . l a n
+imre	i m . l e

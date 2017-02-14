@@ -1,80 +1,80 @@
-gable	g e . i . b eu l
-koerner	k oe . l eu . n eo
-serena	s e . l i . n a
-arab	a . l a b
-pourcel	p u . l eu . s e l
-knowles	n o l . j eu
-griffis	g eu . l i . p i . s eu
-ness	n e . s eu
-wodehouse	u . d eu . h a . u . s eu
-sadi	s a . d i
-duisenberg	d o . i . s e n . b e . l eu . h eu
-toland	t o l . l eo n . d eu
-cicero	k i . k e . l o
-hanslick	h a n . s eu l . l i . k eu
-maas	m a . s eu
-mitterrand	m i . t e . l a ng
-ehrenburg	e . l e n . b u . l eu . g eu
-prout	p eu . l a . u . t eu
-tanguy	t a ng . g i
-diallo	d i . ae l . l o
-arturo	a . l eu . t u . l o
-zola	j o l . l a
-langley	l ae ng . g eu l . l i
-marsden	m a . s eu . d eu n
-renato	l e . n a . t o
-maurras	m o . l a . s eu
-tiberius	t i . b e . l i . u . s eu
-guetta	g we . t a
-coignet	k o . wa . n i . e
-livingstone	l i . b i ng . s eu . t eo n
-bucharest	b u . k a . l e . s eu . t eu
-akhmatova	a . h eu . m a . t o . b a
-wells	we l . s eu
-pisanello	p i . s a . n e l . l o
-snowdon	s eu . n o . d eu n
-singleton	s i ng . g eu l . t o n
-wentworth	we n . t eu . wo . s eu
-laura	l a . u . l a
-meadows	m i . d o . u . s eu
-wislicenus	b i . s eu l . l i . ch e . n u . s eu
+shaheen	s yae . h i n
+lilley	l i l . l i
+bernadette	b eo . n a . d e . t eu
+erdmann	e . l eu . d eu . m a n
+acheson	ae . ch i . s eu n
+eduard	e . d u . a . l eu . t eu
+bale	b e . i l
+lefebvre	l eu . p e . b eu . l eu
+cooper	k u . p eo
+becky	b e . k i
+beadle	b i . d eu l
+geoffrey	j e . p eu . l i
+adriana	a . d eu . l i . a . n a
+aziz	a . j i . j eu
+babylon	b a . b i l . l o n
+fittig	p i . t i . h i
+oort	o . l eu . t eu
+violet	b a . i . o l . l e s
+kadun	k a . d u n
 mader	m a . d eo
-caroline	k ae . l o l . l a . i n
-panama	p a . n a . m a
-hasler	h a . s eu l . l eo
-brahm	b eu . l a m
-montpelier	m o n . t eu . p i l . l i . eo
-etienne	e . t i . e n
-boden	b o . d e n
-stacey	s eu . t e . i . s i
-harden	h a . d eu n
-melvin	m e l . b i n
-rameau	l a . m o
-cornwall	k o n . wo l
-dean	d i n
-iran	i . l a n
-reykjavik	l e . i . k ya . b i . k eu
-neutra	n o . i . t eu . l a
-manson	m ae n . s eu n
-egorov	ye . g o . l o . p eu
-savage	s e . b i . j i
-pedersen	p i . d eo . s eu n
-pearl	p eo l
-badger	b ae . j eo
-kee	k i
-carver	k a . b eo
-minneapolis	m i . n i . ae . p o l . l i . s eu
-schickele	s i . k e l . l e
-waksman	wa g . s eu . m eo n
-hopp	h o . p eu
+galileo	g a l . l i l . l e . o
+tait	t a . i . t eu
+zeman	j e . m a n
+pride	p eu . l a . i . d eu
+bisset	b i . s e s
+matamoros	m a . tt a . m o . l o . s eu
+chang	j a ng
+kinnear	k eo . n i . eo
+sachs	s ae g . s eu
+hazlitt	h ae . j eu l . l i s
+busse	b u . s e
+stephen	s eu . t i . b eu n
+sahara	s a . h a . l a
+barrera	b a . l e . l a
+kenton	k e n . t eo n
+wilke	wi l . k eu
+nie	n ye
+basso	b a . s o
+beaumarchais	b o . m a . l eu . s ye
+sam	s ae m
+hofstadter	h o . p eu . s eu . t ae . t eo
+aldington	o l . d i ng . t eo n
+pick	p i . k eu
+hagerstown	h e . g eo . s eu . t a . u n
+darryl	d ae . l i l
+briand	b eu . l i . a ng
+wislicenus	b i . s eu l . l i . ch e . n u . s eu
+fragonard	p eu . l a . g o . n a . l eu
+carmichael	k a . m a . i . k eu l
+benitez	b e . n i . t e . j eu
+guthrie	g u . t eu . l i
+francke	p eu . l a ng . k e
+orel	o . l e l
+rourke	l u . k eu
+bellamy	b e l . l eo . m i
+noto	n o . t o
+jacquard	j a . k a . d eu
+istanbul	i . s eu . t a n . b u l
+goode	g u . d eu
+myanmar	m ya n . m a
+pattani	p a . t a . n i
+steinmetz	s eu . t a . i n . m e . ch eu
+ambler	ae m . b eu l . l eo
+inverness	i n . b eo . n e . s eu
+dost	d o . s eu . t eu
 schott	s yo . t eu
-vladimir	b eu l . l a . d i . m i . l eu
-vera	b e . l a
-gonzalez	g o n . s a l . l e . s eu
-ramos	l a . m o . s eu
-halley	h ae l . l i
-natan	n a . t a n
-vaga	b a . g a
-penderecki	p e n . d e . l e . ch eu . k i
-bartley	b a . t eu . l i
+gilberto	j i l . b e . l eu . t o
+wilkes	wi l . k eu . s eu
+matthew	m a . t ae
+dewey	d yu . i
 zaragoza	s a . l a . g o . s a
+jagan	j e . i . g eo n
+garbo	g a . l eu . b o
+baltimore	b o l . t i . m o . eo
+verne	b e . l eu n
+mackintosh	m ae . k i n . t o . s i
+vitoria	b i g . t o . l i . a
+stella	s eu . t e l . l a
+lao	l a . o
+cleveland	k eu l . l i . b eu l . l ae n . d eu

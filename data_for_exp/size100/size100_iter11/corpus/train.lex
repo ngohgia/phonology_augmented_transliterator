@@ -1,80 +1,80 @@
-walter	b a l . t eo
-raven	l e . i . b eu n
-joxe	j o g . s eu
-orlando	o l . l ae n . d o
-giacometti	j a . k o . m e . t i
-zeeman	j e . m a n
-huch	h u . h eu
-garnier	g a . l eu . n i . e
-margarete	m a . l eu . g a . l e . t e
-daladier	d a l . l a . d i . e
-hood	h u . d eu
-ibrahim	i . b eu . l a . h i m
-ling	l i ng
-guardi	g wa . l eu . d i
-bratislava	b eu . l a . t i . s eu l . l a . b a
-monrovia	m o n . l o . b i . a
-swedenborg	s eu . b e . d e n . b o . l i
-bundy	b eo n . d i
-ohana	o . h a . n a
-stan	s eu . t ae n
-mauro	m a . u . l o
-bednorz	b e . d eu . n o . l eu . ch eu
-alfred	a l . p eu . l e . d eu
-pavlov	p a . b eu l . l o . p eu
+rabinowitz	l a . b i . n o . b i . ch eu
+abbot	a . b o . t eu
+schulze	s yu l . ch e
+bernardino	b e . l eu . n a . l eu . d i . n o
+sayce	s e . i . s eu
+aleksandr	a l . l e g . s a n . d eu . l eu
+mathewson	m ae . t yu . s eu n
+madrid	m a . d eu . l i . d eu
+amsterdam	a m . s eu . t e . l eu . d a m
+brooke	b eu . l u g
+noel	n o . e l
+zeyer	jj eo . ye . eo l
+montfort	m o ng . p o . l eu
+smellie	s eu . m e l . l i
 bunche	b eo n . ch i
-liebermann	l i . b e . l eu . m a n
-turin	t u . l i n
-darcy	d a . s i
-muzio	m u . ch i . o
-balboa	b a l . b o . a
-sobrero	s o . b eu . l e . l o
-kevin	k e . b i n
-reggie	l e . j i
-wigner	wi . g eu . n eo
-carlisle	k a l . l a . i l
-elizabethe	e l . l i . j a . b e . s eu
-casablanca	k a . s a . b eu l . l a ng . k a
-osgood	o . s eu . g u s
-laptev	l a b . t e . p eu
-piatigorsky	p i . a . t i . g o . l eu . s eu . k i
-kapp	k a . p eu
-sauer	j a . u . eo
-stoney	s eu . t o . n i
-europe	yu . l eo b
-weston	we . s eu . t eo n
-moravia	m o . l a . b i . a
-bergen	b e . l eu . g e n
-nattier	n a . t i . e
-nicolson	n i . k eo l . s eu n
-shute	s yu . t eu
-emery	e . m eo . l i
-trina	t eu . l i . n a
-hoover	h u . b eo
-ulises	yu l . l i . s i . s eu
-dalcroze	d a l . k eu . l o . j eu
-cayenne	k a . ye n
-dan	d a n
-binet	b i . n e
-napolitano	n a . p o l . l i . t a . n o
-amy	e . i . m i
-rivas	l i . b a . s eu
-jacobus	ya . k o . b wi . s eu
-kent	k e n . t eu
-minogue	m i . n o . g eu
-lawson	l o . s eu n
-bast	b a . s eu . t eu
-rafael	l a . p a . e l
-kline	k eu l . l a . i n
-farmington	p a . m i ng . t eo n
-houssay	u . s a . i
-honiara	h o . n i . a . l a
-geoffrey	j e . p eu . l i
-ernst	e . l eu n . s eu . t eu
-holzer	h o l . ch eo
-ensor	e n . s o . l eu
-andropov	a n . d eu . l o . p o . p eu
-natta	n a . t a
-chausson	s yo . s o ng
-svensson	s eu . b e n . s o n
-carnap	k a . l eu . n a b
+jugnauth	j u . g eu . n o . t eu
+kirpichnikov	k i . l eu . p i . ch i . n i . k o . p eu
+linde	l i n . d e
+bachelard	b a . s yu l . l a . l eu
+pulci	p u l . ch i
+koller	k o l . l eo
+dent	t e n . t eu
+natorp	n a . t o . l eu . p eu
+boucher	b a . u . ch eo
+ian	i . eo n
+little	l i . t eu l
+nicholas	n i . k o l . l eo . s eu
+friche	p eu . l i . ch e
+samarkand	s a . m a . l eu . k a n . t eu
+lini	l i . n i
+bacon	b e . i . k eo n
+luke	l u g . k eu
+quentin	k wo n . t i n
+herrick	h e . l i g
+needham	n i . d eo m
+limburg	l i m . b u . l eu . h eu
+fitzgerald	p i . ch eu . j e . l eo l . d eu
+olena	o l . n e . n a
+chekhov	ch e . h o . p eu
+gino	j i . n o
+jesse	j e . s i
+massimo	m a . s i . m o
+melvil	m e l . b i l
+alexander	a l . l e g . s a n . d eo
+vogel	p o . g e l
+maloney	m eo l . l o . n i
+nicaragua	n i . k a . l a . g wa
+louisiana	l u . i . j i . ae . n a
+deakin	d i . k i n
+rothschild	l o . s eu . ch a . i l . d eu
+chelmsford	ch e l . l eu m . s eu . p eo . d eu
+thimphu	t i m . b u
+karsavina	k a . l eu . s a . b i . n a
+danny	d a . n i
+odessa	o . d e . s a
+darwin	d a . wi n
+rushdie	l u . s yu . d i
+memphis	m e m . p i . s eu
+allan	ae l . l eo n
+goes	g u . s eu
+rosetti	l o . s e . t i
+bains	b e . i n . j eu
+taine	t e n
+debye	d i . b a . i
+pitt	p i . t eu
+dutton	d yu . t o n
+guyon	g wi . yo ng
+evers	e . b eo . s eu
+zimmern	j i m . m e . l eu n
+korneichuk	k o . l eu . n e . i . ch u . k eu
+atlanta	ae . t eu l . l ae n . t a
+tennyson	t e . n i . s eu n
+bonhoeffer	b o n . h oe . p eo
+skelton	s eu . k e l . t eo n
+dixon	d i g . s eu n
+viktor	b i g . t o . l eu
+greg	g eu . l e . g eu
+joachim	yo . a . k i m
+maggie	m ae . g i
+tonga	t o ng . g a

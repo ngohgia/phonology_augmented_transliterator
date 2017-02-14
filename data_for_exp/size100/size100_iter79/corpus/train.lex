@@ -1,80 +1,80 @@
-mahan	m eo . h ae n
-verissimo	b e . l i . s i . m o
-aurelia	o . l e l . l i . a
-doyle	d o . i l
-lind	l i n . d eu
-reddy	l e . d i
-benacerraf	b e . n a . s e . l a . p eu
-makin	m a . k i n
+meissner	m a . i . s eu . n eo
+steers	s eu . t i . eo . s eu
+roth	l o . t eu
+beiqi	b e . i . ch i
+philadelpia	p i l . l a . d e l . p i . a
+polevoi	p o l . l e . b o . i
+pretorius	p eu . l e . t o . l i . u . s eu
+chateaubriand	s ya . t o . b eu . l i . a ng
+pasternack	p a . s eu . t eo . n e g
+agnelli	a . n ye l . l i
+santer	s a ng . t e . l eu
+gladys	g eu l . l a . i . d i . s eu
+camille	k a . m i . yu
+taya	t a . ya
+chiara	k i . a . l a
+dyer	d a . i . eo
+kruger	k eu . l wi . g eo
+espinoza	e . s eu . p i . n o . j a
+gascoyne	g ae . s eu . k o . i n
+garang	g a . l a ng
+rio	l i . u
+ludwik	l u . d eu . wi g
+walter	b a l . t eo
+borge	b o . l eu . g eu
+estremadura	e . s eu . t eu . l e . m a . d u . l a
 zunzunegui	s u n . s u . n e . g i
-warner	wo . n eo
-manet	m a . n e
-davide	d a . b i . d e
-dafoe	d e . p o
-poliziano	p o l . l i . ch i . a . n o
-ker	k eo
-silva	s i l . b a
-simone	s i . m o . n e
-kinsey	k i n . j e . i
-montfort	m o ng . p o . l eu
-serao	s e . l a . o
-hayes	h e . i . s eu
-diego	d i . e . g o
-solo	s o l . l o
-atlas	a . t eu l . l a . s eu
-dmitri	d eu . m i . t eu . l i
-pilon	p i l . l o ng
-berlioz	b e . l eu l . l i . o . j eu
-boyce	b o . i . s eu
-annabel	a . n a . b e l
-flamsteed	p eu l . l ae m . s eu . t i . d eu
-hunt	h eo n . t eu
-jawara	j a . wa . l a
-djilas	j i l . l a . s eu
-reiner	l a . i . n eo
-dahlmann	d a l . m a n
-vaughan	b o n
-chandler	ch ae n . d eu l . l eo
-togliatti	t o l . l i . a . t i
-melinda	m e l . l i n . d a
-kursk	k u . l eu . s eu . k eu
-maine	m e . i n
-tutu	t u . t u
-wycliffe	wi . k eu l . l i . p eu
-piscator	p i . s eu . k a . t o . l eu
-josie	j o . s wi
-servetus	s e . l eu . b e . t u . s eu
-norway	n o . l eu . we . i
-evans	e . b eo n . s eu
-rodbertus	l o . t eu . b e . l eu . t u . s eu
-hoffmann	h o . p eu . m a n
-addams	ae . d eo m . s eu
-phillips	p i l . l i b . s eu
-wiechert	b i . h e . l eu . t eu
-pekkanen	p e . k a . n e n
-flavius	p eu l . l a . b i . u . s eu
-ge	g e
-roos	l u . s eu
-karel	k a . l e l
-hereford	h e . l i . p eo . d eu
-jasper	j a . s eu . p eo
-kilauea	k i . l a . we . a
-dewar	d yu . eo
-sibelius	s i . b e l . l i . u . s eu
-gesell	g e . j e l
-kell	k e l . l i
-baker	b e . i . k eo
-kandahar	k a n . d a . h a . l eu
-aranda	a . l a n . d a
-lama	l a . m a
-birch	b eo . ch i
-catherine	k ae . d eo . l i n
-lanzhan	l a n . j a n
-marinetti	m a . l i . n e . t i
-marcus	m a . l eu . k u . s eu
+waksman	wa g . s eu . m eo n
+brynner	b eu . l i . n eo
+leonard	l e . n eo . d eu
+tehran	d e . h e . l a n
+davisson	d e . i . b i . s eu n
+bowyer	b a . u . eo
+klitzing	k eu l . l i . ch i ng
+izquierdo	i . s eu . k i . e . l eu . d o
+wand	b a n . t eu
+vida	b i . d a
+novikov	n o . b i . k o . p eu
+laughlin	l o . p eu l . l i n
+abbott	ae . b eo . t eu
+brazil	b eu . l a . j i l
+busse	b u . s e
+provence	p eu . l o . b a ng . s eu
+mun	m eo n
+feuerbach	p o . i . eo . b a . h eu
+deed	d i . d eu
+barclay	b a . k eu l . l i
+kauffmann	k a . u . p eu . m a n
+dowling	d a . u l . l i ng
+trollope	t eu . l o l . l eo b
+scorsese	s eu . k o l . s e . i . j i
+burney	b eo . n i
+burman	b eo . m a
+capra	k ae . p eu . l a
+mike	m a . i . k eu
+bandello	b a n . d e l . l o
+stoltenberg	s yu . t o l . t e n . b e . l eu . k eu
+sneider	s eu . n a . i . d eo
+gertrud	g eo . t eu . l u . d eu
+benedikt	b e . n e . d i g . t eu
+brundage	b eu . l eo n . d i . j i
+hynninen	h a . i n . n i . n e n
+richardson	l i . ch eo . d eu . s eu n
+onsager	o n . s a . g eo
 kendrew	k e n . d eu . l u
-falkberget	p a l . k eu . b e . l eu . g e
-stimson	s eu . t i m . s eu n
-yogi	yo . g i
-downs	d a . u n . s eu
-fromentin	p eu . l o . m a ng . t ae ng
+robert	l o . b e . l eu . t eu
+hoffa	h o . p a
+bible	b a . i . b eu l
+arp	a . l eu . p eu
+ashton	ae . s yu . t eo n
+moses	m o . s e . s eu
+rommel	l o . m e l
+vigano	b i . g a . n o
+cadena	k a . d e . n a
+sarajevo	s a . l a . ye . b o
+robin	l o . b i n
+paine	p e . i n
+edmonton	e . d eu . m eo n . t eo n
+maier	m a . i . e . l eu
+stanford	s eu . t ae n . p eo . d eu
+libby	l i . b i

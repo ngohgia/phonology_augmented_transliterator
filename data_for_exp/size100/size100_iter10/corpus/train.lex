@@ -1,80 +1,80 @@
-kempis	k e m . p i . s eu
-como	k o . m o
-herring	h e . l i ng
-morley	m o l . l i
-walther	b a l . t eo
-malpighi	m a l . p i . g i
-chamisso	s ya . m i . s o
-remnant	l e m . n eo n . t eu
-athens	a . t e . n e
-azevedo	a . j e . b e . d o
-lagos	l a . g o . s eu
-fitz	p i . ch eu
-tolkien	t o l . k i n
-mang	m a ng
-pankhurst	p ae ng . k eu . h eo . s eu . t eu
-spada	s eu . p a . d a
-belcher	b e l . ch eo
-addams	ae . d eo m . s eu
-oppenheimer	o . p e n . h a . i . m eo
-longford	l o ng . p o . d eu
-abir	a . b i . l eu
-loren	l o . l e n
-sorge	s o . l eu . j u
-maspero	m a . s eu . p e . l o
-pomponazzi	p o m . p o . n a . ch i
-zdenek	j eu . d e . n e g
-brian	b eu . l a . i . eo n
-pettersson	p e . t eo . s eu n
-speyer	s yu . p a . i . eo
-alabama	ae l . l a . b ae . m a
-sharif	s ya . l i . p eu
-posada	p o . s a . d a
-akron	ae . k eu . l eo n
-bobby	b o . b i
-nicholson	n i . k eo l . s eu n
-villa	b i l . l a
-armin	a . l eu . m i n
-voigt	p o . k eu . t eu
-roy	l o . i
-nicolaus	n i . k o l . l a . u . s eu
-mraz	m eu . l a . j eu
-mills	m i l . s eu
-lassus	l a . s u . s eu
-krishna	k eu . l i . s yu . n a
-nichols	n i . k o l . s eu
-rasputin	l a . s eu . p u . t i n
-gwyn	g eu . wi n
-moses	m o . s e . s eu
-alice	ae l . l i . s eu
-brutus	b eu . l u . t u . s eu
-benn	b e n
-pinel	p i . n e l
-busoni	b u . s o . n i
-degas	d eu . g a
-gabon	g a . b o ng
-guarini	g wa . l i . n i
-doran	d o . l eo n
-vinci	b i n . ch i
-hilary	h i l . l eo . l i
-veen	b i n
-goldbeck	g o l . d eu . b e g
-delon	d eu . l o ng
-hahn	a n
-wilhelm	b i l . h e l . l eu m
-latvia	l a . t eu . b i . a
-malipiero	m a l . l i . p i . e . l o
-dunham	d eo n . h ae m
-jana	j a . n a
-gardner	g a . d eu . n eo
-edwin	e . d eu . wi n
-george	g e . o . l eu . g eu
-medina	m e . d i . n a
-white	h wa . i . t eu
-fritz	p eu . l i . ch eu
-maurizio	m a . u . l i . ch i . o
-gance	g a ng . s eu
-ava	e . b a
-greenfield	g eu . l i n . p i l . d eu
-kerschensteiner	k e . l eu . s ye n . s yu . t a . i . n eo
-estelle	e . s eu . t e l
+meier	m a . i . eo
+gromyko	g eu . l o . m i . k o
+dior	d i . o . l eu
+gadamer	g a . d a . m eo
+ibarbourou	i . b a . l eu . b u . l u
+manfred	m a n . p eu . l e . t eu
+edkins	ae . d eu . k i n . s eu
+ritchie	l i . ch i
+weiss	b a . i . s eu
+dulbecco	d u l . b e . k o
+hepplewhite	h e . p eu l . h wa . i . t eu
+weil	b a . i l
+alejandro	a l . l e . h a n . d eu . l o
+bidwell	b i . d eu . we l
+anwar	a n . wa . l eu
+dmitry	d eu . m i . t eu . l i
+peli	p e l . l i
+duclos	d wi . k eu l . l o
+ariel	a . l i . e l
+cedric	s e . d eu . l i g
+burman	b eo . m a
+binding	b i n . d i ng
+steichen	s eu . t a . i . k eo n
+duisburg	d wi . s eu . b u . l eu . k eu
+remy	l e . m i
+diego	d i . e . g o
+antonius	a n . t o . n i . u . s eu
+asquith	ae . s eu . k wi . s eu
+hassan	h a . s a n
+kline	k eu l . l a . i n
+dartmouth	d a . t eu . m eo . s eu
+somalia	s o . m a l . l i . a
+steen	s eu . t e n
+alphonse	a l . p o ng . s eu
+gretchen	g eu . l e . ch e n
+ermanno	e . l a . m a n . n o
+huber	h u . b eo
+drury	d eu . l u . eo . l i
+santorio	s a n . t o . l i . o
+morena	m o . l e . n a
+willemstad	b i l . l e m . s eu . t a . t eu
+jammes	j a m
+deniz	d e . n i . j eu
+espinosa	e . s eu . p i . n o . j a
+aptidon	a b . t i . d o n
+potsdam	p o . s eu . d a m
+browning	b eu . l a . u . n i ng
+yvon	i . b o ng
+norbert	n o . l eu . b e . l eu . t eu
+pulitzer	p yu l . l i . ch eo
+burroughs	b eo . l o . s eu
+masefield	m e . i . s eu . p i l . d eu
+gaskell	g ae . s eu . k e l
+hoffmann	h o . p eu . m a n
+emanuel	e . m a . n u . e l
+rohan	l o . h a n
+rumsey	l eo m . j i
+maguire	m ae g . g wa . i . eo
+luisa	l u . i . j a
+sherwood	s yeo . u . d eu
+kondo	k o n . d o
+bishkek	b i . s yu . k e . k eu
+bevin	b e . b i n
+serge	s e . l eu . g e
+benedetto	b e . n e . d e . t o
+sardou	s a . l eu . d u
+dennis	d e . n i . s eu
+lutz	l u . ch eu
+aiken	e . i . k i n
+gaia	g a . i . a
+vella	b e l . l a
+ghana	g a . n a
+zuckmayer	ch u . k eu . m a . i . eo
+stolz	s eu . t o l . ch eu
+novosibirsk	n o . b o . s i . b i . l eu . s eu . k eu
+tasha	t a . s ya
+talbot	t o l . b eo s
+wali	wa . l i
+hoskins	h o . s eu . k i n . s eu
+hoyt	h o . i . t eu

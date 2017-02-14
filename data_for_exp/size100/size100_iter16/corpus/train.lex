@@ -1,80 +1,80 @@
-duchamp	d wi . s ya ng
-martinez	m a . l eu . t i . n e . s eu
-enrico	e n . l i . k o
-galpin	g a l . p i n
-bakunin	b a . k u . n i n
-madeleine	m a . d eu . l e n
-bosch	b o . s yu
-ferdinand	p e . l eu . d i . n a n . d eu
-christian	k eu . l i . s eu . ch eo n
-branting	b eu . l a n . t i ng
-marconi	m a . l eu . k o . n i
-fogel	p o . g e l
-tamara	t a . m a . l a
-pollock	p o l . l o g
-moll	m o l
-harlem	h a l . l e m
-houghton	h o . t eu n
-ilona	i l . l o . n a
-oswald	o . s eu . b a l . t eu
-ludwik	l u . d eu . wi g
-ferrer	p e . l eo
-wolf	b o l . p eu
-pavese	p a . b e . s e
-ratzinger	l a . ch i ng . g eo
-mbasogo	eu m . b a . s o . g o
-buber	b u . b eo
-marcel	m a . l eu . s e l
-len	l e n
-vavilov	b a . b i l . l o . p eu
-haris	h a . l i . s eu
-hoffmann	h o . p eu . m a n
-peru	p e . l u
-michael	m i . s we l
-hopkins	h o b . k i n . s eu
-ezra	e . s eu . l a
-barone	b a . l o . n e
-stevie	s eu . t i . b i
-chaim	k a . i m
-youngstown	yeo ng . s eu . t a . u n
-hahnemann	h a . n e . m a n
-lilly	l i l . l i
-romer	l o . m eo
-zimmern	j i m . m e . l eu n
-clouzot	k eu l . l u . j o
-rodney	l o . d eu . n i
-edna	e . d eu . n a
-bettino	b e . t i . n o
-mats	m ae . ch eu
-galway	g o l . we . i
-grotius	g eu . l o . t i . u . s eu
-burdin	b eo . d i n
-isler	a . i . s eu l . l eo
-teasdale	t i . j eu . d e . i l
-baird	b e . eo . d eu
-concha	k o n . ch a
-chad	ch a . d eu
-bertel	b e . l eu . t e l
-ducommun	d wi . k o . m oe ng
+thoreau	s o . l o
+harman	h a . m eo n
+koltsov	k o l . ch o . p eu
+beuys	b o . i . s eu
+andrews	ae n . d eu . l u . s eu
+cayenne	k a . ye n
+chesterton	ch e . s eu . t eo . t eo n
+mosley	m o . j eu l . l i
+raphael	l a . p a . e l
+asam	a . j a m
+judy	j u . d i
+sawyer	s o . i . eo
+alvares	a l . b a . l e . s eu
+bible	b a . i . b eu l
+cottbus	k o s . b u . s eu
+fernando	p e . l eu . n a n . d o
+cohn	k o n
+pontryagin	p o n . t eu . l ya . g i n
+david	d a . b i . d eu
+robinson	l o . b i n . s eu n
+allende	a . ye n . d e
+dillon	d i l . l eo n
+razin	l a . j i n
+eliezer	e l . l i . e . j e . l eu
+kutuzov	k u . t u . j o . p eu
+grenada	g eu . l e . n a . d a
+artsybashev	a . l eu . ch i . b a . s ye . p eu
+virgil	b eo . j i l
+marlin	m a l . l i n
+levine	l eo . b a . i n
+moller	m o l . l eo
+evans	e . b eo n . s eu
+glover	g eu l . l o . b eo
+ahern	eo . h eo n
+praetorius	p eu . l e . t o . l i . u . s eu
+schwan	s yu . b a n
+goethals	g o . s eo l . s eu
+gareth	g ae . l i . s eu
+mbabane	eu m . b a . b a . n e
+montoya	m o n . t o . ya
+mantovani	m a n . t o . b a . n i
+sorokin	s o . l o . k i n
+haidar	h a . i . d a . l eu
+mahler	m a l . l eo
+aileen	e . i l . l i n
+bangkok	b a ng . k o g
+laufer	l a . u . p eo
+renan	l eu . n a ng
+quito	k i . t o
+ficino	p i . ch i . n o
+malden	m o l . d e n
+gabor	g a . b o . l eu
+harris	h ae . l i . s eu
+hacker	h ae . k eo
+caragiale	k a . l a . j i . a l . l e
+rudolph	l u . d o l . p eu
+chauncey	ch e n . s i
+kaspar	k a . s eu . p a . eo
+hogarth	h o . g a . s eu
+manrique	m a n . l i . k e
+bradford	b eu . l e . d eu . p o . d eu
+branco	b eu . l a ng . k o
+whitman	h wi . t eu . m eo n
+nunn	n eo n
+gertrud	g eo . t eu . l u . d eu
+catania	k a . t a . n i . a
+boethius	b o . i . t i . u . s eu
+karimi	k a . l i . m i
+kyle	k a . i l
+hoche	o . s yu
+marco	m a . l eu . k o
+greene	g eu . l i n
+allon	a l . l o n
+solovyov	s o l . l o . b i . yo . p eu
+packard	p ae g . k eo . d eu
+easton	i . s eu . t eo n
 kira	k i . l a
-bodin	b o . d ae ng
-jansky	j ae n . s eu . k i
-kuhn	k u n
-argentina	a . l eu . h e n . t i . n a
-pires	p i . l e . s eu
-harsanyi	h eo . s ya . n i
-dollar	d a l . l eo
-elise	e l . l i . s eu
-erbakan	e . l eu . b a . k a n
-ortega	o . l eu . t e . g a
-azhari	a . j a . l i
-fuentes	p u . e n . t e . s eu
-diogenes	d i . o . g e . n e . s eu
-gelsenkirchen	g e l . j e n . k i . l eu . h e n
-pritchard	p eu . l i . ch eo . d eu
-dev	d e . b eu
-kolja	k o l . l i . ya
-gertrude	g e . l eu . t eu . l u . d eu
-odessa	o . d e . s a
-bang	b a ng
-giusti	j u . s eu . t i
+masters	m a . s eu . t eo . s eu
+will	wi l
+philip	b i l . l i b

@@ -1,80 +1,80 @@
-larkin	l a . k i n
-mortimer	m o . t i . m eo
-milne	m i l . l eu n
-hurst	h eo . s eu . t eu
-nouri	n u . l i
-merriman	m e . l i . m eo n
-cuba	k u . b a
-macmillan	m ae g . m i l . l a n
-heck	h e g
-britten	b eu . l i . t eu n
-kaminski	k a . m i n . s eu . k i
-chevalier	s yu . b a l . l i . e
-porto_novo	p o . l eu . t o . n o . b o
-hassler	h a . s eu l . l eo
-meindert	m a . i n . d e . l eu . t eu
-koblenz	k o . b eu l . l e n . ch eu
-feetham	p i . s ae m
-benedetti	b e . n e . d e . t i
-robin	l o . b i n
-kroeber	k eu . l o . b eo
-marini	m a . l i . n i
-edel	e . d e l
-soufflot	s u . p eu l . l o
-lardner	l a . d eu . n eo
-clement	k eu l . l e . m e n . t eu
-lynne	l i n
-stolypin	s eu . t o l . l i . p i n
-bophuthatswana	b o . p eu . t a . ch eu . wa . n a
-kathryn	k ae . s eo . l i n
-esposito	e . s eu . p o . s i . t o
-edita	e . d i . t a
-sofia	s o . p i . a
-leonard	l e . o . n a . d eu
-konstanz	k o n . s eu . t a n . ch eu
-gershwin	g eo . s yu . wi n
-evers	e . b eo . s eu
-koepp	k o . p eu
-reeves	l i . b eu . s eu
-shevchenko	s ye . p eu . ch e n . k o
-boris	b o . l i . s eu
-fazal	p a . j a l
-maher	m a . h e . l eu
-standen	s eu . t ae n . d eu n
-horta	o . l eu . t a
-goldwyn	g o l . d eu . wi n
-gladkov	g eu l . l a s . k o . p eu
-netherlands	n e . d eo l . l a n . d eu
-nubia	n u . b i . a
-jenkins	j e n . k i n . s eu
-sarah	s a . l a
-gaede	g e . d e
-cope	k o . p eu
-abruzzi	a . b eu . l u . ch i
-boring	b o . l i ng
-banting	b ae n . t i ng
-huntsville	h eo n . ch eu . b i l
-burundi	b u . l u n . d i
-gregory	g eu . l e . g o . l i
-carmona	k a . m o . n a
-daniel	d a . n i . e l
-batoni	b a . t o . n i
-ansermet	a ng . s e . l eu . m e
-ion	i . o n
-tyndall	t i n . d eu l
-reed	l i . d eu
-rojas	l o . h a . s eu
-calypso	k a l . l i b . s o
-rabi	l a . b i
-humphreys	h eo m . p eu . l i . s eu
-hilferding	h i l . p eo . d i ng
-robinson	l o . b i n . s eu n
+kandahar	k a n . d a . h a . l eu
+derby	d eo . b i
+nero	n e . l o
+jordaens	yo . l eu . d a n . s eu
+cambiaso	k a m . b i . a . s o
+hodge	h o . j i
+ames	e . i m . s eu
+geibel	g a . i . b e l
+sadik	s a . d i . k eu
+tamm	t a m
+northrop	n o . s eu . l eo b
+davide	d a . b i . d e
+sergi	s e . l eu . h i
+bouvet	b o . b i s
+clifford	k eu l . l i . p eo . d eu
+iacocca	a . i . eo . k o . k a
+sinowatz	j i . n o . b a . ch eu
+mirza	m i . l eu . j a
+snell	s eu . n e l
+balzac	b a l . j a . k eu
+neutra	n o . i . t eu . l a
+glenda	g eu l . l e n . d a
+townes	t a . u n . s eu
+harrisburg	h ae . l i . s eu . b eo . g eu
+schiff	s wi . p eu
+cecchetti	ch e . k e . t i
+sexton	s e g . s eu . t eo n
+bello	b e l . l o
+poulet	p u l . l e
+indus	i n . d eo . s eu
+diller	d i l . l eo
+schell	s we l
+nelson	n e l . s eu n
+perenlei	p e . l e n . l e . i
+elsie	e l . s i
+vicki	b i . k i
+jaffna	j a . p eu . n a
+eugenio	e . u . j e . n i . o
+geulincx	g oe l . l i ng . k eu . s eu
+snyder	s eu . n a . i . d eo
+leopardi	l e . o . p a . l eu . d i
+gillian	j i l . l i . eo n
+boccaccio	b o . k a . ch i . o
+exeter	e g . s eo . t eo
+erving	eo . b i ng
+ithaca	i . t a . k a
+frick	p eu . l i g
+ambrosius	a m . b eu . l o . s i . u . s eu
+asch	ae . s wi
+debbie	d e . b i
+feldman	p e l . d eu . m a n
+bulgakov	b u l . g a . k o . p eu
+hilary	h i l . l eo . l i
+ramirez	l a . m i . l e . j eu
+kipling	k i . p eu l . l i ng
+hardwick	h a . d eu . wi g
+wit	b i . t eu
+stowe	s eu . t o
+barnet	b a . n e s
+gordon	g o . d eu n
+scholl	s eu . k o l
+maior	m a . i . o . l eu
+maxim	m a g . s i m
+federer	p e . d eo . l eo
+pitcairn	p i s . k e . eo n
+pregl	p eu . l e . g eu l
+rosalie	l o . j a l . l i
+adama	a . d a . m a
+tom	t o m
+tilghman	t i l . m eo n
+hutten	h u . t e n
+mignon	m i . n yo ng
+branca	b eu . l a n . k a
 schultz	s yu l . ch eu
-cates	k e . i . ch eu
-stone	s eu . t o n
-isabel	i . s a . b e l
-rubinstein	l u . b i n . s yu . t a . i n
-mendoza	m e n . d o . j a
-regine	l e . j i n
-suk	s u . k eu
-auriol	o . l i . o l
+canaro	k a . n a . l o
+lippmann	l i . p eu . m a n
+motta	m o . t a
+harriman	h ae . l i . m eo n
+hunker	h a n . k a
+busoni	b u . s o . n i

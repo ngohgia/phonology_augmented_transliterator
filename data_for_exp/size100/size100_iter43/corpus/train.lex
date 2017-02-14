@@ -1,80 +1,80 @@
-truman	t eu . l u . m eo n
-rachel	l a . h e l
-warren	wo . l eo n
-espinoza	e . s eu . p i . n o . j a
-bakst	b a g . s eu . t eu
-antwerp	ae n . t eu . wo . p eu
-brunat	b eu . l wi . n a
-boult	b o . u l . t eu
-petipa	p e . t i . p a
-bok	b o g
-welles	we l . s eu
-bass	b ae . s eu
-mukherjee	m u . k eo . l eu . j i
-bakersfield	b e . k eo . j eu . p i l . d eu
-dumas	d wi . m a
-segantini	s e . g a n . t i . n i
-weinberger	wa . i n . b eo . g eo
-ficino	p i . ch i . n o
-nimu	n i . m u
-janice	j e . n i . s eu
-julius	yu l . l i . u . s eu
-joaquin	h o . a . k i n
-weddell	we . d eu l
-pollack	p o l . l a g
-longo	l o ng . g o
-parkes	p a g . s eu
-verrocchio	b e . l o . k i . o
-kenny	k e . n i
-clausius	k eu l . l a . u . j i . u . s eu
-arroyo	a . l o . yo
-clive	k eu l . l a . i . b eu
-vijay	b i . j e . i
-gal	g a l
-tina	t i . n a
-guinea_bissau	g i . n i . b i . s a . u
-seward	s yu . eo . d eu
-kearsley	k i . eo . s eu l . l i
-collier	k o l . l i . eo
-puck	p eo g
-cecilia	s e . s i l . l i . a
-honecker	h o . n e . k eo
-milton	m i l . t eo n
-brigitte	b eu . l i . j i s
-palme	p a l . m e
-heuss	h o . i . s eu
-luria	l u . l i . a
-babson	b ae b . s eu n
-anzengruber	a n . ch e n . g eu . l u . b eo
-aubrey	o . b eu . l i
-pacino	p a . ch i . n o
-biloxi	b i l . l o g . s i
-wanda	wa n . d a
-bob	b a b
+cartan	k a . l eu . t a ng
+graf	g eu . l a . p eu
+engler	e ng . g eu l . l eo
+helga	h e l . g a
+gozzoli	g o . ch o l . l i
+rossellini	l o . s e l . l i . n i
+ivan	i . b a n
+scheidt	s ya . i . t eu
+funafuti	p u . n a . p u . t i
+persson	p e . l eu . s o n
+ranieri	l a . n e . l i
+prishvin	p eu . l i . s yu . b i n
+simeon	s i . m eu . o n
+lem	l e m
+young	yeo ng
+magda	m a . g eu . d a
+lachmann	l a . h eu . m a n
+peron	p e . l o n
+parish	p ae . l i . s wi
+pourcel	p u . l eu . s e l
+neilson	n i l . s eu n
+honduras	h o n . d u . l a . s eu
+cadena	k a . d e . n a
+telford	t e l . p o . d eu
+anderton	a n . d eo . t o n
+vinci	b i n . ch i
+wingrove	wi n . g eu . l o . b eu
+tarkington	t a . k i ng . t eo n
+odets	o . d e . ch eu
+bertin	b e . l eu . t ae ng
+montpelier	m o n . t eu . p i l . l i . eo
+carnes	k a . n e . s eu
+skryabin	s eu . k eu . l ya . b i n
+dever	d e . b eo
+campo	k a m . p o
+lilian	l i l . l i . a ng
+kepler	k e . p eu l . l eo
+utrillo	yu . t eu . l i l . l o
+mata	m a . t a
+branson	b eu . l ae n . s eu n
+byers	b a . i . eo . s eu
+frederik	p eu . l e . d e . l i . k eu
+immermann	i . m eo . m a n
+sanderson	s ae n . d eo . s eu n
+karlfeldt	k a l . p e l . t eu
+gumplowicz	g u m . p eu l . l o . b i . ch i
+jouvet	j u . b e
+titulescu	t i . t u l . l e . s eu . k u
+albert	a l . b eo . t eu
+walpole	wo l . p o l
+huff	h eo . p eu
+patagonia	p a . t a . g o . n i . a
+stuart	s eu . t yu . eo . t eu
+gail	g e . i l
+jurgen	j u . g e n
+leonard	l e . o . n a . d eu
+smalley	s eu . m o l . l i
+topeka	t o . p i . k a
+buono	b o . n o
+reagan	l e . i . g eo n
+fernandez	p e . l eu . n a n . d e . s eu
+boccioni	b o . ch o . n i
+ortiz	o . l eu . t i . s eu
+lu	l u
+pevsner	p e . p eu . s eu . n eo
+keon	k i . o n
+donato	d o . n a . t o
+nilsson	n i l . s o n
+cornelis	k o . l eu . n e l . l i . s eu
+venter	b e n . t eo
+hebel	h e . b e l
+potapenko	p o . t a . p e n . k o
+evansville	e . b eo n . j eu . b i l
+ribeiro	l i . b e . i . l u
+harrington	h ae . l i ng . t eo n
+barna	b a . n a
+concord	k o ng . k o . d eu
+annapolis	a . n a . p o l . l i . s eu
+tammy	t ae . m i
 augusta	o . g eo . s eu . t a
-ogburn	o . g eu . b eo n
-berenger	b e . l i n . j eo
-simi	s i . m i
-colgate	k o l . g e . i . t eu
-ludwig	l u . t eu . b i . h i
-planck	p eu l . l a ng . k eu
-yehudi	ye . h u . d i
-desmond	d e . j eu . m eo n . d eu
-isabelle	i . j a . b e l
-hofmann	h o . p eu . m a n
-alger	a l . j e
-rucker	l eo . k eo
-shropshire	s yu . l o b . s yeo
-conte	k o ng . t e
-hensel	h e n . j e l
-erdmann	e . l eu . d eu . m a n
-clinton	k eu l . l i n . t eo n
-serge	s e . l eu . g e
-mumford	m eo m . p eo . d eu
-rabin	l a . b i n
-arne	a . l eu . n e
-niels	n i l . s eu
-keyserling	k a . i . j eo l . l i ng
-wolfrum	wo l . p eu . l eo m
-castello	k a . s eu . t e l . l o
-aragon	a . l a . g o n

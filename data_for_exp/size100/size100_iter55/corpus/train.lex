@@ -1,80 +1,80 @@
-igor	i . g o . l eu
-alisa	a l . l i . s a
-goldsworthy	g o l . j eu . wo . d i
-giacosa	j a . k o . s a
-torrence	t o . l eo n . s eu
-wieser	b i . j eo
-maistre	m e . s eu . t eu . l eu
-kingston	k i ng . s eu . t eo n
-federer	p e . d eo . l eo
-eileen	a . i l . l i n
-eschenbach	e . s ye n . b a . h eu
-phelps	p e l . p eu . s eu
-morand	m o . l a ng
-freda	p eu . l e . d a
-piaget	p i . a . j e
-fisk	p i . s eu . k eu
-woolf	u l . p eu
-badajoz	b a . d a . h o . s eu
-ellison	e l . l i . s eu n
-mercier	m e . l eu . s i . e
-bayer	b a . i . eo
-celan	ch e l . l a n
-issac	a . i . j a g
-meier	m a . i . eo
-burnet	b eo . n e s
-doe	d o
-gombrich	g o m . b eu . l i . ch i
-dillon	d i l . l eo n
-gloria	g eu l . l o . l i . a
-barbados	b a . b e . i . d o . s eu
-discovery	d i . s eu . k eo . b eo . l i
-quiroga	k i . l o . g a
-isaiah	i . s a . ya
-alba	a l . b a
-chris	k eu . l i . s eu
-kohler	k o l . l eo
-rainy	l e . i . n i
-kaiser	k a . i . j eo
-blanchard	b eu l . l a ng . s ya . l eu
-vesaas	b e . s o . s eu
-freiburg	p eu . l a . i . b u . l eu . k eu
-heine	h a . i . n e
-bandello	b a n . d e l . l o
-cyndi	s i n . d i
-hardie	h a . d i
-antonina	a n . t o . n i . n a
-afghanistan	a . p eu . g a . n i . s eu . t a n
-laufer	l a . u . p eo
-braine	b eu . l e . i n
-joshi	j o . s i
-heather	h e . d eo
-falkberget	p a l . k eu . b e . l eu . g e
-kondo	k o n . d o
-muir	m yu . eo
-strang	s eu . t eu . l ae ng
-camara	k a . m a . l a
-ungaro	u ng . g a . l o
-jacoby	j a . k o . b i
-mannheim	m a n . h a . i m
-carrie	k ae . l i
-ohm	o m
+emilie	e . m i l . l i
+avery	e . b eo . l i
+filippo	p i l . l i . p o
+schacht	s ya . h eu . t eu
+meisheng	m e . i . s eo ng
+platt	p eu l . l ae s
+servais	s e . l eu . b e
+mila	m i l . l a
+portugal	p o . l eu . t u . g a l
+samuel	s a . m u . e l
+kremer	k eu . l e . m eo
+len	l e n
+yamoussoukro	ya . m u . s u . k eu . l o
+bettino	b e . t i . n o
+segal	s i . g a l
+gobi	g o . b i
+kassem	k a . s e m
+kuhn	k u n
+corbin	k o . b i n
+pearson	p i . eo . s eu n
 eijkman	e . i . k eu . m a n
-leslie	l e . s eu l . l i
-swanson	s eu . wa n . s eu n
-undset	u n . s e . t eu
-kirby	k eo . b i
-gantt	g ae n . t eu
-garry	g e . l i
-spencer	s eu . p e n . s eo
-faraday	p ae . l eo . d i
-samuelsson	s a . m u . e l . s o n
-middleton	m i . d eu l . t eo n
-northampton	n o . s ae m . p eu . t eo n
-breyer	b eu . l e . i . eo
-jaap	ya . p eu
-klondike	k eu l . l o n . d a . i . k eu
-karen	k a . l e n
-fanny	p a . n i
-cass	k ae . s eu
-canterbury	k ae n . t eo . b e . l i
+picasso	p i . k a . s o
+monticelli	m o ng . t i . s e l . l i
+radu	l a . d u
+morisot	m o . l i . j o
+edita	e . d i . t a
+harnack	h a . l eu . n a . k eu
+heinz	h a . i n . ch eu
+geoffrey	j o . p eu . l i
+gainsborough	g e . i n . j eu . b eo . l eo
+biddle	b i . d eu l
+hartmut	h a . l eu . t eu . m u . t eu
+zdenek	j eu . d e . n e g
+nicholas	n i . k o l . l a . s eu
+canova	k a . n o . b a
+gossec	g o . s e . k eu
+xavier	j a . b i . e . l eu
+thorvaldsen	t o . l eu . b a l . s e n
+turkey	t eo . k i
+saleh	s a l . l e
+hubert	wi . b e . l eu
+joanna	j o . a n . n a
+grosse	g eu . l o . s e
+andrei	a n . d eu . l e . i
+esaias	e . s a . i . a . s eu
+hutton	h eo . t eo n
+fontainebleau	p o ng . t e n . b eu l . l o
+steinbeck	s eu . t a . i n . b e g
+eleanor	e l . l i . n eo
+montesquieu	m o ng . t e . s eu . k i . oe
+whymper	h wi m . p eo
+thorndike	s o n . d a . i . k eu
+koror	k o . l o . l eu
+brazzaville	b eu . l a . j a . b i l
+ivory	a . i . b o . l i
+larsen	l a . l eu . s e n
+opitz	o . p i . ch eu
+battista	b a . t i . s eu . t a
+davidoff	d ae . b i . d o . p eu
+kamenev	k a . m e . n e . p eu
+irene	i . l e . i n
+paula	p o l . l a
+soyinka	s o . i ng . k a
+austen	o . s eu . t i n
+jacobi	ya . k o . b i
+oceania	o . s e . a . n i . a
+kashmir	k a . s yu . m i . l eu
+philippines	p i l . l i . p i n
+beregovoy	b eu . l eu . g o . b u . a
+ukraine	u . k eu . l a . i . n a
+carmona	k a . m o . n a
+herne	h e . l eu . n e
+jonsson	j o n . s eu n
+bergson	b e . l eu . g eu . s o ng
+aaron	a . l o n
+neruda	n e . l u . d a
+dara	d ae . l a
+maciel	m a . s i . e l
+westermarck	we . s eu . t eo . m a . k eu
+hamsun	h a m . s u n

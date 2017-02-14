@@ -1,80 +1,80 @@
-marie	m a . l i
-dodson	d a s . s eu n
-mendelssohn	m e n . d e l . s eu . j o n
-gobat	g o . b a
-simon	s i . m o n
-moseley	m o . j eu l . l i
-jidda	j i . d a
-samantha	s a . m a n . d a
-bear	b e . a
-philips	p i l . l i b . s eu
-liddell	l i . d eu l
-tennessee	t e . n e . s i
-vivaldi	b i . b a l . d i
-gusou	g u . ss eo . u
-arias	a . l i . a . s eu
-zimmerman	j i m . m eo . m a n
-suva	s u . b a
-dannemann	d a . n e . m a n
-baade	b a . d e
-camargo	k a . m a . l eu . g o
-dewey	d yu . i
-lenard	l e . n a . l eu . t eu
-cunningham	k eo . n i ng . eo m
-eager	i . g eo
-bryce	b eu . l a . i . s eu
-saavedra	s a . b e . d eu . l a
-scotland	s eu . k o . t eu l . l ae n . d eu
-baker	b e . i . k eo
-heyman	h e . i . m eo n
-greenberg	g eu . l i n . b eo . g eu
-north	n o . s eu
-senghor	s a ng . g o . l eu
-nasir	n a . s i . l eu
-tessa	t e . s a
-allentown	a l . l e n . t a . u n
-tiger	t a . i . g eo
-francis	p eu . l a ng . s i . s eu
-donnie	d o . n i
-prince	p eu . l i n . s eu
-pertini	p e . l eu . t i . n i
-dolores	d o l . l o . l e . s eu
-montes	m o n . t e . s eu
-cole	k o l
-goldberg	g o l . d eu . b eo . g eu
-ernest	eo . n i . s eu . t eu
-ventura	b e n . ch yu . l a
+casadesus	k a . j a . d eu . j wi
+lauder	l o . d eo
+lubbers	l wi . b e . l eu . s eu
+cramer	k eu . l ae . m eo
+greely	g eu . l i l . l i
+lille	l i l
+dumas	d wi . m a
+sheppard	s ye . p eo . d eu
+goldstein	g o l . d eu . s eu . t a . i n
+gilles	j i l . s eu
+euclid	yu . k eu l . l i . d eu
+lothian	l o . d i . eo n
+graham	g eu . l e . i . eo m
+guadalupe	g wa . d a l . l u . p e
+garner	g a . n eo
+cantor	k a n . t o . eo
+sinai	s i . n a . i
+fein	p e . i n
+wittig	b i . t i . h i
+natta	n a . t a
+noske	n o . s eu . k e
+carpenter	k a . p e n . t eo
+ryle	l a . i l
+lech	l e . h eu
+amin	a . m i n
+rainwater	l e . i n . wo . t eo
+vigo	b i . g o
+kingsley	k i ng . j eu l . l i
+hawke	h o . k eu
+lithuania	l i . t u . a . n i . a
+buck	p eo l
+dawes	d o . s eu
+dunn	d eo n
+filmer	p i l . m eo
+slovakia	s eu l . l o . b a . k i . a
+olbrich	o l . b eu . l i . h i
+kellogg	k e l . l o . g eu
+sommerfield	s eo m . m eo . p i l . d eu
+nilson	n i l . s o n
+batman	b ae . t eu . m ae n
+tate	t e . i . t eu
+onsager	o n . s a . g eo
+klemperer	k eu l . l e m . p e . l eo
+porter	p o . t eo
+rawlinson	l o l . l i n . s eu n
+bert	b e . l eu . t eu
+aasen	o . s e n
+danforth	d ae n . p o . s eu
+nolte	n o l . t e
+tiepolo	t i . e . p o l . l o
+schreker	s yu . l e . k eo
+coker	k o . k eo
+stoddard	s eu . t o . d a . d eu
+undset	u n . s e . t eu
+perlman	p eo l . m a n
+mal	m a l
 luciano	l u . ch i . a . n o
-man	m ae n
-manrique	m a n . l i . k e
-caird	k e . eo . d eu
-amara	a . m a . l a
-brangwyn	b eu . l ae ng . g wi n
-smith	s eu . m i . s eu
-robert	l o . b e . l eu . t eu
-molander	m o l . l a n . d eo
-bodo	b o . d o
-carter	k a . t eo
-steele	s eu . t i l
-udo	u . d o
-auden	o . d eu n
-lockhart	l o g . h a . t eu
-middlesex	m i . d eu l . s e g . s eu
-sorel	s o . l e l
-grote	g eu . l o . t eu
-zorn	s o . l eu n
-stuart	s eu . t yu . eo . t eu
-carey	k e . l i
-bazin	b a . j ae ng
-seyfert	s i . p eo . t eu
-zelaya	j e . l a . ya
-montana	m o n . t ae . n a
-ganges	g ae n . j i . s eu
-perutz	p eo . l u . ch eu
-reinhold	l a . i n . h o l . t eu
-clapeyron	k eu l . l a . p e . l o ng
-konrad	k o n . l a . t eu
-zurich	ch wi . l i . h i
-hellsing	h e l . s i ng
-habermas	h a . b eo . m a . s eu
-lars	l a . l eu . s eu
+behn	b e n
+solo	s o l . l o
+jukes	j yu . k eu . s eu
+lorraine	l o . l e n
+suriname	s u . l i . n a m
+hansen	h a n . s e n
+tennessee	t e . n e . s i
+sumatra	s u . m a . t eu . l a
+torres	t o . l e . s eu
+chandrasekhar	ch a n . d eu . l a . s e . k a . l eu
+medhurst	m e . d eu . h eo . s eu . t eu
+porta	p o . l eu . t a
+solvay	s o l . b e . i
+winifred	wi n . p eu . l e . d eu
+rostand	l o . s eu . t a ng
+katie	k e . i . t i
+dave	d e . i . b eu
+manchester	m ae n . ch e . s eu . t eo
+avellaneda	a . b e . ya . n e . d a
+nika	n i . k a
+mike	m a . i . k eu
+cressent	k eu . l e . s a ng
+begin	b e . g i n

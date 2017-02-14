@@ -1,80 +1,80 @@
-portugal	p o . l eu . t u . g a l
-erasmus	e . l a . s eu . m u . s eu
-laurens	l o . l a ng . s eu
-eudora	yu . d o . l a
-dupuy	d wi . p yu . i
-groth	g eu . l o . t eu
-luther	l u . t eo
-pettenkofer	p e . t e n . k o . p eo
-ohio	o . h a . i . o
-ernesto	e . l eu . n e . s eu . t o
-travolta	t eu . l a . b o l . t a
-caputo	k a . p u . t o
-steinem	s eu . t a . i . n eo m
-windsor	wi n . j eo
-kimmel	k i . m e l
-mobile	m o . b a . i l
-amundsen	a . m u n . j e n
-maxime	m a g . s i m
-debye	d i . b a . i
-arjun	a . j u n
-ockeghem	o . k e . g e m
-olena	o l . n e . n a
-gullstrand	g u l . s eu . t eu . l a n . d eu
-buch	b u . h eu
-hollingworth	h o l . l i ng . wo . s eu
-abrams	a . b eu . l a m . s eu
-hobbema	h o . b e . m a
+salih	ss a l . l i . h eu
+groethuysen	g eu . l e . t wi . j ae ng
+eckardt	e . k a . l eu . t eu
+seattle	s i . ae . t eu l
+berkley	b eo . k eu l . l i
+walther	b a l . t eo
+abidjan	a . b i . j a ng
 fenton	p e n . t eu n
-gilmore	g i l . m o . eo
-lowell	l o . we l
-gini	j i . n i
-onassis	o . n a . s i . s eu
-baghdad	b a . g eu . d a . d eu
-hasse	h a . s e
-butte	b yu . t eu
-kempff	k e m . p eu
-herder	h e . l eu . d eo
-point	p o . i n . t eu
-chesterfield	ch e . s eu . t eo . p i l . d eu
-mina	m i . n a
-watson	wa s . s eu n
-bains	b e . i n . j eu
-grew	g eu . l u
+heaviside	h e . b i . s a . i . d eu
+brandenburg	b eu . l a n . d e n . b u . l eu . k eu
+sarney	s a . l eu . n e . i
+junge	yu ng . g e
+abegg	a . b e . g eu
+alberta	a l . b a . t a
+harvey	h a . b i
+winchester	wi n . ch e . s eu . t eo
+aretino	a . l e . t i . n o
+flagstad	p eu l . l a . g eu . s eu . t a
+brecht	b eu . l e . h i . t eu
+medawar	m e . d eo . wo
+ling	l i ng
+griffiths	g eu . l i . p i . s eu
+beatrix	b e . a . t eu . l i g . s eu
+leonid	l e . o . n i . t eu
+lois	l u . i . s eu
+judith	yu . d i . s eu
+tunisia	t wi . n i . j i
+senghor	s a ng . g o . l eu
+boer	b o . eo
+angelika	a ng . g e l . l i . k a
+cartwright	k a . t eu . l a . i . t eu
+stockton	s eu . t o g . t eo n
+fleet	p eu l . l i . t eu
+gago	g a . g o
+garland	g a l . l eo n . d eu
+simone	s i . m o . n e
+edelman	e . d eo l . m eo n
+baumeister	b a . u . m a . i . s eu . t eo
+neher	n e . eo
+salman	s a l . m a n
+abilene	ae . b i l . l i n
+esther	e . s eu . d eo
+danton	d a ng . t o ng
+kendrew	k e n . d eu . l u
+voroshilov	b o . l o . s i l . l o . p eu
+maya	m a . ya
+alexandra	a l . l e g . s a n . d eu . l a
+doris	d o . l i . s eu
+godwin	g o . d eu . wi n
+mia	m i . a
+rohrer	l o . l eo
+pisanello	p i . s a . n e l . l o
 copernicus	k o . p e . l eu . n i . k u . s eu
-musset	m wi . s e
-chopin	s yo . p ae ng
-root	l u . t eu
-colette	k o l . l e . t eu
-ruysdael	l o . i . s eu . d a l
-tana	t a . n a
-benigno	b e . n i . g eu . n o
-moura	m o . l a
-lafontaine	l a . p o ng . t e n
-achard	a . s ya . l eu
-kandahar	k a n . d a . h a . l eu
-ryzhkov	l i . s yu . k o . p eu
-bernd	b e . l eu n . t eu
-prus	p eu . l u . s eu
-osborne	o . j eu . b eo n
-stipe	s eu . t i . p e
-shawn	s yo n
-galilei	g a l . l i l . l e . i
-sherman	s yeo . m eo n
-principe	p eu . l i n . s i . p e
-belize	b e l . l i . j eu
-fowler	p a . u l . l eo
-andreev	a n . d eu . l e . ye . p eu
-swammerdam	s eu . wa m . m e . l eu . d a m
-mackinder	m ae . k i n . d eo
-linus	l i . n u . s eu
-amar	a . m a . l eu
-willard	wi l . l eo . d eu
-pople	p o . p eu l
-matthews	m ae . s yu . s eu
-kinnock	k i . n o g
-witz	b i . ch eu
-gaumont	g o . m o ng
-maxim	m a g . s i m
-spitteler	s yu . p i . t e l . l eo
-stephanopoulos	s eu . t e . p a . n o . p u l . l o . s eu
+chausson	s yo . s o ng
+stilwell	s eu . t i l . we l
+merce	m eo . s eu
+marc	m a . l eu . k eu
+shane	s we . i n
+bundy	b eo n . d i
+crean	k eu . l i n
+novak	n o . b a g
+bertie	b eo . t i
+jeff	j e . p eu
+bush	b u . s i
+montessori	m o n . t e . s o . l i
+fiedler	p i . d eu l . l eo
+jill	j i l
+sakharov	s a . h a . l o . p eu
+ripley	l i . p eu l . l i
+aubert	o . b e . l eu
+dam	d a m
+bernardo	b e . l eu . n a . l eu . d o
+edmund	e . d eu . m eo n . d eu
+angola	a ng . g o l . l a
+jacobs	j e . i . k o b . s eu
+slim	s eu l . l i m
+gates	g e . i . ch eu
+welhaven	b e l . h a . b e n
+babbage	b ae . b i . j i
+staudinger	s yu . t a . u . d i ng . g eo

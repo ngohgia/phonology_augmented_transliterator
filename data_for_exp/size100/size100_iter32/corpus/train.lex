@@ -1,80 +1,80 @@
-cummings	k eo . m i ng . s eu
-stresemann	s yu . t eu . l e . j e . m a n
-dubois	d wi . b u . a
-karlgren	k a l . g eu . l e n
-butts	b eo . ch eu
-addington	ae . d i ng . t eo n
-hardwicke	h a . d eu . wi . k e
-cornelius	k o . l eu . n e l . l i . u . s eu
-diane	d a . i . a n
-horn	h o . l eu n
-mayflower	m e . i . p eu l . l a . wo
-conrad	k o n . l ae . d eu
-port	p o . t eu
-jennings	j e . n i ng . s eu
-helga	h e l . g a
-nasser	n a . s e . l eu
-zane	j e . i n
-johnny	j o . n i
-inca	i ng . k a
-fred	p eu . l e . d eu
-angel	e n . j e l
-bain	b e . i n
-cassini	k a . s i . n i
-heyerdahl	h e . wi . e . l eu . d a l
-burt	b eo . t eu
-bizet	b i . j e
-grieg	g eu . l i . g eu
-noel	n o . e l
-waage	b o . g e
-godfrey	g o . d eu . p eu . l i
-romain	l o . m ae ng
-welch	we l . ch i
-klitzing	k eu l . l i . ch i ng
-winifred	wi n . p eu . l e . d eu
-hendrikx	h e n . d eu . l i g . s eu
-somare	s o . m a . l e
-luchino	l u . k i . n o
-latham	l e . i . d a m
-mehdi	m e . d i
-rohmer	l o . m e . l eu
-amontons	a . m o ng . t o ng
-windelband	b i n . d e l . b a n . t eu
-boucher	b a . u . ch eo
-chamorro	ch a . m o . l o
-jack	j ae g
-dacca	d a . k a
-kazakhstan	k a . j a . h eu . s eu . t a n
-chesterton	ch e . s eu . t eo . t eo n
-vaucanson	b o . k a ng . s o ng
-tobias	t o . b i . a . s eu
-bjork	b i . yo . k eu
-getty	g e . t i
-gabriele	g a . b eu . l i . e l . l e
+algeria	a l . j e . l i
+sunderland	s eo n . d eo . l ae n . d eu
+bernhard	b eo n . h a . d eu
+haynes	h e . i n . j eu
+uzi	u . j i
+maddox	m ae . d o g . s eu
+dixit	d i g . s i . t eu
+lina	l i . n a
+bosworth	b o . j eu . wo . s eu
 qingxian	ch i ng . s ye n
-gerardus	h e . l a . l eu . d wi . s eu
-agostino	a . g o . s eu . t i . n o
-apia	a . p i . a
-gentz	g e n . ch eu
-bose	b o . s eu
-hazard	h ae . j eo . d eu
-dever	d e . b eo
-gibbons	g i . b eo n . s eu
-lebanon	l e . b a . n o n
-kennelly	k e . n eo l . l i
-hensen	h e n . j e n
-piranesi	p i . l a . n e . s i
-botswana	b o . ch eu . wa . n a
-georg	g e . o . l eu . g eu
-lederberg	l e . d eo . b eo . g eu
-batman	b ae . t eu . m ae n
-benin	b e . n ae ng
-avenarius	a . b e n . n a . l i . u . s eu
-gerber	g eo . b eo
-nazareth	n a . s a . l e s
-burrows	b eo . l o . u . j eu
-serafin	s e . l a . p i n
-sagan	s e . i . g eo n
-rydberg	l wi . d eu . b e . l i
-bolton	b o l . t eo n
-zajac	j a . j a . k eu
+anibal	a . n i . b a l
+perrault	p e . l o
+bethel	b e . d e l
+herzberg	h e . l eu . ch eu . b e . l eu . k eu
+julian	yu l . l i . a . n u . s eu
+caroline	k ae . l o l . l a . i n
+gustaf	g u . s eu . t a . p eu
+camus	k a . m wi
+yitzhak	i . ch eu . h a . k eu
+bohemia	b o . h e . m i . a
+colorado	k o l . l o . l a . d o
+melbourne	m e l . b eo . l eu n
+piero	p i . e . l o
+downey	d o . n i
+treitschke	t eu . l a . i . ch i . k e
+linton	l i n . t eo n
+taussig	t a . u . s i . g eu
+cosa	k o . s a
+henrik	h e n . l i . k eu
+bentley	b e n . t eu . l i
+silvia	s i l . b i . a
+yunis	yu . n i . s eu
+busia	b u . s i . a
+eamon	e . i . m eo n
+menzel	m e n . j e l
+don	d a n
+heym	h a . i m
+freundlich	p eu . l u n . d i . ch i
+severin	s e . b eo . l i n
+hibernia	h a . i . b eo . n i . a
+ramos	l a . m o . s eu
+leeds	l i . j eu
+holden	h o l . d eu n
+bergeron	b e . l eu . ye . l o n
+pinero	p i . n e . l o
+healey	h i l . l i
+enzo	e n . j o
+dern	d eo n
+schuman	s wi . m a ng
+bunin	b u . n i n
+langbein	l ae ng . b a . i n
+lahnstein	l a n . s eu . t e . i n
+andy	ae n . d i
+heymans	h a . i . m a n . s eu
+funke	p u ng . k e
+jospin	j o . s eu . p ae ng
+ibsen	i b . s e n
+kolarov	k o l . l a . l o . p eu
+kapitsa	k a . p i . ch a
+kania	k a . n i . a
+mergenthaler	m eo . g eo n . t a l . l eo
+kessler	k e . s eu l . l eo
+kendrick	k e n . d eu . l i g
+wight	wa . i . t eu
+romania	l u . m a . n i . a
+phil	p i l
+brzezinski	b eu . l e . j i n . s eu . k i
+radbruch	l a . d eu . b eu . l u . h eu
+otis	o . t i . s eu
+rosso	l o . s o
+cardiff	k a . d i . p eu
+stevenson	s eu . t i . b eu n . s eu n
+diana	d i . a . n a
+liam	l i . eo m
+ernie	eo . n i
+eindhoven	e . i n . t eu . h o . b e n
+joule	j u l
+victoria	b i g . t o . l i . a
+colgate	k o l . g e . i . t eu
+simons	s a . i . m eo n . j eu

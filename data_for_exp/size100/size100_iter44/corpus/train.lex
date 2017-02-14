@@ -1,80 +1,80 @@
-paolo	p a . o l . l o
-herford	h e . eo . p o . t eu
-monty	m o n . t i
-galle	g a l
-astley	ae . s eu . t eu l . l i
-euclid	yu . k eu l . l i . d eu
-klopstock	k eu l . l o b . s yu . t o . k eu
-les	l e . s eu
-fernando	p e . l eu . n a n . d o
-philipp	p i l . l i . p eu
-lukas	l u . k a . s eu
-persson	p e . l eu . s o n
-toledo	t eo l . l i . d o
-jepsen	j e . p eu . s eu n
-burnham	b eo n . h ae m
-said	s a . i . d eu
-ashkenazi	a . s i . k e . n a . j i
-fryer	p eu . l a . i . eo
-evansville	e . b eo n . j eu . b i l
-symington	s a . i . m i ng . t eo n
-cardin	k a . d i n
-hartmut	h a . l eu . t eu . m u . t eu
-trudeau	t eu . l wi . d o
-charles	s ya . l eu l
-hermann	h e . l eu . m a n
-egbert	e . g eu . b eo . t eu
-duval	d yu . b a l
-mucha	m u . h a
-erwin	eo . wi n
-tallinn	t a l . l i n
-weizman	b a . i . ch eu . m a n
-ira	a . i . l a
-cyrankiewicz	ch i . l a n . k i . e . b i . ch i
-novak	n o . b a g
-polly	p o l . l i
-adler	a . d eu l . l eo
-frans	p eu . l a n . s eu
-junkers	yu ng . k eo . s eu
-adenauer	a . d e . n a . wo
-oceania	o . s e . a . n i . a
-pereira	p e . l e . i . l a
-gracchus	g eu . l a . k u . s eu
-rosa	l o . j a
-ban	b a n
-buckle	b eo . k eu l
-jim	j i m
-rockingham	l a g . k i ng . h ae m
-hoche	o . s yu
-bakhtin	b a . h eu . ch i n
-georgina	j o . l eu . j i . n a
-cornforth	k o n . p o . s eu
-flora	p eu l . l o . l a
-wyoming	wa . i . o . m i ng
-bujumbura	b u . j u m . b u . l a
-angle	ae ng . g eu l
-cowan	k o . wa n
-barton	b a . t eo n
-gosse	g o . s eu
-duvivier	d wi . b i . b i . e
-peter	p i . t eo
-avraham	a . b eu . l a . h a m
-chuvash	ch u . b a . s yu
-rudolf	l u . d o l . p eu
-laurie	l o . l i
+pierce	p i . eo . s eu
+konrad	k o n . l a . t eu
+attenborough	ae . t eu n . b eo . l eo
+amiel	a . m i . e l
+gerrit	h e . l i . t eu
+seipel	j a . i . p e l
+habsburg	h a b . s eu . b u . l eu . k eu
+lipps	l i b . s eu
+andrew	a n . d eu . l e
+anthony	a n . t o . n i . o
+walt	wo l . t eu
+pire	p i . l eu
+babbitt	b a . b i . t eu
+voigt	p o . k eu . t eu
+giulio	j u l . l i . o
+jonny	j o . n i
+earl	eo l
+mackinder	m ae . k i n . d eo
+arboleda	a . l eu . b o l . l e . d a
+danny	d ae . n i
+mercer	m eo . s eo
+paterson	p ae . t eo . s eu n
+rautio	l o . t i . o
+baucus	b a . k eu . s eu
+reinecke	l a . i . n e . k e
+martini	g u . i . d o
+wackenroder	b a . k e n . l o . d eo
+doran	d o . l eo n
+gervinus	g e . l eu . b i . n u . s eu
+joaquim	h o . a . k i m
+steno	s eu . t e . n o
+ryan	l a . i . eo n
+farjeon	p a . j eo n
+morrissey	m o . l i . ss i
+vivienne	b i . b i . a n
+christa	k eu . l i . s eu
+hawn	h o n
+fessenden	p e . s e n . d e n
+evelyn	i . b e l . l i n
+guy	g a . i
+driver	d eu . l a . i . b eo
+uribe	u . l i . b e
+bauer	b a . u . eo
+yasin	ya . s i n
+mick	m i g
+jensen	ye n . s e n
+leonor	l e . o . n o . l eu
+ramuz	l a . m wi
+backhaus	b a . k eu . h a . u . s eu
+kolbenheyer	k o l . b e n . h a . i . eo
+marconi	m a . l eu . k o . n i
+silvestre	s i l . b e . s eu . t eu . l eu
+cassandre	k a . s a ng . d eu . l eu
+lot	l o s
+adorno	a . d o . l eu . n o
+houssay	u . s a . i
+sylvester	s i l . b e . s eu . t eo
+agassiz	a . g a . s i
+ostade	o . s eu . t a . d e
+fremont	p eu . l e . m o n . t eu
+goncharov	g o n . ch a . l o . p eu
+carpentier	k a . l eu . p e n . t i . e . l eu
+gorbachev	g o . l eu . b a . ch o . p eu
+eunice	yu . n i . s eu
+jouve	j u . b eu
+potts	p o . ch eu
+lacan	l a . k a ng
+issabel	i . j a . b e l
+leboeuf	l eu . b oe . p eu
+kearsley	k i . eo . s eu l . l i
+jessica	j e . s i . k a
+lyly	l i l . l i
+albani	a l . b a . n i
 lovelace	l eo . b eu . l e . i . s eu
-tuvalu	t u . b a l . l u
-kornfeld	k o n . p i l . d eu
-rockefeller	l o g . p e l . l eo
-jamieson	j e . m i . s eu n
-guadalcanal	g wa . d a l . k a . n a l
-scalapino	s eu . k a l . l a . p i . n o
-sodoma	s o . d o . m a
-kossel	k o . s e l
-glendale	g eu l . l e n . d e . i l
-orban	o . l eu . b eo n
-tosti	t o . s eu . t i
-luxemburg	l u g . s e m . b u . l eu . k eu
-jospin	j o . s eu . p ae ng
-glaser	g eu l . l e . i . j eo
-greta	g eu . l e . t a
+togo	t o . g o
+sydow	s i . d o
+aden	a . d e n
+algren	o l . g eu . l eo n
+abend	a . b e n . d eu
+riefenstahl	l i . p e n . s yu . t a l
