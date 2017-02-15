@@ -9,7 +9,6 @@ from approx_phone_alignment.ApproxPhoneAlignment import score_hyp_with_phone_ali
 from src_phons_generator.SrcPhonsGenerator import *
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from preprocess.PreProcess import preprocess
 
 if __name__ == '__main__':
   try:
@@ -49,7 +48,7 @@ def add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_str
   for idx in range(len(best_word_hyps_list)):
     best_word_hyps_list[idx].ref_targ = targ_word
     targ_syls = targ_word.split(".")
-    toneless_targ_syls = [(" ").join(syl.strip().split(" ")[0:len(syl.strip().split(" "))-1]) for syl in targ_syls]
+    toneless_targ_syls = [(" ").join(syl.strip().split(" ")) for syl in targ_syls]
     best_word_hyps_list[idx].toneless_targ_ref = toneless_targ_syls
     best_word_hyps_list[idx].targ_roles = targ_syl_struct
 

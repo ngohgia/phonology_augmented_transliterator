@@ -50,7 +50,7 @@ def read_split_lex_file(lex_file_path):
 
     src_syls = [[unit.strip() for unit in src_syl.strip().split(" ")] for src_syl in src_syls_str[1:len(src_syls_str)-1].split("] [")]
     roles = [[unit.strip() for unit in roles_grp.split(" ")] for roles_grp in roles_str.split(" . ")]
-    targ_syls = [[unit.strip() for unit in targ_syl.split(" ")[0:len(targ_syl.split(" "))-1]] for targ_syl in targ_syls_str.split(" . ")]
+    targ_syls = [[unit.strip() for unit in targ_syl.split(" ")] for targ_syl in targ_syls_str.split(" . ")]
 
     new_word = Word()
     for idx in range(len(src_syls)):

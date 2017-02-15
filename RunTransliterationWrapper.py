@@ -38,8 +38,6 @@ command = "python syl_splitter/GetBestRules.py " + \
 report("[COMMAND]: %s" % command)
 run_shell_command(command)
 
-sys.exit(1)
-
 # Syllable splitting
 hyp_lex_file_path = os.path.join(run_dir, "lex_hyp.txt")
 report("[BEST LEX HYP PATH]: %s" % hyp_lex_file_path)
@@ -62,6 +60,8 @@ report(command)
 run_shell_command(command)
 
 toneles_targ_phones_with_roles_path = os.path.join(run_dir, "test.toneless_with_roles.txt")
-command = "mv"  + toneles_targ_phones_with_roles_path + output_file_path
-report(command)
-run_shell_command(command)
+with open(output_file_path, 'w') as ofh:
+  with open(toneles_targ_phones_with_roles_path, 'r') as tfh:
+    for line in tfh:
+      parts = [part.strip() for part in line.split('\t')]
+      print >> ofh, parts[0]
