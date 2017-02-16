@@ -1,80 +1,60 @@
-chapman	ch ae . p eu . m eo n
-bojer	b o . ye . l eu
-firth	p eo . s eu
-billy	b i l . l i
-mahan	m eo . h ae n
-mandel	m ae n . d e l
-wegener	b e . g e . n eo
-wrightson	l a . i . t eu . s eu n
-anderson	ae n . d eo . s eu n
-elgin	e l . g i n
-margolis	m a . g o l . l i . s eu
-giuliano	j u l . l i . a . n o
-laban	l a . b a n
-parrington	p ae . l i ng . t eo n
-karakhan	k a . l a . h a n
-malus	m a l . l wi . s eu
-breyer	b eu . l e . i . eo
-ashraf	a . s yu . l a . p eu
-muller	m eo l . l eo
-dewar	d yu . eo
-delane	d i l . l e . i n
-karlgren	k a l . g eu . l e n
-salim	s a l . l i m
-tiele	t i l . l e
-schultze	s yu l . ch e
-encke	e ng . k e
-roberta	l o . b eo . t a
-qi	ch i
-stirling	s eu . t eo . l i ng
-forester	p o . l e . s eu . t eo
-trautmann	t eu . l o . t eu . m a n
-renard	l eu . n a . l eu
-vallejo	b a . ye . h o
-lanvin	l a ng . b a ng
-endre	e n . d eu . l e
-dimitri	d i . m i . t eu . l i
-luc	l wi . k eu
-randy	l ae n . d i
-greer	g eu . l i . eo
-constance	k o n . s eu . t a n . s eu
-kevin	k e . b i n
-donat	d o . n a . t eu
-kirsten	k eo . s eu . t i n
-elvira	e l . b i . l a
-horton	h o . t eu n
-scheler	s ye l . l eo
-arther	a . s eo
-singer	s i ng . eo
-marsden	m a . s eu . d eu n
-bieber	b i . b eo
-gabriele	g a . b eu . l i . e l . l e
-osborn	o . j eu . b eo n
-hoel	h o . e l
-more	m o . eo
-heifetz	h a . i . p e . ch eu
-michael	m i . s we l
-ragusa	l a . g u . s a
-goth	g o . t eu
-brentano	b eu . l e n . t a . n o
-beernaert	b e . l eu . n a . l eu . t eu
-france	p eu . l a ng . s eu
-jenny	j e . n i
-jaruzelski	ya . l u . j e l . s eu . k i
-helsinki	h e l . s i ng . k i
-ord	o . d eu
-newbolt	n yu . b o l . t eu
-ring	l i ng
-madras	m a . d eu . l a . s eu
-vivian	b i . b i . a n
-sherlock	s yeo l . l o g
-boas	b o . ae . s eu
-park	p a . k eu
-edgar	e . d eu . g a . l eu
-daumier	d o . m i . e
-hindenburg	h i n . d e n . b u . l eu . k eu
-courtois	k u . l eu . t u . a
-corsi	k o . s i
-rockingham	l a g . k i ng . h ae m
-schongauer	s yo n . g a . u . eo
-annemarie	a . n e . m a . l i
+guyau	g wi . yo
+verdun	b e . l eu . d oe ng
+gilberto	j i l . b e . l eu . t o
+chao	ch a . o
+dick	d i g
+marian	m a . l i . a n
+driesch	d eu . l i . s yu
+deissmann	d a . i . s eu . m a n
+raabe	l a . b e
+benton	b e n . t eo n
+collier	k o l . l i . eo
+morrison	m o . l i . s eu n
+toller	t o l . l eo
+rabi	l a . b i
+whittier	h wi . t i . eo
+duvalier	d wi . b a l . l i . e
+kirov	k i . l o . p eu
+vasilevskaya	b a . s i l . l e . p eu . s eu . k a . ya
+buddy	b eo . d i
+karlfeldt	k a l . p e l . t eu
+burrows	b eo . l o . u . j eu
+chanel	s ya . n e l
+len	l e n
+keaton	k i . t eu n
+vico	b i . k o
+gombrich	g o m . b eu . l i . ch i
+nigeria	n a . i . j i . l i . a
+gaumont	g o . m o ng
+jagger	j ae . g eo
+turin	t u . l i n
+messerer	m e . s e . l e . l eu
+guadalcanal	g wa . d a l . k a . n a l
+lutoslawski	l u . t o . s eu l . l a . p eu . s eu . k i
+leonor	l e . o . n o . l eu
+caine	k e . i n
+latham	l e . i . d a m
+bukharin	b u . h a . l i n
+ignacio	i . g eu . n a . s i . o
+cleveland	k eu l . l i . b eu l . l ae n . d eu
+armstrong	a m . s eu . t eu . l o ng
+haig	h e . i . g eu
+menger	m e ng . g eo
+dill	d i l
+spaak	s eu . p a . k eu
+martindale	m a . t i n . d e . i l
+furtado	p eo l . t a . d o
+witherspoon	wi . d eo . s eu . p u n
+pigalle	p i . g a l
+libby	l i . b i
+alt	a l . t eu
+carla	k a l . l a
+funke	p u ng . k e
+nadine	n e . i . d i n
+cabell	k ae . b eo l
+steele	s eu . t i l
+marie	m a . l i
+djilas	j i l . l a . s eu
+isler	a . i . s eu l . l eo
+lockett	l o . k e s
+crispi	k eu . l i . s eu . p i

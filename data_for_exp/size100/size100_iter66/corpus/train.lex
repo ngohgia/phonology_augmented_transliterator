@@ -1,80 +1,60 @@
-casadesus	k a . j a . d eu . j wi
-lauder	l o . d eo
-lubbers	l wi . b e . l eu . s eu
-cramer	k eu . l ae . m eo
-greely	g eu . l i l . l i
-lille	l i l
-dumas	d wi . m a
-sheppard	s ye . p eo . d eu
-goldstein	g o l . d eu . s eu . t a . i n
-gilles	j i l . s eu
-euclid	yu . k eu l . l i . d eu
-lothian	l o . d i . eo n
-graham	g eu . l e . i . eo m
-guadalupe	g wa . d a l . l u . p e
-garner	g a . n eo
-cantor	k a n . t o . eo
-sinai	s i . n a . i
-fein	p e . i n
-wittig	b i . t i . h i
-natta	n a . t a
-noske	n o . s eu . k e
-carpenter	k a . p e n . t eo
-ryle	l a . i l
-lech	l e . h eu
-amin	a . m i n
+osborne	o . j eu . b eo n
+gambia	g a m . b i . a
+zimbabwe	j i m . b a . b eu . we
+otis	o . t i . s eu
+moreira	m o . l e . i . l a
+allard	a l . l a . d eu
+wergeland	b e . l eu . g e l . l a n
+brooke	b eu . l u g
+bonaparte	b o . n a . p a . l eu . t eu
+orson	o . s eo n
+mozambique	m o . j a m . b i . k eu
+shoup	s yu . p eu
+stevens	s eu . t i . b eu n . s eu
+monticelli	m o ng . t i . s e l . l i
+wlodzimierz	b eu l . l o . ch i . m i . e . l eu . ch eu
 rainwater	l e . i n . wo . t eo
-vigo	b i . g o
-kingsley	k i ng . j eu l . l i
-hawke	h o . k eu
-lithuania	l i . t u . a . n i . a
-buck	p eo l
-dawes	d o . s eu
-dunn	d eo n
-filmer	p i l . m eo
-slovakia	s eu l . l o . b a . k i . a
-olbrich	o l . b eu . l i . h i
-kellogg	k e l . l o . g eu
-sommerfield	s eo m . m eo . p i l . d eu
-nilson	n i l . s o n
-batman	b ae . t eu . m ae n
-tate	t e . i . t eu
-onsager	o n . s a . g eo
-klemperer	k eu l . l e m . p e . l eo
-porter	p o . t eo
-rawlinson	l o l . l i n . s eu n
-bert	b e . l eu . t eu
-aasen	o . s e n
-danforth	d ae n . p o . s eu
-nolte	n o l . t e
-tiepolo	t i . e . p o l . l o
-schreker	s yu . l e . k eo
-coker	k o . k eo
-stoddard	s eu . t o . d a . d eu
-undset	u n . s e . t eu
-perlman	p eo l . m a n
-mal	m a l
-luciano	l u . ch i . a . n o
-behn	b e n
-solo	s o l . l o
-jukes	j yu . k eu . s eu
-lorraine	l o . l e n
-suriname	s u . l i . n a m
-hansen	h a n . s e n
-tennessee	t e . n e . s i
-sumatra	s u . m a . t eu . l a
-torres	t o . l e . s eu
-chandrasekhar	ch a n . d eu . l a . s e . k a . l eu
-medhurst	m e . d eu . h eo . s eu . t eu
-porta	p o . l eu . t a
-solvay	s o l . b e . i
-winifred	wi n . p eu . l e . d eu
-rostand	l o . s eu . t a ng
-katie	k e . i . t i
-dave	d e . i . b eu
-manchester	m ae n . ch e . s eu . t eo
-avellaneda	a . b e . ya . n e . d a
-nika	n i . k a
-mike	m a . i . k eu
-cressent	k eu . l e . s a ng
-begin	b e . g i n
+bougainville	b u . g eo n . b i l
+theresa	t e . l e . s a
+zimmermann	ch i . m eo . m a n
+rubens	l u . b e n . s eu
+schreyer	s yu . l a . i . eo
+edvard	e . d eu . b a . l eu
+tallinn	t a l . l i n
+fraunhofer	p eu . l a . u n . h o . p eo
+urey	yu . l i
+odets	o . d e . ch eu
+gravatt	g eu . l a . b a . t eu
+ferrero	p e . l e . l o
+johnstone	j o n . s eu . t o n
+khadem	k a . d e m
+neruda	n e . l u . d a
+bratislava	b eu . l a . t i . s eu l . l a . b a
+bismarck	b i . j eu . m a . k eu
+abidjan	a . b i . j a ng
+tauler	t a . u l . l eo
+amiens	a . m i . ae ng
+read	l i . d eu
+pisarev	p i . s a . l e . p eu
+barnett	b a . n e s
+araujo	a . l a . u . j o
+taussig	t a . u . s i . g eu
+pretorius	p eu . l e . t o . l i . u . s eu
+vaduz	p a . d u . ch eu
+felder	p e l . d eo
+zinzendorf	ch i n . ch e n . d o . l eu . p eu
+gesell	g e . j e l
+hofer	h o . p eo
+teixeira	t e . i . s ye . i . l a
+hawn	h o n
+basil	b ae . j eo l
+woolf	u l . p eu
+huntington	h eo n . t i ng . t eo n
+caldecott	k o l . d eo . k eo s
+doreen	d o . l i n
+lauder	l o . d eo
+enrico	e n . l i . k o
+madrid	m a . d eu . l i . d eu
+piccinni	p i . ch i n . n i
+seaga	s i . g a
+aurelio	a . u . l e l . l i . o

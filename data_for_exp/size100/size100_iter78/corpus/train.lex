@@ -1,80 +1,60 @@
-campigli	k a m . p i l . l i
-humperdinck	h u m . p eo . d i ng . k eu
-duarte	d u . a . l eu . t e
-moldova	m o l . d o . b a
-metastasio	m e . t a . s eu . t a . s i . o
-gerd	g e . l eu . t eu
-hayes	h e . i . s eu
-wilkinson	wi l . k i n . s eu n
-gleizes	g eu l . l e . i . j eu
-morgenstern	m o . l eu . g e n . s yu . t e . l eu n
-seyfert	s i . p eo . t eu
-monge	m o ng . j u
-greenland	g eu . l i n . l a n . d eu
-angell	e . i n . j eo l
-nimitz	n i . m i . ch eu
-sami	s a . m i
-clyde	k eu l . l a . i . d eu
-kornfeld	k o n . p i l . d eu
-sem	s e m
-rodrigo	l o . d eu . l i . g o
-tupolev	t u . p o l . l e . p eu
-aubrey	o . b eu . l i
-haren	h a . l e n
-kirsch	k i . l eu . s wi
-henning	h e . n i ng
-cunningham	k eo . n i ng . eo m
-bromfield	b eu . l o m . p i l . d eu
-dunkirk	d wi ng . k e . l eu . k eu
-moseley	m o . j eu l . l i
-hazel	h e . i . j eu l
-earle	eo l
-colin	k o l . l ae ng
-michelle	m i . s ye l
-schwarzkopf	s yu . wo . ch eu . k o . p eu
-mellon	m e l . l eo n
-rambo	l a m . b o
-stratford	s eu . t eu . l ae s . p o . d eu
-hopkins	h o b . k i n . s eu
-mariana	m a . l i . a . n a
-gunther	g eo n . s eo
-gasser	g ae . s eo
-sue	s wi
-kolbe	k o l . b e
-nolan	n o l . l eo n
-laval	l a . b a l
-palikir	p a l . l a . k i . l eu
-bataille	b a . t a . yu
-beckett	b e . k e . t eu
-valerie	b a l . l e . l i
-cattell	k eo . t e l
-giaever	g i . e . b eo
-einstein	a . i n . s yu . t a . i n
-tendryakov	t e n . d eu . l ya . k o . p eu
-doha	d o . h a
-shawn	s yo n
-temin	t e . m i n
-calderon	kk a l . d e . l o n
-hugh	h yu
+lebanon	l e . b a . n o n
+paola	p a . o l . l a
+adamov	a . d a . m o . p eu
+massinger	m ae . s i n . j eo
+fox	p o g . s eu
+anchorage	ae ng . k eo . l i . j i
+shepherd	s e . p eo . d eu
+beiqi	b e . i . ch i
+diocletianus	d i . o . k eu l . l e . t i . a . n u . s eu
+needham	n i . d eo m
+armen	a . l eu . m e n
+birch	b eo . ch i
+pritchard	p eu . l i . ch eo . d eu
+patagonia	p a . t a . g o . n i . a
+dube	d u . b e
+welhaven	b e l . h a . b e n
+malta	m o l . t a
+petric	p e . t eu . l i g
+rama	l a . m a
+halley	h ae l . l i
+bly	b eu l . l a . i
+kendrick	k e n . d eu . l i g
+cosa	k o . s a
 diallo	d i . ae l . l o
-lev	ye . p eu
-fano	p a . n o
-presley	p eu . l e . s eu l . l i
-gobineau	g o . b i . n o
-garborg	g a . l eu . b o . l eu . g eu
-cleve	k eu l . l e . b e
-ortelius	o . l eu . t e l . l i . u . s eu
-feuerbach	p o . i . eo . b a . h eu
-maastricht	m a . s eu . t eu . l i . h i . t eu
-johan	yo . h a n
-solow	s o l . l o
-reginald	l e . j eo . n eo l . d eu
-tirana	t i . l a . n a
-manuela	m a . n u . e l . l a
-heckman	h e . k eu . m eo n
-rangoon	l ae ng . g u n
-pons	p o ng . s eu
-dafoe	d e . p o
+ingraham	i ng . g eu . l eo . h ae m
+hettner	h e . t eu . n eo
+mike	m a . i . k eu
+cushing	k u . s i ng
+stevie	s eu . t i . b i
+estelle	e . s eu . t e l
+denny	d e . n i
+giambattista	j a m . b a . t i . s eu . t a
+ramsey	l ae m . j i
+smith	s eu . m i . s eu
+groza	g eu . l o . j a
+kendall	k e n . d eu l
+nikolaeva	n i . k o l . l a . e . b a
+cruyff	k eu . l u . i . p eu
+suess	j wi . s eu
+pagnol	p a . n yo l
+seneca	s e . n e . k a
+hendrik	h e n . d eu . l i . k eu
+melchior	m e l . k i . o . l eu
+vieta	b i . e . t a
+victoria	b i g . t o . l i . a
+santander	s a n . t a n . d e . l eu
+eritrea	e . l i . t eu . l e . a
+ostade	o . s eu . t a . d e
+joshua	yeo . h o . s u . a
+townes	t a . u n . s eu
+pearson	p i . eo . s eu n
+judd	j eo . d eu
+bundy	b eo n . d i
+lippi	l i . p i
+roland	l o l . l a n . d eu
+carry	k e . eo . l i
+ponce	p o n . s eu
+palmer	p a . m eo
+vientiane	b i . e n . t i . a n
 nieuwland	n yu . l ae n . d eu
-kai	k a . i
-clemens	k eu l . l e . m e n . s eu

@@ -1,80 +1,60 @@
-aguascalientes	a . g wa . s eu . k a l . l i . e n . t e . s eu
-agnew	ae . g eu . n yu
-gall	g a l
-montreuil	m o ng . t eu . l eu . yu
-salt	s o l . t eu
-buford	b eo . p o . d eu
-badajoz	b a . d a . h o . s eu
-mengelberg	m e ng . g e l . b e . l eu . k eu
-symonds	s i . m eo n . j eu
-fontane	p o n . t a . n e
-edvard	e . d eu . b a . l eu
-montemayor	m o n . t e . m a . yo . l eu
-errol	e . l eo l
-janice	j e . n i . s eu
-sloan	s eu . l o n
-pacheco	p a . ch e . k o
-elliot	e l . l i . eo . t eu
-milne	m i l . l eu n
-godfrey	g o . d eu . p eu . l i
-collins	k o l . l i n . s eu
-oppenheimer	o . p e n . h a . i . m eo
-matisse	m a . t i . s eu
-florin	p eu l . l o . l i n
-crispin	k eu . l i . s eu . p i . n u . s eu
-romberg	l o m . b eo . g eu
-welch	we l . ch i
-paddy	p ae . d i
-kentucky	k e n . t eo . k i
-rosse	l o . s eu
-vespucci	b e . s eu . p u . ch i
-luanda	l u . a n . d a
-trier	t eu . l i . eo
-maccoby	m ae . k o . b i
-henryk	h e n . l i . k eu
-damen	d e . i . m eo n
-kayser	k a . i . j eo
-germain	j e . l eu . m ae ng
-monty	m o n . t i
-volgograd	b o l . g o . g eu . l a . d eu
-bogarde	b o . g a . d eu
-speight	s eu . p e . i . t eu
-melvin	m e l . b i n
-suva	s u . b a
-kemble	k e m . b eu l
-chile	ch i l . l e
-bontempelli	b o n . t e m . p e l . l i
-myburgh	m a . i . b eo . g eu
-clara	k eu l . l a . l a
-cornell	k o . n e l
-remo	l e . m o
-silvester	s i l . b e . s eu . t eo
-gabin	g a . b ae ng
-sadi	s a . d i
-levy	l e . b i
-thomasius	t o . m a . j i . u . s eu
-catilina	k a . t i l . l i . n a
-beliaev	b e l . l i . a . e . p eu
-davids	d a . b i . ch eu
-maritain	m a . l i . t ae ng
-quinn	k wi n
-bruant	b eu . l wi . a ng
-epirus	e . p i . l u . s eu
-linares	l i . n a . l e . s eu
-frida	p eu . l i . d a
-pufendorf	p u . p e n . d o . l eu . p eu
-palme	p a l . m e
-glauber	g eu l . l a . u . b eo
-paderewski	p a . d e . l e . p eu . s eu . k i
-thomas	d o . m a
-saxon	s ae g . s eu n
-fraser	p eu . l e . i . j eo
-monnier	m o . n i . e
-herren	h e . l e n
-granit	g eu . l a . n i . t eu
-guyana	g a . i . a . n a
-mortimer	m o . t i . m eo
-wundt	b u n . t eu
-konstantin	k o n . s eu . t a n . t i n
-saunders	s eo n . d eo . s eu
-denver	d e n . b eo
+yassin	ya . s i n
+rohmer	l o . m e . l eu
+bahrain	b a . l e . i n
+eliot	e l . l i . eo . t eu
+colbert	k o l . b e . l eu
+ochirbat	o . ch i . l eu . b a . t eu
+jellinek	ye l . l i . n e . k eu
+baumann	b a . u . m a n
+narciso	n a . l eu . s i . s o
+liebmann	l i . p eu . m a n
+haag	h e . i . g eu
+aspinall	a . s eu . p i . n a l
+lindbergh	l i n . d eu . b eo . g eu
+altissimo	a l . t i . s i . m o
+sorge	s o . l eu . j u
+sandro	s a n . d eu . l o
+mello	m e l . l o
+freire	p eu . l e . i . l e
+ray	l e . i
+banda	b a n . d a
+shevchenko	s ye . p eu . ch e n . k o
+angell	e . i n . j eo l
+nunn	n eo n
+marini	m a . l i . n i
+eschenbach	e . s ye n . b a . h eu
+harlem	h a l . l e m
+fein	p e . i n
+jodie	j o . d i
+lautner	l o . t eu . n eo
+waltari	b a l . t a . l i
+appel	a . p e l
+alisa	a l . l i . s a
+siewert	s i . wo . t eu
+wien	b i n
+casella	k a . s e l . l a
+abrams	a . b eu . l a m . s eu
+donnie	d o . n i
+jeremy	j e . l eo . m i
+meyer	m a . i . eo
+avenarius	a . b e n . n a . l i . u . s eu
+schwarz	s yu . wa l . ch eu
+meister	m e . i . s eu . t eo
+gross	g eu . l o . s eu
+barone	b a . l o . n e
+nightingale	n a . i . t i ng . g e . i l
+eccles	e . k eu l . s eu
+couplet	k u . p eu l . l e
+asturias	a . s eu . t u . l i . a . s eu
+nielsen	n i l . s e n
+verdi	b e . l eu . d i
+roche	l o . ch e
+kelly	k e l . l i
+lance	l ae n . s eu
+tirana	t i . l a . n a
+south	s a . u . s eu
+nils	n i l . s eu
+frunze	p eu . l u n . j e
+shchepkin	s i . ch e b . k i n
+fridtjof	p eu . l i . d eu . s yo . p eu
+volta	b o l . t a

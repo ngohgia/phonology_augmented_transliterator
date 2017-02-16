@@ -1,80 +1,60 @@
-emilie	e . m i l . l i
-avery	e . b eo . l i
-filippo	p i l . l i . p o
-schacht	s ya . h eu . t eu
-meisheng	m e . i . s eo ng
-platt	p eu l . l ae s
-servais	s e . l eu . b e
-mila	m i l . l a
-portugal	p o . l eu . t u . g a l
-samuel	s a . m u . e l
-kremer	k eu . l e . m eo
-len	l e n
-yamoussoukro	ya . m u . s u . k eu . l o
-bettino	b e . t i . n o
-segal	s i . g a l
-gobi	g o . b i
-kassem	k a . s e m
-kuhn	k u n
-corbin	k o . b i n
-pearson	p i . eo . s eu n
-eijkman	e . i . k eu . m a n
-picasso	p i . k a . s o
-monticelli	m o ng . t i . s e l . l i
-radu	l a . d u
-morisot	m o . l i . j o
-edita	e . d i . t a
-harnack	h a . l eu . n a . k eu
-heinz	h a . i n . ch eu
-geoffrey	j o . p eu . l i
-gainsborough	g e . i n . j eu . b eo . l eo
-biddle	b i . d eu l
-hartmut	h a . l eu . t eu . m u . t eu
-zdenek	j eu . d e . n e g
-nicholas	n i . k o l . l a . s eu
-canova	k a . n o . b a
-gossec	g o . s e . k eu
-xavier	j a . b i . e . l eu
-thorvaldsen	t o . l eu . b a l . s e n
-turkey	t eo . k i
-saleh	s a l . l e
-hubert	wi . b e . l eu
-joanna	j o . a n . n a
-grosse	g eu . l o . s e
-andrei	a n . d eu . l e . i
-esaias	e . s a . i . a . s eu
-hutton	h eo . t eo n
-fontainebleau	p o ng . t e n . b eu l . l o
-steinbeck	s eu . t a . i n . b e g
-eleanor	e l . l i . n eo
-montesquieu	m o ng . t e . s eu . k i . oe
-whymper	h wi m . p eo
+voltaire	b o l . t e . l eu
+feuerbach	p o . i . eo . b a . h eu
+gutierrez	g u . t i . e . l e . s eu
+bias	b i . a . s eu
+grau	g eu . l a . u
+morton	m o . t eo n
+sherry	s ye . l i
+sam	s ae m
+shelby	s ye l . b i
+katherine	k ae . s eo . l i n
+carter	k a . t eo
+africa	a . p eu . l i . k a
+greenfield	g eu . l i n . p i l . d eu
+blanqui	b eu l . l a ng . k i
+north	n o . s eu
+hyatt	h a . i . eo s
+rogers	l o . j eo . s eu
+pulci	p u l . ch i
 thorndike	s o n . d a . i . k eu
-koror	k o . l o . l eu
-brazzaville	b eu . l a . j a . b i l
-ivory	a . i . b o . l i
-larsen	l a . l eu . s e n
-opitz	o . p i . ch eu
-battista	b a . t i . s eu . t a
-davidoff	d ae . b i . d o . p eu
-kamenev	k a . m e . n e . p eu
-irene	i . l e . i n
-paula	p o l . l a
-soyinka	s o . i ng . k a
-austen	o . s eu . t i n
-jacobi	ya . k o . b i
-oceania	o . s e . a . n i . a
-kashmir	k a . s yu . m i . l eu
-philippines	p i l . l i . p i n
-beregovoy	b eu . l eu . g o . b u . a
-ukraine	u . k eu . l a . i . n a
-carmona	k a . m o . n a
-herne	h e . l eu . n e
-jonsson	j o n . s eu n
-bergson	b e . l eu . g eu . s o ng
-aaron	a . l o n
-neruda	n e . l u . d a
-dara	d ae . l a
-maciel	m a . s i . e l
-westermarck	we . s eu . t eo . m a . k eu
-hamsun	h a m . s u n
+ludwik	l u . d eu . wi g
+durban	d eo . b a n
+prishvin	p eu . l i . s yu . b i n
+carlisle	k a l . l a . i l
+binswanger	b i n . s eu . b a ng . g eo
+sullivan	s eo l . l i . b eo n
+spyri	s yu . p i . l i
+brzezinski	b eu . l e . j i n . s eu . k i
+glaser	g eu l . l e . i . j eo
+adler	a . d eu l . l eo
+feininger	p a . i . n i ng . eo
+toscanelli	t o . s eu . k a . n e l . l i
+neve	n e . b eu
+diogenes	d i . o . g e . n e . s eu
+mclaren	m ae g . l a . l e n
+quito	k i . t o
+antonin	a n . t o . n i n
+goethe	g oe . t e
+ven	b e n
+kevin	k e . b i n
+philip	b i l . l i b
+nobile	n o . b i l . l e
+dodson	d a s . s eu n
+elvira	e l . b i . l a
+hunker	h a n . k a
+kessler	k e . s eu l . l eo
+swart	s eu . wa . l eu . t eu
+roberto	l o . b e . l eu . t o
+townsend	t a . u n . s e n . d eu
+monteverdi	m o n . t e . b e . l eu . d i
+palissy	p a l . l i . s i
+port	p o . t eu
+hampshire	h ae m . p eu . s yeo
+markowitz	m a . k o . wi . ch eu
+ewing	yu . i ng
+swammerdam	s eu . wa m . m e . l eu . d a m
+ludovic	l u . d o . b i
+souza	s u . j a
+weygand	b e . g a ng
+wolfrum	wo l . p eu . l eo m
+scott	s eu . k o . t eu

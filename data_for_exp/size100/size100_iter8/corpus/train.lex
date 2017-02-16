@@ -1,80 +1,60 @@
-alphonso	a l . p o n . s o
-arago	a . l a . g o
-dill	d i l
-ludwig	l u . t eu . b i . h i
-lowell	l o . we l
-imam	i . m a m
-maurus	m o . l wi . s eu
-johann	yo . h a n
-godard	g o . d a . l eu
-malebranche	m a l . b eu . l a ng . s yu
-sinclair	s i ng . k eu l . l e . eo
-kisangani	k i . s a ng . g a . n i
-regan	l i . g eo n
-miami	m a . i . e . m i
-grande	g eu . l ae n . d eu
-sears	ss i . eo . s eu
-bethe	b e . t e
-ruiz	l u . i . j eu
-lorenzen	l o . l e n . j e n
-portsmouth	p o . ch eu . m eo . s eu
-husak	h u . s a g
-pachelbel	p a . h e l . b e l
-valadon	b a l . l a . d o ng
-vasilevskaya	b a . s i l . l e . p eu . s eu . k a . ya
-ken	k e n
-taylor	t e . i l . l eo
-stephan	s yu . t e . p a n
-coubertin	k u . b e . l eu . t ae ng
-clement	k eu l . l e . m e n . t eu
-boden	b o . d e n
-reynaud	l e . n o
-mistral	m i . s eu . t eu . l a l
-geissler	g a . i . s eu l . l eo
-mircea	m i . l eu . ch e . a
-updike	eo b . d a . i . k eu
-mauro	m a . u . l o
-arenas	a . l e . n a . s eu
-rowan	l o . eo n
-bohr	b o . eo
-tobin	t o . b i n
-bainbridge	b e . i n . b eu . l i . j i
-matthew	m ae . s yu
-mount	m a . u n . t eu
-baghdad	b a . g eu . d a . d eu
-pidgeon	p i . j eo n
-schleicher	s yu l . l a . i . h eo
-johanna	yo . h a . n a
-antananarivo	a n . t a . n a . n a . l i . b o
-lowe	l o . we
-kessel	k e . s e l
-turin	t u . l i n
-brahm	b eu . l a m
-tahiti	t a . h i . t i
-frankland	p eu . l ae ng . k eu l . l ae n . d eu
-uli	u l . l i
-huygens	h o . i . g e n . s eu
-dane	d e . i n
-halstead	h a l . s eu . t ae . d eu
-magdeburg	m a . g eu . d e . b u . l eu . k eu
-alek	a l . l e g
-rohmer	l o . m e . l eu
-lucena	l u . s e . n a
-norway	n o . l eu . we . i
-moro	m o . l o
-josephine	j o . s e . p i n
-raman	l a . m a n
-turgenev	t u . l eu . g e . n e . p eu
-atwood	ae . t u . d eu
-bonn	b o n
-spengler	s yu . p e ng . g eu l . l eo
-valeri	b a l . l e . l i
-josep	h o . s e b
-fowles	p a . u l . j eu
-havana	a . b a . n a
-gresham	g eu . l e . s yeo m
-saraiva	s a . l a . i . b a
-landgrebe	l ae n . d eu . g eu . l e . b e
-oklahoma	o . k eu l . l eo . h o . m a
-fitzpatrick	p i . ch eu . p ae . t eu . l i g
-unger	u ng . g eo
+sofia	s o . p i . a
+jude	yu . d a
+egbert	e . g eu . b eo . t eu
+hamann	h a . m a n
+sem	s e m
+ian	i . eo n
+ralf	l a l . p eu
+peeters	p e . t eo . s eu
+dornier	d o . l eu . n i . e
+nicosia	n i . k o . s i . a
+gago	g a . g o
+weaver	wi . b eo
+sabri	s a . b eu . l i
+bello	b e l . l o
+humboldt	h u m . b o l . t eu
+salerno	s a l . l e . l eu . n o
+jarry	j a . l i
+dow	d a . u
+wiechert	b i . h e . l eu . t eu
+lipatti	l i . p a . t i
+susanna	s u . s a n . n a
+miriam	m i . l i . eo m
+ker	k eo
+witt	wi s
+marsden	m a . s eu . d eu n
+angelica	a n . j e l . l i . k a
+deborah	d e . b o . l a
+bunche	b eo n . ch i
+neutra	n o . i . t eu . l a
+libya	l i . b i . a
+topelius	t o . p e l . l i . u . s eu
+hynninen	h a . i n . n i . n e n
+charlie	ch a l . l i
+rodriguez	l o . d eu . l i . g e . s eu
+grove	g eu . l o . b eu
+jagan	j e . i . g eo n
+spontini	s eu . p o n . t i . n i
+say	s e
+natorp	n a . t o . l eu . p eu
+baden	b a . d e n
+szilard	j i l . l a . d eu
+dominique	d o . m i . n i . k eu
+martina	m a . l eu . t i . n a
+walther	b a l . t eo
+mirza	m i . l eu . j a
+haider	h a . i . d eo
+jung	yu ng
+gregorio	g eu . l e . g o . l i . o
+poncelet	p o ng . s eu l . l e
+hertwig	h e . l eu . t eu . b i . h i
+taya	t a . ya
+roque	l o . k e
+luc	l wi . k eu
+anita	a . n i . t a
+ricci	l i . ch i
+krupp	k eu . l u . p eu
+storm	s yu . t o . l eu m
+longfellow	l o ng . p e l . l o
+thayer	s e . i . eo
+eads	i . j eu

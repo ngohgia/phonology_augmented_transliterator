@@ -6,8 +6,9 @@ import shutil
 import logging
 import time
 
-for size in [100, 200, 500, 1000, 2000]:
-  for itr in range(1, 6):
+# for size in [100, 200, 500, 1000, 2000]:
+for size in [1000]:
+  for itr in range(4, 6):
     curr_data_set = 'size' + str(size) + '_iter' + str(itr)
 
     root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size' + str(size), curr_data_set)

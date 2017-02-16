@@ -1,80 +1,60 @@
-sanz	s a n . s eu
-leipzig	l a . i . p eu . ch i . h i
-fritsch	p eu . l i . ch i
-bouchard	b u . s ya . l eu
-dali	d a l . l i
-roque	l o . k e
-dora	d o . l a
-raffles	l ae . p eu l . s eu
-ferdinand	p e . l eu . d i . n a n . d eu
-stevie	s eu . t i . b i
-ashton	ae . s yu . t eo n
-wickham	wi . k eo m
-marcuse	m a . l eu . k u . j e
-szymanowski	s i . m a . n o . p eu . s eu . k i
-eystein	e . s eu . t a . i n
-blache	b eu l . l a . s yu
-gramme	g eu . l a m
-petipa	p e . t i . p a
-laurie	l o . l i
-bernd	b e . l eu n . t eu
-greco	g eu . l e . k o
-york	yo . k eu
-uzbekistan	u . j eu . b e . k i . s eu . t a n
-seligman	s e l . l i . g eu . m eo n
-cavour	k a . b o . u . l eu
-kahn	k a n
-gilels	g i l . l e l . s eu
-ems	e m . s eu
-cardano	k a . l eu . d a . n o
-prado	p eu . l a . d o
-heyden	h e . i . d e n
-lisbon	l i . s eu . b o n
-haneke	h a . n e . k e
-pepe	p e . p e
-benson	b e n . s eu n
-monteiro	m o n . t e . i . l u
-westinghouse	we . s eu . t i ng . h a . u . s eu
-rajiv	l a . j i . b eu
-fajans	p a . ya n . s eu
-buffalo	b eo . p eo l . l o
-kenny	k e . n i
-gaza	g a . j a
-bode	b o . d e
-usher	eo . s yeo
-villanueva	b i l . l a . n u . e . b a
-mohamad	m o . h a . m a . d eu
-jidda	j i . d a
-negev	n e . g e . b eu
-attwood	ae . t u . d eu
-washington	wo . s i ng . t eo n
-langland	l ae ng . g eu l . l eo n . d eu
-hanzi	h a n . jj eu
-bakan	b a . k a n
-lacaille	l a . k a . yu
-sumner	s eo m . n eo
-kalamazoo	k a l . l a . m a . j u
-araujo	a . l a . u . j o
-egypt	i . j i b . t eu
-machado	m a . ch a . d o
-wieniawski	b i . e . n i . a . p eu . s eu . k i
-jerome	j e . l o m
-huberman	h yu . b eo . m eo n
-woods	u . j eu
-farren	p ae . l eo n
-caird	k e . eo . d eu
-mondriaan	m o n . d eu . l i . a n
-haifa	h a . i . p a
-torre	t o . l e
-barnard	b a . n eo . d eu
-pitman	p i . t eu . m eo n
-sturm	s eu . t eo m
-hekmatyar	h e . k eu . m a . t i . a . l eu
-sorel	s o . l e l
-liebmann	l i . p eu . m a n
-schroeder	s yu . l o . d eo
-bette	b e . t i
-ball	b o l
-nodier	n o . d i . e
-nath	n a . s eu
-dyke	d a . i . k eu
+thyssen	t i . s e n
+aldington	o l . d i ng . t eo n
+ken	k e n
+frost	p eu . l o . s eu . t eu
+faure	p o . l e
+matthew	m ae . s yu
+pauker	p a . u . k e . l eu
+etienne	e . t i . e n
+memling	m e m . l i ng
+canada	k ae . n a . d a
+limerick	l i . m eo . l i g
+verlaine	b e . l eu l . l e n
+antwerp	ae n . t eu . wo . p eu
+capone	k a . p o . n e
+rosen	l o . s eu n
+jussieu	j wi . s i . oe
+gryphius	g eu . l i . p i . u . s eu
+panama	p a . n a . m a
+abend	a . b e n . d eu
+borchert	b o . l eu . h e . l eu . t eu
+shestov	s ye . s eu . t o . p eu
+leo	l e . o
+westergaard	we . s eu . t eo . g a . d eu
+hartmut	h a . l eu . t eu . m u . t eu
+jamison	j e . i . m i . s eu n
+kimmel	k i . m e l
+kate	k e . i . t eu
+obrecht	o . b eu . l e . h i . t eu
+blum	b eu l . l eo m
+marius	m a . l i . u . s eu
+ndiaye	n eu . j ya . ye
+becher	b e . h eo
+britten	b eu . l i . t eu n
+kram	k eu . l ae m
+canadian	k ae . n a . d i . a n
+botticelli	b o . t i . ch e l . l i
+fuentes	p u . e n . t e . s eu
+castillo	k a . s eu . t i l . l o
+haarlem	h a . l eu l . l e m
+sawyer	s o . i . eo
+erskine	eo . s eu . k i n
+speakes	s eu . p i . k eu . s eu
+boyle	b o . i l
+zorn	s o . l eu n
+deaver	d i . b eo
+yorkshire	yo . k eu . s yeo
+boerner	b oe . l eu . n eo
+ogburn	o . g eu . b eo n
+gorchakov	g o . l eu . ch a . k o . p eu
+freda	p eu . l e . d a
+saraiva	s a . l a . i . b a
+seymour	s e . i . m u . eo
+dean	d i n
+eunice	yu . n i . s eu
+maher	m a . h e . l eu
+gartner	g a . t eu . n eo
+kuropatkin	k u . l o . p a s . k i n
+held	h e l . d eu
+alfons	a l . p o n . s eu
+hannover	h a . n o . b eo

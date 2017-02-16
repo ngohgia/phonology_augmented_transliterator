@@ -5,12 +5,12 @@ import pdb
 import time, datetime
 
 size = 1000
-iterations = [5]
+iterations = range(1, 6)
 sclite='/Users/ngohgia/Work/transliteration/utilities/sclite'
 FNULL = open(os.devnull, 'w')
 
 def main():
-    root = op.join(os.getcwd(), 'exp_170207');
+    root = op.join(os.getcwd(), 'exp_170214', 'size' + str(size));
     output_file = op.join(root, 'phono_augmented_report.csv')
     # try:
     for i in iterations:

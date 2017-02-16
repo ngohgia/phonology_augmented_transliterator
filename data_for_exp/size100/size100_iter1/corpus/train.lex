@@ -1,80 +1,60 @@
-hebbel	h e . b e l
-fizeau	p i . j o
-keller	k e l . l eo
-rivero	l i . b e . l o
-punsalmaagiyn	p u n . s a l . m a . g i n
-tilman	t i l . m a n
-sperling	s eu . p eo l . l i ng
-jamieson	j e . m i . s eu n
-delgado	d e l . g a . d o
-chester	ch e . s eu . t eo
-falk	p o . k eu
-ast	a . s eu . t eu
-peel	p i l
-astley	ae . s eu . t eu l . l i
-charlton	ch a l . t eo n
-keita	k e . i . t a
-wollstonecraft	u l . s eu . t eo n . k eu . l ae . p eu . t eu
-xenakis	k eu . s e . n a . k i . s eu
-field	p i l . d eu
-halls	h o l . s eu
-scheffel	s ye . p e l
-ericson	e . l i g . s eu n
-mayflower	m e . i . p eu l . l a . wo
-denikin	d e . n i . k i n
-indonesia	i n . d o . n e . s i . a
-weiyi	we . i . i
-sebastian	s eo . b ae . s eu . ch eo n
-pettenkofer	p e . t e n . k o . p eo
-freeman	p eu . l i . m eo n
-raabe	l a . b e
-valery	b a l . l e . l i
-north	n o . s eu
-benz	b e n . ch eu
-stacy	s eu . t e . i . s i
-eugen	o . i . g e n
-kazan	k a . j a n
-bovet	b o . b e
-cuomo	k u . o . m o
-amir	a . m i . l eu
-albinoni	a l . b i . n o . n i
-issac	a . i . j a g
-melanchthon	m e l . l a n . h i . t o n
-shute	s yu . t eu
-jacobson	j e . i . k o b . s eu n
-masur	m a . j u . eo
-kimmel	k i . m e l
-hensen	h e n . j e n
-bridie	b eu . l a . i . d i
-carlsson	k a l . s o n
-phoebe	p o . i . b e
-munsell	m eo n . s e l
-achim	a . s i m
-norwich	n o . l i . ch i
-cutler	k eo . t eu l . l eo
-amelia	a . m e l . l i . a
-behring	b e . l i ng
-livermore	l i . b eo . m o l
-arber	a . l eu . b eo
-kutter	k u . t eo
-mitterrand	m i . t e . l a ng
-weidman	wa . i . d eu . m eo n
-rome	l o . m a
-zimmermann	ch i . m eo . m a n
-chapsal	s ya . p eu . s a l
-dagmar	d a . g eu . m a . l eu
-lieberman	l i . b eo . m eo n
-jennifer	j e . n i . p eo
-camden	k ae m . d eo n
-monique	m o . n i . k eu
+lauren	l o . l e n
+kale	k e . i l
+engelbert	e ng . g e l . b eo . t eu
+koneski	k o . n e . s eu . k i
+sanguinetti	s a ng . g i . n e . t i
+klemperer	k eu l . l e m . p e . l eo
+william	wi l . l i . eo m
+ducommun	d wi . k o . m oe ng
+brad	b eu . l ae . d eu
+bourgeois	b u . l eu . j u . a
+nascimento	n a . s i . m e n . t u
+halma	h ae l . m eo
+gabriela	g a . b eu . l i . e l . l a
+buono	b o . n o
+hubert	wi . b e . l eu
+siemens	j i . m e n . s eu
+noto	n o . t o
+camdessus	k a ng . d eu . s wi
+lilian	l i l . l i . a ng
+irena	i . l e . n a
+scheler	s ye l . l eo
+monte	m o n . t e
+yasin	ya . s i n
+randy	l ae n . d i
+kirby	k eo . b i
+burg	b u . l eu . g eu
+chapman	ch ae . p eu . m eo n
+henkel	h e n . k e l
+pechstein	p e . h i . s yu . t a . i n
+falcone	p a l . k o . n e
+egypt	i . j i b . t eu
+lasse	l a . s e
+savio	s a . b i . o
+vento	b e n . t o
+andalusia	a n . d a l . l u . s i . a
+milovan	m i l . l o . b a n
+bryusov	b eu . l yu . s o . p eu
+ambrosius	a m . b eu . l o . s i . u . s eu
+weierstrass	b a . i . eo . s yu . t eu . l a . s eu
+wight	wa . i . t eu
+dickinson	d i . k i n . s eu n
+talbot	t o l . b eo s
+kamu	k a . m u
+fonda	p o n . d a
+ingenhousz	i ng . g e n . h o . u . s eu
 carlyle	k a l . l a . i l
-mays	m e . i . s eu
-bernal	b eo . n eo l
-conakry	k o . n a . k eu . l i
-shufeldt	s yu . p e l . t eu
-payne	p e n
-amontons	a . m o ng . t o ng
-clive	k eu l . l a . i . b eu
-malcolm	m ae l . k eo m
-principe	p eu . l i n . s i . p e
-vasari	b a . s a . l i
+lundberg	l u n . d eu . b e . l i
+blanc	b eu l . l a ng
+lauderdale	l o . d eo . d e . i l
+estremadura	e . s eu . t eu . l e . m a . d u . l a
+cutler	k eo . t eu l . l eo
+ibrahim	i . b eu . l a . h i m
+oscar	o . s eu . k a
+shelley	s ye l . l i
+iskandar	i . s eu . k a n . d a l
+lombard	l o m . b a . d eu
+james	j e . i m . s eu
+shearer	s i . eo . l eo
+blunden	b eu l . l eo n . d eo n
+romano	l o . m a . n o

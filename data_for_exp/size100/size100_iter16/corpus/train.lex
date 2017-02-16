@@ -1,80 +1,60 @@
-thoreau	s o . l o
-harman	h a . m eo n
-koltsov	k o l . ch o . p eu
-beuys	b o . i . s eu
-andrews	ae n . d eu . l u . s eu
-cayenne	k a . ye n
-chesterton	ch e . s eu . t eo . t eo n
-mosley	m o . j eu l . l i
-raphael	l a . p a . e l
-asam	a . j a m
-judy	j u . d i
-sawyer	s o . i . eo
-alvares	a l . b a . l e . s eu
-bible	b a . i . b eu l
-cottbus	k o s . b u . s eu
-fernando	p e . l eu . n a n . d o
-cohn	k o n
-pontryagin	p o n . t eu . l ya . g i n
-david	d a . b i . d eu
-robinson	l o . b i n . s eu n
-allende	a . ye n . d e
-dillon	d i l . l eo n
-razin	l a . j i n
-eliezer	e l . l i . e . j e . l eu
-kutuzov	k u . t u . j o . p eu
-grenada	g eu . l e . n a . d a
-artsybashev	a . l eu . ch i . b a . s ye . p eu
-virgil	b eo . j i l
-marlin	m a l . l i n
-levine	l eo . b a . i n
-moller	m o l . l eo
+starling	s eu . t a l . l i ng
+filip	p i l . l i . p eu
+alaska	a l . l ae . s eu . k a
+khabarovsk	h a . b a . l o . p eu . s eu . k eu
+mistral	m i . s eu . t eu . l a l
+vancouver	b ae n . k u . b eo
+cheney	ch e . n i
+ayer	e . i . eo
+woolley	u l . l i
+julius	yu l . l i . u . s eu
+stolz	s eu . t o l . ch eu
+abram	a . b eu . l a m
+murdoch	m eo . d o g
+andrej	a n . d eu . l e . i
+slim	s eu l . l i m
+piotrowski	p i . o . t eu . l o . p eu . s eu . k i
 evans	e . b eo n . s eu
-glover	g eu l . l o . b eo
-ahern	eo . h eo n
-praetorius	p eu . l e . t o . l i . u . s eu
-schwan	s yu . b a n
-goethals	g o . s eo l . s eu
-gareth	g ae . l i . s eu
-mbabane	eu m . b a . b a . n e
-montoya	m o n . t o . ya
-mantovani	m a n . t o . b a . n i
-sorokin	s o . l o . k i n
-haidar	h a . i . d a . l eu
-mahler	m a l . l eo
-aileen	e . i l . l i n
-bangkok	b a ng . k o g
-laufer	l a . u . p eo
-renan	l eu . n a ng
-quito	k i . t o
-ficino	p i . ch i . n o
-malden	m o l . d e n
-gabor	g a . b o . l eu
-harris	h ae . l i . s eu
-hacker	h ae . k eo
-caragiale	k a . l a . j i . a l . l e
-rudolph	l u . d o l . p eu
-chauncey	ch e n . s i
-kaspar	k a . s eu . p a . eo
-hogarth	h o . g a . s eu
-manrique	m a n . l i . k e
-bradford	b eu . l e . d eu . p o . d eu
-branco	b eu . l a ng . k o
-whitman	h wi . t eu . m eo n
-nunn	n eo n
-gertrud	g eo . t eu . l u . d eu
-catania	k a . t a . n i . a
-boethius	b o . i . t i . u . s eu
-karimi	k a . l i . m i
-kyle	k a . i l
-hoche	o . s yu
-marco	m a . l eu . k o
-greene	g eu . l i n
-allon	a l . l o n
-solovyov	s o l . l o . b i . yo . p eu
-packard	p ae g . k eo . d eu
-easton	i . s eu . t eo n
-kira	k i . l a
-masters	m a . s eu . t eo . s eu
-will	wi l
-philip	b i l . l i b
+bering	b e . l i ng
+staffordshire	s eu . t ae . p eo . d eu . s yeo
+dias	d i . eo . s eu
+alam	a l . eo m
+moravia	m o . l a . b i . a
+concha	k o n . ch a
+woods	u . j eu
+grace	g eu . l a . s eu
+meadows	m i . d o . u . s eu
+rodney	l o . d eu . n i
+vallejo	b a . ye . h o
+krishna	k eu . l i . s yu . n a
+gauss	g a . u . s eu
+mercator	m e . l eu . k a . t o . l eu
+dodoma	d o . d o . m a
+honeywell	h a . n i . we l
+zeppelin	ch e . p e l . l i n
+wentworth	we n . t eu . wo . s eu
+loren	l o . l e n
+kensington	k e n . j i ng . t eo n
+dante	d a n . t e
+cardiff	k a . d i . p eu
+spenser	s eu . p e n . s eo
+kohlrausch	k o l . l a . u . s yu
+olsen	o l . s eu n
+cates	k e . i . ch eu
+tait	t a . i . t eu
+dev	d e . b eu
+soufflot	s u . p eu l . l o
+menuhin	m e . n yu . i n
+khachaturyan	h a . ch a . t u . l i . a n
+beverly	b i . b eo . l i
+mays	m e . i . s eu
+hoffmann	h o . p eu . m a n
+geiger	g a . i . g eo
+hague	h e . i . g eu
+jacobus	ya . k o . b wi . s eu
+boussinesq	b u . s eu . n e . s eu . k eu
+cervantes	s e . l eu . b a n . t e . s eu
+red	l e . d eu
+gramme	g eu . l a m
+alma	a l . m a
+proust	p eu . l u . s eu . t eu

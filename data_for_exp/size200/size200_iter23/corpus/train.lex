@@ -1,160 +1,120 @@
-kiss	k i . s i
-sterne	s eu . t eo n
-dicey	d a . i . s i
-casals	k a . s a l . s eu
-manzoni	m a n . ch o . n i
-westergaard	we . s eu . t eo . g a . d eu
-leicester	l e . s eu . t eo
-oparin	o . p a . l i n
-wertheimer	b e . l eu . t eu . h a . i . m eo
-hawthorn	h o . s o n
-huguette	wi . g e . t eu
-ephraim	e . p eu . l a . i m
-sverdlovsk	s eu . b e . l eu . d eu l . l o . p eu . s eu . k eu
-emin	e . m i n
-zeppelin	ch e . p e l . l i n
-bron	b eu . l o n
-risa	l i . s a
-dmitri	d eu . m i . t eu . l i
-scharnhorst	s ya . l eu n . h o . l eu . s eu . t eu
-ehrenfeld	e . l eo n . p e l . d eu
-morice	m o . l i . s eu
-basra	b a . s eu . l a
-cyrus	k i . l o . s eu
-barclay	b a . k eu l . l i
-vries	b eu . l i . s eu
-pavlova	p a . b eu l . l o . b a
-durante	d yu . l a n . t e
-nesmeyanov	n e . s eu . m e . ya . n o . p eu
-anton	a n . t o n
-finn	p i n
-cherry	ch e . l i
-bonnici	b o . n i . ch i
-winkler	b i ng . k eu l . l eo
-strachey	s eu . t eu . l e . i . ch i
-wilson	wi l . s eu n
-thomson	t o m . s eu n
-randolph	l ae n . d o l . p eu
-wheatley	wi . t eu l . l i
-nicolai	n i . k o l . l a . i
-huch	h u . h eu
-farley	p a l . l i
-frantisek	p eu . l a n . t i . s e g
-batoni	b a . t o . n i
-midas	m i . d a . s eu
-karajan	k a . l a . ya n
-zorn	s o . l eu n
-falconet	p a l . k o . n e
-sheffield	s ye . p i l . d eu
-henkel	h e n . k e l
-namibia	n a . m i . b i . a
-stafford	s eu . t ae . p o . d eu
-rozier	l o . j i . e
-eritrea	e . l i . t eu . l e . a
-annabel	a . n a . b e l
-michael	m a . i . k eu l
-papin	p a . p ae ng
-jackson	j ae g . s eu n
-henze	h e n . ch e
-aspinall	a . s eu . p i . n a l
-bojan	b o . ya n
-silva	s i l . b a
-mitscherlich	m i . ch eo . l i . h i
-yala	ya l . l a
-batyushkov	b a . t yu . s yu . k o . p eu
-ciriaco	k eu . l i . a . k o
-calhoun	k a l . h u n
-stephens	s eu . t i . b eu n . s eu
-duluth	d eo l . l u . s eu
-fuller	p u l . l eo
-ahn	a n
-suzanne	s u . j a n
-cukor	k u . k eo
-troy	t eu . l o . i
-thailand	t a . i
-farouk	p a . l u . k eu
-metternich	m e . t e . l eu . n i . h i
-law	l o
-hales	h e . i l . j eu
-norfolk	n o . p eo g
-weiner	wa . i . n eo
-jodelle	j o . d e l
-jenkins	j e n . k i n . s eu
-barron	b ae . l o n
-jacob	j a . k o b
-celeste	s e l . l e . s eu . t eu
-maspero	m a . s eu . p e . l o
-hewlett	h yu . l e s
-hadley	h a . d eu l . l i
-dongen	d o ng . g e n
-prentice	p eu . l ae n . t i . s eu
-melinda	m e l . l i n . d a
-palgrave	p o l . g eu . l e . i . b eu
-eck	e . k eu
-freytag	p eu . l a . i . t a . k eu
+motta	m o . t a
+ward	wo . d eu
+pilcher	p i . ch eo
+brynner	b eu . l i . n eo
+drinkwater	d eu . l i ng . k eu . wo . t eo
+butts	b eo . ch eu
+kelley	k e l . l i
+owen	o . we n
+monteux	m o ng . t oe
+masefield	m e . i . s eu . p i l . d eu
+moseley	m o . j eu l . l i
+martino	m a . l eu . t i . n o
+taine	t e n
+halifax	h ae l . l i . p ae g . s eu
 simic	s i . m i . ch i
-hope	h o . p eu
-eisenstein	a . i . j e n . s yu . t a . i n
-mance	m ae n . s eu
-tippett	t i . p e s
-sarton	s a . t eo n
-stanton	s eu . t ae n . t eo n
-caine	k e . i n
-fonteyn	p o n . t e . i n
-lukas	l u . k a . s eu
-flavius	p eu l . l a . b i . u . s eu
-urey	yu . l i
-barbara	b a . b eo . l a
-everett	e . b eo . l e s
-octavio	o g . t a . b i . o
-peltier	p e l . t i . e
-posse	p o . s e
-brassens	b eu . l a . s a ng . s eu
-balboa	b a l . b o . a
-rivas	l i . b a . s eu
-pedersen	p i . d eo . s eu n
-frege	p eu . l e . g e
-fisher	p i . s yeo
-verissimo	b e . l i . s i . m o
-ustinov	yu . s eu . t i . n o . p eu
-koestler	k e . s eu . t eu l . l eo
-gauguin	g o . g ae ng
-hebron	h e . b eu . l o n
-felicia	p e l . l i . s i . a
-kiribati	k i . l i . b a . s i
-casablanca	k a . s a . b eu l . l a ng . k a
-bang	b a ng
-granada	g eu . l a . n a . d a
-palembang	p a l . l e m . b a ng
-burckhardt	b u . l eu . k eu . h a . l eu . t eu
-alabama	ae l . l a . b ae . m a
-hahn	a n
-grafton	g eu . l a . p eu . t eu n
-keaton	k i . t eu n
-mississippi	m i . s i . s i . p i
-pestalozzi	p e . s eu . t a l . l o . ch i
+laforgue	l a . p o . l eu . g eu
+thomas	t o . m eo . s eu
+donaldson	d o . n a l . d eu . s eu n
+jacobs	j e . i . k o b . s eu
+speke	s eu . p i . k eu
+saleh	s a l . l e
+valla	b a l . l a
+andes	a n . d e . s eu
+dominic	d o . m i . n i . k eu
+cordelia	k o . d e l . l i . a
+himmler	h i m . l eo
+tartini	t a . l eu . t i . n i
+amman	a m . m a n
+hathaway	h ae . s eo . we . i
+jacobi	ya . k o . b i
+grillo	g eu . l i l . l o
+johnnie	j o . n i
+karamzin	k a . l a m . j i n
+gordon	g o . d eu n
+hernandez	h e . l eu . n a n . d e . s eu
+nelly	n e l . l i
+bloomfield	b eu l . l u m . p i l . d eu
+arnauld	a . l eu . n o
+angel	e n . j e l
+bales	b e . i l . j eu
+lynne	l i n
+fonseca	p o n . s e . k a
+borchardt	b o . l eu . h a . l eu . t eu
+luce	l u . s eu
+burroughs	b eo . l o . s eu
+rodenbach	l o . d e n . b a . h eu
+wade	wa . d e
+giza	g i . j a
+geibel	g a . i . b e l
+ernst	e . l eu n . s eu . t eu
+bakhtin	b a . h eu . ch i n
+braine	b eu . l e . i n
+capote	k eo . p o . t i
+milano	m i l . l a . n o
+steinmetz	s eu . t a . i n . m e . ch eu
+micronesia	m i . k eu . l o . n e . s i . a
+santiago	s a n . t i . a . g o
+jess	j e . s eu
+singer	s i ng . eo
+laird	l e . eo . d eu
+jammes	j a m
+poynting	p o . i n . t i ng
+boveri	b o . b e . l i
+dawson	d o . s eu n
+languedoc	l a ng . g eu . d o . k eu
+rice	l a . i . s eu
+wiley	wa . i l . l i
+stratford	s eu . t eu . l ae s . p o . d eu
+chianti	k a n . t i
+napolitano	n a . p o l . l i . t a . n o
+burbank	b eo . b ae ng . k eu
+schlick	s yu l . l i . k eu
+greenspan	g eu . l i n . s eu . p eo n
+sigourney	s i . g eo . n i
+gromyko	g eu . l o . m i . k o
+mauro	m a . u . l o
+belcher	b e l . ch eo
+pierluigi	p i . e . l eu l . l u . i . j i
+daisy	d a . i . s i
+ruysdael	l o . i . s eu . d a l
+bentley	b e n . t eu . l i
+guldberg	g u l . d eu . b e . l eu . g eu
+rauf	l a . u . p eu
+muskogee	m u . s eu . k o . g i
+kummer	k u . m eo
+raj	l a . j i
+lewin	l e . b i n
+conti	k o n . t i
+amanda	a . m a n . d a
+rommel	l o . m e l
+tashkent	t a . s yu . k e n . t eu
+dolores	d o l . l o . l e . s eu
+barre	b a . l e
+bissau	b i . s a . u
+alexander	a l . l e g . s a n . d eo
+martinez	m a . l eu . t i . n e . s eu
+marx	m a . l eu . k eu . s eu
+natan	n a . t a n
+hamburg	h a m . b u . l eu . k eu
+georgina	j o . l eu . j i . n a
+millais	m i l . l e . i
+reuben	l eu . u . b e n
+camilla	k a . m i l . l a
+vailland	b a . ya ng
 wilm	b i l . l eu m
-beaufort	b o . p eo . t eu
-susie	s u . j i
-valentin	b a l . l e n . t i n
-konstanz	k o n . s eu . t a n . ch eu
-gokhale	g o . k a l . l e
-jacob	ya . g o b
-remnant	l e m . n eo n . t eu
-marek	m a . l e g
-kolar	k o l . l a . l eu
-prosper	p eu . l o . s eu . p e . l eu
-lully	l wi l . l i
-bari	b a . l i
-giambattista	j a m . b a . t i . s eu . t a
-lawton	l o . t eo n
-habermas	h a . b eo . m a . s eu
-finch	p i n . ch i
-adler	a . d eu l . l eo
-guillaumin	g i . yo . m ae ng
-king	k i ng
-kimberley	k i m . b eo l . l i
-romain	l o . m ae ng
-kate	k e . i . t eu
-loewe	l oe . b e
-andrade	a n . d eu . l a . d e
+goncourt	g o ng . k u . l eu
+gallagher	g ae l . l eo . g eo
+behn	b e n
+blunt	b eu l . l eo n . t eu
+ernie	eo . n i
+celso	s e . l eu . s o
+maistre	m e . s eu . t eu . l eu
+sommerfeld	j o . m eo . p e l . t eu
+pelegrin	p e l . l e . g eu . l i n
+rourke	l u . k eu
+wole	wo l . l e
+crane	k eu . l e . i n
+vesuvius	b e . s u . b i . o
+wycherley	wi . ch eo l . l i
+kuznetsov	k u . j eu . n e . ch o . p eu

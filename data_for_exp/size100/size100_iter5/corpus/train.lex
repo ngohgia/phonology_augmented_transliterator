@@ -1,80 +1,60 @@
-albano	a l . b a . n o
-redon	l eu . d o ng
-mukherjee	m u . k eo . l eu . j i
-hyde	h a . i . d eu
-jongkind	yo ng . k i n . t eu
-champlain	s ya ng . p eu l . l ae ng
-staffordshire	s eu . t ae . p eo . d eu . s yeo
-chamberlin	ch e . i m . b eo l . l i n
-zeiss	ch a . i . s eu
-stanford	s eu . t ae n . p eo . d eu
-olivier	o l . l i . b i . e
-toronto	t o . l o n . t o
-claus	k eu l . l a . u . s eu
-patricia	p ae . t eu . l i . s ya
-mauritz	m a . u . l i . ch eu
-houghton	h o . t eu n
-kesey	k i . j i
-berlin	b e . l eu l . l i n
-jeremias	ye . l e . m i . a . s eu
-hartline	h a . t eu l . l a . i n
-lauderdale	l o . d eo . d e . i l
-blake	b eu l . l e . i . k eu
-lombard	l o m . b a . d eu
-middleton	m i . d eu l . t eo n
-condillac	k o ng . d i . ya . k eu
+laurie	l o . l i
+pinto	p i n . t o
+kircher	k i . l eu . h eo
+wertheimer	b e . l eu . t eu . h a . i . m eo
+sidney	s i . d eu . n i
+chamisso	s ya . m i . s o
+bajer	b a . ye . l eu
+kuibyshev	k u . i . b i . s ye . p eu
+bains	b e . i n . j eu
+schaudinn	s ya . u . d i n
+picasso	p i . k a . s o
+johannes	yo . h a . n e . s eu
+moretti	m o . l e . t i
+tarawa	t a . l a . wa
+sunday	s eo n . d e . i
+solow	s o l . l o
+paloma	p a l . l o . m a
+sturm	s eu . t eo m
+galle	g a l
+monod	m o . n o
+warren	wo . l eo n
+ossola	o . s o l . l a
+eindhoven	e . i n . t eu . h o . b e n
+debbie	d e . b i
+johnston	j o n . s eu . t o n
+raven	l e . i . b eu n
+verga	b e . l eu . g a
+pattison	p a . t i . s eu n
+rachel	l a . h e l
+alberta	a l . b a . t a
+amir	a . m i . l eu
+canterbury	k ae n . t eo . b e . l i
+inga	i ng . g a
+milne	m i l . l eu n
+lome	l o . m e
+agatha	a . g a . s a
+attar	ae . t a
+ambrose	ae m . b eu . l o . j eu
+cavendish	k ae . b eo n . d i . s i
+hristov	h eu . l i . s eu . t o . p eu
+nolde	n o l . d e
+boethius	b o . i . t i . u . s eu
+giancarlo	j i . a n . k a . l eu l . l o
+midas	m i . d a . s eu
+tom	t o m
+branco	b eu . l a ng . k o
+rollins	l o l . l i n . s eu
+orenburg	o . l e n . b u . l eu . k eu
+ustinov	yu . s eu . t i . n o . p eu
+chemnitz	k e m . n i . ch eu
+harrow	h ae . l o
+worms	b o . l eu m . s eu
+aguascalientes	a . g wa . s eu . k a l . l i . e n . t e . s eu
+page	p e . i . j i
+summer	s a . m a
 lake	l e . i . k eu
-dolph	d o l . p eu
-nicol	n i . k o l
-hofmann	h o . p eu . m a n
-bausch	b a . u . s yu
-massenet	m a . s eu . n e
-honegger	o . n e . g e . l eu
-daisy	d a . i . s i
-dianne	d a . i . ae n
-tomsk	t o m . s eu . k eu
-hebrides	h e . b eu . l i . d i . s eu
-coimbra	k o . i m . b eu . l a
-maine	m e . i n
-pascal	p a . s eu . k a l
-lynch	l i n . ch i
-robert	l o . b e . l eu . t eu
-michaux	m i . s yo
-booth	b u . d eu
-bazin	b a . j ae ng
-shaw	s yo
-dale	d e . i l
-bryce	b eu . l a . i . s eu
-fabry	p a . b eu . l i
-thackeray	s ae . k eo . l i
-tischbein	t i . s yu . b a . i n
-horowitz	h o . l o . b i . ch eu
-man	m ae n
-nord	n o . d eu
-sardinia	s a . l eu . d i . n i . a
-morand	m o . l a ng
-dudley	d eo . d eu l . l i
-carnarvon	k a . n a . b o n
-olyphant	o l . l i . p eo n . t eu
-halifax	h ae l . l i . p ae g . s eu
-melchior	m e l . k i . o . l eu
-escudero	e . s eu . k u . d e . l o
-jasper	j a . s eu . p eo
-liddell	l i . d eu l
-marsh	m a . s i
-naess	n e . s eu
-selznick	s e l . j eu . n i g
-daniell	d a . n i . e l
-schlick	s yu l . l i . k eu
-kerschensteiner	k e . l eu . s ye n . s yu . t a . i . n eo
-grimmelshausen	g eu . l i . m e l . s eu . h a . u . j e n
-morel	m o . l e l
-peng	p eo ng
-rupert	l u . p eo . t eu
-alekseev	a l . l e g . s e . ye . p eu
-valencia	b a l . l e n . s i . a
-guadalajara	g wa . d a l . l a . h a . l a
-rosenberg	l o . j e n . b e . l eu . k eu
-macrae	m ae g . l e . i
-festus	p e . s eu . t eo . s eu
-polanyi	p o l . l a . n i
+spengler	s yu . p e ng . g eu l . l eo
+julia	j u l . l i . a
+dempsey	d e m . s i
+manhattan	m ae n . h ae . t eu n

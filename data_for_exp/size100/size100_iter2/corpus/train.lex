@@ -1,80 +1,60 @@
-shaheen	s yae . h i n
-lilley	l i l . l i
-bernadette	b eo . n a . d e . t eu
-erdmann	e . l eu . d eu . m a n
-acheson	ae . ch i . s eu n
-eduard	e . d u . a . l eu . t eu
-bale	b e . i l
-lefebvre	l eu . p e . b eu . l eu
-cooper	k u . p eo
-becky	b e . k i
-beadle	b i . d eu l
-geoffrey	j e . p eu . l i
-adriana	a . d eu . l i . a . n a
-aziz	a . j i . j eu
-babylon	b a . b i l . l o n
-fittig	p i . t i . h i
-oort	o . l eu . t eu
-violet	b a . i . o l . l e s
-kadun	k a . d u n
-mader	m a . d eo
-galileo	g a l . l i l . l e . o
-tait	t a . i . t eu
-zeman	j e . m a n
-pride	p eu . l a . i . d eu
-bisset	b i . s e s
-matamoros	m a . tt a . m o . l o . s eu
-chang	j a ng
-kinnear	k eo . n i . eo
-sachs	s ae g . s eu
-hazlitt	h ae . j eu l . l i s
-busse	b u . s e
-stephen	s eu . t i . b eu n
-sahara	s a . h a . l a
-barrera	b a . l e . l a
-kenton	k e n . t eo n
-wilke	wi l . k eu
-nie	n ye
-basso	b a . s o
-beaumarchais	b o . m a . l eu . s ye
-sam	s ae m
-hofstadter	h o . p eu . s eu . t ae . t eo
-aldington	o l . d i ng . t eo n
-pick	p i . k eu
-hagerstown	h e . g eo . s eu . t a . u n
-darryl	d ae . l i l
-briand	b eu . l i . a ng
-wislicenus	b i . s eu l . l i . ch e . n u . s eu
-fragonard	p eu . l a . g o . n a . l eu
-carmichael	k a . m a . i . k eu l
-benitez	b e . n i . t e . j eu
-guthrie	g u . t eu . l i
-francke	p eu . l a ng . k e
-orel	o . l e l
-rourke	l u . k eu
-bellamy	b e l . l eo . m i
-noto	n o . t o
+erica	e . l i . k a
+freytag	p eu . l a . i . t a . k eu
+sanderson	s ae n . d eo . s eu n
+connelly	k o . n eo l . l i
+castello	k a . s eu . t e l . l o
+kempis	k e m . p i . s eu
+bertie	b eo . t i
+torino	t o . l i . n o
+asimov	a . s i . m o . p eu
+haifa	h a . i . p a
+magellan	m a . j e l . l a n
+campos	k a m . p u . s eu
+monmouth	m o n . m eo . s eu
+morin	m o . l ae ng
+saran	s a . l a n
 jacquard	j a . k a . d eu
-istanbul	i . s eu . t a n . b u l
-goode	g u . d eu
-myanmar	m ya n . m a
-pattani	p a . t a . n i
-steinmetz	s eu . t a . i n . m e . ch eu
-ambler	ae m . b eu l . l eo
-inverness	i n . b eo . n e . s eu
-dost	d o . s eu . t eu
-schott	s yo . t eu
-gilberto	j i l . b e . l eu . t o
-wilkes	wi l . k eu . s eu
-matthew	m a . t ae
-dewey	d yu . i
-zaragoza	s a . l a . g o . s a
-jagan	j e . i . g eo n
-garbo	g a . l eu . b o
-baltimore	b o l . t i . m o . eo
-verne	b e . l eu n
-mackintosh	m ae . k i n . t o . s i
-vitoria	b i g . t o . l i . a
-stella	s eu . t e l . l a
-lao	l a . o
-cleveland	k eu l . l i . b eu l . l ae n . d eu
+barton	b a . t eo n
+davis	d e . i . b i . s eu
+sebastian	s eo . b ae . s eu . ch eo n
+danny	d a . n i
+herta	h e . l eu . t a
+brunel	b eu . l u . n e l
+pereira	p e . l e . i . l a
+tony	t o . n i
+bikila	b i . k i l . l a
+bazin	b a . j ae ng
+rademacher	l a . d e . m a . h eo
+farjeon	p a . j eo n
+behring	b e . l i ng
+pastor	p a . s eu . t eo
+euclid	yu . k eu l . l i . d eu
+beuys	b o . i . s eu
+brauns	b eu . l o n . j eu
+bertin	b e . l eu . t ae ng
+boulder	b o . u l . d eo
+bergius	b e . l eu . g i . u . s eu
+octave	o g . t a . b eu
+bradford	b eu . l e . d eu . p o . d eu
+burckhardt	b u . l eu . k eu . h a . l eu . t eu
+ragusa	l a . g u . s a
+pennsylvania	p e n . s i l . b e . i . n i . a
+macbeth	m ae g . b e . s eu
+lanvin	l a ng . b a ng
+penelope	p e . n e l . l o . p e
+janusz	ya . n u . s i
+carrington	k ae . l i ng . t eo n
+piazzi	p i . a . ch i
+athabasca	ae . s eo . b ae . s eu . k a
+jasper	j a . s eu . p eo
+grandi	g eu . l a n . d i
+valletta	b a l . l e . t a
+abdus	a b . d u . s eu
+arboleda	a . l eu . b o l . l e . d a
+larkin	l a . k i n
+swinburne	s eu . wi n . b eo n
+alex	a l . l e g . s eu
+klopstock	k eu l . l o b . s yu . t o . k eu
+devon	d e . b eo n
+malamud	m ae l . l eo . m eo . d eu
+linden	l i n . d eu n
