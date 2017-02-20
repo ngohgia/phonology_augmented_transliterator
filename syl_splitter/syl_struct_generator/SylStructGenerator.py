@@ -61,7 +61,7 @@ ValidVowelRoles = [NUCLEUS,
                    ONSET_NUCLEUS_CODA, # act as a single syllable
                    REMOVE]
 
-POSSIBLE_SRC_GLIDE_LETTER = ['r']
+POSSIBLE_SRC_GLIDE_LETTER = ['r', 'w']
 
 ValidSubSylUnit = {
   ONSET: lang_assets.valid_src_onsets,
@@ -73,13 +73,13 @@ ValidSubSylUnit = {
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
   ONSET: 0.3,
-  NUCLEUS: 0.2,
+  NUCLEUS: 0.3,
   CODA: 0.3,
   ONSET_NUCLEUS: 0.1,
   CODA_ONSET_NUCLEUS: 0.0,
   NUCLEUS_ONSET: 0.0,
   NUCLEUS_NUCLEUS: 0,
-  NUCLEUS_CODA: 0.1,
+  NUCLEUS_CODA: 0.3,
   CODA_ONSET: 0.0,
   CODA_NUCLEUS: 0.0,
   CODA_CODA: 0.0,
@@ -156,6 +156,7 @@ for role in PossibleRoles:
 
 def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps_list, MAX_ROLES_COUNT):
   if pos >= len(labels):
+    # print "\n"
     # print ("Word: %s" % word)
     # print ("Labels: %s" % str(labels))
     # print ("Roles: %s" % str(roles))
@@ -169,7 +170,7 @@ def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps
     tmpValidConsoRoles = ValidConsoRoles
     currentLetter = word[pos]
     if currentLetter in POSSIBLE_SRC_GLIDE_LETTER:
-      tmpValidConsoRoles = ValidConsoRoles + [NUCLEUS_CODA]
+      tmpValidConsoRoles = ValidConsoRoles + [NUCLEUS, NUCLEUS_CODA]
 
     for idx in range(len(tmpValidConsoRoles)):
       role = tmpValidConsoRoles[idx]
@@ -211,7 +212,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
   # impossible assignment for a word beginning
   # print word_beginning
   if pos == word_beginning:
-    if labels[pos] == CONSONANT and \
+    if labels[pos] == CONSONANT and word[pos] not in POSSIBLE_SRC_GLIDE_LETTER and \
     (roles[pos] == CODA or roles[pos] == NUCLEUS or roles[pos] == CODA_ONSET \
       or roles[pos] == CODA_ONSET_NUCLEUS):
       return False
@@ -670,17 +671,17 @@ start_time = time.time()
 #print ("Labels: %s" % str(labels))
 
 # -------- Unit test for checking if a subsyllabic unit is valid ------------
-# word = "mueller"
+# word = "william"
 # print ("Word: %s" % word)
 # labels = label_letters(word)
-# roles = [ONSET, NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS, NUCLEUS_CODA]
+# roles = [NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS_CODA, NUCLEUS, CODA]
 # for pos in range(len(labels)):
 #   print "Valid onset at position" + str(pos) + ": " + str(is_valid_subsyllabic_unit(word, labels, roles, pos))
 
 # -------- Unit test for syllables construction ------------
-# word = "mueller"
+# word = "william"
 # labels = label_letters(word)
-# roles = [ONSET, NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS, NUCLEUS_CODA]
+# roles = [NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS_CODA, NUCLEUS, CODA]
 # checked = [True] * len(labels)
 # 
 # constructed_syls = construct_syls(word, labels, roles, checked)

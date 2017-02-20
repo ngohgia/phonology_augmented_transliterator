@@ -95,18 +95,18 @@ ValidSubSylUnit = {
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
   ONSET: 0.3,
-  NUCLEUS: 0.4,
+  NUCLEUS: 0.3,
   CODA: 0.3,
-  ONSET_NUCLEUS: 0.0,
-  CODA_ONSET_NUCLEUS: 0.2,
-  NUCLEUS_ONSET: 0.1,
-  NUCLEUS_NUCLEUS: 0.1,
-  NUCLEUS_CODA: 0.4,
+  ONSET_NUCLEUS: 0.1,
+  CODA_ONSET_NUCLEUS: 0.0,
+  NUCLEUS_ONSET: 0.0,
+  NUCLEUS_NUCLEUS: 0.0,
+  NUCLEUS_CODA: 0.3,
   CODA_ONSET: 0.0,
-  CODA_NUCLEUS: 0.1,
+  CODA_NUCLEUS: 0.0,
   CODA_CODA: 0.0,
-  ONSET_NUCLEUS_CODA: 0.1,
-  REMOVE: 0.1,
+  ONSET_NUCLEUS_CODA: 0.0,
+  REMOVE: 0.0,
 }
 
 #---------------- GET BEST SEARCH SPACE ------------------#

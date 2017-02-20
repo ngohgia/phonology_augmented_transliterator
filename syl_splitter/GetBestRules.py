@@ -118,6 +118,7 @@ def get_best_hyps_from_single_training(training_lex):
         best_hyps = sorted(best_word_hyps_list, key=lambda hyp: hyp.mod_pen)
         complex_words_hyps.append(best_hyps[0:10])
 
+
   simple_words_t2p_input_path = os.path.abspath(os.path.join(run_dir, "simple_words_t2p_input.txt"))
   complex_words_t2p_input_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp_t2p_input.txt"))
   complex_words_t2p_output_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp_t2p_output.txt"))
