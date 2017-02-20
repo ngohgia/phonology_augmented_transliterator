@@ -32,7 +32,7 @@ ONSET_NUCLEUS_CODA = "O_N_Cd"
 CODA_ONSET_NUCLEUS = "Cd_O_N"
 REMOVE = "R"
 
-MAX_THRESH_LEVEL = 2
+MAX_THRESH_LEVEL = 3
 
 lang_assets = LangAssets()
 VOWEL = LangAssets.VOWEL

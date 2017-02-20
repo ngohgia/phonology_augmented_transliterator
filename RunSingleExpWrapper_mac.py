@@ -8,14 +8,14 @@ import time
 
 # root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size100_iter1')
 # root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size1_iter1')
-root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size10_iter1')
+root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170217', 'size1000', 'size1000_iter2')
 data_dir = os.path.join(root_dir, 'corpus')
 
 ts = time.strftime("%Y-%m-%d_%H-%M-%S")
 # Working directory
 output_dir = os.path.join(root_dir, 'phono_augmented')
 # run_dir = os.path.join(output_dir, 'run_' + ts)
-run_dir = os.path.join(output_dir, 'run_tmp')
+run_dir = os.path.join(output_dir, 'run_dir')
 log_dir = os.path.join(run_dir, 'log')
 #### TMP
 if os.path.exists(run_dir):

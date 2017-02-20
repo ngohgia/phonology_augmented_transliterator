@@ -94,14 +94,14 @@ ValidSubSylUnit = {
 # Each role can only be assigned to more than a specific ratio of all the letters
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
-  ONSET: 0.3,
-  NUCLEUS: 0.3,
-  CODA: 0.3,
-  ONSET_NUCLEUS: 0.1,
+  ONSET: 0.0,
+  NUCLEUS: 0.0,
+  CODA: 0.0,
+  ONSET_NUCLEUS: 0.0,
   CODA_ONSET_NUCLEUS: 0.0,
   NUCLEUS_ONSET: 0.0,
   NUCLEUS_NUCLEUS: 0.0,
-  NUCLEUS_CODA: 0.3,
+  NUCLEUS_CODA: 0.0,
   CODA_ONSET: 0.0,
   CODA_NUCLEUS: 0.0,
   CODA_CODA: 0.0,
@@ -113,9 +113,32 @@ MAX_ROLES_RATIOS = {
 # Retrieve the best search space from the training + dev
 def get_best_search_space():
   lex_hyps = read_lex_hyps_from_file(best_lex_hyp_file_name)
+  update_subsyl_roles_ratio(lex_hyps)
   [search_space, valid_units] = get_search_space_from_lex_hyps(lex_hyps, run_dir)
   #print search_space.to_str()
   return [search_space, valid_units]
+
+def update_subsyl_roles_ratio(lex_hyps):
+  new_ratios = {}
+  for r in MAX_ROLES_RATIOS:
+    new_ratios[r] = 0.0
+  count = 0;
+  for word in lex_hyps:
+    for hyp in lex_hyps[word]:
+      count += 1.0;
+
+      roles = hyp[0]
+
+      word_roles = {}
+      for r in MAX_ROLES_RATIOS:
+        word_roles[r] = 0.0
+
+      for r in roles:
+        word_roles[r] += 1.0;
+      for r in word_roles:
+        new_ratios[r] += (word_roles[r] / sum(word_roles.values()))
+  for r in new_ratios:
+    MAX_ROLES_RATIOS[r] = (new_ratios[r] / count)
 
 #---------------- GENERATE ALL POSSIBLE ROLES FOR ALPHABETS IN A WORD ------------------#
 # Use a dictionary to keep count on the number times a role is assigned to a letter
