@@ -4,22 +4,22 @@ import os.path as op
 import pdb
 import time, datetime
 
-size = 1000
+size = 100
 order = 6
-iterations = 10
+iterations = 5
 g2p='/home/ngohgia/Work/g2p/g2p.py'
 sclite='/home/ngohgia/Work/utilities/sclite/sclite'
 FNULL = open(os.devnull, 'w')
 
 def main():
-    root = op.join(os.getcwd(), 'exp_20170207');
+    root = op.join(os.getcwd(), 'exp_170221');
     ts = datetime.datetime.fromtimestamp(time.time()).strftime('%Y%m%d')
     output_file = op.join(root, 'report' + ts + '.csv')
     # try:
     for i in xrange(1, iterations + 1):
+        sizefolder = 'size{0}'.format(size)
         fname = 'size{0}_iter{1}'.format(size, i)
-        subfolder = op.join(root, fname)
-        print subfolder
+        subfolder = op.join(root, sizefolder, fname)
         result = run_experiment(order, subfolder)
         with open(output_file, 'a') as output_filehandler:
             print >> output_filehandler, ','.join(['g2p ' + fname] + [str(a) for a  in result])
@@ -29,7 +29,7 @@ def main():
     #     print message
 
 def run_experiment(order, cwd):
-    train_file = op.join(cwd, 'corpus', 'train.lex')
+    train_file = op.join(cwd, 'corpus', 'train+dev.lex')
     test_file = op.join(cwd, 'corpus', 'test.lex')
     ref_file = op.join(cwd, 'test.ref')
 
