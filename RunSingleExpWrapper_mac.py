@@ -6,9 +6,7 @@ import shutil
 import logging
 import time
 
-# root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size100_iter1')
-# root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170214', 'size100', 'size1_iter1')
-root_dir = os.path.join('/Users/ngohgia/Work/transliteration/NEWS2016_EnKor', 'exp_170217', 'size1000', 'size1000_iter2')
+root_dir = os.path.join('/Users/ngohgia/Work/transliteration/cantonese_transliterator', 'exp_170221_onset-final', 'size700', 'size700_iter1')
 data_dir = os.path.join(root_dir, 'corpus')
 
 ts = time.strftime("%Y-%m-%d_%H-%M-%S")
@@ -25,8 +23,8 @@ os.makedirs(run_dir)
 os.makedirs(log_dir)
 
 training_dev_file_path = os.path.join(data_dir, 'train.lex')
-test_src_file_path = os.path.join(data_dir, 'test.lex')
-output_file_path = os.path.join(run_dir, 'test.output')
+test_src_file_path = os.path.join(data_dir, 'dev.src')
+output_file_path = os.path.join(run_dir, 'dev.output')
 path_to_t2p = '/Users/ngohgia/Work/transliteration/utilities/t2p/t2p_dt.pl'
 
 

@@ -51,17 +51,14 @@ ValidTargVowels = lang_assets.valid_targ_vowels
 # Strict role constraints
 # ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
 ValidConsoRoles = [ONSET, 
-                   CODA,
                    ONSET_NUCLEUS, # add a schwa following the onset
-                   CODA_ONSET, # double the consonant - ending coda of one syllable and beginning onset of the following syllable
+                   NUCLEUS_CODA, # syllable-ending nucleus, there is no following coda
                    REMOVE]
 ValidVowelRoles = [NUCLEUS,
                    # NUCLEUS_NUCLEUS, # double the nucleus - ending nucleus of one syllable and beginning nucleus of the following syllable
                    NUCLEUS_CODA, # syllable-ending nucleus, there is no following coda
                    ONSET_NUCLEUS_CODA, # act as a single syllable
                    REMOVE]
-
-POSSIBLE_SRC_GLIDE_LETTER = ['r', 'w']
 
 ValidSubSylUnit = {
   ONSET: lang_assets.valid_src_onsets,
@@ -72,14 +69,14 @@ ValidSubSylUnit = {
 # Each role can only be assigned to more than a specific ratio of all the letters
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
-  ONSET: 0.3,
-  NUCLEUS: 0.3,
-  CODA: 0.3,
+  ONSET: 0.5,
+  NUCLEUS: 0.5,
+  CODA: 0.0,
   ONSET_NUCLEUS: 0.1,
   CODA_ONSET_NUCLEUS: 0.0,
   NUCLEUS_ONSET: 0.0,
   NUCLEUS_NUCLEUS: 0,
-  NUCLEUS_CODA: 0.3,
+  NUCLEUS_CODA: 0.4,
   CODA_ONSET: 0.0,
   CODA_NUCLEUS: 0.0,
   CODA_CODA: 0.0,
@@ -169,8 +166,6 @@ def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps
   if labels[pos] == CONSONANT:
     tmpValidConsoRoles = ValidConsoRoles
     currentLetter = word[pos]
-    if currentLetter in POSSIBLE_SRC_GLIDE_LETTER:
-      tmpValidConsoRoles = ValidConsoRoles + [NUCLEUS, NUCLEUS_CODA]
 
     for idx in range(len(tmpValidConsoRoles)):
       role = tmpValidConsoRoles[idx]
@@ -212,7 +207,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
   # impossible assignment for a word beginning
   # print word_beginning
   if pos == word_beginning:
-    if labels[pos] == CONSONANT and word[pos] not in POSSIBLE_SRC_GLIDE_LETTER and \
+    if labels[pos] == CONSONANT and \
     (roles[pos] == CODA or roles[pos] == NUCLEUS or roles[pos] == CODA_ONSET \
       or roles[pos] == CODA_ONSET_NUCLEUS):
       return False
