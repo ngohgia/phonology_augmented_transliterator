@@ -1,20 +1,20 @@
-byrne	b aai 3 . j a-n 1
-barcelona	b aa 1 . c oi 3 . l u-ng 4 . n aa-p 6
-bali	b aa 1 . l ei 4
-islam	j i 1 . s i 1 . l aa-n 4
-atlanta	aa 3 . d a-k 6 . l aa-n 4 . d aai 6
-mali	m aa 5 . l ei 6
-nietzsche	n ei 4 . c oi 2
-nedved	n ei 4 . w ai 4 . d a-k 6
-walloon	ng aa 5 . l u-ng 4
-pratt	b aa-n 1 . l aa-p 6 . d a-k 1
-midland	m ai 5 . d a-k 6 . l aa-n 4
-mole	m o 1 . j i 5
-libya	l ei 6 . b ei 2 . aa 3
-soros	s o-k 3 . l o 4 . s i 1
-bridgestone	p ou 2 . l ei 6 . s i 1 . t u-ng 1
-algeria	aa 3 . j i 5 . k a-p 6 . l ei 6 . aa 3
-engine	j a-n 5 . k i-ng 4
-chelsea	c e 1 . l ou 6 . s i 6
-lux	l a-k 6 . h a-k 1 . s i 1
-disney	d i-k 6 . s i 6 . n ei 4
+arkansas	aa 3 . h a-ng 2 . s i-k 1
+poole	p ou 2 . j i 5
+bugatti	b ou 2 . g aa 1 . d i-k 6
+venus	w ai 4 . n aa-p 6 . s i 1
+douglas	d ou 6 . g aa-k 3 . l aai 1 . s i 1
+formalin	f u-k 1 . j i 5 . m aa 5 . l a-m 4
+karl	k aa 1 . j i 5
+boss	b o 1 . s i 6
+neil	n ei 4 . j i 5
+tajikistan	t aa-p 3 . g a-t 1 . h a-k 1 . s i 1 . t aa-n 2
+jazz	z oe-k 3 . s i 6
+havana	h aa 1 . ng aa 5 . n aa 5
+eden	j i 1 . d i-n 1
+mark	m aa 5 . h a-k 1
+jack	g i-t 6 . h a-k 1
+hart	h aa 1 . d a-k 6
+argentina	aa 3 . g a-n 1 . t i-ng 4
+henry	h a-ng 1 . l ei 6
+hemingway	h oi 2 . m i-ng 4 . w ai 1
+amonia	aa 3 . m o 1 . n ei 4 . aa 3

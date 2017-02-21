@@ -1,20 +1,20 @@
-eritrea	a k 1 . l aa-p 6 . d a-k 6 . l ei 5 . aa 3
-figaro	f ai 3 . g aa 1 . l o 4
-motorola	m o 1 . t o-k 3 . l o 4 . l aai 1
+aule	ou 3 . l i-k 6
+beirut	b ui 3 . l ou 5 . d a-k 6
+lebanon	l ai 4 . b aa 1 . n yu-n 6
+bolivia	b o 1 . l ei 6 . w ai 4 . aa 3
+ford	f u-k 1 . d a-k 6
+bush	b ou 3 . s yu 4
+brazil	b aa 1 . s ai 1
 austin	ou 3 . s i 1 . t i-ng 1
-english	j i-ng 1 . g a-t 1 . l ei 6
-jack	g i-t 6 . h a-k 1
-greenwich	g aa-k 3 . l a-m 4 . w ai 1 . z i 6
-denver	d aa-n 1 . f a-t 6
-cast	k aa 1 . s i 6
-qatar	k aa 1 . t aa-p 3 . j i 5
-lithuania	l aa-p 6 . t ou 4 . j yu-n 2
-matlock	m aa 5 . d a-k 6 . l o-k 3 . h a-k 1
-jessica	g i-t 3 . s ai 1 . k aa 1
-bingo	b a-n 1 . gw o 2
-phuket	b ou 3 . g a-t 1
-marco	m aa 5 . h o 2
-alps	ng aa 3 . j i 5 . b ei 1 . s i 1
-boston	b o 1 . s i 6 . d eo-n 6
-romania	l o 4 . m aa 5 . n ei 4 . aa 3
-prussia	p ou 2 . l ou 5 . s i 6
+andreessen	o n 1 . d a-k 1 . s a-ng 1
+jamaica	ng aa 4 . m aai 5 . g aa 1
+darwin	d aa-t 6 . j i 5 . m a-n 4
+beethoven	b ui 3 . d o 1 . f a-n 1
+bolshevik	b ou 3 . j i 5 . s a-p 6 . w ai 4 . h a-k 1
+johannesburg	j oe-k 3 . h o-n 6 . n ei 4 . s i 1 . b ou 2
+milton	m a-t 6 . j i 5 . d eo-n 6
+belfast	b ui 3 . j i 5 . f aa-t 3 . s i 1 . d a-k 6
+baggio	b aa 1 . z i 6 . ou 3
+tanzania	t aa-n 2 . s o-ng 1 . n ei 4 . aa 3
+azerbaijan	aa 3 . c oi 3 . b aai 3 . g oe-ng 1
+mandela	m aa-n 6 . d a-k 1 . l aai 1

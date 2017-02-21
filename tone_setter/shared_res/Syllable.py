@@ -16,5 +16,4 @@ class Syllable:
     return (" ").join(self.vie_phonemes)
 
   def __str__(self):
-    return " ".join(self.vie_phonemes) + " _" + str(self.tone)
-
+    return " ".join(self.vie_phonemes) + " " + str(self.tone)

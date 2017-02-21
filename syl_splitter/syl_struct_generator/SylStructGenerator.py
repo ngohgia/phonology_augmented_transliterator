@@ -70,13 +70,13 @@ ValidSubSylUnit = {
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
   ONSET: 0.5,
-  NUCLEUS: 0.5,
+  NUCLEUS: 0.4,
   CODA: 0.0,
   ONSET_NUCLEUS: 0.1,
   CODA_ONSET_NUCLEUS: 0.0,
   NUCLEUS_ONSET: 0.0,
   NUCLEUS_NUCLEUS: 0,
-  NUCLEUS_CODA: 0.4,
+  NUCLEUS_CODA: 0.5,
   CODA_ONSET: 0.0,
   CODA_NUCLEUS: 0.0,
   CODA_CODA: 0.0,
@@ -111,9 +111,10 @@ def label_letters(word):
 #---------------- ENCODE A TARG ENTRY IN SUBSYLLABIC UNITS ------------------#
 def export_syl_struct_of_targ_word(word):
   syls = [syl.strip() for syl in word.split(".")]
+  toneless_syls = [(" ").join(syl.strip().split(" ")[:-1]) for syl in syls]
 
   encoded_units = []
-  for syl in syls:
+  for syl in toneless_syls:
     targ_phons = syl.split(" ")
     print targ_phons
 
@@ -208,7 +209,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
   # print word_beginning
   if pos == word_beginning:
     if labels[pos] == CONSONANT and \
-    (roles[pos] == CODA or roles[pos] == NUCLEUS or roles[pos] == CODA_ONSET \
+    (roles[pos] == CODA or roles[pos] == CODA_ONSET \
       or roles[pos] == CODA_ONSET_NUCLEUS):
       return False
 
@@ -327,7 +328,7 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
     # and roles[pos] == ONSET or ONSET_NUCLEUS_CODA, return False
     # since an equivalent hypothesis of which roles[last_non_R_pos] == NUCLEUS_CODA
     if roles[last_non_R_pos] == NUCLEUS and \
-    roles[pos].split("_")[0] == ONSET:
+    roles[pos].split("_")[0] == ONSET and roles[pos] != ONSET_NUCLEUS:
       return False
 
     # # if a NUCLEUS or NUCLEUS CODA can form an single syllable, return False
@@ -343,7 +344,6 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
       (roles[last_non_R_pos] == NUCLEUS or roles[last_non_R_pos] == NUCLEUS_CODA) and \
       roles[pos].split("_")[0] == ONSET:
         return False
-
 
   #print ("end_of_unit: %d" % end_of_unit)
   # create the sub-syllabic unit
@@ -376,9 +376,11 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
     #print ("Subsyllabic unit: %s" % subsyl_unit)
 
     # Check if the subsyl_unit is a valid subsyllabic unit of the role curr_role (onset, nucleus, coda)
-    if subsyl_unit != "" and \
-    subsyl_unit not in ValidSubSylUnit[curr_role]:
-      return False
+
+    ##### CANTONESE ONSET_FINAL ####
+    # if subsyl_unit != "" and \
+    # subsyl_unit not in ValidSubSylUnit[curr_role]:
+    #   return False
 
   return True
 
@@ -563,6 +565,12 @@ def are_all_subsyl_units_valid(new_word):
 
 #---------------- UPDATE BEST HYP WORD LIST -------------------------#
 def update_best_hyp_words_list(orig_word, targ_syl_struct, roles, new_word, checked, best_word_hyps_list):
+  # if roles == ['O', 'N_Cd', 'O', 'N', 'O_N']:
+  #   print are_all_subsyl_units_valid(new_word)
+  #   print are_all_letters_used(checked)
+  #   print new_word.get_encoded_units()
+  #   print targ_syl_struct
+
   if not are_all_subsyl_units_valid(new_word):
     return
 
@@ -674,10 +682,14 @@ start_time = time.time()
 #   print "Valid onset at position" + str(pos) + ": " + str(is_valid_subsyllabic_unit(word, labels, roles, pos))
 
 # -------- Unit test for syllables construction ------------
-# word = "william"
+# word = "romantic"
+# roles = [ONSET, NUCLEUS_CODA, ONSET, NUCLEUS, NUCLEUS_CODA, ONSET, NUCLEUS, ONSET_NUCLEUS]
+# word = "nepal"
+# roles = [ONSET, NUCLEUS_CODA, ONSET, NUCLEUS_CODA, ONSET_NUCLEUS]
 # labels = label_letters(word)
-# roles = [NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS_CODA, NUCLEUS, CODA]
 # checked = [True] * len(labels)
+# for pos in range(len(labels)):
+#   print "Valid onset at position" + str(pos) + ": " + str(is_valid_subsyllabic_unit(word, labels, roles, pos))
 # 
 # constructed_syls = construct_syls(word, labels, roles, checked)
 # print ("Word: %s" % word)

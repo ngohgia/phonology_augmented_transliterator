@@ -6,7 +6,7 @@ import shutil
 import logging
 import time
 
-root_dir = os.path.join('/Users/ngohgia/Work/transliteration/cantonese_transliterator', 'exp_170221_onset-final', 'size700', 'size700_iter1')
+root_dir = os.path.join('/Users/ngohgia/Work/transliteration/cantonese_transliterator', 'exp_170221_onset-final', 'size100', 'size100_iter1')
 data_dir = os.path.join(root_dir, 'corpus')
 
 ts = time.strftime("%Y-%m-%d_%H-%M-%S")

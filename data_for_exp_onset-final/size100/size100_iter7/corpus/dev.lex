@@ -1,20 +1,20 @@
-iowa	oi 3 . h o 4 . w aa 4
-virginia	w ai 4 . g a-t 1 . n ei 4 . aa 3
-uzbekistan	w u 1 . z i 1 . b i-t 6 . h a-k 1 . s i 1 . t aa-n 2
-jazz	z oe-k 3 . s i 6
-beckham	b i-k 1 . h aa-m 4
-martin	m aa 5 . d i-ng 1
-sheffield	c i-t 3 . f ei 1 . j i 5 . d a-k 1
-wally	w ai 1 . l ei 6
-guava	b aa 1 . ng o-k 6
-addison	aai 6 . d i-k 6 . s a-ng 1
-babylon	b aa 1 . b ei 2 . l eo-n 4
-humour	j au 1 . m a-k 6
-hemingway	h oi 2 . m i-ng 4 . w ai 1
-coffee	g aa 3 . f e 1
-nigeria	n ei 4 . j a-t 6 . l ei 6 . aa 3
-idaho	oi 3 . d aa-t 6 . h o 4
-nicotine	n ei 4 . g u 2 . d i-ng 1
-canada	g aa 1 . n aa 4 . d aai 6
-poland	b o 1 . l aa-n 4
-beck	b ui 3 . h a-k 1
+newfoundland	n au 2 . f a-n 1 . l aa-n 4
+jett	g i-t 6 . d a-k 6
+arizona	aa 3 . l ei 6 . s o-ng 1 . n aa 5
+serbia	c oi 3 . j i 5 . w ai 4 . aa 3
+barbados	b aa 1 . b ui 3 . d o 1
+columbus	g o 1 . l eo-n 4 . b ou 3
+valse	w aa 4 . j i 5 . z i 1
+toronto	d o 1 . l eo-n 4 . d o 1
+ukraine	w-u 1 . h a-k 1 . l aa-n 4
+romantic	l o 4 . m aa-n 6 . d ai 3 . h a-k 1
+morgan	m o 1 . g a-n 1
+ericsson	oi 3 . l aa-p 6 . s eo-n 3
+mali	m aa 5 . l ei 6
+valladolid	b aa 1 . l ei 6 . aa 3 . d o 1 . l ei 6 . d a-k 1
+karachi	k aa 1 . l aai 1 . k ei 4
+hanoi	h o 4 . n oi 6
+brown	b ou 3 . l o-ng 5
+gothenburg	g o 1 . d a-k 1 . b ou 2
+gordon	gw o 1 . d a-ng 1
+hunt	h a-ng 1 . d a-k 6
