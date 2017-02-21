@@ -1,40 +1,40 @@
-herta	h e . l eu . t a
-brunel	b eu . l u . n e l
-pereira	p e . l e . i . l a
-tony	t o . n i
-bikila	b i . k i l . l a
-bazin	b a . j ae ng
-rademacher	l a . d e . m a . h eo
-farjeon	p a . j eo n
-behring	b e . l i ng
-pastor	p a . s eu . t eo
-euclid	yu . k eu l . l i . d eu
-beuys	b o . i . s eu
-brauns	b eu . l o n . j eu
-bertin	b e . l eu . t ae ng
-boulder	b o . u l . d eo
-bergius	b e . l eu . g i . u . s eu
-octave	o g . t a . b eu
-bradford	b eu . l e . d eu . p o . d eu
-burckhardt	b u . l eu . k eu . h a . l eu . t eu
-ragusa	l a . g u . s a
-pennsylvania	p e n . s i l . b e . i . n i . a
-macbeth	m ae g . b e . s eu
-lanvin	l a ng . b a ng
-penelope	p e . n e l . l o . p e
-janusz	ya . n u . s i
-carrington	k ae . l i ng . t eo n
-piazzi	p i . a . ch i
-athabasca	ae . s eo . b ae . s eu . k a
-jasper	j a . s eu . p eo
-grandi	g eu . l a n . d i
-valletta	b a l . l e . t a
-abdus	a b . d u . s eu
-arboleda	a . l eu . b o l . l e . d a
-larkin	l a . k i n
-swinburne	s eu . wi n . b eo n
-alex	a l . l e g . s eu
-klopstock	k eu l . l o b . s yu . t o . k eu
-devon	d e . b eo n
-malamud	m ae l . l eo . m eo . d eu
-linden	l i n . d eu n
+ericsson	oi 3 . l aa p 6 . s eo n 3
+sega	s ai 3 . g aa 1
+khorkina	f o k 3 . j i 5 . g a m 1 . n aa 4
+carnation	h o ng 1 . n aai 5 . h i ng 1
+scotland	s ou 1 . g aa k 3 . l aa n 4
+bach	b aa 1 . h aa 1
+abraham	aa 3 . b aa k 3 . l aai 1 . h o n 5
+bit	b ei 2 . d a k 6
+mark	m aa 5 . h a k 1
+jesse	h a k 1 . c oi 3
+bredbury	b aa 1 . b ui 3 . l ei 6
+muhammad	m u k 6 . h o n 2 . m a k 6 . d a k 1
+nylon	n ei 4 . l u ng 4
+cyanide	s aa n 1 . aai 1
+arkansas	aa 3 . h a ng 2 . s i k 1
+valse	w aa 4 . j i 5 . z i 1
+mini	m ai 4 . n ei 5
+tennessee	t i n 4 . n aa p 6 . s ai 1
+latin	l aai 1 . d i ng 1
+kosovo	f o 1 . s o k 3 . j u k 1
+colombia	g o 1 . l eo n 4 . b ei 2 . aa 3
+barbie	b aa 1 . b ei 2
+sahara	s aa t 3 . h aa 1 . l aai 1
+hawke	f o k 3 . h a k 1
+australia	ou 3 . d aai 6 . l ei 6 . aa 3
+shea	s aa 1
+messiah	n ei 4 . c oi 3 . aa 3
+bismarck	b ei 2 . s i 1 . m a k 6
+serbia	c oi 3 . j i 5 . w ai 4 . aa 3
+new	n au 2
+bully	b aa 3 . l i ng 4
+moscow	m o k 6 . s i 1 . f o 1
+rome	l o 4 . m aa 5
+olympics	ou 3 . l a m 4 . p a t 1 . h a k 1
+drucker	d a k 1 . l ou 5 . h a k 1
+greenspan	g aa k 3 . l a m 4 . s i 1 . p u n 1
+mormon	m o 1 . m u n 4
+germanic	j a t 6 . j i 5 . m aa n 6
+byrne	b aai 3 . j a n 1
+freon	f a t 1 . l ei 6 . ng o ng 4

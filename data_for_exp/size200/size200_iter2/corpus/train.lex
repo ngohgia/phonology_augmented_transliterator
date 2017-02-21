@@ -1,120 +1,120 @@
-nino	n i . n o
-gaede	g e . d e
-ansel	eo n . s e l
-luria	l u . l i . a
-downing	d a . u . n i ng
-mariana	m a . l i . a . n a
-basque	b a . s eu . k eu
-holbein	h o l . b a . i n
-wellesley	we l . j eu l . l i
-jaspers	ya . s eu . p eo . s eu
-cornwall	k o n . wo l
-gottlieb	g o . t eu l . l i . b eu
-swift	s eu . wi . p eu . t eu
-kenyatta	k e . n ya . t a
-oren	o . l e n
-spitsbergen	s eu . k i . ch eu . b e . l eu . g e n
-passow	p a . s yo . p eu
-gobi	g o . b i
-sydenham	s i . d eu . n eo m
-peccei	p e . ch e . i
-rios	l i . o . s eu
-vittorio	b i . t o . l i . o
-regan	l i . g eo n
-wit	b i . t eu
-hendrikx	h e n . d eu . l i g . s eu
-ferrante	p e . l a n . t eu
-paz	p a . s eu
-boulanger	b u l . l a ng . j e
-elliot	e l . l i . eo . t eu
-mathilde	m a . t i l . d eu
-quaid	k we . i . d eu
-greuze	g eu . l oe . j eu
-netherlands	n e . d eo l . l a n . d eu
-tikhonov	t i . h o . n o . p eu
-eakins	e . i . k i n . s eu
-uli	u l . l i
-saar	j a . l eu
-bast	b a . s eu . t eu
-alice	e l . l i . s eu
-garner	g a . n eo
-kenneth	k e . n i . s eu
-passy	p a . s i
-delane	d i l . l e . i n
-dickens	d i . k i n . j eu
-cameroon	k a . m e . l u n
-shockley	s yo . k eu l . l i
-henryk	h e n . l i . k eu
-undset	u n . s e . t eu
-duvivier	d wi . b i . b i . e
-cartan	k a . l eu . t a ng
-hodgson	h o . j i . s eu n
-linz	l i n . ch eu
-mccoy	m ae g . k o . i
-gall	g a l
-stewart	s eu . t yu . eo . t eu
-tinbergen	t i n . b eo . g e n
-singleton	s i ng . g eu l . t o n
-longford	l o ng . p o . d eu
-tora	t o . l a
-hewish	h yu . i . s i
-treitschke	t eu . l a . i . ch i . k e
-tanguy	t a ng . g i
-schmiedeberg	s yu . m i . d e . b e . l eu . k eu
-gallio	g a l . l i . o
-neville	n e . b i l
-michell	m i . ch e l
-moody	m u . d i
-kelvin	k e l . b i n
-thelma	d e l . m a
-brooks	b eu . l u g . s eu
-sapir	s a . p i . eo
-elsa	e l . j a
-campo	k a m . p o
-erving	eo . b i ng
-villanueva	b i l . l a . n u . e . b a
-hirsch	h eo . s wi
-hodgkin	h o . j i . k i n
-zane	j e . i n
-jacques	j a . k eu
-vermeer	b e . l eu . m e . l eu
-dampier	d ae m . p i . eo
-kutuzov	k u . t u . j o . p eu
-kerr	k eo
-pandora	p a n . d o . l a
-pilon	p i l . l o ng
-jerrold	j e . l eo l . d eu
-lyle	l a . i l
-severin	s e . b eo . l i n
-penzias	p e n . j i . eo . s eu
-lima	l i . m a
-armenia	a . l eu . m e . n i . a
-frey	p eu . l o . i
-heather	h e . d eo
-zeyer	jj eo . ye . eo l
-bergengruen	b e . l eu . g e n . g eu . l wi n
-korngold	k o n . g o l . d eu
-wilke	wi l . k eu
-pete	p i . t eu
-jobs	j a b . s eu
-moss	m o . s eu
-olander	o l . l ae n . d eo
-prus	p eu . l u . s eu
-ramo	l a . m o
-sheffield	s ye . p i l . d eu
-putnam	p eo . t eu . n eo m
-caucasus	k o . k a . s eo . s eu
-schwerin	s yu . b e . l i n
-trieste	t eu . l i . e . s eu . t e
-lachmann	l a . h eu . m a n
-dost	d o . s eu . t eu
-avraham	a . b eu . l a . h a m
-federico	p e . d e . l i . k o
-irons	a . i . eo n . s eu
-andrew	a n . d eu . l e
-wolf	b o l . p eu
-lyman	l a . i . m eo n
-voroshilov	b o . l o . s i l . l o . p eu
-florin	p eu l . l o . l i n
-welch	we l . ch i
-hepplewhite	h e . p eu l . h wa . i . t eu
+maryland	m aa 5 . l ei 5 . l aa n 4
+mardini	m aa 5 . d i n 1 . n ei 4
+macarthur	m a k 6 . h a k 1 . aa 3 . s a t 1
+kazakhstan	h aa 1 . s aa t 3 . h a k 1 . s i 1 . t aa n 2
+austin	ou 3 . s i 1 . t i ng 1
+cola	h o 2 . l o k 6
+newcastle	n au 2 . k aa 1 . s ou 3
+minnesota	m i ng 4 . n ei 4 . s ou 1 . d aa t 6
+nokia	n o k 6 . g ei 1 . aa 3
+bell	b ui 3 . j i 5
+buffet	b ou 3 . f ei 1
+wells	w ai 1 . j i 5 . s i 1
+martin	m aa 5 . d i ng 1
+hiddink	h ei 1 . d i n 1 . h a k 1
+uzbekistan	w u 1 . z i 1 . b i t 6 . h a k 1 . s i 1 . t aa n 2
+stanley	s i 6 . d aa n 1 . l ei 6
+muslim	m u k 6 . s i 1 . l a m 4
+marshall	m aa 5 . h i t 3 . j i 5
+goethe	g o 1 . d a k 1
+vancouver	w a n 1 . g o 1 . w aa 4
+ballet	b aa 1 . l eoi 4
+hoare	f o k 3 . j i 5
+jehovah	j e 4 . w o 4 . w aa 4
+picasso	b a t 1 . k aa 1 . s o k 3
+fernandez	f ai 3 . n aa m 4 . d a k 1 . z i 1
+amonia	aa 3 . m o 1 . n ei 4 . aa 3
+york	j oe k 3
+cruise	h a k 1 . l ou 5 . s i 1
+liberia	l ei 6 . b ei 2 . l ei 5 . aa 3
+heseltine	h a k 1 . c oi 3 . j i 5 . t i ng 4
+lazio	l aai 1 . s ou 3
+pancake	b aa n 1 . k i k 1
+cyprus	c oi 3 . p ou 2 . l ou 6 . s i 1
+nobel	n o k 6 . b ui 3 . j i 5
+kulun	f u 3 . l eo n 4
+coulomb	f u 3 . l eo n 4
+bermuda	b aa k 3 . m ou 6 . d aa t 6
+pizza	b i t 1 . s i ng 3
+chirac	h ei 1 . l aai 1 . h a k 1
+nemec	n ei 4 . m ai 5 . s e k 6
+samaranch	s aa t 3 . m aa 5 . l aa n 4 . k ei 4
+bolton	b ou 2 . d eo n 6
+utopia	w u 1 . t o k 3 . b o ng 1
+gothenburg	g o 1 . d a k 1 . b ou 2
+matra	m aa 5 . d a k 6 . l aai 1
+balkhash	b aa 1 . j i 5 . h aa k 3 . s a p 6
+pot	b ou 3 . d a k 6
+ford	f u k 1 . d a k 6
+indian	j a n 3 . d ai 6 . o n 1
+alcatel	aa 3 . j i 5 . k aa 1 . d a k 6
+sar	s aa 1
+egypt	oi 1 . k a p 6
+dell	d aai 3 . j i 5
+wilson	w ai 1 . j i 5 . s eo n 3
+neil	n ei 4 . j i 5
+boston	b o 1 . s i 6 . d eo n 6
+ecuador	aa k 1 . gw aa 1 . d o 1 . j i 5
+lehman	l eoi 4 . m aa n 6
+derban	d a k 1 . j i 5 . b aa n 1
+matthew	m aa 5 . t aai 2
+will	w ai 1 . j i 5
+english	j i ng 1 . g a t 1 . l ei 6
+connecticut	h o ng 1 . n aai 5 . d i k 6 . h a k 1
+liverpool	l ei 6 . m a t 6 . p ou 2
+aids	oi 3 . z i 1
+arafat	aa 3 . l aai 1 . f aa t 3 . d a k 6
+neon	ng ai 4 . h u ng 4
+laser	l eoi 4 . s e 6
+polka	b o 1 . j i 5 . k aa 1
+nice	n ei 4 . s i 1
+jones	k i ng 4 . s i 1
+indonesia	j a n 3 . d ou 6 . n ei 4 . s ai 1 . aa 3
+estonia	oi 3 . s aa 1 . n ei 4 . aa 3
+rifle	l oi 4 . f u k 1
+george	k iu 4 . z i 6
+hagen	h aa 1 . g a n 1
+pakistan	b aa 1 . g ei 1 . s i 1 . t aa n 2
+islam	j i 1 . s i 1 . l aa n 4
+logic	l o 4 . c a p 1
+venus	w ai 4 . n aa p 6 . s i 1
+bosnia	b o 1 . s i 1 . n ei 4 . aa 3
+kopeck	gw o 1 . b ei 2
+van	d aa t 6 . s aa 1
+lux	l a k 6 . h a k 1 . s i 1
+adam	aa 3 . d o ng 1
+portland	b o 1 . d a k 6 . l aa n 4
+gore	gw o 1 . j i 5
+bergar	b ui 3 . g aa 1
+panama	b aa 1 . n aa 4 . m aa 5
+victoria	w ai 4 . d o 1 . l ei 6 . aa 3
+rockies	l o k 3 . g ei 1
+latvia	l aai 1 . t yu t 3 . w ai 4 . aa 3
+newfoundland	n au 2 . f a n 1 . l aa n 4
+web	m o ng 5
+bolshevik	b ou 3 . j i 5 . s a p 6 . w ai 4 . h a k 1
+bentsen	b u n 2 . d a k 6 . s a m 1
+cast	k aa 1 . s i 6
+cola	h o 2 . l o k 6
+peso	p ei 1 . s o k 3
+plato	p aa k 3 . l aai 1 . t ou 4
+pretoria	b ei 2 . l aa k 6 . t o 4 . n ei 4 . aa 3
+washington	w aa 4 . s i ng 6 . d eo n 6
+raphael	l aai 1 . f ei 1 . j i 5
+haiti	h oi 2 . d ei 6
+kelly	h oi 2 . l ei 6
+thomson	t o ng 1 . s a n 4
+sydney	s yu t 3 . l ei 4
+carnival	g aa 1 . n i n 4 . w aa 4
+bordeaux	b o 1 . j i 5 . d o 1
+yahoo	ng aa 5 . f u 2
+wimbledon	w a n 1 . b ou 3 . d eo n 6
+batenburg	b aa 1 . t a ng 4 . b aa k 3 . g aa k 3
+mitterrand	m a t 6 . d a k 6 . l o ng 5
+ontario	o n 1 . d aai 6 . l oe k 6
+charles	c aa 4 . j i 5 . s i 1
+jordan	j oe k 3 . d aa n 3
+vanik	ng aa 5 . n ei 4 . h a k 1
+turgenev	t ou 4 . g aa k 3 . n i p 6 . f u 1
+broadway	b aa k 3 . l ou 5 . w ui 6
+eritrea	a k 1 . l aa p 6 . d a k 6 . l ei 5 . aa 3
