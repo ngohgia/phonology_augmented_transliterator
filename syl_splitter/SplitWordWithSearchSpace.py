@@ -137,8 +137,16 @@ def update_subsyl_roles_ratio(lex_hyps):
         word_roles[r] += 1.0;
       for r in word_roles:
         new_ratios[r] += (word_roles[r] / sum(word_roles.values()))
+
+  # pump the ratios if there are too few training examples
+  THRESH = 500
+  if count > THRESH:
+    PUMP = 1.0
+  else:
+    PUMP = math.pow(1.05, (THRESH / count))
+
   for r in new_ratios:
-    MAX_ROLES_RATIOS[r] = (new_ratios[r] / count)
+    MAX_ROLES_RATIOS[r] = (new_ratios[r] / count) * PUMP
 
 #---------------- GENERATE ALL POSSIBLE ROLES FOR ALPHABETS IN A WORD ------------------#
 # Use a dictionary to keep count on the number times a role is assigned to a letter

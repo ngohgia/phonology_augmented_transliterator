@@ -7,12 +7,11 @@ import logging
 import time
 
 for size in [100, 500, 1000]:
-for size in [100]:
-  for itr in range(1, 2):
+  for itr in range(1, 6):
   # for itr in range(1, 3):
     curr_data_set = 'size' + str(size) + '_iter' + str(itr)
 
-    root_dir = os.path.join('/home/ngohgia/Work/NEWS2016_EnKor', 'exp_170220', 'size' + str(size), curr_data_set)
+    root_dir = os.path.join('/home/ngohgia/Work/NEWS2016_EnKor', 'exp_170221', 'size' + str(size), curr_data_set)
     data_dir = os.path.join(root_dir, 'corpus')
 
     ts = time.strftime("%Y-%m-%d_%H-%M-%S")

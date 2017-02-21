@@ -10,6 +10,6 @@ STDIN.e*
 STDIN.o*
 reports
 tmp_log
-RunMultipleExpWrapper*
+RunMultipleExpWrapper*.py
 circ_dekstop_score_errors.py
 *.csv
