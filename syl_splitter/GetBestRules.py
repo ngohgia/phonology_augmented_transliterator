@@ -41,7 +41,11 @@ training_lex = []
 
 # Get words from training-dev lex file
 for line in training_lex_file:
-  training_lex.append([part for part in line.split("\t")])
+  parts = [part.strip() for part in line.split()]
+
+  src = parts[0]
+  targ = ' '.join(parts[1:])
+  training_lex.append([src, targ])
 training_lex_file.close()
 
 def add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_struct):

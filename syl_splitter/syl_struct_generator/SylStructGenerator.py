@@ -61,7 +61,8 @@ ValidVowelRoles = [NUCLEUS,
                    ONSET_NUCLEUS_CODA, # act as a single syllable
                    REMOVE]
 
-POSSIBLE_SRC_GLIDE_LETTER = ['r', 'w']
+POSSIBLE_SRC_GLIDE_LETTER = ['r', 'h']
+OMNI_SRC_LETTER = ['j', 'w']
 
 ValidSubSylUnit = {
   ONSET: lang_assets.valid_src_onsets,
@@ -171,6 +172,8 @@ def try_generate_roles(word, labels, roles, pos, targ_syl_struct, best_word_hyps
     currentLetter = word[pos]
     if currentLetter in POSSIBLE_SRC_GLIDE_LETTER:
       tmpValidConsoRoles = ValidConsoRoles + [NUCLEUS, NUCLEUS_CODA]
+    if currentLetter in OMNI_SRC_LETTER:
+      tmpValidConsoRoles = ValidConsoRoles + [NUCLEUS, NUCLEUS_CODA, ONSET_NUCLEUS_CODA]
 
     for idx in range(len(tmpValidConsoRoles)):
       role = tmpValidConsoRoles[idx]
@@ -212,7 +215,8 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
   # impossible assignment for a word beginning
   # print word_beginning
   if pos == word_beginning:
-    if labels[pos] == CONSONANT and word[pos] not in POSSIBLE_SRC_GLIDE_LETTER and \
+    if labels[pos] == CONSONANT and \
+    word[pos] not in POSSIBLE_SRC_GLIDE_LETTER and word[pos] not in OMNI_SRC_LETTER and \
     (roles[pos] == CODA or roles[pos] == NUCLEUS or roles[pos] == CODA_ONSET \
       or roles[pos] == CODA_ONSET_NUCLEUS):
       return False
@@ -671,17 +675,17 @@ start_time = time.time()
 #print ("Labels: %s" % str(labels))
 
 # -------- Unit test for checking if a subsyllabic unit is valid ------------
-# word = "william"
+# word = "wohl"
 # print ("Word: %s" % word)
 # labels = label_letters(word)
-# roles = [NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS_CODA, NUCLEUS, CODA]
+# roles = ['O', 'N', 'Cd', 'Cd']
 # for pos in range(len(labels)):
 #   print "Valid onset at position" + str(pos) + ": " + str(is_valid_subsyllabic_unit(word, labels, roles, pos))
 
 # -------- Unit test for syllables construction ------------
-# word = "william"
+# word = "wohl"
 # labels = label_letters(word)
-# roles = [NUCLEUS, NUCLEUS, CODA, ONSET, NUCLEUS_CODA, NUCLEUS, CODA]
+# roles = ['O', 'N', 'Cd', 'Cd']
 # checked = [True] * len(labels)
 # 
 # constructed_syls = construct_syls(word, labels, roles, checked)
@@ -689,3 +693,19 @@ start_time = time.time()
 # print ("Labels: %s" % str(labels))
 # print ("Roles: %s" % str(roles))
 # print ("Constructed syllables: %s" % str(constructed_syls))
+
+# -------- Unit test for roles generation ------------
+# examples = [
+#     ['sebastian', 's eo . b ae . s eu . ch eo n'],
+#     ]
+# 
+# for e in examples:
+#   src = e[0]
+#   targ = e[1]
+# 
+#   labels = label_letters(src)
+#   targ_struct = export_syl_struct_of_targ_word(targ)
+# 
+#   hyp_list = generate_roles(src, labels, targ_struct)
+#   for h in hyp_list:
+#     print h.get_str()

@@ -6,19 +6,22 @@ import shutil
 import logging
 import time
 
-for size in [100, 500, 1000]:
-  for itr in range(1, 6):
+# for size in [200, 2000, 3000]:
+#   for itr in range(1, 6):
+for size in [1]:
+  for itr in range(1, 2):
   # for itr in range(1, 3):
     curr_data_set = 'size' + str(size) + '_iter' + str(itr)
 
-    root_dir = os.path.join('/home/ngohgia/Work/NEWS2016_EnKor', 'exp_170221', 'size' + str(size), curr_data_set)
+    # root_dir = os.path.join('/home/ngohgia/Work/NEWS2016_EnKor', 'exp_170221-on-test-set', 'size' + str(size), curr_data_set)
+    root_dir = os.path.join('/home/ngohgia/Work/NEWS2016_EnKor', 'test_exp', 'size' + str(size), curr_data_set)
     data_dir = os.path.join(root_dir, 'corpus')
 
     ts = time.strftime("%Y-%m-%d_%H-%M-%S")
     # Working directory
     output_dir = os.path.join(root_dir, 'phono_augmented')
     # run_dir = os.path.join(output_dir, 'run_' + ts)
-    run_dir = os.path.join(output_dir, 'run_dir')
+    run_dir = os.path.join(output_dir, 'run_on_test_dir')
     log_dir = os.path.join(run_dir, 'log')
 
     if os.path.exists(run_dir):
@@ -27,9 +30,9 @@ for size in [100, 500, 1000]:
     os.makedirs(run_dir)
     os.makedirs(log_dir)
 
-    training_dev_file_path = os.path.join(data_dir, 'train.lex')
-    test_src_file_path = os.path.join(data_dir, 'dev.src')
-    output_file_path = os.path.join(run_dir, 'dev.output')
+    training_dev_file_path = os.path.join(data_dir, 'train+dev.lex')
+    test_src_file_path = os.path.join(data_dir, 'test.lex')
+    output_file_path = os.path.join(run_dir, 'test.output')
     path_to_t2p = '/home/ngohgia/Work/utilities/t2p/t2p_dt.pl'
 
 

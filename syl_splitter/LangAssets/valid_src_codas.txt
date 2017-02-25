@@ -12,12 +12,16 @@ x
 p
 c
 m
+mp
 b
+bb
 ck
 f
 ch
 z
 h
+hl
+hn
 q
 th
 nd
