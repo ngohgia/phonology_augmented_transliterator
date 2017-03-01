@@ -52,6 +52,7 @@ ValidTargVowels = lang_assets.valid_targ_vowels
 # ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
 ValidConsoRoles = [ONSET, 
                    ONSET_NUCLEUS, # add a schwa following the onset
+                   NUCLEUS,
                    NUCLEUS_CODA, # syllable-ending nucleus, there is no following coda
                    REMOVE]
 ValidVowelRoles = [NUCLEUS,
@@ -116,17 +117,14 @@ def export_syl_struct_of_targ_word(word):
   encoded_units = []
   for syl in toneless_syls:
     targ_phons = syl.split(" ")
-    print targ_phons
+    # print targ_phons
 
     if len(targ_phons) == 3:
-      if targ_phons[1] in ValidTargVowels:
-        syl_struct = [ONSET, NUCLEUS, CODA]
-      else:
-        print("[ERROR] Syllable of 3 units does not have a valid nucleus")
-        print "Syllable: " + syl
-        print "Word: " + word
-        raise SystemExit
-        sys.exit(1)
+      print("[ERROR] Syllable cannot have of 3 units")
+      print "Syllable: " + syl
+      print "Word: " + word
+      raise SystemExit
+      sys.exit(1)
     elif len(targ_phons) == 2:
       if targ_phons[1] in ValidTargVowels:
         syl_struct = [ONSET, NUCLEUS]
@@ -139,8 +137,7 @@ def export_syl_struct_of_targ_word(word):
         raise SystemExit
         sys.exit(1)
     elif len(targ_phons) == 1:
-      if targ_phons[0] in ValidTargVowels:
-        syl_struct = [NUCLEUS]
+      syl_struct = [NUCLEUS]
     encoded_units.append(" ".join(syl_struct))
 
   return " . ".join(encoded_units)
@@ -542,34 +539,59 @@ def are_all_subsyl_units_valid(new_word):
     # the unit is not valid
     syl = new_word.syls[idx]
     if syl.onset != "":
-      if GENERIC_VOWEL in syl.onset:
-        return False
-      if syl.onset not in ValidSubSylUnit[ONSET]:
-        # print "Invalid reconstructed onset: " + syl.onset
+      if not is_valid_initial(syl.onset):
+        # print "Invalid initial: " + syl.onset
         return False
     if syl.nucleus != "":
-      if GENERIC_VOWEL in syl.nucleus and syl.nucleus != GENERIC_VOWEL:
-        # print "Invalid reconstructed nucleus: " + syl.nucleus
-        return False
-      if syl.nucleus not in ValidSubSylUnit[NUCLEUS] and syl.nucleus != GENERIC_VOWEL:
-        # print "Invalid reconstructed nucleus: " + syl.nucleus
+      if not is_valid_final(syl.nucleus):
+        # print "Invalid final: " + syl.nucleus
         return False
     if syl.coda != "":
-      if GENERIC_VOWEL in syl.coda:
-        return False
-      if syl.coda not in ValidSubSylUnit[CODA]:
-        # print "Invalid reconstructed coda: " + syl.coda
-        return False
+      return False
 
+  return True
+
+def is_valid_final(final):
+  vowel_end = len(final) - 1
+  if final == GENERIC_VOWEL:
+    return True
+  else:
+    if GENERIC_VOWEL in final:
+      return False
+
+    # get vowel part
+    for i in range(len(final)):
+      if final[i] not in ValidSrcVowels:
+        vowel_end = i
+        break
+
+    if final[vowel_end] in ValidSrcVowels:
+      vowel_end +=1
+
+    if vowel_end == 0 and final[vowel_end] not in ValidSrcVowels:
+      return False
+
+    # get conso part
+    for i in range(vowel_end, len(final)):
+      print final[i] + "  " + str(final[i] not in ValidSrcConsos)
+      if final[i] not in ValidSrcConsos:
+        return False
+  return True
+
+def is_valid_initial(initial):
+  for i in range(len(initial)):
+    if initial[i] not in ValidSrcConsos:
+      return False
   return True
 
 #---------------- UPDATE BEST HYP WORD LIST -------------------------#
 def update_best_hyp_words_list(orig_word, targ_syl_struct, roles, new_word, checked, best_word_hyps_list):
-  # if roles == ['O', 'N_Cd', 'O', 'N', 'O_N']:
+  # if roles == ['O_N', 'O', 'N', 'N_Cd']:
   #   print are_all_subsyl_units_valid(new_word)
   #   print are_all_letters_used(checked)
   #   print new_word.get_encoded_units()
   #   print targ_syl_struct
+  #   raw_input()
 
   if not are_all_subsyl_units_valid(new_word):
     return
@@ -681,11 +703,13 @@ start_time = time.time()
 # for pos in range(len(labels)):
 #   print "Valid onset at position" + str(pos) + ": " + str(is_valid_subsyllabic_unit(word, labels, roles, pos))
 
+# finals = ["ay"]
+# for final in finals:
+#   print final + ": " + str(is_valid_final(final))
+
 # -------- Unit test for syllables construction ------------
-# word = "romantic"
-# roles = [ONSET, NUCLEUS_CODA, ONSET, NUCLEUS, NUCLEUS_CODA, ONSET, NUCLEUS, ONSET_NUCLEUS]
-# word = "nepal"
-# roles = [ONSET, NUCLEUS_CODA, ONSET, NUCLEUS_CODA, ONSET_NUCLEUS]
+# word = "denmark"
+# roles = [ONSET, NUCLEUS, NUCLEUS_CODA, ONSET, NUCLEUS, NUCLEUS, NUCLEUS_CODA]
 # labels = label_letters(word)
 # checked = [True] * len(labels)
 # for pos in range(len(labels)):

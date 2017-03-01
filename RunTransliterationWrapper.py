@@ -38,6 +38,8 @@ command = "python syl_splitter/GetBestRules.py " + \
 report("[COMMAND]: %s" % command)
 run_shell_command(command)
 
+# sys.exit(1)
+
 # Syllable splitting
 hyp_lex_file_path = os.path.join(run_dir, "lex_hyp.txt")
 report("[BEST LEX HYP PATH]: %s" % hyp_lex_file_path)

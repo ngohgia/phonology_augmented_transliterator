@@ -1,0 +1,140 @@
+medivh	m a-k 6 . d i-k 6 . m a-n 4
+will	w ai 1 . j i 5
+las	l aai 1 . s i 1
+carlo	k aa 1 . l o 4
+walloon	ng aa 5 . l u-ng 4
+melbourne	m a-k 6 . j i 5 . b u-n 2
+grant	g o-t 3 . l aa-n 4 . d a-k 6
+haiti	h oi 2 . d ei 6
+baud	b o 1 . d a-k 6
+nevada	n oi 6 . w aa 4 . d aa-t 6
+canberra	h a-m 1 . p ui 4 . l aai 1
+shakespeare	s aa 1 . s i 6 . b ei 2 . aa 3
+jehovah	j e 4 . w o 4 . w aa 4
+chretien	h a-k 1 . l eoi 4 . d ai 3 . o n 1
+tagore	t aai 3 . gw o 1 . j i 5
+rotterdam	l u-k 6 . d a-k 6 . d aa-n 1
+lumpur	l u-ng 4 . b o 1
+austria	ou 3 . d ei 6 . l ei 6
+green	g aa-k 3 . l a-m 4
+hague	h oi 2 . ng aa 4
+nepal	n ei 4 . b o-k 6 . j i 5
+dortmund	d o 1 . m u-ng 4 . d a-k 6
+nylon	n ei 4 . l u-ng 4
+hilton	h ei 1 . j i 5 . d eo-n 6
+napoleon	n aa 4 . p o 3 . l eo-n 4
+dominica	d o 1 . m ai 5 . n ei 4 . h a-k 1
+jordan	j oe-k 3 . d aa-n 3
+pizza	b i-t 1 . s i-ng 3
+paul	b ou 2 . l o 4
+mussolini	m a-k 6 . s o-k 3 . l ei 5 . n ei 4
+basf	b aa 1 . s i 1 . f u 1
+lebanon	l ai 4 . b aa 1 . n yu-n 6
+cruise	h a-k 1 . l ou 5 . s i 1
+marshall	m aa 5 . h i-t 3 . j i 5
+karajan	k aa 1 . l aai 1 . j oe-ng 4
+figaro	f ai 3 . g aa 1 . l o 4
+baroque	b aa 1 . l o-k 3 . h a-k 1
+pennsylvania	b a-n 1 . z i-k 6 . f aa-t 3 . n ei 4 . aa 3
+ukraine	w u 1 . h a-k 1 . l aa-n 4
+cornell	h o-ng 1 . n aai 5 . j i 5
+paraguay	b aa 1 . l aai 1 . gw ai 1
+kanter	h a-m 2 . d a-k 6
+indiana	j-a-n 3 . d ei 6 . o n 1 . n aa-p 6
+master	m aa 5 . s i 1 . d a-k 6
+thinner	t i-n 1 . n aa 4
+carnival	g aa 1 . n i-n 4 . w aa 4
+vancouver	w a-n 1 . g o 1 . w aa 4
+messiah	n ei 4 . c oi 3 . aa 3
+miller	m ai 5 . l a-k 6
+dioxin	d aai 3 . ou 3 . s a-n 1
+valse	w aa 4 . j i 5 . z i 1
+hart	h aa 1 . d a-k 6
+kess	h a-k 1 . s i 1
+rooney	l o-ng 5 . n ei 4
+denmark	d aa-n 1 . m a-k 6
+klinger	h a-k 1 . l a-m 4 . g aa-k 3
+maccarthy	m a-k 6 . k aa 1 . s e-k 6
+hiddink	h ei 1 . d i-n 1 . h a-k 1
+missouri	m ai 5 . s ou 1 . l ei 5
+virginia	w ai 4 . g a-t 1 . n ei 4 . aa 3
+peru	b ei 3 . l ou 5
+cola	h o 2 . l o-k 6
+arsenal	aa 3 . s i-n 1 . n ou 4
+adriatic	aa 3 . d a-k 1 . l ei 5 . aa 3
+bari	b aa 1 . l ei 5
+carmen	k aa 1 . m u-n 4
+hertz	h a-k 1 . z i 1
+princeton	p ou 2 . l a-m 4 . s i 1 . d eo-n 6
+george	k iu 4 . z i 6
+tennessee	t i-n 4 . n aa-p 6 . s ai 1
+brandy	b aa-k 6 . l aa-n 4 . d ei 6
+faust	f au 4 . s i 6 . d a-k 1
+kopeck	gw o 1 . b ei 2
+nicaragua	n ei 4 . g aa 1 . l aai 1 . gw aa 1
+crixus	h a-k 1 . l eoi 4 . s i 1
+asia	aa 3 . s ai 3 . aa 3
+ohio	ng o 4 . h oi 6 . ng o 4
+macarthur	m a-k 6 . h a-k 1 . aa 3 . s a-t 1
+pakistan	b aa 1 . g ei 1 . s i 1 . t aa-n 2
+crete	h a-k 1 . l ei 5 . d a-k 6
+clay	h a-k 1 . l oi 4
+cruz	h a-k 1 . l ou 2 . z i 1
+libya	l ei 6 . b ei 2 . aa 3
+parrott	p aa-k 3 . l o 4 . d a-k 6
+andorra	o n 1 . d ou 6 . j i 5
+hanoi	h o 4 . n oi 6
+mickey	m ai 5 . l ou 5
+sheffield	c i-t 3 . f ei 1 . j i 5 . d a-k 1
+milkshake	n aai 5 . s i-k 1
+tom	t o-ng 1 . m ou 5
+lincoln	l a-m 4 . h a-ng 2
+aule	ou 3 . l i-k 6
+somalia	s o-k 3 . m aa 5 . l ei 5
+mcdonald	m a-k 6 . t o-ng 4 . n aa-p 6
+mark	m aa 5 . h a-k 1
+sega	s ai 3 . g aa 1
+bolivia	b o 1 . l ei 6 . w ai 4 . aa 3
+pudding	b ou 3 . d i-ng 1
+rico	l ai 4 . g o-k 3
+barbados	b aa 1 . b ui 3 . d o 1
+atlanta	aa 3 . d a-k 6 . l aa-n 4 . d aai 6
+waltz	w aa 4 . j i 5 . z i 1
+estonia	oi 3 . s aa 1 . n ei 4 . aa 3
+morocco	m o 1 . l o-k 3 . g o 1
+london	l eo-n 4 . d eo-n 1
+burundi	b ou 3 . l u-ng 4 . d i-k 6
+polo	b o 1 . l o 4
+pot	b ou 3 . d a-k 6
+cast	k aa 1 . s i 6
+buffet	b ou 3 . f ei 1
+cartel	k aa 1 . d a-k 6 . j i 5
+disney	d i-k 6 . s i 6 . n ei 4
+august	ou 3 . g u 2 . s i 1 . d a-k 6
+pharaoh	f aa-t 3 . l ou 5
+tomas	t o-ng 1 . m aa 5 . s i 6
+san	s i-ng 3
+hegel	h a-k 1 . g aa-k 3 . j i 5
+gore	gw o 1 . j i 5
+cocaine	h o 2 . k aa 1 . j a-n 1
+copernicus	g o 1 . b aa-k 6 . n ei 4
+hysteria	h i-t 3 . s i 1 . d ai 2 . l ei 5
+anthony	o n 1 . d u-ng 1 . n ei 4
+czech	z i-t 6 . h a-k 1
+o	ou 3
+havana	h aa 1 . ng aa 5 . n aa 5
+ireland	oi 3 . j i 5 . l aa-n 4
+wisconsin	w ai 1 . s i 1 . h o-ng 1 . s a-n 1
+yuri	j-au 4 . l ei 5
+bergar	b ui 3 . g aa 1
+persia	b o 1 . s i 1
+zealand	s ai 1 . l aa-n 4
+clive	h a-k 1 . l ei 5 . f u 1
+uruguay	w u 1 . l aai 1 . gw ai 1
+blair	b ui 3 . l ei 5 . ng aa 5
+castillo	k aa 1 . s i 1 . d ai 3 . l o 4
+meola	m ai 5 . ou 3 . l aai 1
+celtic	c oi 3 . j i 5 . d a-k 6
+victoria	w ai 4 . d o 1 . l ei 6 . aa 3
+corazon	f o 1 . l aai 1 . s o-ng 1
+ive	aai 6 . f u 1
