@@ -1,20 +1,20 @@
-mali	m aa 5 . l ei 6
-san	s i ng 3
-clay	h a k 1 . l oi 4
-maccarthy	m a k 6 . k aa 1 . s e k 6
-rico	l ai 4 . g o k 3
-barcelona	b aa 1 . c oi 3 . l u ng 4 . n aa p 6
-alabama	aa 3 . l aai 1 . b aa 1 . m aa 5
-guatemala	ng ai 4 . d ei 6 . m aa 5 . l aai 1
-guerrero	g o t 3 . l eoi 4 . n o k 6
-utah	j au 4 . t aa 1
-saxons	s aa t 3 . h a k 1 . s eo n 3
-taxi	d i k 1 . s i 6
-blair	b ui 3 . l ei 5 . ng aa 5
-peter	b ei 2 . d a k 1
-bye	b aai 3
-rolex	l ou 4 . l i k 6 . s i 6
-ping	b i ng 1
-chocolate	z yu 1 . g u 2 . l i k 6
-higgs	h ei 1 . g aa k 3
-rios	l ei 5 . ou 3 . s i 1
+marseille	m a:-k _2 . s @I _1
+meuse	m iU _1 . z @: _1
+madre	m a: _1 . d_< @: _3 . r\ @: _1
+nevada	n e _1 . v a: _1 . d_< a: _1
+jules	z u _1 . l E-t _2
+ural	u _1 . r\ a:-n _1
+maestra	m a: _1 . E-t _2 . s` @: _3 . ts` a: _1
+norrish	n O _1 . r\ i _1 . s` @: _1
+poncelet	b_< o-N _1 . s @: _1 . l E-t _2
+giotto	z o-t _2 . t o _1
+young	J\ @-N _1
+goujon	G u _1 . z o-N _1
+raun	r\ a: _1 . O-n _1
+martel	m a:-k _2 . t E-n _1
+pope	b_< o-p _2
+golovin	G o _1 . l o _1 . v i-n _1
+uznadze	u _1 . z @: _1 . n a:-t _2 . z @: _1
+granada	G @: _3 . r\ a: _1 . n a: _1 . d_< a: _1
+jutlan	z u-t _2 . l a:-n _1
+lebesgue	l @: _1 . b_< E-t _2 . s` @: _3

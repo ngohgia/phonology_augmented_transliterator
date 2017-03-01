@@ -1,20 +1,20 @@
-hamburg	h o n 3 . b ou 2
-potsdam	b o 1 . c i 4 . t aa n 2
-ohio	ng o 4 . h oi 6 . ng o 4
-doug	d ou 6 . g aa k 3
-virginia	w ai 4 . g a t 1 . n ei 4 . aa 3
-celtic	c oi 3 . j i 5 . d a k 6
-barbados	b aa 1 . b ui 3 . d o 1
-robin	l o 4 . b a n 1
-guinea	g ei 1 . n oi 6 . aa 3
-phuket	b ou 3 . g a t 1
-armenia	aa 3 . m ei 5 . n ei 4 . aa 3
-canada	g aa 1 . n aa 4 . d aai 6
-christ	g ei 1 . d u k 1
-galileo	g aa 1 . l ei 6 . l oe k 6
-kara	k aa 1 . l aai 1
-balfour	b aa 1 . f u 3 . j i 5
-leonardo	l ei 5 . o n 1 . n aa p 6 . d ou 6
-rica	l ai 6 . g aa 1
-jeep	g a t 1 . p ou 2
-wales	w ai 1 . j i 5 . s i 6
+aconcagua	a: _1 . k o-n _1 . k a: _1 . G Oa: _1
+mohammed	m o _1 . h a: _1 . m E-t _2
+fajans	f a:I _1 . a:-n _1
+fransisco	f @: _3 . r\ a:-n _1 . s i _1 . k o _1
+thoutmosi	t_h u-t _2 . m o _1 . s` i _1
+fiji	f i _1 . z i _1
+thom	t_h O-m _1
+caravaggio	k a: _1 . r\ a: _1 . v a: _1 . z o _1
+pindaros	b_< i-n _1 . d_< a: _1 . r\ o-t _2
+maung	m a: _1 . u-N _1
+athanasius	a: _1 . t_h a: _1 . n a: _1 . s i _1 . u-t _2
+gothic	G o _1 . t i-c _2
+karol	k a: _1 . r\ o-n _1
+tarawa	t a: _1 . r\ a: _1 . Oa: _1
+bourdelle	b_< u@-k _2 . d_< E-n _1
+torra	t o _1 . r\ a: _1
+kuhn	k u-n _1
+riparia	r\ i _1 . b_< a: _1 . r\ i _1 . a: _1
+rio	r\ i _1 . o _1
+shatt	s` a:-t _2

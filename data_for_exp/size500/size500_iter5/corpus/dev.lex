@@ -1,100 +1,100 @@
-franc	f aa t 3 . l o ng 4
-will	w ai 1 . j i 5
-monte	m u ng 4 . d ei 6
-lebanon	l ai 4 . b aa 1 . n yu n 6
-poker	p o k 3 . h a k 1
-grasse	g aa k 3 . l aai 1 . s i 1
-dax	d aai 3 . h a k 1 . s i 1
-bye	b aai 3
-ford	f u k 1 . d a k 6
-bohemia	b o 1 . h ei 1 . m ai 5 . aa 3
-greiner	g aa k 3 . l aai 6 . n aa p 6
-rhine	l oi 4 . j a n 1
-cartoon	k aa 1 . t u ng 1
-kara	k aa 1 . l aai 1
-aladdin	aa 3 . l aai 1 . d i ng 1
-charles	c aa 4 . j i 5 . s i 1
-sonar	s i ng 1 . n aa p 6
-poole	p ou 2 . j i 5
-mary	m aa 5 . l ei 6
-ketagalan	h oi 2 . d aa t 6 . g aa k 3 . l aa n 4
-martin	m aa 5 . d i ng 1
-wisconsin	w ai 1 . s i 1 . h o ng 1 . s a n 1
-uruguay	w u 1 . l aai 1 . gw ai 1
-pudding	b ou 3 . d i ng 1
-moses	m o 1 . s ai 1
-new	n au 2
-anthony	o n 1 . d u ng 1 . n ei 4
-bismarck	b ei 2 . s i 1 . m a k 6
-burkina	b ou 3 . g ei 1 . n aa p 6
-pakistan	b aa 1 . g ei 1 . s i 1 . t aa n 2
-cola	h o 2 . l o k 6
-midland	m ai 5 . d a k 6 . l aa n 4
-huntley	h a ng 1 . d a k 6 . l ei 6
-bahrain	b aa 1 . l a m 4
-huxley	h a k 1 . s eoi 1 . l ai 4
-descartes	d e k 6 . k aa 1 . j i 4
-allen	aai 6 . l eo n 4
-barcelona	b aa 1 . c oi 3 . l u ng 4 . n aa p 6
-valladolid	b aa 1 . l ei 6 . aa 3 . d o 1 . l ei 6 . d a k 1
-bohr	b o 1 . j i 5
-hanoi	h o 4 . n oi 6
-soros	s o k 3 . l o 4 . s i 1
-lenin	l i t 6 . n i ng 4
-pear	b e 1 . l ei 4
-corazon	f o 1 . l aai 1 . s o ng 1
-abraham	aa 3 . b aa k 3 . l aai 1 . h o n 5
-robert	l o 4 . b aa k 3 . d a k 6
-green	g aa k 3 . l a m 4
-florida	f a t 6 . l o 4 . l ei 5 . d aa t 6
-dominica	d o 1 . m ai 5 . n ei 4 . h a k 1
-nile	n ei 4 . l o 4
-cruz	h a k 1 . l ou 2 . z i 1
-bolshevik	b ou 3 . j i 5 . s a p 6 . w ai 4 . h a k 1
-sar	s aa 1
-bulgaria	b ou 2 . g aa 1 . l ei 6 . aa 3
-parrott	p aa k 3 . l o 4 . d a k 6
-morphine	m aa 1 . f e 1
-chicago	z i 1 . g aa 1 . g o 1
-rolex	l ou 4 . l i k 6 . s i 6
-mahathir	m aa 5 . h aa 1 . t ai 3 . j i 5
-guinea	g ei 1 . n oi 6 . aa 3
-carmen	k aa 1 . m u n 4
-socrates	s ou 1 . g aa k 3 . l aai 1 . d ai 2
-sahara	s aa t 3 . h aa 1 . l aai 1
-malaya	m aa 5 . l oi 4 . aa 3
-washington	w aa 4 . s i ng 6 . d eo n 6
-montage	m u ng 4 . t aai 3 . k ei 4
-muslim	m u k 6 . s i 1 . l a m 4
-rios	l ei 5 . ou 3 . s i 1
-asean	aa 3 . s ai 3 . o n 1
-sudan	s ou 1 . d aa n 1
-jazz	z oe k 3 . s i 6
-costa	g o 1 . s i 1 . d aa t 6
-mini	m ai 4 . n ei 5
-chevron	s yu t 3 . f a t 6 . l u ng 4
-romania	l o 4 . m aa 5 . n ei 4 . aa 3
-denmark	d aa n 1 . m a k 6
-haiti	h oi 2 . d ei 6
-holmes	f u k 1 . j i 5 . m o 1 . s i 1
-buckingham	b aa k 6 . g a m 1 . h o n 3
-normandy	n o k 6 . m aa n 6 . d ai 6
-san	s i ng 3
-missouri	m ai 5 . s ou 1 . l ei 5
-lyon	l ei 5 . ng o ng 4
-mummy	m u k 6 . n aai 5 . j i 1
-indiana	j a n 3 . d ei 6 . o n 1 . n aa p 6
-mozart	m o k 6 . z aa t 3 . d a k 6
-eldon	aai 6 . j i 5 . d eo n 1
-bolt	b o 1 . j i 5 . d a k 6
-ireland	oi 3 . j i 5 . l aa n 4
-bari	b aa 1 . l ei 5
-austin	ou 3 . s i 1 . t i ng 1
-baggio	b aa 1 . z i 6 . ou 3
-rupee	l ou 4 . b ei 2
-colorado	f o 1 . l o 4 . l aai 1 . d o 1
-adriatic	aa 3 . d a k 1 . l ei 5 . aa 3
-edison	oi 3 . d i k 6 . s a ng 1
-nixon	n ei 4 . h a k 1 . s a m 1
-george	k iu 4 . z i 6
-noah	n o k 6 . aa 3
+cowper	k a:U _1 . b_< @: _1
+heredia	h e _1 . r\ e _1 . d_< i _1 . a: _1
+gros	G @: _3 . r\ o-t _2
+nicol	n i _1 . k O-n _1
+tennessee	t E-n _1 . n E-t _2 . s` i _1
+harunobu	h a: _1 . r\ u _1 . n o _1 . b_< u _1
+zener	z E _1 . n @: _1
+lorraine	l O _1 . r\ E-n _1
+cape	k E-p _2
+leonardo	l e _1 . o _1 . n a:-k _2 . d_< o _1
+tanezrouft	t a: _1 . n e _1 . z @: _3 . r\ u-p _2
+muharrak	m u _1 . h a: _1 . r\ a-k _2
+morava	m o _1 . r\ a: _1 . v a: _1
+thant	t a:-n _1
+transkei	t @: _1 . r\ a:-n _1 . s @: _3 . k @I _1
+nakasone	n a: _1 . k a: _1 . s o _1 . n i _1
+kong	k o-N _1
+stieglitz	s` @: _3 . t i _1 . G @: _3 . l i-t _2
+kaledin	k a: _1 . l e _1 . d_< i-n _1
+shick	s` i-t _2
+bradford	b_< @: _3 . r\ a:-t _2 . f @:-t _2
+phya	f i _1 . a: _1
+huston	h u-t _2 . s @: _3 . t @:-n _1
+lahore	l a: _1 . h O _1
+ayres	@I _1 . r\ E-t _2
+minsk	m i-n _1 . s @: _3 . k @: _1
+gensfleisch	z E-n _1 . s` @: _3 . f @: _3 . l E-c _2
+tonle	t o-N _1 . l e _1
+lassalle	l a: _1 . s a:-n _1
+georg	z O-t _2 . z @: _1
+michoacan	m i _1 . ts\ o _1 . a: _1 . k a:-n _1
+lucia	l u _1 . s i _1 . a: _1
+calais	k a: _1 . l aI _1 . s @: _3
+mombasa	m o-m _1 . b_< a: _1 . s a: _1
+innocentius	i-n _1 . n o _1 . s E-n _1 . t i _1 . u-t _2
+lane	l E-n _1
+krishna	k @: _3 . r\ i-t _2 . n a: _1
+schwarz	s` @: _3 . v a:-k _2
+shevchenko	s E-p _2 . ts\ E-n _1 . k o _1
+tolstov	t o-n _1 . s @: _3 . t o-p _2
+newman	n iU _1 . m a:-n _1
+mauritania	m o _1 . r\ i _1 . t a: _1 . n i _1
+gestapo	G e _1 . s` @: _3 . t a: _1 . b_< o _1
+chnang	ts\ @: _1 . n a:-N _1
+miskovich	m i-t _2 . k o _1 . v i-c _2
+rossini	r\ O-t _2 . s i _1 . n i _1
+bureja	b_< u _1 . r\ @I _1 . a: _1
+negro	n e _1 . G @: _3 . r\ o _1
+labrador	l a: _1 . b_< @: _3 . r\ a: _1 . d_< o _1
+catal	k a: _1 . t a:-n _1
+belinskij	b_< e _1 . l i-n _1 . s @: _3 . k i _1
+guadalcanal	G O _1 . a: _1 . d_< @:-n _1 . k a: _1 . n a:-n _1
+vidor	v i _1 . d_< O _1
+cardamomes	k a:-k _2 . d_< a: _1 . m o-m _1
+jaspers	z a:-p _2 . b_< @: _1
+metternich	m E-t _2 . t E-n _1 . n i-c _2
+rodin	r\ o _1 . J\ i-n _1
+thatcher	t_h a:-t _2 . ts\ @: _1
+jevons	z e _1 . v O-n _1
+volynskij	v o _1 . l i-n _1 . s` @: _3 . k i _1
+cairo	k a:I _1 . r\ o _1
+vivin	v i _1 . v i-n _1
+ratzel	r\ a:-t _2 . s E-n _1
+jamna	z a:-m _1 . n a: _1
+loyola	l o _1 . J\ o _1 . l a: _1
+malay	m a: _1 . l aI _1
+brad	b_< @: _3 . r\ a:-t _2
+shannon	s` a:-n _1 . n @:-n _1
+reichenbach	r\ @I _1 . x E-n _1 . b_< E-c _2
+constantinople	k o-N _1 . s @: _3 . t a-N _1 . t i _1 . n o-p _2
+korjinskij	k O-t _2 . z i-n _1 . s` @: _3 . k i _1
+hirohito	h i _1 . r\ o _1 . h i _1 . t o _1
+artaud	a:-k _2 . t o _1
+urubamba	u _1 . r\ u _1 . b_< a:-m _1 . b_< a: _1
+landau	l a:-n _1 . d_< a:U _1
+paracelsus	b_< a: _1 . r\ a: _1 . s E-n _1 . s` @:-t _2
+nevis	n e _1 . v i-t _2
+hohe	h o _1 . h @: _1
+grisi	G @: _3 . r\ i _1 . J\ i _1
+verhaecht	v e _1 . ts\ a: _1 . E-t _2
+ormuzd	O-t _2 . m u-t _2
+fedoseev	f e _1 . d_< o _1 . s e _1 . E-p _2
+frankland	f @: _3 . r\ a:-n _1 . l a:-n _1
+bromwer	b_< @: _3 . r\ O-m _1 . v @: _1
+lourdes	l u@ _1 . d_< E-t _2 . s` @: _3
+addison	a: _1 . d_< i _1 . s @:-n _1
+carter	k a: _1 . t @: _1
+mommu	m O-m _1 . m u _1
+gregor	G @: _3 . r\ e _1 . G O _1
+ridge	r\ i-t _2 . z @: _1
+barcelona	b_< a:-k _2 . s e _1 . l o _1 . n a: _1
+hispaniola	h i-t _2 . b_< a: _1 . n i _1 . o _1 . l a: _1
+babenberg	b_< a: _1 . b_< E-n _1 . b_< @:-t _2
+lask	l a:-t _2 . s` @: _3 . k @: _1
+fichte	f i-c _2 . t @: _1
+mendel	m E-n _1 . J\ E-n _1
+shire	s` i _1 . r\ e _1
+pha	f a: _1
+heitler	h a:I _1 . l @: _1
+andersen	a:-n _1 . d_< E-k _2 . s E-n _1
