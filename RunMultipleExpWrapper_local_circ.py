@@ -6,15 +6,17 @@ import shutil
 import logging
 import time
 
-sizes = [100, 200, 300, 400, 500, 600, 700]
-iters = [  8,   5,   5,   5,   5,   5,   5]
+# sizes = [100, 200, 300, 400, 500, 600, 700]
+# iters = [  8,   5,   5,   5,   5,   5,   5]
+sizes = [500]
+iters = [  1]
 for j in range(len(sizes)):
   size = sizes[j]
   itr = iters[j]
 
   curr_data_set = 'size' + str(size) + '_iter' + str(itr)
 
-  root_dir = os.path.join('/home/ngohgia/Work/Cantonese_onset-final_transliterator', 'exp_170301_j-merged', 'size' + str(size), curr_data_set)
+  root_dir = os.path.join('/home/ngohgia/Work/Cantonese_onset-final_transliterator', 'exp_170301', 'size' + str(size), curr_data_set)
   data_dir = os.path.join(root_dir, 'corpus')
 
   ts = time.strftime("%Y-%m-%d_%H-%M-%S")

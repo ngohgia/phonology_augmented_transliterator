@@ -25,10 +25,6 @@ CODA = LangAssets.CODA
 ValidSrcConsos = lang_assets.valid_src_consos
 ValidSrcVowels = lang_assets.valid_src_vowels
 
-ValidSrcOnsets = lang_assets.valid_src_onsets
-ValidSrcNuclei = lang_assets.valid_src_nuclei
-ValidSrcCodas = lang_assets.valid_src_codas
-
 def read_lex_hyps_from_file(fname):
   fi = open(fname, "r")
   lex_hyps = {}

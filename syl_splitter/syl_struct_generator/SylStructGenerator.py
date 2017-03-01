@@ -61,12 +61,6 @@ ValidVowelRoles = [NUCLEUS,
                    ONSET_NUCLEUS_CODA, # act as a single syllable
                    REMOVE]
 
-ValidSubSylUnit = {
-  ONSET: lang_assets.valid_src_onsets,
-  NUCLEUS: lang_assets.valid_src_nuclei,
-  CODA: lang_assets.valid_src_codas
-}
-
 # Each role can only be assigned to more than a specific ratio of all the letters
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
@@ -88,9 +82,6 @@ MAX_ROLES_RATIOS = {
 
 #print ValidSrcConsos
 #print ValidSrcVowels
-#print ValidSubSylUnit[ONSET]
-#print ValidSubSylUnit[NUCLEUS]
-#print ValidSubSylUnit[CODA]
 
 #---------------- LABEL ALL LETTERS IN A WORD ------------------#
 def label_letters(word):
@@ -374,11 +365,6 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
 
     # Check if the subsyl_unit is a valid subsyllabic unit of the role curr_role (onset, nucleus, coda)
 
-    ##### CANTONESE ONSET_FINAL ####
-    # if subsyl_unit != "" and \
-    # subsyl_unit not in ValidSubSylUnit[curr_role]:
-    #   return False
-
   return True
 
 #---------------- CONSTRUCT SYLLABLES ------------------#
@@ -573,7 +559,7 @@ def is_valid_final(final):
 
     # get conso part
     for i in range(vowel_end, len(final)):
-      print final[i] + "  " + str(final[i] not in ValidSrcConsos)
+      # print final[i] + "  " + str(final[i] not in ValidSrcConsos)
       if final[i] not in ValidSrcConsos:
         return False
   return True
