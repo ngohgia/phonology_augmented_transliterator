@@ -149,6 +149,7 @@ def get_best_hyps_from_single_training(training_lex):
     for hyp in best_complex_words_hyps:
       print hyp.get_str()
 
+  # print to lex_hyp file
   best_hyps = simple_words_hyps + best_complex_words_hyps
   for hyp in best_hyps:
     if hyp.phone_alignment_pen <= 2:

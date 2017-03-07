@@ -58,6 +58,7 @@ def read_split_lex_file(lex_file_path):
       new_syl.create_new_syl(src_syls[idx], roles[idx], [], targ_syls[idx])
       new_word.add_new_syl(new_syl)
 
+    # new_word.print_str()
     all_words.append(new_word)
 
   return all_words

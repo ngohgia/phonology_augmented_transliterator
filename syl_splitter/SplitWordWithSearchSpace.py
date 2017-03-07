@@ -85,12 +85,6 @@ VaildTargVowels = lang_assets.valid_targ_vowels
 ValidConsoRoles = [ONSET, NUCLEUS, CODA, NUCLEUS_CODA, ONSET_NUCLEUS, CODA_ONSET_NUCLEUS, CODA_ONSET, REMOVE]
 ValidVowelRoles = [NUCLEUS, NUCLEUS_NUCLEUS, NUCLEUS_CODA, ONSET_NUCLEUS_CODA, REMOVE]
 
-ValidSubSylUnit = {
-  ONSET: lang_assets.valid_src_onsets,
-  NUCLEUS: lang_assets.valid_src_nuclei,
-  CODA: lang_assets.valid_src_codas
-}
-
 # Each role can only be assigned to more than a specific ratio of all the letters
 # TO-DO estimate the maximum ratio of each role from the Vietnamese entries in training data
 MAX_ROLES_RATIOS = {
@@ -419,10 +413,50 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
     # print ("Subsyllabic unit: %s" % subsyl_unit)
 
     # Check if the subsyl_unit is a valid subsyllabic unit of the role curr_role (onset, nucleus, coda)
-    if subsyl_unit != "" and \
-    subsyl_unit not in ValidSubSylUnit[curr_role]:
+    if subsyl_unit != "":
+      if curr_role == CODA:
+        return False
+
+      if curr_role == ONSET:
+        if not is_valid_initial(subsyl_unit):
+          return False
+      elif curr_role == NUCLEUS:
+        if not is_valid_final(subsyl_unit):
+          return False
+
+  return True
+
+def is_valid_final(final):
+  vowel_end = len(final) - 1
+  if final == GENERIC_VOWEL:
+    return True
+  else:
+    if GENERIC_VOWEL in final:
       return False
 
+    # get vowel part
+    for i in range(len(final)):
+      if final[i] not in ValidSrcVowels:
+        vowel_end = i
+        break
+
+    if final[vowel_end] in ValidSrcVowels:
+      vowel_end +=1
+
+    if vowel_end == 0 and final[vowel_end] not in ValidSrcVowels:
+      return False
+
+    # get conso part
+    for i in range(vowel_end, len(final)):
+      # print final[i] + "  " + str(final[i] not in ValidSrcConsos)
+      if final[i] not in ValidSrcConsos:
+        return False
+  return True
+
+def is_valid_initial(initial):
+  for i in range(len(initial)):
+    if initial[i] not in ValidSrcConsos:
+      return False
   return True
 
 #---------------- GENERATE ALL POSSIBLE ROLES FOR ALPHABETS IN A WORD ------------------#

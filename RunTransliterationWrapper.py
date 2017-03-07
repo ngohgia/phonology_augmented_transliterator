@@ -30,6 +30,7 @@ def run_shell_command(command):
   p = subprocess.Popen(command, shell=True)
   p.communicate()
 
+hyp_lex_file_path = os.path.join(run_dir, "lex_hyp.txt")
 #Train syllable splitting
 command = "python syl_splitter/GetBestRules.py " + \
    training_dev_lex_file_path + " " \
@@ -41,7 +42,6 @@ run_shell_command(command)
 # sys.exit(1)
 
 # Syllable splitting
-hyp_lex_file_path = os.path.join(run_dir, "lex_hyp.txt")
 report("[BEST LEX HYP PATH]: %s" % hyp_lex_file_path)
 command = "python syl_splitter/SplitWordWithSearchSpace.py" + \
     " " + hyp_lex_file_path + \

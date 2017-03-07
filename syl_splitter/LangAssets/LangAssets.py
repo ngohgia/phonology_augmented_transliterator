@@ -56,10 +56,6 @@ class LangAssets:
     self.valid_targ_vowels = self.get_valid_units(cur_dir + "valid_targ_vowels.txt")
     self.valid_targ_consos = self.get_valid_units(cur_dir + "valid_targ_consos.txt")
 
-    self.valid_src_codas = self.get_valid_units(cur_dir + "valid_src_codas.txt")
-    self.valid_src_nuclei = self.get_valid_units(cur_dir + "valid_src_nuclei.txt")
-    self.valid_src_onsets = self.get_valid_units(cur_dir + "valid_src_onsets.txt")
-
   def get_valid_units(self, input_fname):
     input_file = open(input_fname, "r")
     result = []
