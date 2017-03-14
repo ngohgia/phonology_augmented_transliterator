@@ -1,20 +1,20 @@
-athens	ng aa 5 . d i-n 2
-greenspan	g aa-k 3 . l a-m 4 . s i 1 . p u-n 1
-opium	aa 1 . p i-n 3
-eldon	aai 6 . j i 5 . d eo-n 1
-andreessen	o-n 1 . d a-k 1 . s a-ng 1
-bayern	b aai 3 . j a-n 4
-kopeck	gw o 1 . b ei 2
-venus	w ai 4 . n aa-p 6 . s i 1
-sahara	s aa-t 3 . h aa 1 . l aai 1
-iran	j-i 1 . l o-ng 5
-matthew	m aa 5 . t aai 2
-arsenal	aa 3 . s i-n 1 . n ou 4
-moses	m o 1 . s ai 1
-peter	b ei 2 . d a-k 1
-luther	l ou 6 . d a-k 1
-john	j oe-k 3 . h o-n 6
-prussia	p ou 2 . l ou 5 . s i 6
-kobe	g ou 1 . b ei 2
-chevrolet	s yu-t 3 . f a-t 6 . l aa-n 4
-gene	g ei 1 . j a-n 1
+edward	oi 3 . d a-k 1 . w aa 4
+copernicus	g o 1 . b aa-k 6 . n ei 4
+descartes	d e-k 6 . k aa 1 . j i 4
+mary	m aa 5 . l ei 6
+luxembourg	l ou 4 . s a-m 1 . b ou 2
+belgium	b ei 2 . l ei 6 . s i 4
+wembley	w a-n 1 . b ou 3 . l oi 4
+jamaica	ng aa 4 . m aai 5 . g aa 1
+bell	b ui 3 . j i 5
+haydn	h oi 2 . d eo-n 6
+frankfurt	f aa-t 3 . l aa-n 4 . h aa-k 1 . f u-k 1
+bali	b aa 1 . l ei 4
+rifle	l oi 4 . f u-k 1
+clive	h a-k 1 . l ei 5 . f u 1
+goethe	g o 1 . d a-k 1
+congo	g o-ng 1 . gw o 2
+moscow	m o-k 6 . s i 1 . f o 1
+york	j-oe-k 3
+atlanta	aa 3 . d a-k 6 . l aa-n 4 . d aai 6
+addison	aai 6 . d i-k 6 . s a-ng 1

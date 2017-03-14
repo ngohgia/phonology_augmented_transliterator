@@ -1,20 +1,20 @@
-daniel	d aa-n 1 . n ei 4 . j i 5
-wisconsin	w ai 1 . s i 1 . h o-ng 1 . s a-n 1
-arthur	aa 3 . s a-t 1
-jerusalem	j e 4 . l ou 6 . s aa-t 3 . l aa-ng 5
-cyprus	c oi 3 . p ou 2 . l ou 6 . s i 1
-eden	j-i 1 . d i-n 1
-william	w ai 1 . l i-m 4
-rolex	l ou 4 . l i-k 6 . s i 6
-eldon	aai 6 . j i 5 . d eo-n 1
-persia	b o 1 . s i 1
-valse	w aa 4 . j i 5 . z i 1
-gates	g oi 3 . c i 4
-cartoon	k aa 1 . t u-ng 1
-moscow	m o-k 6 . s i 1 . f o 1
-sudan	s ou 1 . d aa-n 1
-engine	j-a-n 5 . k i-ng 4
-noah	n o-k 6 . aa 3
-warsaw	w aa 4 . s aa 1
-malaya	m aa 5 . l oi 4 . aa 3
-melbourne	m a-k 6 . j i 5 . b u-n 2
+hawke	f o-k 3 . h a-k 1
+pakistan	b aa 1 . g ei 1 . s i 1 . t aa-n 2
+alexander	aa 3 . l i-k 6 . s aa-n 1 . d aai 6
+humour	j au 1 . m a-k 6
+nasdaq	n aa-p 6 . s i 1 . d aa-t 6 . h a-k 1
+morgan	m o 1 . g a-n 1
+beck	b ui 3 . h a-k 1
+emmanuel	aai 6 . m aa-n 6 . n ou 4
+roosevelt	l o 4 . s i 1 . f u-k 1
+karajan	k aa 1 . l aai 1 . j oe-ng 4
+naldo	n aa 4 . d ou 6
+cruise	h a-k 1 . l ou 5 . s i 1
+percent	b aa 1 . s i-n 1
+toronto	d o 1 . l eo-n 4 . d o 1
+bergar	b ui 3 . g aa 1
+thinner	t i-n 1 . n aa 4
+jesus	j e 4 . s ou 1
+brandy	b aa-k 6 . l aa-n 4 . d ei 6
+latin	l aai 1 . d i-ng 1
+dell	d aai 3 . j i 5

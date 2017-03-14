@@ -1,20 +1,20 @@
-harvey	h aa 1 . w ai 4
-jackson	z i-k 1 . s eo-n 3
-karachi	k aa 1 . l aai 1 . k ei 4
-humour	j au 1 . m a-k 6
-percent	b aa 1 . s i-n 1
-lily	l ei 6 . l ei 6
-canberra	h a-m 1 . p ui 4 . l aai 1
-paraguay	b aa 1 . l aai 1 . gw ai 1
-babylon	b aa 1 . b ei 2 . l eo-n 4
-ghana	g aa 1 . n aa-p 6
-israel	j-i 5 . s i-k 1 . l i-t 6
-iraq	j-i 1 . l aai 1 . h a-k 1
-spain	s ai 1 . b aa-n 1 . ng aa 4
-bolt	b o 1 . j i 5 . d a-k 6
-soviet	s ou 1 . w ai 4 . oi 1
-tunisia	d a-t 6 . n ei 4 . s ai 1 . aa 3
-poland	b o 1 . l aa-n 4
-malthus	m aa 5 . j i 5 . s aa-t 3 . s i 1
-camilla	k aa 1 . m ai 5 . l aai 1
-matlock	m aa 5 . d a-k 6 . l o-k 3 . h a-k 1
+cayman	h oi 1 . m aa-n 6
+toefl	t o-k 3 . f u-k 1
+melbourne	m a-k 6 . j i 5 . b u-n 2
+william	w ai 1 . l i-m 4
+picasso	b a-t 1 . k aa 1 . s o-k 3
+milosevic	m ai 5 . l o-k 3 . s e 2 . w ai 4 . k ei 4
+blair	b ui 3 . l ei 5 . ng aa 5
+rockies	l o-k 3 . g ei 1
+greiner	g aa-k 3 . l aai 6 . n aa-p 6
+truman	d ou 6 . l ou 5 . m u-n 4
+beckham	b i-k 1 . h aa-m 4
+byzantium	b aai 3 . z i-m 3 . t i-ng 4
+clay	h a-k 1 . l oi 4
+sudan	s ou 1 . d aa-n 1
+washington	w aa 4 . s i-ng 6 . d eo-n 6
+august	ou 3 . g u 2 . s i 1 . d a-k 6
+chocolate	z yu 1 . g u 2 . l i-k 6
+latin	l aai 1 . d i-ng 1
+valladolid	b aa 1 . l ei 6 . aa 3 . d o 1 . l ei 6 . d a-k 1
+honduras	h u-ng 4 . d ou 1 . l aai 1 . s i 1

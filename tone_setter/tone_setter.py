@@ -230,5 +230,6 @@ for word in result_words:
   outputs.append(" . ".join([str(syl) for syl in word.syls]))
 
 for entry in outputs:
+  entry = entry.replace('-', ' ')
   test_output_file.write(entry + "\n")
 test_output_file.close()

@@ -573,7 +573,7 @@ def is_valid_final(final):
 
     # get conso part
     for i in range(vowel_end, len(final)):
-      print final[i] + "  " + str(final[i] not in ValidSrcConsos)
+      # print final[i] + "  " + str(final[i] not in ValidSrcConsos)
       if final[i] not in ValidSrcConsos:
         return False
   return True

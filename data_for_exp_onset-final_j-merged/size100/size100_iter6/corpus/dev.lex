@@ -1,20 +1,20 @@
-bengal	m aa-ng 6 . g aa 1 . l aai 1
-medvedev	m ui 4 . d a-k 1 . w ai 5 . g i-t 6 . f u 1
-will	w ai 1 . j i 5
-dote	d o 1 . t aai 3
-suarez	s ou 1 . aa 3 . l eoi 4 . s i 1
-beirut	b ui 3 . l ou 5 . d a-k 6
-carnival	g aa 1 . n i-n 4 . w aa 4
-baud	b o 1 . d a-k 6
-jerusalem	j e 4 . l ou 6 . s aa-t 3 . l aa-ng 5
-ericsson	oi 3 . l aa-p 6 . s eo-n 3
-zealand	s ai 1 . l aa-n 4
-ballet	b aa 1 . l eoi 4
-missouri	m ai 5 . s ou 1 . l ei 5
-heidelberg	h oi 2 . d a-k 1 . b ou 2
-cornell	h o-ng 1 . n aai 5 . j i 5
-erik	aai 6 . l i-k 6 . h a-k 1
-garcia	g aa 1 . s ai 1 . aa 3
-clive	h a-k 1 . l ei 5 . f u 1
-milkshake	n aai 5 . s i-k 1
-barkley	b aa 1 . h a-k 1 . l ei 5
+yemen	j-aa 5 . m u-n 4
+mauser	m ou 4 . s a-t 1
+danube	d o 1 . n ou 5
+asean	aa 3 . s ai 3 . o-n 1
+golan	gw o 1 . l aa-n 4
+carlos	k aa 1 . l o-k 3 . s i 1
+diego	d ei 6 . ng aa 4 . g o 1
+baghdad	b aa 1 . g aa-k 3 . d aa-t 6
+perth	p aa-k 3 . s i 1
+dustin	d a-k 1 . s i 1 . d i-ng 1
+buckingham	b aa-k 6 . g a-m 1 . h o-n 3
+ive	aai 6 . f u 1
+sar	s aa 1
+greenville	g aa-k 3 . l a-m 4 . w ai 1 . j i 5
+schubert	s yu 1 . b aa-k 3 . d a-k 6
+disney	d i-k 6 . s i 6 . n ei 4
+tuna	t a-n 1 . n aa 4
+tom	t o-ng 1 . m ou 5
+pratt	b aa-n 1 . l aa-p 6 . d a-k 1
+apolloni	aa 3 . b ou 3 . l u-ng 4 . n ei 4
