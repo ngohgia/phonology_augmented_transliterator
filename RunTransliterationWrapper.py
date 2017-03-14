@@ -62,9 +62,10 @@ report(command)
 run_shell_command(command)
 
 # Tone setting
+lex_hyp_for_tone_setting = os.path.join(run_dir, "nucleus-coda_lex_hyp.txt")
 toneles_targ_phones_with_roles_path = os.path.join(run_dir, "test.toneless_with_roles.txt")
 command = "python tone_setter/tone_setter.py" +  \
-    " " + hyp_lex_file_path + \
+    " " + lex_hyp_for_tone_setting + \
     " " + toneles_targ_phones_with_roles_path + \
     " " + run_dir + \
     " " + output_file_path

@@ -40,10 +40,10 @@ def read_lex_hyp_file(lex_hyp_path):
 
   all_words = []
   for line in lex_hyp_file:
-    [en_syls_str, roles_str, vie_syls_str] = line.split("\t")[2:5]
+    [en_syls_str, roles_str, vie_syls_str] = line.split("\t")
     # print vie_syls_str
 
-    vie_syls = [[unit.strip() for unit in vie_syl.split(" ")[0:len(vie_syl.split(" "))]] for vie_syl in vie_syls_str.split(" . ")]
+    vie_syls = [[unit.strip() for unit in vie_syl.split(" ")[:-1]] for vie_syl in vie_syls_str.split(" . ")]
     roles = [[unit.strip() for unit in roles_grp.split(" ")] for roles_grp in roles_str.split(" . ")]
     tones = []
     for vie_syl in vie_syls_str.split(" . "):
@@ -54,14 +54,13 @@ def read_lex_hyp_file(lex_hyp_path):
       else:
         tones.append(tmp_tone[-1])
 
-    #print vie_syls
-    
     new_word = Word()
     for idx in range(len(vie_syls)):
       new_syl = Syllable()
       new_syl.create_new_syl(vie_syls[idx], roles[idx], tones[idx])
       new_word.add_new_syl(new_syl)
 
+    new_word.print_str()
     all_words.append(new_word)
 
   return all_words
@@ -133,16 +132,19 @@ def score_tone_assignment(word, searchspace):
       search_point.import_from_coord(coord)
 
       # print str(search_point)
-
-      if search_point.coord in searchspace.space:
-        print "Found: " + str(search_point)
-        print searchspace.space[search_point.coord]
-        # print search_point.val in searchspace.space[search_point.coord]
+      print "Searching: " + str(search_point)
 
       if search_point.coord in searchspace.space and search_point.val in searchspace.space[search_point.coord]:
+        print "Found: " + str(search_point)
+        print searchspace.space[search_point.coord]
+        print str(search_point.val) + ": " + str(searchspace.space[search_point.coord][search_point.val])
+
         syl_score = syl_score + searchspace.space[search_point.coord][search_point.val]/(RANK_WEIGHT * rank)
         rank_sum = rank_sum + 1.0/(RANK_WEIGHT * rank)
 
+    # print syl
+    # print rank_sum
+    # print syl_score
     if rank_sum != 0:
       syl_score = syl_score / rank_sum
     word_score = word_score * syl_score
@@ -230,5 +232,6 @@ for word in result_words:
   outputs.append(" . ".join([str(syl) for syl in word.syls]))
 
 for entry in outputs:
+  entry = entry.replace('-', ' ')
   test_output_file.write(entry + "\n")
 test_output_file.close()

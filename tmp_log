@@ -1,194 +1,8251 @@
-[COMMAND]: python syl_splitter/GetBestRules.py /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size1/size1_iter1/corpus/train.lex /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size1/size1_iter1/phono_augmented/run_dir /home/ngohgia/Work/utilities/t2p/t2p_dt.pl
+Source graphemes: s u . d a n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s ou 1 . d aa n 1
 
 
-[RUN DIR]: /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size1/size1_iter1/phono_augmented/run_dir
-[LOG DIR]: /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size1/size1_iter1/phono_augmented/run_dir/log
+SU
+DAN
+Source graphemes: ae . g ea n
+Roles: N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: oi 3 . k a m 4
 
-[COMMAND]: python RunTransliterationWrapper.py /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size1/size1_iter1/corpus/train.lex /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size1/size1_iter1/corpus/test.lex /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size1/size1_iter1/phono_augmented/run_dir/test.output /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size1/size1_iter1/phono_augmented/run_dir /home/ngohgia/Work/utilities/t2p/t2p_dt.pl
 
-#----------------------------------------------#
+AE
+GEAN
+Source graphemes: s e . g a
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s ai 3 . g aa 1
 
 
-['h', 'a-k']
-['l', 'oi']
-h a-k 1 . l oi 4
-O N . O N
-{'Cd_Cd': 1.0, 'Cd_N': 1.0, 'Cd_O': 1.0, 'O': 3.0, 'N': 2.6, 'O_N_Cd': 1.0, 'Cd': 1.0, 'N_N': 1, 'N_O': 1.0, 'N_Cd': 3.0, 'Cd_O_N': 1.0, 'R': 1.0, 'O_N': 1.4}
+SE
+GA
+Source graphemes: e . l e . n a
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: j-i 2 . l i-n 4 . n aa 4
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O', 'N', 'N_Cd']
-hyp_word: [ cl ay  ]
+E
+LE
+NA
+Source graphemes: m a . l ay . a
+Roles: O N . O N . N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . l oi 4 . aa 3
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O', 'N_Cd', 'N_Cd']
-hyp_word: [ cl a  ] [  y  ]
+MA
+LAY
+A
+Source graphemes: s ei . n e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: c oi 3 . n aa-p 6
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O', 'N_Cd', 'O_N_Cd']
-hyp_word: [ cl a  ] [  y  ]
+SEI
+NE
+Source graphemes: j a . m ai . c a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: ng aa 4 . m aai 5 . g aa 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O', 'N_Cd', 'R']
-hyp_word: [ cl a  ]
+JA
+MAI
+CA
+Source graphemes: p a . r is
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa 1 . l ai 4
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O', 'R', 'N_Cd']
-hyp_word: [ cl y  ]
+PA
+RIS
+Source graphemes: m a . l i
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m aa 5 . l ei 6
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O_N', 'N', 'N_Cd']
-hyp_word: [ cl @  ] [  ay  ]
+MA
+LI
+Source graphemes: m a . r i . o
+Roles: O N . O N . N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . l ei 5 . ou 3
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O_N', 'N_Cd', 'N_Cd']
-hyp_word: [ cl @  ] [  a  ] [  y  ]
+MA
+RI
+O
+Source graphemes: k a . r a
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: k aa 1 . l aai 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O_N', 'N_Cd', 'O_N_Cd']
-hyp_word: [ cl @  ] [  a  ] [  y  ]
+KA
+RA
+Source graphemes: p o . s e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: p ou 3 . s i 6
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O_N', 'N_Cd', 'R']
-hyp_word: [ cl @  ] [  a  ]
+PO
+SE
+Source graphemes: c ai . r o
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h oi 1 . l o 4
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O_N', 'O_N_Cd', 'N_Cd']
-hyp_word: [ cl @  ] [  a  ] [  y  ]
+CAI
+RO
+Source graphemes: r i . l ey
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l oi 4 . l ei 6
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O_N', 'O_N_Cd', 'R']
-hyp_word: [ cl @  ] [  a  ]
+RI
+LEY
+Source graphemes: i . nd i . a n
+Roles: N . O N . N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: j-a-n 3 . d ai 6 . o n 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O_N', 'R', 'N_Cd']
-hyp_word: [ cl @  ] [  y  ]
+I
+NDI
+AN
+Source graphemes: f a . s o
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: f aa-t 3 . s o-k 3
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'O_N', 'R', 'O_N_Cd']
-hyp_word: [ cl @  ] [  y  ]
+FA
+SO
+Source graphemes: r i . c a
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l ai 6 . g aa 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N', 'N', 'N_Cd']
-hyp_word: [ c lay  ]
+RI
+CA
+Source graphemes: s o . n a r
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s i-ng 1 . n aa p 6
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N', 'N_Cd', 'N_Cd']
-hyp_word: [ c la  ] [  y  ]
+SO
+NAR
+Source graphemes: s a . l ad
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s aa 1 . l aai 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N', 'N_Cd', 'O_N_Cd']
-hyp_word: [ c la  ] [  y  ]
+SA
+LAD
+Source graphemes: e . mm a . n uel
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aai 6 . m aa-n 6 . n ou 4
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N', 'N_Cd', 'R']
-hyp_word: [ c la  ]
+E
+MMA
+NUEL
+Source graphemes: ye . m e n
+Roles: N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j-aa 5 . m u n 4
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N', 'R', 'N_Cd']
-hyp_word: [ c l  ] [  y  ]
+YE
+MEN
+Source graphemes: p a . n a . m a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . n aa 4 . m aa 5
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N_Cd', 'N', 'N_Cd']
-hyp_word: [ c l  ] [  ay  ]
+PA
+NA
+MA
+Source graphemes: sh ea
+Roles: O N
+[]
+Source phonemes: 
+Target phonemes: s aa 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N_Cd', 'N_Cd', 'N_Cd']
-hyp_word: [ c l  ] [  a  ] [  y  ]
+SHEA
+Source graphemes: g ui . t ar
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g a-t 1 . t aa 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N_Cd', 'N_Cd', 'R']
-hyp_word: [ c l  ] [  a  ]
+GUI
+TAR
+Source graphemes: s a n
+Roles: O N Cd
+[]
+Source phonemes: 
+Target phonemes: s i ng 3
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N_Cd', 'O_N_Cd', 'N_Cd']
-hyp_word: [ c l  ] [  a  ] [  y  ]
+SAN
+Source graphemes: c o . l a
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h o 2 . l o-k 6
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N_Cd', 'O_N_Cd', 'R']
-hyp_word: [ c l  ] [  a  ]
+CO
+LA
+Source graphemes: w e b
+Roles: O N Cd
+[]
+Source phonemes: 
+Target phonemes: m o ng 5
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N_Cd', 'R', 'N_Cd']
-hyp_word: [ c l  ] [  y  ]
+WEB
+Source graphemes: p o . k e r
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: p o-k 3 . h a k 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'N_Cd', 'R', 'O_N_Cd']
-hyp_word: [ c l  ] [  y  ]
+PO
+KER
+Source graphemes: m i . a . m i
+Roles: O N . N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aai 6 . aa 3 . m a-t 6
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'R', 'N', 'N_Cd']
-hyp_word: [ c ay  ]
+MI
+A
+MI
+Source graphemes: ph a . r aoh
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: f aa-t 3 . l ou 5
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'R', 'N_Cd', 'N_Cd']
-hyp_word: [ c a  ] [  y  ]
+PHA
+RAOH
+Source graphemes: j e . s us
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j e 4 . s ou 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O', 'R', 'N_Cd', 'O_N_Cd']
-hyp_word: [ c a  ] [  y  ]
+JE
+SUS
+Source graphemes: h a . g e n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h aa 1 . g a n 1
 
 
-Word: clay
-Labels: ['C', 'C', 'V', 'V']
-Roles: ['O_N', 'O', 'N', 'N_Cd']
-hyp_word: [ c @  ] [ l ay  ]
-False
-True
-O N . O N
-O N . O N
+HA
+GEN
+Source graphemes: e . l i . z a . b e th
+Roles: N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: j-i 1 . l ei 6 . s aa 1 . b aa k 6
+
+
+E
+LI
+ZA
+BETH
+Source graphemes: t u . n a
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: t a-n 1 . n aa 4
+
+
+TU
+NA
+Source graphemes: p e . r u
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b ei 3 . l ou 5
+
+
+PE
+RU
+Source graphemes: u . t ah
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j-au 4 . t aa 1
+
+
+U
+TAH
+Source graphemes: b i . k i . n i
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b ei 2 . g ei 1 . n ei 4
+
+
+BI
+KI
+NI
+Source graphemes: l a . t i n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l aai 1 . d i ng 1
+
+
+LA
+TIN
+Source graphemes: t ay . l o r
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: t aai 3 . l a k 6
+
+
+TAY
+LOR
+Source graphemes: k a . r a . j a n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: k aa 1 . l aai 1 . j oe ng 4
+
+
+KA
+RA
+JAN
+Source graphemes: n i . c a . r a . g ua
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: n ei 4 . g aa 1 . l aai 1 . gw aa 1
+
+
+NI
+CA
+RA
+GUA
+Source graphemes: s o . d a
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s ou 1 . d aa 2
+
+
+SO
+DA
+Source graphemes: t a . x i
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: d i-k 1 . s i 6
+
+
+TA
+XI
+Source graphemes: h u t
+Roles: O N Cd
+[]
+Source phonemes: 
+Target phonemes: h aa k 3
+
+
+HUT
+Source graphemes: i . d a . h o
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: oi 3 . d aa-t 6 . h o 4
+
+
+I
+DA
+HO
+Source graphemes: h e . l e n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h oi 2 . l eo n 4
+
+
+HE
+LEN
+Source graphemes: a . s e . a n
+Roles: N . O N . N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aa 3 . s ai 3 . o n 1
+
+
+A
+SE
+AN
+Source graphemes: s ar
+Roles: O N
+[]
+Source phonemes: 
+Target phonemes: s aa 1
+
+
+SAR
+Source graphemes: e . mm a
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: aai 6 . m aa 5
+
+
+E
+MMA
+Source graphemes: n a . p o . l eo n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n aa 4 . p o 3 . l eo n 4
+
+
+NA
+PO
+LEON
+Source graphemes: york
+Roles: N
+[]
+Source phonemes: 
+Target phonemes: j-oe-k 3
+
+
+YORK
+Source graphemes: w o rld
+Roles: O N Cd
+[]
+Source phonemes: 
+Target phonemes: m aa n 6
+
+
+WORLD
+Source graphemes: ya . l e
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j-e 4 . l ou 5
+
+
+YA
+LE
+Source graphemes: m e . x i . c o
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m a-k 6 . s ai 1 . g o 1
+
+
+ME
+XI
+CO
+Source graphemes: m a . r y . l a nd
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . l ei 5 . l aa n 4
+
+
+MA
+RY
+LAND
+Source graphemes: a . nn a
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: o-n 1 . n aa 4
+
+
+A
+NNA
+Source graphemes: c o . r a . z o n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: f o 1 . l aai 1 . s o ng 1
+
+
+CO
+RA
+ZON
+Source graphemes: d u . q ue
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: d ou 6 . g ei 1
+
+
+DU
+QUE
+Source graphemes: v a n
+Roles: O N Cd
+[]
+Source phonemes: 
+Target phonemes: w a n 4
+
+
+VAN
+Source graphemes: s au . d i
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s aa 1 . d a-k 6
+
+
+SAU
+DI
+Source graphemes: b ye
+Roles: O N
+[]
+Source phonemes: 
+Target phonemes: b aai 3
+
+
+BYE
+Source graphemes: n i . l e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: n ei 4 . l o 4
+
+
+NI
+LE
+Source graphemes: a . r a . b ia
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aa 3 . l aai 1 . b aa-k 3
+
+
+A
+RA
+BIA
+Source graphemes: h ai . t i
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h oi 2 . d ei 6
+
+
+HAI
+TI
+Source graphemes: c o . c oa
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h o 2 . h o 2
+
+
+CO
+COA
+Source graphemes: b e . r i ng
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa-k 6 . l i ng 6
+
+
+BE
+RING
+Source graphemes: g e . n e . v a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: j a-t 6 . n oi 6 . ng aa 5
+
+
+GE
+NE
+VA
+Source graphemes: m i . n i
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m ai 4 . n ei 5
+
+
+MI
+NI
+Source graphemes: p e . s o
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: p ei 1 . s o-k 3
+
+
+PE
+SO
+Source graphemes: i . r e . l a nd
+Roles: N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: oi 3 . j i 5 . l aa n 4
+
+
+I
+RE
+LAND
+Source graphemes: n ew
+Roles: O N
+[]
+Source phonemes: 
+Target phonemes: n au 2
+
+
+NEW
+Source graphemes: r o . m e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l o 4 . m aa 5
+
+
+RO
+ME
+Source graphemes: p oo . l e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: p ou 2 . j i 5
+
+
+POO
+LE
+Source graphemes: i . v e
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: aai 6 . f u 1
+
+
+I
+VE
+Source graphemes: e . d e n
+Roles: N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j-i 1 . d i n 1
+
+
+E
+DEN
+Source graphemes: m e . o . l a
+Roles: O N . N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m ai 5 . ou 3 . l aai 1
+
+
+ME
+O
+LA
+Source graphemes: t a . g o . r e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: t aai 3 . gw o 1 . j i 5
+
+
+TA
+GO
+RE
+Source graphemes: b o . h e . m i . a
+Roles: O N . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: b o 1 . h ei 1 . m ai 5 . aa 3
+
+
+BO
+HE
+MI
+A
+Source graphemes: g o . l a n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: gw o 1 . l aa n 4
+
+
+GO
+LAN
+Source graphemes: m a . r y
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m aa 5 . l ei 6
+
+
+MA
+RY
+Source graphemes: h a . v a . n a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h aa 1 . ng aa 5 . n aa 5
+
+
+HA
+VA
+NA
+Source graphemes: c ae . s a r
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h oi 2 . s aa t 3
+
+
+CAE
+SAR
+Source graphemes: r oo . n ey
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l o-ng 5 . n ei 4
+
+
+ROO
+NEY
+Source graphemes: g a . l i . l eo
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g aa 1 . l ei 6 . l oe-k 6
+
+
+GA
+LI
+LEO
+Source graphemes: r i . c o
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l ai 4 . g o-k 3
+
+
+RI
+CO
+Source graphemes: o . nt a . r io
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: o-n 1 . d aai 6 . l oe-k 6
+
+
+O
+NTA
+RIO
+Source graphemes: l eo . n e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l ei 6 . ng o-ng 4
+
+
+LEO
+NE
+Source graphemes: a . l a . b a . m a
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . l aai 1 . b aa 1 . m aa 5
+
+
+A
+LA
+BA
+MA
+Source graphemes: b a . r o . q ue
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . l o-k 3 . h a-k 1
+
+
+BA
+RO
+QUE
+Source graphemes: k o . s o . v o
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: f o 1 . s o-k 3 . j u-k 1
+
+
+KO
+SO
+VO
+Source graphemes: l e . b a . n o n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l ai 4 . b aa 1 . n yu n 6
+
+
+LE
+BA
+NON
+Source graphemes: au . l e
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: ou 3 . l i-k 6
+
+
+AU
+LE
+Source graphemes: p i ng
+Roles: O N Cd
+[]
+Source phonemes: 
+Target phonemes: b i ng 1
+
+
+PING
+Source graphemes: r o . b i n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l o 4 . b a n 1
+
+
+RO
+BIN
+Source graphemes: f i . g a . r o
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: f ai 3 . g aa 1 . l o 4
+
+
+FI
+GA
+RO
+Source graphemes: l e . m o n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: n i-ng 4 . m u ng 1
+
+
+LE
+MON
+Source graphemes: n o . k i . a
+Roles: O N . O N . N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n o-k 6 . g ei 1 . aa 3
+
+
+NO
+KI
+A
+Source graphemes: c o . l o . r a . d o
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: f o 1 . l o 4 . l aai 1 . d o 1
+
+
+CO
+LO
+RA
+DO
+Source graphemes: n e . v a . d a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n oi 6 . w aa 4 . d aa-t 6
+
+
+NE
+VA
+DA
+Source graphemes: e . th er
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j-i 5 . t aai 3
+
+
+E
+THER
+Source graphemes: a . nd e r
+Roles: N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: o-n 1 . d a k 1
+
+
+A
+NDER
+Source graphemes: b o . g o . t a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b o 1 . g o 1 . d aai 6
+
+
+BO
+GO
+TA
+Source graphemes: g o . r e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: gw o 1 . j i 5
+
+
+GO
+RE
+Source graphemes: c o . l e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g ou 1 . j i 5
+
+
+CO
+LE
+Source graphemes: o . p iu m
+Roles: N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: aa 1 . p i n 3
+
+
+O
+PIUM
+Source graphemes: k o . p eck
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: gw o 1 . b ei 2
+
+
+KO
+PECK
+Source graphemes: s a . h a . r a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s aa-t 3 . h aa 1 . l aai 1
+
+
+SA
+HA
+RA
+Source graphemes: i . r a n
+Roles: N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j-i 1 . l o ng 5
+
+
+I
+RAN
+Source graphemes: a . rs e . n al
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aa 3 . s i-n 1 . n ou 4
+
+
+A
+RSE
+NAL
+Source graphemes: m o . s es
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m o 1 . s ai 1
+
+
+MO
+SES
+Source graphemes: p e . t e r
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b ei 2 . d a k 1
+
+
+PE
+TER
+Source graphemes: k o . b e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g ou 1 . b ei 2
+
+
+KO
+BE
+Source graphemes: g e . n e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g ei 1 . j a-n 1
+
+
+GE
+NE
+Source graphemes: d i . a . n a
+Roles: O N . N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d aai 3 . o-n 1 . n aa 4
+
+
+DI
+A
+NA
+Source graphemes: ch ee . s e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: z i 1 . s i 6
+
+
+CHEE
+SE
+Source graphemes: c a . m e . r a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h oi 1 . m a-k 6 . l aa 1
+
+
+CA
+ME
+RA
+Source graphemes: b a . r i
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa 1 . l ei 5
+
+
+BA
+RI
+Source graphemes: g a . t es
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g oi 3 . c i 4
+
+
+GA
+TES
+Source graphemes: m i . l a n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m ai 5 . l aa n 4
+
+
+MI
+LAN
+Source graphemes: h a . n oi
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h o 4 . n oi 6
+
+
+HA
+NOI
+Source graphemes: n a . z i
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: n aa-p 6 . s eoi 3
+
+
+NA
+ZI
+Source graphemes: l i . b y . a
+Roles: O N . O N . N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l ei 6 . b ei 2 . aa 3
+
+
+LI
+BY
+A
+Source graphemes: d ow
+Roles: O N
+[]
+Source phonemes: 
+Target phonemes: d ou 6
+
+
+DOW
+Source graphemes: g ul . l a n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g u 2 . l aa n 4
+
+
+GUL
+LAN
+Source graphemes: h y . s @ . t e . r i
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: h i-t 3 . s i 1 . d ai 2 . l ei 5
+
+
+HY
+S@
+TE
+RI
+Source graphemes: ch e . v @ . r o n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s yu-t 3 . f a-t 6 . l u ng 4
+
+
+CHE
+V@
+RON
+Source graphemes: r o . b e . rt @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l o 4 . b aa-k 3 . d a-k 6
+
+
+RO
+BE
+RT@
+Source graphemes: i . nd o . n e . s i . a
+Roles: N . O N . O N . O N . N
+[]
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  .  . 
+Target phonemes: j-a-n 3 . d ou 6 . n ei 4 . s ai 1 . aa 3
+
+
+I
+NDO
+NE
+SI
+A
+Source graphemes: b o . s @ . n i . a
+Roles: O N . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: b o 1 . s i 1 . n ei 4 . aa 3
+
+
+BO
+S@
+NI
+A
+Source graphemes: t a n . z @ . n i . a
+Roles: O N Cd . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: t aa n 2 . s o-ng 1 . n ei 4 . aa 3
+
+
+TAN
+Z@
+NI
+A
+Source graphemes: o . s @ . l o
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: ou 3 . s i 1 . l u-k 6
+
+
+O
+S@
+LO
+Source graphemes: b ur . k i . n a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b ou 3 . g ei 1 . n aa-p 6
+
+
+BUR
+KI
+NA
+Source graphemes: r o . m a n . t i . c @
+Roles: O N . O N Cd . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: l o 4 . m aa n 6 . d ai 3 . h a-k 1
+
+
+RO
+MAN
+TI
+C@
+Source graphemes: m u s . s o . l i . n i
+Roles: O N Cd . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: m a k 6 . s o-k 3 . l ei 5 . n ei 4
+
+
+MUS
+SO
+LI
+NI
+Source graphemes: e . ng @ . l ish
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: j-i-ng 1 . g a-t 1 . l ei 6
+
+
+E
+NG@
+LISH
+Source graphemes: r i . fl @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l oi 4 . f u-k 1
+
+
+RI
+FL@
+Source graphemes: h i . l @ . t o n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h ei 1 . j i 5 . d eo n 6
+
+
+HI
+L@
+TON
+Source graphemes: h e r . tz @
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h a k 1 . z i 1
+
+
+HER
+TZ@
+Source graphemes: s i n . g a . pr e
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s a n 1 . g aa 1 . b o 1
+
+
+SIN
+GA
+PRE
+Source graphemes: p e n . ns y l . v a . n i . a
+Roles: O N Cd . O N Cd . O N . O N . N
+[]
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  .  . 
+Target phonemes: b a n 1 . z i k 6 . f aa-t 3 . n ei 4 . aa 3
+
+
+PEN
+NSYL
+VA
+NI
+A
+Source graphemes: j e . s @ . sc a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g i-t 3 . s ai 1 . k aa 1
+
+
+JE
+S@
+SCA
+Source graphemes: c a m . b o . d i
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g aa n 2 . b ou 3 . z aai 6
+
+
+CAM
+BO
+DI
+Source graphemes: n o . rm a n . d y
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n o-k 6 . m aa n 6 . d ai 6
+
+
+NO
+RMAN
+DY
+Source graphemes: m i . l o . s e . v i . c @
+Roles: O N . O N . O N . O N . O N
+[]
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  .  . 
+Target phonemes: m ai 5 . l o-k 3 . s e 2 . w ai 4 . k ei 4
+
+
+MI
+LO
+SE
+VI
+C@
+Source graphemes: auc . k @ . l a nd
+Roles: N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: ou 3 . h aa-k 1 . l aa n 4
+
+
+AUC
+K@
+LAND
+Source graphemes: h a m . b urg
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h o n 3 . b ou 2
+
+
+HAM
+BURG
+Source graphemes: c o n . g o
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g o ng 1 . gw o 2
+
+
+CON
+GO
+Source graphemes: p o . l @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b o 1 . j i 5
+
+
+PO
+L@
+Source graphemes: c o . l u m . b us
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g o 1 . l eo n 4 . b ou 3
+
+
+CO
+LUM
+BUS
+Source graphemes: b e . nz @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b a-n 1 . c i 4
+
+
+BE
+NZ@
+Source graphemes: c a . s @ . t il . l o
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: k aa 1 . s i 1 . d ai 3 . l o 4
+
+
+CA
+S@
+TIL
+LO
+Source graphemes: a . l @ . c a . t e l
+Roles: N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . j i 5 . k aa 1 . d a k 6
+
+
+A
+L@
+CA
+TEL
+Source graphemes: g o . rs @ . t @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: gw o 1 . s i 1 . d a-k 6
+
+
+GO
+RS@
+T@
+Source graphemes: p a . k i . s @ . t a n
+Roles: O N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: b aa 1 . g ei 1 . s i 1 . t aa n 2
+
+
+PA
+KI
+S@
+TAN
+Source graphemes: n a . ld o
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: n aa 4 . d ou 6
+
+
+NA
+LDO
+Source graphemes: m i . cr o p . h o n
+Roles: O N . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m a-k 1 . h a k 1 . f u ng 1
+
+
+MI
+CROP
+HON
+Source graphemes: b @ . l i . r @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b ui 3 . l ei 5 . ng aa 5
+
+
+B@
+LI
+R@
+Source graphemes: s o . r o . s @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s o-k 3 . l o 4 . s i 1
+
+
+SO
+RO
+S@
+Source graphemes: au . s @ . t i n
+Roles: N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: ou 3 . s i 1 . t i ng 1
+
+
+AU
+S@
+TIN
+Source graphemes: jz @ . z @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: z oe-k 3 . s i 6
+
+
+JZ@
+Z@
+Source graphemes: h ar . v a rd
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h aa 1 . f a t 6
+
+
+HAR
+VARD
+Source graphemes: d i c . k e n . s @
+Roles: O N Cd . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d i k 6 . g a ng 1 . s i 1
+
+
+DIC
+KEN
+S@
+Source graphemes: b ul . l @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa 3 . l i-ng 4
+
+
+BUL
+L@
+Source graphemes: b eet . h o . v e n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b ui 3 . d o 1 . f a n 1
+
+
+BEET
+HO
+VEN
+Source graphemes: m o . z a r . t @
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m o-k 6 . z aa t 3 . d a-k 6
+
+
+MO
+ZAR
+T@
+Source graphemes: n o . b @ . l @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n o-k 6 . b ui 3 . j i 5
+
+
+NO
+B@
+L@
+Source graphemes: c o . s @ . t a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g o 1 . s i 1 . d aa-t 6
+
+
+CO
+S@
+TA
+Source graphemes: m i . l @ . t o n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m a-t 6 . j i 5 . d eo n 6
+
+
+MI
+L@
+TON
+Source graphemes: a . p ol . l o . n i
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . b ou 3 . l u-ng 4 . n ei 4
+
+
+A
+POL
+LO
+NI
+Source graphemes: b uc . k @ . l ey
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . h a-k 1 . l ei 6
+
+
+BUC
+K@
+LEY
+Source graphemes: b u . r u n . d @
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b ou 3 . l u ng 4 . d i-k 6
+
+
+BU
+RUN
+D@
+Source graphemes: m e . d @ . vh @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m a-k 6 . d i-k 6 . m a-n 4
+
+
+ME
+D@
+VH@
+Source graphemes: p e p . s i
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa k 3 . s i 6
+
+
+PEP
+SI
+Source graphemes: b i n . g o
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b a n 1 . gw o 2
+
+
+BIN
+GO
+Source graphemes: g @ . r a . f @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g o-t 3 . l aai 1 . f u 4
+
+
+G@
+RA
+F@
+Source graphemes: w a . l @ . tz @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w aa 4 . j i 5 . z i 1
+
+
+WA
+L@
+TZ@
+Source graphemes: b e . l @ . f a . s @ . t @
+Roles: O N . O N . O N . O N . O N
+[]
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  .  . 
+Target phonemes: b ui 3 . j i 5 . f aa-t 3 . s i 1 . d a-k 6
+
+
+BE
+L@
+FA
+S@
+T@
+Source graphemes: c o . p e . rnc us
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g o 1 . b aa-k 6 . n ei 4
+
+
+CO
+PE
+RNCUS
+Source graphemes: h u . x @ . l e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h a-k 1 . s eoi 1 . l ai 4
+
+
+HU
+X@
+LE
+Source graphemes: w el . l i ng . t o n
+Roles: O N . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w ai 6 . l i ng 4 . d eo n 6
+
+
+WEL
+LING
+TON
+Source graphemes: n i . g e . r @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n ei 4 . j a-t 6 . j i 5
+
+
+NI
+GE
+R@
+Source graphemes: sw eat . sh i rt
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b o 1 . s eo t 1
+
+
+SWEAT
+SHIRT
+Source graphemes: b a . l @ . k a n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . j i 5 . g o n 3
+
+
+BA
+L@
+KAN
+Source graphemes: v e . g a . s @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w ai 4 . g aa 1 . s i 1
+
+
+VE
+GA
+S@
+Source graphemes: a . l e . x a n . d er
+Roles: N . O N . O N Cd . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . l i-k 6 . s aa n 1 . d aai 6
+
+
+A
+LE
+XAN
+DER
+Source graphemes: th i n . n e
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: t i n 1 . n aa 4
+
+
+THIN
+NE
+Source graphemes: m ar . k @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m aa 5 . h a-k 1
+
+
+MAR
+K@
+Source graphemes: b @ . nn y
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa-n 1 . n ei 4
+
+
+B@
+NNY
+Source graphemes: e . ng i n
+Roles: N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j-a-n 5 . k i ng 4
+
+
+E
+NGIN
+Source graphemes: c y . p @ . r u . s @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: c oi 3 . p ou 2 . l ou 6 . s i 1
+
+
+CY
+P@
+RU
+S@
+Source graphemes: a . r a . f a . t @
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . l aai 1 . f aa-t 3 . d a-k 6
+
+
+A
+RA
+FA
+T@
+Source graphemes: n o . rm a n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: n o-k 6 . m aa n 6
+
+
+NO
+RMAN
+Source graphemes: a . d @ . r iat . ic
+Roles: N . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . d a-k 1 . l ei 5 . aa 3
+
+
+A
+D@
+RIAT
+IC
+Source graphemes: op . p e n . h ei . m e r
+Roles: N . O N Cd . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: au 1 . b u n 2 . h oi 2 . m a k 6
+
+
+OP
+PEN
+HEI
+MER
+Source graphemes: m a c . c a . rth y
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m a k 6 . k aa 1 . s e-k 6
+
+
+MAC
+CA
+RTHY
+Source graphemes: k e n . t u c . k y
+Roles: O N Cd . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h a ng 2 . t aa p 3 . g ei 1
+
+
+KEN
+TUC
+KY
+Source graphemes: l @ . nc o ln
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l a-m 4 . h a ng 2
+
+
+L@
+NCOLN
+Source graphemes: g eor . g e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: k iu 4 . z i 6
+
+
+GEOR
+GE
+Source graphemes: k @ . n i m
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h a-k 1 . n i ng 4
+
+
+K@
+NIM
+Source graphemes: d ou . g @ . l a . s @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: d ou 6 . g aa-k 3 . l aai 1 . s i 1
+
+
+DOU
+G@
+LA
+S@
+Source graphemes: g o . rd o n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: gw o 1 . d a ng 1
+
+
+GO
+RDON
+Source graphemes: m u . n ic . h @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m ou 6 . n ei 4 . h a-k 1
+
+
+MU
+NIC
+H@
+Source graphemes: m o . rm o n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m o 1 . m u n 4
+
+
+MO
+RMON
+Source graphemes: e . ng @ . l a nd
+Roles: N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: j-i-ng 1 . g aa-k 3 . l aa n 4
+
+
+E
+NG@
+LAND
+Source graphemes: b @ . r o wn
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b ou 3 . l o ng 5
+
+
+B@
+ROWN
+Source graphemes: t u . r @ . k ey
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: t ou 2 . j i 5 . k ei 4
+
+
+TU
+R@
+KEY
+Source graphemes: l yo . n @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l ei 5 . ng o-ng 4
+
+
+LYO
+N@
+Source graphemes: m u . h a m . m a . d @
+Roles: O N . O N Cd . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: m u-k 6 . h o n 2 . m a-k 6 . d a-k 1
+
+
+MU
+HAM
+MA
+D@
+Source graphemes: h e . l @ . s i n . k i
+Roles: O N . O N . O N Cd . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: h a-k 1 . j i 5 . s a n 1 . g ei 1
+
+
+HE
+L@
+SIN
+KI
+Source graphemes: n o t . t i ng . h a m
+Roles: O N Cd . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n o k 6 . d i ng 6 . h aa m 4
+
+
+NOT
+TING
+HAM
+Source graphemes: g oe . t e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g o 1 . d a-k 1
+
+
+GOE
+TE
+Source graphemes: d @ . r uc . k e r
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d a-k 1 . l ou 5 . h a k 1
+
+
+D@
+RUC
+KER
+Source graphemes: d a . ll a . s @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d aa-t 6 . l aai 1 . s i 1
+
+
+DA
+LLA
+S@
+Source graphemes: h i . tl e . r @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h ei 1 . d a-k 6 . l a-k 6
+
+
+HI
+TLE
+R@
+Source graphemes: m as . s a . ch u . s etts
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: m aa 4 . s aa-t 3 . z yu 1 . c oi 3
+
+
+MAS
+SA
+CHU
+SETTS
+Source graphemes: b a . s @ . f @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . s i 1 . f u 1
+
+
+BA
+S@
+F@
+Source graphemes: ch ec . h e n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: c e 1 . s a n 4
+
+
+CHEC
+HEN
+Source graphemes: f @ . r a n . k @
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: f aa-t 3 . l aa n 4 . h a-k 1
+
+
+F@
+RAN
+K@
+Source graphemes: l eh . m a n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l eoi 4 . m aa n 6
+
+
+LEH
+MAN
+Source graphemes: f au . s @ . t @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: f au 4 . s i 6 . d a-k 1
+
+
+FAU
+S@
+T@
+Source graphemes: e . c ua . d o . r @
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa-k 1 . gw aa 1 . d o 1 . j i 5
+
+
+E
+CUA
+DO
+R@
+Source graphemes: cr @ . m e n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: k aa 1 . m u n 4
+
+
+CR@
+MEN
+Source graphemes: b os . s @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b o 1 . s i 6
+
+
+BOS
+S@
+Source graphemes: l o . t @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l o-k 3 . d a-k 6
+
+
+LO
+T@
+Source graphemes: n ew . f ou nd . l a nd
+Roles: O N . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n au 2 . f a n 1 . l aa n 4
+
+
+NEW
+FOUND
+LAND
+Source graphemes: p uer . t o
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b o 1 . d o 1
+
+
+PUER
+TO
+Source graphemes: m i n . n e . s o . t a
+Roles: O N Cd . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: m i ng 4 . n ei 4 . s ou 1 . d aa-t 6
+
+
+MIN
+NE
+SO
+TA
+Source graphemes: au . g u . s @ . t us
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: ou 3 . g u 2 . s i 1 . d ou 1
+
+
+AU
+GU
+S@
+TUS
+Source graphemes: l o ng . l ey
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l o ng 5 . l ei 6
+
+
+LONG
+LEY
+Source graphemes: j a . k ar . t a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: ng aa 5 . g aa 1 . d aa-t 6
+
+
+JA
+KAR
+TA
+Source graphemes: p a r . r ot . t @
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: p aa k 3 . l o 4 . d a-k 6
+
+
+PAR
+ROT
+T@
+Source graphemes: m a . r a . t o n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . l aai 1 . c u ng 4
+
+
+MA
+RA
+TON
+Source graphemes: p a . l e . st i . n e
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: b aa 1 . l a-k 6 . s i 1 . t aa-n 2
+
+
+PA
+LE
+STI
+NE
+Source graphemes: h il . l a . r y
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h ei 1 . l aai 1 . l ei 6
+
+
+HIL
+LA
+RY
+Source graphemes: b ah . r ai n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa 1 . l a m 4
+
+
+BAH
+RAIN
+Source graphemes: j @ . w @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j au 4 . t aai 3
+
+
+J@
+W@
+Source graphemes: l i . v e . rp ool
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l ei 6 . m a-t 6 . p ou 2
+
+
+LI
+VE
+RPOOL
+Source graphemes: d a . ph @ . n e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d aa-t 6 . f u 1 . n ei 4
+
+
+DA
+PH@
+NE
+Source graphemes: a . t @ . l a n . t a
+Roles: N . O N . O N Cd . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . d a-k 6 . l aa n 4 . d aai 6
+
+
+A
+T@
+LAN
+TA
+Source graphemes: d e . sch a mp . s @
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d i-k 6 . g a m 1 . s i 1
+
+
+DE
+SCHAMP
+S@
+Source graphemes: d el . l @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: d aai 3 . j i 5
+
+
+DEL
+L@
+Source graphemes: w a . t @ . rl oo
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w aa-t 6 . t i-t 3 . l ou 4
+
+
+WA
+T@
+RLOO
+Source graphemes: b @ . rg ar
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b ui 3 . g aa 1
+
+
+B@
+RGAR
+Source graphemes: s @ . dn ey
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s yu-t 3 . l ei 4
+
+
+S@
+DNEY
+Source graphemes: n ed . v e . d @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n ei 4 . w ai 4 . d a-k 6
+
+
+NED
+VE
+D@
+Source graphemes: wd e
+Roles: O N
+[]
+Source phonemes: 
+Target phonemes: w ai 4
+
+
+WDE
+Source graphemes: h o . l @ . m e . s @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: f u-k 1 . j i 5 . m o 1 . s i 1
+
+
+HO
+L@
+ME
+S@
+Source graphemes: k a . f @ . k a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: k aa 1 . f u 1 . k aa 1
+
+
+KA
+F@
+KA
+Source graphemes: w ar . s aw
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: w aa 4 . s aa 1
+
+
+WAR
+SAW
+Source graphemes: ch ar . l e . s @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: c aa 4 . j i 5 . s i 1
+
+
+CHAR
+LE
+S@
+Source graphemes: t @ . t a . w a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: a k 1 . t aai 3 . w aa 4
+
+
+T@
+TA
+WA
+Source graphemes: c @ . h a . n el
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h oe-ng 1 . n oi 6 . j i 4
+
+
+C@
+HA
+NEL
+Source graphemes: t @ . m @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: t o-ng 1 . m ou 5
+
+
+T@
+M@
+Source graphemes: a . nd e . s @
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: o-n 1 . d ai 6 . s i 1
+
+
+A
+NDE
+S@
+Source graphemes: g @ . r ee n . w i . ch @
+Roles: O N . O N Cd . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: g aa-k 3 . l a m 4 . w ai 1 . z i 6
+
+
+G@
+REEN
+WI
+CH@
+Source graphemes: m a . t @ . r a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . d a-k 6 . l aai 1
+
+
+MA
+T@
+RA
+Source graphemes: s @ . t e . ph e n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s i 2 . d ai 3 . f a n 1
+
+
+S@
+TE
+PHEN
+Source graphemes: w @ . l e . s @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w ai 1 . j i 5 . s i 6
+
+
+W@
+LE
+S@
+Source graphemes: d a . n ub
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: d o 1 . n ou 5
+
+
+DA
+NUB
+Source graphemes: p e . r @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b e 1 . l ei 4
+
+
+PE
+R@
+Source graphemes: b @ . r ya nt
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aai 3 . j a n 4
+
+
+B@
+RYANT
+Source graphemes: l i t . h u . n ia
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l aa p 6 . t ou 4 . j yu-n 2
+
+
+LIT
+HU
+NIA
+Source graphemes: s a . x o n . s @
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s aa-t 3 . h a k 1 . s eo-n 3
+
+
+SA
+XON
+S@
+Source graphemes: b a . gg i . o
+Roles: O N . O N . N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . z i 6 . ou 3
+
+
+BA
+GGI
+O
+Source graphemes: a . th e r . t o n
+Roles: N . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aai 6 . d a k 1 . d eo n 1
+
+
+A
+THER
+TON
+Source graphemes: c @ . r oa . t i . a
+Roles: O N . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: h a-k 1 . l o 4 . d ei 6 . aa 3
+
+
+C@
+ROA
+TI
+A
+Source graphemes: b ul . g a . r i . a
+Roles: O N . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: b ou 2 . g aa 1 . l ei 6 . aa 3
+
+
+BUL
+GA
+RI
+A
+Source graphemes: p @ . r a . g e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b ou 3 . l aai 1 . g aa-k 3
+
+
+P@
+RA
+GE
+Source graphemes: c @ . l ay
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h a-k 1 . l oi 4
+
+
+C@
+LAY
+Source graphemes: p i z . z @
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b i t 1 . s i-ng 3
+
+
+PIZ
+Z@
+Source graphemes: e . l @
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: aa-k 1 . j i 5
+
+
+E
+L@
+Source graphemes: a . s i . a
+Roles: N . O N . N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aa 3 . s ai 3 . aa 3
+
+
+A
+SI
+A
+Source graphemes: v o . d @ . k a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: f u-k 6 . d a-k 6 . g aa 1
+
+
+VO
+D@
+KA
+Source graphemes: n a . p @ . l e . s @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: n aa 5 . b a-t 1 . l a-k 6 . s i 1
+
+
+NA
+P@
+LE
+S@
+Source graphemes: m o . r o c . c o
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m o 1 . l o k 3 . g o 1
+
+
+MO
+ROC
+CO
+Source graphemes: r a . ph ae . l @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l aai 1 . f ei 1 . j i 5
+
+
+RA
+PHAE
+L@
+Source graphemes: r i . o . s @
+Roles: O N . N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l ei 5 . ou 3 . s i 1
+
+
+RI
+O
+S@
+Source graphemes: c af . f e . n e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g aa 3 . f e 1 . j a-n 1
+
+
+CAF
+FE
+NE
+Source graphemes: r o t . t e r . d a m
+Roles: O N Cd . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l u k 6 . d a k 6 . d aa n 1
+
+
+ROT
+TER
+DAM
+Source graphemes: m e . lb ou . rn e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m a-k 6 . j i 5 . b u-n 2
+
+
+ME
+LBOU
+RNE
+Source graphemes: b e c . kh a m
+Roles: O N Cd . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b i k 1 . h aa m 4
+
+
+BEC
+KHAM
+Source graphemes: h id . d i n . k @
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h ei 1 . d i n 1 . h a-k 1
+
+
+HID
+DIN
+K@
+Source graphemes: g a . ll u . p @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g oi 3 . l o-k 3 . p ou 2
+
+
+GA
+LLU
+P@
+Source graphemes: m a . l @ . t a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . j i 5 . t aa 1
+
+
+MA
+L@
+TA
+Source graphemes: v o l . t @
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: f u k 6 . d a-k 6
+
+
+VOL
+T@
+Source graphemes: s @ . m i . th @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s i 2 . m a-t 6 . s i 1
+
+
+S@
+MI
+TH@
+Source graphemes: e t . h io . p i . a
+Roles: N Cd . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: j i 1 . s o-k 3 . b ei 2 . aa 3
+
+
+ET
+HIO
+PI
+A
+Source graphemes: sch u . b e . rt @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s yu 1 . b aa-k 3 . d a-k 6
+
+
+SCHU
+BE
+RT@
+Source graphemes: n e . l @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: n ei 4 . j i 5
+
+
+NE
+L@
+Source graphemes: n ew . c as . tl e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n au 2 . k aa 1 . s ou 3
+
+
+NEW
+CAS
+TLE
+Source graphemes: v a n . c ou . v e
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w a n 1 . g o 1 . w aa 4
+
+
+VAN
+COU
+VE
+Source graphemes: m a . d @ . r id
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . d a-k 1 . l ei 5
+
+
+MA
+D@
+RID
+Source graphemes: w i . l @ . s o n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w ai 1 . j i 5 . s eo n 3
+
+
+WI
+L@
+SON
+Source graphemes: c @ . r u . z @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h a-k 1 . l ou 2 . z i 1
+
+
+C@
+RU
+Z@
+Source graphemes: wl @ . l y
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: w ai 1 . l ei 6
+
+
+WL@
+LY
+Source graphemes: h ol . l a nd
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h o 4 . l aa n 4
+
+
+HOL
+LAND
+Source graphemes: a . rl i ng . t o n
+Roles: N . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aa 3 . l i ng 4 . d eo n 6
+
+
+A
+RLING
+TON
+Source graphemes: m o . rg a n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m o 1 . g a n 1
+
+
+MO
+RGAN
+Source graphemes: ch @ . r ys . l e . r @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: h a-k 1 . l oi 4 . s i 1 . l a-k 6
+
+
+CH@
+RYS
+LE
+R@
+Source graphemes: g e . r @ . mn i c
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: j a-t 6 . j i 5 . m aa n 6
+
+
+GE
+R@
+MNIC
+Source graphemes: c o n . n ec . t i . c u t
+Roles: O N Cd . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: h o ng 1 . n aai 5 . d i-k 6 . h a k 1
+
+
+CON
+NEC
+TI
+CUT
+Source graphemes: b e . rm u . d a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa-k 3 . m ou 6 . d aa-t 6
+
+
+BE
+RMU
+DA
+Source graphemes: b a . lf ou . r @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . f u 3 . j i 5
+
+
+BA
+LFOU
+R@
+Source graphemes: m ar . s @ . h all
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . h i-t 3 . j i 5
+
+
+MAR
+S@
+HALL
+Source graphemes: p a nc . k e
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa n 1 . k i-k 1
+
+
+PANC
+KE
+Source graphemes: m a . s @ . t e r
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m aa 5 . s i 1 . d a k 6
+
+
+MA
+S@
+TER
+Source graphemes: t e n . n e . ss e
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: t i n 4 . n aa-p 6 . s ai 1
+
+
+TEN
+NE
+SSE
+Source graphemes: b o . r @ . d eaux
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b o 1 . j i 5 . d o 1
+
+
+BO
+R@
+DEAUX
+Source graphemes: a . d a m . s @
+Roles: N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aa 3 . d o ng 1 . s i 1
+
+
+A
+DAM
+S@
+Source graphemes: wt @ . t @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: ng aa 5 . d a-k 6
+
+
+WT@
+T@
+Source graphemes: h @ . nr y
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h a-ng 1 . l ei 6
+
+
+H@
+NRY
+Source graphemes: jc @ . k @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g i-t 6 . h a-k 1
+
+
+JC@
+K@
+Source graphemes: h e . b @ . r e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h ei 1 . b aa-k 3 . l oi 4
+
+
+HE
+B@
+RE
+Source graphemes: aus . t @ . r ia
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: ou 3 . d ei 6 . l ei 6
+
+
+AUS
+T@
+RIA
+Source graphemes: a . rms @ . tr o . ng @
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . m ou 5 . s i 1 . z o-ng 3
+
+
+A
+RMS@
+TRO
+NG@
+Source graphemes: a . z e . rb ai . j a n
+Roles: N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . c oi 3 . b aai 3 . g oe ng 1
+
+
+A
+ZE
+RBAI
+JAN
+Source graphemes: f e . rn a n . d e . z @
+Roles: O N . O N Cd . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: f ai 3 . n aa m 4 . d a-k 1 . z i 1
+
+
+FE
+RNAN
+DE
+Z@
+Source graphemes: r a . v e . l @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l aai 1 . w ai 1 . j i 5
+
+
+RA
+VE
+L@
+Source graphemes: a . ms @ . t e . r @ . d a m
+Roles: N . O N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  .  . 
+Target phonemes: aa 3 . m ou 5 . s i 1 . d a-k 6 . d aa n 1
+
+
+A
+MS@
+TE
+R@
+DAM
+Source graphemes: b u . sh @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b ou 3 . s yu 4
+
+
+BU
+SH@
+Source graphemes: a . lg ie . r @ . s @
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . j i 5 . k a-p 6 . j i 5
+
+
+A
+LGIE
+R@
+S@
+Source graphemes: n a . s @ . d a . q @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: n aa-p 6 . s i 1 . d aa-t 6 . h a-k 1
+
+
+NA
+S@
+DA
+Q@
+Source graphemes: v a . n i . k @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: ng aa 5 . n ei 4 . h a-k 1
+
+
+VA
+NI
+K@
+Source graphemes: e . dw a . rd @
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: oi 3 . d a-k 1 . w aa 4
+
+
+E
+DWA
+RD@
+Source graphemes: au . g u . s @ . t @
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: ou 3 . g u 2 . s i 1 . d a-k 6
+
+
+AU
+GU
+S@
+T@
+Source graphemes: b oh . r @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b o 1 . j i 5
+
+
+BOH
+R@
+Source graphemes: th a . tch e . r @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d aai 3 . c oe-k 3 . j i 5
+
+
+THA
+TCHE
+R@
+Source graphemes: h u n . t @
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h a ng 1 . d a-k 6
+
+
+HUN
+T@
+Source graphemes: cr @ . t oo n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: k aa 1 . t u ng 1
+
+
+CR@
+TOON
+Source graphemes: d ort . m u n . d @
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d o 1 . m u ng 4 . d a-k 6
+
+
+DORT
+MUN
+D@
+Source graphemes: m oh . s @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m o 1 . s i 6
+
+
+MOH
+S@
+Source graphemes: b a . s e . l @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . c oi 3 . j i 5
+
+
+BA
+SE
+L@
+Source graphemes: h e . m i n . gw ay
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h oi 2 . m i ng 4 . w ai 1
+
+
+HE
+MIN
+GWAY
+Source graphemes: n e . p a . l @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n ei 4 . b o-k 6 . j i 5
+
+
+NE
+PA
+L@
+Source graphemes: c a . st @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: k aa 1 . s i 6
+
+
+CA
+ST@
+Source graphemes: d @ . s @ . n ey
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d i-k 6 . s i 6 . n ei 4
+
+
+D@
+S@
+NEY
+Source graphemes: a . s @ . p i . r i n
+Roles: N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . s i 1 . p a-t 1 . l a m 4
+
+
+A
+S@
+PI
+RIN
+Source graphemes: c a . r i b . b ean
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g aa 1 . l a k 6 . b ei 2
+
+
+CA
+RIB
+BEAN
+Source graphemes: k a . r oh . s @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: k aa 1 . l o 4 . s i 1
+
+
+KA
+ROH
+S@
+Source graphemes: p @ . l a . t o
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: p aa-k 3 . l aai 1 . t ou 4
+
+
+P@
+LA
+TO
+Source graphemes: b ec . k @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b ui 3 . h a-k 1
+
+
+BEC
+K@
+Source graphemes: t o . l @ . s @ . t oy
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: t o-k 3 . j i 5 . s i 1 . t aai 3
+
+
+TO
+L@
+S@
+TOY
+Source graphemes: f i n . l a nd
+Roles: O N Cd . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: f a n 1 . l aa n 4
+
+
+FIN
+LAND
+Source graphemes: b ag . hd a . d @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b aa 1 . g aa-k 3 . d aa-t 6
+
+
+BAG
+HDA
+D@
+Source graphemes: c ya n . id
+Roles: O N Cd . N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s aa n 1 . aai 1
+
+
+CYAN
+ID
+Source graphemes: p o . t @ . sd a m
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: b o 1 . c i 4 . t aa n 2
+
+
+PO
+T@
+SDAM
+Source graphemes: c @ . r e . t e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h a-k 1 . l ei 5 . d a-k 6
+
+
+C@
+RE
+TE
+Source graphemes: w a . ll oo n
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: ng aa 5 . l u ng 4
+
+
+WA
+LLOON
+Source graphemes: e . l io . t @
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aai 6 . l oe-k 6 . d a-k 6
+
+
+E
+LIO
+T@
+Source graphemes: a . l @ . b a . n i . a
+Roles: N . O N . O N . O N . N
+[]
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  .  . 
+Target phonemes: aa 3 . j i 5 . b aa 1 . n ei 4 . aa 3
+
+
+A
+L@
+BA
+NI
+A
+Source graphemes: k @ . w ai . t @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: f o 1 . w ai 1 . d a-k 6
+
+
+K@
+WAI
+T@
+Source graphemes: s a n . t a . n a
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s o ng 1 . t aa-p 3 . n aa-p 6
+
+
+SAN
+TA
+NA
+Source graphemes: m i . c ael
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m ai 5 . g ou 1
+
+
+MI
+CAEL
+Source graphemes: w i m . bl e . d o n
+Roles: O N Cd . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w a n 1 . b ou 3 . d eo n 6
+
+
+WIM
+BLE
+DON
+Source graphemes: h ig . gs @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h ei 1 . g aa-k 3
+
+
+HIG
+GS@
+Source graphemes: ai . ds @
+Roles: N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: oi 3 . z i 1
+
+
+AI
+DS@
+Source graphemes: h e . g e . l @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h a-k 1 . g aa-k 3 . j i 5
+
+
+HE
+GE
+L@
+Source graphemes: n u . r e m . b erg
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: n au 2 . l eo n 4 . b ou 2
+
+
+NU
+REM
+BERG
+Source graphemes: d @ . s @ . t i n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d a-k 1 . s i 1 . d i ng 1
+
+
+D@
+S@
+TIN
+Source graphemes: c ar . t e r
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: k aa 1 . d a k 6
+
+
+CAR
+TER
+Source graphemes: m ic . k @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m ai 5 . h a-k 1
+
+
+MIC
+K@
+Source graphemes: b oein . g @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b o 1 . j a-m 1
+
+
+BOEIN
+G@
+Source graphemes: c ar . l o . s @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: k aa 1 . l o-k 3 . s i 1
+
+
+CAR
+LO
+S@
+Source graphemes: d a s . h iel . l @
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d aa t 6 . h ei 1 . j i 5
+
+
+DAS
+HIEL
+L@
+Source graphemes: l u m . p ur
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l u ng 4 . b o 1
+
+
+LUM
+PUR
+Source graphemes: t o . r @ . nt o
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d o 1 . l eo-n 4 . d o 1
+
+
+TO
+R@
+NTO
+Source graphemes: h u n . t @ . l ey
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h a ng 1 . d a-k 6 . l ei 6
+
+
+HUN
+T@
+LEY
+Source graphemes: m a . ld i . v e . s @
+Roles: O N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: m aa 5 . j i 5 . d oi 6 . f u 1
+
+
+MA
+LDI
+VE
+S@
+Source graphemes: d e . r @ . b a n
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: d a-k 1 . j i 5 . b aa n 1
+
+
+DE
+R@
+BAN
+Source graphemes: c a mp . s a . n o
+Roles: O N Cd . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: h a m 2 . s aa 1 . n o-k 6
+
+
+CAMP
+SA
+NO
+Source graphemes: th e . ns @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: ng aa 5 . d i-n 2
+
+
+THE
+NS@
+Source graphemes: g @ . r ee n . s @ . p a n
+Roles: O N . O N Cd . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: g aa-k 3 . l a m 4 . s i 1 . p u n 1
+
+
+G@
+REEN
+S@
+PAN
+Source graphemes: e . l @ . d o n
+Roles: N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aai 6 . j i 5 . d eo n 1
+
+
+E
+L@
+DON
+Source graphemes: a . ndr ee s . s e n
+Roles: N . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: o-n 1 . d a k 1 . s a ng 1
+
+
+A
+NDREES
+SEN
+Source graphemes: b aye . r @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aai 3 . j a-n 4
+
+
+BAYE
+R@
+Source graphemes: v e . n @ . s @
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w ai 4 . n aa-p 6 . s i 1
+
+
+VE
+N@
+S@
+Source graphemes: m at . th e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: m aa 5 . t aai 2
+
+
+MAT
+THE
+Source graphemes: l u . t e r
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: l ou 6 . d a k 1
+
+
+LU
+TER
+Source graphemes: j @ . hn @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: j oe-k 3 . h o-n 6
+
+
+J@
+HN@
+Source graphemes: p @ . r us . s i
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: p ou 2 . l ou 5 . s i 6
+
+
+P@
+RUS
+SI
+Source graphemes: ch e v . r @ . l e t
+Roles: O N Cd . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: s yu t 3 . f a-t 6 . l aa n 4
+
+
+CHEV
+R@
+LET
+Source graphemes: v a . l @ . s e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w aa 4 . j i 5 . z i 1
+
+
+VA
+L@
+SE
+Source graphemes: p @ . r @ . nc e . t o n
+Roles: O N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: p ou 2 . l a-m 4 . s i 1 . d eo n 6
+
+
+P@
+R@
+NCE
+TON
+Source graphemes: ar . m e . n i . a
+Roles: N . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . m ei 5 . n ei 4 . aa 3
+
+
+AR
+ME
+NI
+A
+Source graphemes: d @ . nm a rk
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: d aa-n 1 . m a k 6
+
+
+D@
+NMARK
+Source graphemes: l u . x e m . b ourg
+Roles: O N . O N Cd . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: l ou 4 . s a m 1 . b ou 2
+
+
+LU
+XEM
+BOURG
+Source graphemes: j e . p @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g a-t 1 . p ou 2
+
+
+JE
+P@
+Source graphemes: a . b @ . r a . h a m
+Roles: N . O N . O N . O N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . b aa-k 3 . l aai 1 . h o n 5
+
+
+A
+B@
+RA
+HAM
+Source graphemes: s u r . r ey
+Roles: O N Cd . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: s aa t 3 . l ei 5
+
+
+SUR
+REY
+Source graphemes: eic . h e . l @
+Roles: N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: aai 6 . h i-t 3 . j i 5
+
+
+EIC
+HE
+L@
+Source graphemes: v ie . n @ . n a
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w ai 4 . j aa 5 . n aa-p 6
+
+
+VIE
+N@
+NA
+Source graphemes: o . l y m . p i . cs @
+Roles: N . O N Cd . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: ou 3 . l a m 4 . p a-t 1 . h a-k 1
+
+
+O
+LYM
+PI
+CS@
+Source graphemes: w il . l ia m
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: w ai 1 . l i m 4
+
+
+WIL
+LIAM
+Source graphemes: ch o . c ol . t e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: z yu 1 . g u 2 . l i-k 6
+
+
+CHO
+COL
+TE
+Source graphemes: d ou . g @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: d ou 6 . g aa-k 3
+
+
+DOU
+G@
+Source graphemes: k a . r @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: k aa 1 . j i 5
+
+
+KA
+R@
+Source graphemes: c of . f e
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: g aa 3 . f e 1
+
+
+COF
+FE
+Source graphemes: b ar . b ie
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b aa 1 . b ei 2
+
+
+BAR
+BIE
+Source graphemes: h ar . t @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: h aa 1 . d a-k 6
+
+
+HAR
+T@
+Source graphemes: w a . sh i ng . t o n
+Roles: O N . O N Cd . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: w aa 4 . s i ng 6 . d eo n 6
+
+
+WA
+SHING
+TON
+Source graphemes: g @ . r as . s e
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g aa-k 3 . l aai 1 . s i 1
+
+
+G@
+RAS
+SE
+Source graphemes: a . bk @ . h a . z i
+Roles: N . O N . O N . O N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: aa 3 . b ou 3 . h aa 1 . z i 1
+
+
+A
+BK@
+HA
+ZI
+Source graphemes: p ud . d i ng
+Roles: O N . O N Cd
+[]
+[]
+Source phonemes:  . 
+Target phonemes: b ou 3 . d i ng 1
+
+
+PUD
+DING
+Source graphemes: m i . d @ . l a nd
+Roles: O N . O N . O N Cd
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m ai 5 . d a-k 6 . l aa n 4
+
+
+MI
+D@
+LAND
+Source graphemes: g ot . h e . nb urg
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: g o 1 . d a-k 1 . b ou 2
+
+
+GOT
+HE
+NBURG
+Source graphemes: sh a . k es . p ear . e
+Roles: O N . O N . O N . N
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: s aa 1 . s i 6 . b ei 2 . aa 3
+
+
+SHA
+KES
+PEAR
+E
+Source graphemes: t oe . f @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: t o-k 3 . f u-k 1
+
+
+TOE
+F@
+Source graphemes: c @ . hr @ . t i . e n
+Roles: O N . O N . O N . N Cd
+[]
+[]
+[]
+[]
+Source phonemes:  .  .  . 
+Target phonemes: h a-k 1 . l eoi 4 . d ai 3 . o n 1
+
+
+C@
+HR@
+TI
+EN
+Source graphemes: m o . s @ . c o
+Roles: O N . O N . O N
+[]
+[]
+[]
+Source phonemes:  .  . 
+Target phonemes: m o-k 6 . s i 1 . f o 1
+
+
+MO
+S@
+CO
+Source graphemes: z eu . s @
+Roles: O N . O N
+[]
+[]
+Source phonemes:  . 
+Target phonemes: z au 6 . s i 1
+
+
+ZEU
+S@
+Source graphemes: s u . d a n
+Roles: O N . O N Cd
+['S', 'UW']
+['D', 'AE', 'N']
+Source phonemes: S - UW . D - AE - N
+Target phonemes: s ou 1 . d aa n 1
+
+
+Source graphemes: ae . g ea n
+Roles: N . O N Cd
+['']
+['G', '', 'N']
+Source phonemes:  . G -  - N
+Target phonemes: oi 3 . k a m 4
+
+
+Source graphemes: s e . g a
+Roles: O N . O N
+['S', '']
+['G', 'AA']
+Source phonemes: S -  . G - AA
+Target phonemes: s ai 3 . g aa 1
+
+
+Source graphemes: e . l e . n a
+Roles: N . O N . O N
+['']
+['L', 'AX']
+['N', 'AA']
+Source phonemes:  . L - AX . N - AA
+Target phonemes: j-i 2 . l i-n 4 . n aa 4
+
+
+Source graphemes: m a . l ay . a
+Roles: O N . O N . N
+['M', 'AA']
+['L', 'EY']
+['AX']
+Source phonemes: M - AA . L - EY . AX
+Target phonemes: m aa 5 . l oi 4 . aa 3
+
+
+Source graphemes: s ei . n e
+Roles: O N . O N
+['S', 'EY']
+['N', '']
+Source phonemes: S - EY . N - 
+Target phonemes: c oi 3 . n aa-p 6
+
+
+Source graphemes: j a . m ai . c a
+Roles: O N . O N . O N
+['Y', 'AA']
+['M', 'AY']
+['K', 'AX']
+Source phonemes: Y - AA . M - AY . K - AX
+Target phonemes: ng aa 4 . m aai 5 . g aa 1
+
+
+Source graphemes: p a . r is
+Roles: O N . O N
+['P', 'AA']
+['R', 'IX']
+Source phonemes: P - AA . R - IX
+Target phonemes: b aa 1 . l ai 4
+
+
+Source graphemes: m a . l i
+Roles: O N . O N
+['M', 'AA']
+['L', 'IY']
+Source phonemes: M - AA . L - IY
+Target phonemes: m aa 5 . l ei 6
+
+
+Source graphemes: m a . r i . o
+Roles: O N . O N . N
+['M', 'AA']
+['R', 'IY']
+['OW']
+Source phonemes: M - AA . R - IY . OW
+Target phonemes: m aa 5 . l ei 5 . ou 3
+
+
+Source graphemes: k a . r a
+Roles: O N . O N
+['K', 'AA']
+['R', 'AX']
+Source phonemes: K - AA . R - AX
+Target phonemes: k aa 1 . l aai 1
+
+
+Source graphemes: p o . s e
+Roles: O N . O N
+['P', 'OW']
+['S', '']
+Source phonemes: P - OW . S - 
+Target phonemes: p ou 3 . s i 6
+
+
+Source graphemes: c ai . r o
+Roles: O N . O N
+['K', 'AY']
+['R', 'OW']
+Source phonemes: K - AY . R - OW
+Target phonemes: h oi 1 . l o 4
+
+
+Source graphemes: r i . l ey
+Roles: O N . O N
+['R', 'IY']
+['L', 'EY']
+Source phonemes: R - IY . L - EY
+Target phonemes: l oi 4 . l ei 6
+
+
+Source graphemes: i . nd i . a n
+Roles: N . O N . N Cd
+['AY']
+['N', 'IY']
+['AE', 'N']
+Source phonemes: AY . N - IY . AE - N
+Target phonemes: j-a-n 3 . d ai 6 . o n 1
+
+
+Source graphemes: f a . s o
+Roles: O N . O N
+['F', 'AX']
+['S', 'OW']
+Source phonemes: F - AX . S - OW
+Target phonemes: f aa-t 3 . s o-k 3
+
+
+Source graphemes: r i . c a
+Roles: O N . O N
+['R', 'IY']
+['K', 'AX']
+Source phonemes: R - IY . K - AX
+Target phonemes: l ai 6 . g aa 1
+
+
+Source graphemes: s o . n a r
+Roles: O N . O N Cd
+['S', 'OW']
+['N', 'AX', 'R']
+Source phonemes: S - OW . N - AX - R
+Target phonemes: s i-ng 1 . n aa p 6
+
+
+Source graphemes: s a . l ad
+Roles: O N . O N
+['S', 'AA']
+['L', 'AE']
+Source phonemes: S - AA . L - AE
+Target phonemes: s aa 1 . l aai 1
+
+
+Source graphemes: e . mm a . n uel
+Roles: N . O N . O N
+['']
+['M', 'AX']
+['N', 'W']
+Source phonemes:  . M - AX . N - W
+Target phonemes: aai 6 . m aa-n 6 . n ou 4
+
+
+Source graphemes: ye . m e n
+Roles: N . O N Cd
+['Y']
+['M', 'EH', 'N']
+Source phonemes: Y . M - EH - N
+Target phonemes: j-aa 5 . m u n 4
+
+
+Source graphemes: p a . n a . m a
+Roles: O N . O N . O N
+['P', 'AA']
+['N', 'AA']
+['M', 'AA']
+Source phonemes: P - AA . N - AA . M - AA
+Target phonemes: b aa 1 . n aa 4 . m aa 5
+
+
+Source graphemes: sh ea
+Roles: O N
+['SH', 'AX']
+Source phonemes: SH - AX
+Target phonemes: s aa 1
+
+
+Source graphemes: g ui . t ar
+Roles: O N . O N
+['G', 'IY']
+['T', 'AA']
+Source phonemes: G - IY . T - AA
+Target phonemes: g a-t 1 . t aa 1
+
+
+Source graphemes: s a n
+Roles: O N Cd
+['S', 'AE', 'N']
+Source phonemes: S - AE - N
+Target phonemes: s i ng 3
+
+
+Source graphemes: c o . l a
+Roles: O N . O N
+['K', 'OW']
+['L', 'AA']
+Source phonemes: K - OW . L - AA
+Target phonemes: h o 2 . l o-k 6
+
+
+Source graphemes: w e b
+Roles: O N Cd
+['W', 'EH', 'BD']
+Source phonemes: W - EH - BD
+Target phonemes: m o ng 5
+
+
+Source graphemes: p o . k e r
+Roles: O N . O N Cd
+['P', 'OW']
+['K', 'AX', 'R']
+Source phonemes: P - OW . K - AX - R
+Target phonemes: p o-k 3 . h a k 1
+
+
+Source graphemes: m i . a . m i
+Roles: O N . N . O N
+['M', 'IY']
+['AX']
+['M', 'IY']
+Source phonemes: M - IY . AX . M - IY
+Target phonemes: m aai 6 . aa 3 . m a-t 6
+
+
+Source graphemes: ph a . r aoh
+Roles: O N . O N
+['F', 'AA']
+['R', 'OW']
+Source phonemes: F - AA . R - OW
+Target phonemes: f aa-t 3 . l ou 5
+
+
+Source graphemes: j e . s us
+Roles: O N . O N
+['JH', 'AX']
+['S', 'AH']
+Source phonemes: JH - AX . S - AH
+Target phonemes: j e 4 . s ou 1
+
+
+Source graphemes: h a . g e n
+Roles: O N . O N Cd
+['HH', 'AA']
+['JH', 'AX', 'N']
+Source phonemes: HH - AA . JH - AX - N
+Target phonemes: h aa 1 . g a n 1
+
+
+Source graphemes: e . l i . z a . b e th
+Roles: N . O N . O N . O N Cd
+['']
+['L', 'IY']
+['Z', 'AX']
+['B', 'EH', 'TH']
+Source phonemes:  . L - IY . Z - AX . B - EH - TH
+Target phonemes: j-i 1 . l ei 6 . s aa 1 . b aa k 6
+
+
+Source graphemes: t u . n a
+Roles: O N . O N
+['T', 'UW']
+['N', 'AA']
+Source phonemes: T - UW . N - AA
+Target phonemes: t a-n 1 . n aa 4
+
+
+Source graphemes: p e . r u
+Roles: O N . O N
+['P', '']
+['R', 'UW']
+Source phonemes: P -  . R - UW
+Target phonemes: b ei 3 . l ou 5
+
+
+Source graphemes: u . t ah
+Roles: N . O N
+['AH']
+['T', 'AA']
+Source phonemes: AH . T - AA
+Target phonemes: j-au 4 . t aa 1
+
+
+Source graphemes: b i . k i . n i
+Roles: O N . O N . O N
+['B', 'AY']
+['K', 'IY']
+['N', 'IY']
+Source phonemes: B - AY . K - IY . N - IY
+Target phonemes: b ei 2 . g ei 1 . n ei 4
+
+
+Source graphemes: l a . t i n
+Roles: O N . O N Cd
+['L', 'AA']
+['T', 'IH', 'N']
+Source phonemes: L - AA . T - IH - N
+Target phonemes: l aai 1 . d i ng 1
+
+
+Source graphemes: t ay . l o r
+Roles: O N . O N Cd
+['T', 'EY']
+['L', 'AX', 'R']
+Source phonemes: T - EY . L - AX - R
+Target phonemes: t aai 3 . l a k 6
+
+
+Source graphemes: k a . r a . j a n
+Roles: O N . O N . O N Cd
+['K', 'AA']
+['R', 'AX']
+['JH', 'AE', 'N']
+Source phonemes: K - AA . R - AX . JH - AE - N
+Target phonemes: k aa 1 . l aai 1 . j oe ng 4
+
+
+Source graphemes: n i . c a . r a . g ua
+Roles: O N . O N . O N . O N
+['N', 'IY']
+['K', 'AX']
+['R', 'AX']
+['G', 'W']
+Source phonemes: N - IY . K - AX . R - AX . G - W
+Target phonemes: n ei 4 . g aa 1 . l aai 1 . gw aa 1
+
+
+Source graphemes: s o . d a
+Roles: O N . O N
+['S', 'OW']
+['D', 'AA']
+Source phonemes: S - OW . D - AA
+Target phonemes: s ou 1 . d aa 2
+
+
+Source graphemes: t a . x i
+Roles: O N . O N
+['T', 'AA']
+['S', 'IY']
+Source phonemes: T - AA . S - IY
+Target phonemes: d i-k 1 . s i 6
+
+
+Source graphemes: h u t
+Roles: O N Cd
+['HH', 'AH', 'TD']
+Source phonemes: HH - AH - TD
+Target phonemes: h aa k 3
+
+
+Source graphemes: i . d a . h o
+Roles: N . O N . O N
+['AY']
+['D', 'AA']
+['HH', 'OW']
+Source phonemes: AY . D - AA . HH - OW
+Target phonemes: oi 3 . d aa-t 6 . h o 4
+
+
+Source graphemes: h e . l e n
+Roles: O N . O N Cd
+['HH', 'IY']
+['L', 'EH', 'N']
+Source phonemes: HH - IY . L - EH - N
+Target phonemes: h oi 2 . l eo n 4
+
+
+Source graphemes: a . s e . a n
+Roles: N . O N . N Cd
+['AX']
+['S', '']
+['AE', 'N']
+Source phonemes: AX . S -  . AE - N
+Target phonemes: aa 3 . s ai 3 . o n 1
+
+
+Source graphemes: s ar
+Roles: O N
+['S', 'AA']
+Source phonemes: S - AA
+Target phonemes: s aa 1
+
+
+Source graphemes: e . mm a
+Roles: N . O N
+['']
+['M', 'AX']
+Source phonemes:  . M - AX
+Target phonemes: aai 6 . m aa 5
+
+
+Source graphemes: n a . p o . l eo n
+Roles: O N . O N . O N Cd
+['N', 'AA']
+['P', 'OW']
+['L', 'IY', 'N']
+Source phonemes: N - AA . P - OW . L - IY - N
+Target phonemes: n aa 4 . p o 3 . l eo n 4
+
+
+Source graphemes: york
+Roles: N
+['Y']
+Source phonemes: Y
+Target phonemes: j-oe-k 3
+
+
+Source graphemes: w o rld
+Roles: O N Cd
+['W', 'EH', 'R']
+Source phonemes: W - EH - R
+Target phonemes: m aa n 6
+
+
+Source graphemes: ya . l e
+Roles: N . O N
+['Y']
+['L', 'AX']
+Source phonemes: Y . L - AX
+Target phonemes: j-e 4 . l ou 5
+
+
+Source graphemes: m e . x i . c o
+Roles: O N . O N . O N
+['M', 'IY']
+['S', 'IY']
+['K', 'OW']
+Source phonemes: M - IY . S - IY . K - OW
+Target phonemes: m a-k 6 . s ai 1 . g o 1
+
+
+Source graphemes: m a . r y . l a nd
+Roles: O N . O N . O N Cd
+['M', 'AA']
+['R', 'IY']
+['L', 'AE', 'N']
+Source phonemes: M - AA . R - IY . L - AE - N
+Target phonemes: m aa 5 . l ei 5 . l aa n 4
+
+
+Source graphemes: a . nn a
+Roles: N . O N
+['AX']
+['N', 'AX']
+Source phonemes: AX . N - AX
+Target phonemes: o-n 1 . n aa 4
+
+
+Source graphemes: c o . r a . z o n
+Roles: O N . O N . O N Cd
+['K', 'OW']
+['R', 'AX']
+['Z', 'AA', 'N']
+Source phonemes: K - OW . R - AX . Z - AA - N
+Target phonemes: f o 1 . l aai 1 . s o ng 1
+
+
+Source graphemes: d u . q ue
+Roles: O N . O N
+['D', 'UW']
+['K', 'Y']
+Source phonemes: D - UW . K - Y
+Target phonemes: d ou 6 . g ei 1
+
+
+Source graphemes: v a n
+Roles: O N Cd
+['V', 'AE', 'N']
+Source phonemes: V - AE - N
+Target phonemes: w a n 4
+
+
+Source graphemes: s au . d i
+Roles: O N . O N
+['S', 'AO']
+['D', 'IY']
+Source phonemes: S - AO . D - IY
+Target phonemes: s aa 1 . d a-k 6
+
+
+Source graphemes: b ye
+Roles: O N
+['B', 'AY']
+Source phonemes: B - AY
+Target phonemes: b aai 3
+
+
+Source graphemes: n i . l e
+Roles: O N . O N
+['N', 'IY']
+['L', 'AX']
+Source phonemes: N - IY . L - AX
+Target phonemes: n ei 4 . l o 4
+
+
+Source graphemes: a . r a . b ia
+Roles: N . O N . O N
+['AX']
+['R', 'AX']
+['B', 'AY']
+Source phonemes: AX . R - AX . B - AY
+Target phonemes: aa 3 . l aai 1 . b aa-k 3
+
+
+Source graphemes: h ai . t i
+Roles: O N . O N
+['HH', 'AY']
+['T', 'IY']
+Source phonemes: HH - AY . T - IY
+Target phonemes: h oi 2 . d ei 6
+
+
+Source graphemes: c o . c oa
+Roles: O N . O N
+['K', 'OW']
+['K', 'OW']
+Source phonemes: K - OW . K - OW
+Target phonemes: h o 2 . h o 2
+
+
+Source graphemes: b e . r i ng
+Roles: O N . O N Cd
+['B', 'IY']
+['R', 'IH', 'NG']
+Source phonemes: B - IY . R - IH - NG
+Target phonemes: b aa-k 6 . l i ng 6
+
+
+Source graphemes: g e . n e . v a
+Roles: O N . O N . O N
+['JH', '']
+['N', '']
+['V', 'AX']
+Source phonemes: JH -  . N -  . V - AX
+Target phonemes: j a-t 6 . n oi 6 . ng aa 5
+
+
+Source graphemes: m i . n i
+Roles: O N . O N
+['M', 'IY']
+['N', 'IY']
+Source phonemes: M - IY . N - IY
+Target phonemes: m ai 4 . n ei 5
+
+
+Source graphemes: p e . s o
+Roles: O N . O N
+['P', '']
+['S', 'OW']
+Source phonemes: P -  . S - OW
+Target phonemes: p ei 1 . s o-k 3
+
+
+Source graphemes: i . r e . l a nd
+Roles: N . O N . O N Cd
+['AY']
+['R', 'EY']
+['L', 'AE', 'N']
+Source phonemes: AY . R - EY . L - AE - N
+Target phonemes: oi 3 . j i 5 . l aa n 4
+
+
+Source graphemes: n ew
+Roles: O N
+['N', 'UW']
+Source phonemes: N - UW
+Target phonemes: n au 2
+
+
+Source graphemes: r o . m e
+Roles: O N . O N
+['R', 'OW']
+['M', 'IY']
+Source phonemes: R - OW . M - IY
+Target phonemes: l o 4 . m aa 5
+
+
+Source graphemes: p oo . l e
+Roles: O N . O N
+['P', 'UW']
+['L', 'AX']
+Source phonemes: P - UW . L - AX
+Target phonemes: p ou 2 . j i 5
+
+
+Source graphemes: i . v e
+Roles: N . O N
+['AY']
+['V', '']
+Source phonemes: AY . V - 
+Target phonemes: aai 6 . f u 1
+
+
+Source graphemes: e . d e n
+Roles: N . O N Cd
+['']
+['D', 'EH', 'N']
+Source phonemes:  . D - EH - N
+Target phonemes: j-i 1 . d i n 1
+
+
+Source graphemes: m e . o . l a
+Roles: O N . N . O N
+['M', 'IY']
+['OW']
+['L', 'AA']
+Source phonemes: M - IY . OW . L - AA
+Target phonemes: m ai 5 . ou 3 . l aai 1
+
+
+Source graphemes: t a . g o . r e
+Roles: O N . O N . O N
+['T', 'AA']
+['G', 'OW']
+['R', 'EY']
+Source phonemes: T - AA . G - OW . R - EY
+Target phonemes: t aai 3 . gw o 1 . j i 5
+
+
+Source graphemes: b o . h e . m i . a
+Roles: O N . O N . O N . N
+['B', 'OW']
+['HH', 'IY']
+['M', 'IY']
+['AX']
+Source phonemes: B - OW . HH - IY . M - IY . AX
+Target phonemes: b o 1 . h ei 1 . m ai 5 . aa 3
+
+
+Source graphemes: g o . l a n
+Roles: O N . O N Cd
+['G', 'OW']
+['L', 'AE', 'N']
+Source phonemes: G - OW . L - AE - N
+Target phonemes: gw o 1 . l aa n 4
+
+
+Source graphemes: m a . r y
+Roles: O N . O N
+['M', 'AA']
+['R', 'IY']
+Source phonemes: M - AA . R - IY
+Target phonemes: m aa 5 . l ei 6
+
+
+Source graphemes: h a . v a . n a
+Roles: O N . O N . O N
+['HH', 'AA']
+['V', 'AX']
+['N', 'AA']
+Source phonemes: HH - AA . V - AX . N - AA
+Target phonemes: h aa 1 . ng aa 5 . n aa 5
+
+
+Source graphemes: c ae . s a r
+Roles: O N . O N Cd
+['S', 'EY']
+['S', 'AA', 'R']
+Source phonemes: S - EY . S - AA - R
+Target phonemes: h oi 2 . s aa t 3
+
+
+Source graphemes: r oo . n ey
+Roles: O N . O N
+['R', 'UW']
+['N', 'EY']
+Source phonemes: R - UW . N - EY
+Target phonemes: l o-ng 5 . n ei 4
+
+
+Source graphemes: g a . l i . l eo
+Roles: O N . O N . O N
+['G', 'AA']
+['L', 'IY']
+['L', 'IY']
+Source phonemes: G - AA . L - IY . L - IY
+Target phonemes: g aa 1 . l ei 6 . l oe-k 6
+
+
+Source graphemes: r i . c o
+Roles: O N . O N
+['R', 'IY']
+['K', 'OW']
+Source phonemes: R - IY . K - OW
+Target phonemes: l ai 4 . g o-k 3
+
+
+Source graphemes: o . nt a . r io
+Roles: N . O N . O N
+['OW']
+['N', 'AX']
+['R', 'IY']
+Source phonemes: OW . N - AX . R - IY
+Target phonemes: o-n 1 . d aai 6 . l oe-k 6
+
+
+Source graphemes: l eo . n e
+Roles: O N . O N
+['L', 'IY']
+['N', '']
+Source phonemes: L - IY . N - 
+Target phonemes: l ei 6 . ng o-ng 4
+
+
+Source graphemes: a . l a . b a . m a
+Roles: N . O N . O N . O N
+['AX']
+['L', 'AA']
+['B', 'AX']
+['M', 'AA']
+Source phonemes: AX . L - AA . B - AX . M - AA
+Target phonemes: aa 3 . l aai 1 . b aa 1 . m aa 5
+
+
+Source graphemes: b a . r o . q ue
+Roles: O N . O N . O N
+['B', 'AX']
+['R', 'OW']
+['K', 'Y']
+Source phonemes: B - AX . R - OW . K - Y
+Target phonemes: b aa 1 . l o-k 3 . h a-k 1
+
+
+Source graphemes: k o . s o . v o
+Roles: O N . O N . O N
+['K', 'OW']
+['S', 'OW']
+['V', 'OW']
+Source phonemes: K - OW . S - OW . V - OW
+Target phonemes: f o 1 . s o-k 3 . j u-k 1
+
+
+Source graphemes: l e . b a . n o n
+Roles: O N . O N . O N Cd
+['L', 'AX']
+['B', 'AX']
+['N', 'AA', 'N']
+Source phonemes: L - AX . B - AX . N - AA - N
+Target phonemes: l ai 4 . b aa 1 . n yu n 6
+
+
+Source graphemes: au . l e
+Roles: N . O N
+['OW']
+['L', 'AX']
+Source phonemes: OW . L - AX
+Target phonemes: ou 3 . l i-k 6
+
+
+Source graphemes: p i ng
+Roles: O N Cd
+['P', 'IH', 'NG']
+Source phonemes: P - IH - NG
+Target phonemes: b i ng 1
+
+
+Source graphemes: r o . b i n
+Roles: O N . O N Cd
+['R', 'OW']
+['B', 'IH', 'N']
+Source phonemes: R - OW . B - IH - N
+Target phonemes: l o 4 . b a n 1
+
+
+Source graphemes: f i . g a . r o
+Roles: O N . O N . O N
+['F', 'AY']
+['G', 'AA']
+['R', 'OW']
+Source phonemes: F - AY . G - AA . R - OW
+Target phonemes: f ai 3 . g aa 1 . l o 4
+
+
+Source graphemes: l e . m o n
+Roles: O N . O N Cd
+['L', 'AX']
+['M', 'OW', 'N']
+Source phonemes: L - AX . M - OW - N
+Target phonemes: n i-ng 4 . m u ng 1
+
+
+Source graphemes: n o . k i . a
+Roles: O N . O N . N
+['N', 'OW']
+['K', 'IY']
+['AX']
+Source phonemes: N - OW . K - IY . AX
+Target phonemes: n o-k 6 . g ei 1 . aa 3
+
+
+Source graphemes: c o . l o . r a . d o
+Roles: O N . O N . O N . O N
+['K', 'OW']
+['L', 'OW']
+['R', 'AX']
+['D', 'UW']
+Source phonemes: K - OW . L - OW . R - AX . D - UW
+Target phonemes: f o 1 . l o 4 . l aai 1 . d o 1
+
+
+Source graphemes: n e . v a . d a
+Roles: O N . O N . O N
+['N', '']
+['V', 'AX']
+['D', 'AA']
+Source phonemes: N -  . V - AX . D - AA
+Target phonemes: n oi 6 . w aa 4 . d aa-t 6
+
+
+Source graphemes: e . th er
+Roles: N . O N
+['']
+['DH', 'AXR']
+Source phonemes:  . DH - AXR
+Target phonemes: j-i 5 . t aai 3
+
+
+Source graphemes: a . nd e r
+Roles: N . O N Cd
+['AX']
+['N', 'AX', 'R']
+Source phonemes: AX . N - AX - R
+Target phonemes: o-n 1 . d a k 1
+
+
+Source graphemes: b o . g o . t a
+Roles: O N . O N . O N
+['B', 'OW']
+['G', 'OW']
+['T', 'AA']
+Source phonemes: B - OW . G - OW . T - AA
+Target phonemes: b o 1 . g o 1 . d aai 6
+
+
+Source graphemes: g o . r e
+Roles: O N . O N
+['G', 'OW']
+['R', 'EY']
+Source phonemes: G - OW . R - EY
+Target phonemes: gw o 1 . j i 5
+
+
+Source graphemes: c o . l e
+Roles: O N . O N
+['K', 'OW']
+['L', 'AX']
+Source phonemes: K - OW . L - AX
+Target phonemes: g ou 1 . j i 5
+
+
+Source graphemes: o . p iu m
+Roles: N . O N Cd
+['OW']
+['P', 'IY', 'M']
+Source phonemes: OW . P - IY - M
+Target phonemes: aa 1 . p i n 3
+
+
+Source graphemes: k o . p eck
+Roles: O N . O N
+['K', 'OW']
+['P', 'EH']
+Source phonemes: K - OW . P - EH
+Target phonemes: gw o 1 . b ei 2
+
+
+Source graphemes: s a . h a . r a
+Roles: O N . O N . O N
+['S', 'AA']
+['HH', 'AA']
+['R', 'AX']
+Source phonemes: S - AA . HH - AA . R - AX
+Target phonemes: s aa-t 3 . h aa 1 . l aai 1
+
+
+Source graphemes: i . r a n
+Roles: N . O N Cd
+['AY']
+['R', 'AE', 'N']
+Source phonemes: AY . R - AE - N
+Target phonemes: j-i 1 . l o ng 5
+
+
+Source graphemes: a . rs e . n al
+Roles: N . O N . O N
+['AX']
+['R', '']
+['N', 'AX']
+Source phonemes: AX . R -  . N - AX
+Target phonemes: aa 3 . s i-n 1 . n ou 4
+
+
+Source graphemes: m o . s es
+Roles: O N . O N
+['M', 'OW']
+['S', 'AX']
+Source phonemes: M - OW . S - AX
+Target phonemes: m o 1 . s ai 1
+
+
+Source graphemes: p e . t e r
+Roles: O N . O N Cd
+['P', '']
+['T', 'EH', 'R']
+Source phonemes: P -  . T - EH - R
+Target phonemes: b ei 2 . d a k 1
+
+
+Source graphemes: k o . b e
+Roles: O N . O N
+['K', 'OW']
+['B', 'IY']
+Source phonemes: K - OW . B - IY
+Target phonemes: g ou 1 . b ei 2
+
+
+Source graphemes: g e . n e
+Roles: O N . O N
+['JH', '']
+['N', '']
+Source phonemes: JH -  . N - 
+Target phonemes: g ei 1 . j a-n 1
+
+
+Source graphemes: d i . a . n a
+Roles: O N . N . O N
+['D', 'IY']
+['AX']
+['N', 'AA']
+Source phonemes: D - IY . AX . N - AA
+Target phonemes: d aai 3 . o-n 1 . n aa 4
+
+
+Source graphemes: ch ee . s e
+Roles: O N . O N
+['CH', '']
+['S', '']
+Source phonemes: CH -  . S - 
+Target phonemes: z i 1 . s i 6
+
+
+Source graphemes: c a . m e . r a
+Roles: O N . O N . O N
+['K', 'AX']
+['M', 'IY']
+['R', 'AX']
+Source phonemes: K - AX . M - IY . R - AX
+Target phonemes: h oi 1 . m a-k 6 . l aa 1
+
+
+Source graphemes: b a . r i
+Roles: O N . O N
+['B', 'AX']
+['R', 'IY']
+Source phonemes: B - AX . R - IY
+Target phonemes: b aa 1 . l ei 5
+
+
+Source graphemes: g a . t es
+Roles: O N . O N
+['G', 'AA']
+['T', 'TS']
+Source phonemes: G - AA . T - TS
+Target phonemes: g oi 3 . c i 4
+
+
+Source graphemes: m i . l a n
+Roles: O N . O N Cd
+['M', 'IY']
+['L', 'AE', 'N']
+Source phonemes: M - IY . L - AE - N
+Target phonemes: m ai 5 . l aa n 4
+
+
+Source graphemes: h a . n oi
+Roles: O N . O N
+['HH', 'AA']
+['N', 'OY']
+Source phonemes: HH - AA . N - OY
+Target phonemes: h o 4 . n oi 6
+
+
+Source graphemes: n a . z i
+Roles: O N . O N
+['N', 'AA']
+['Z', 'IY']
+Source phonemes: N - AA . Z - IY
+Target phonemes: n aa-p 6 . s eoi 3
+
+
+Source graphemes: l i . b y . a
+Roles: O N . O N . N
+['L', 'IY']
+['B', 'AY']
+['AX']
+Source phonemes: L - IY . B - AY . AX
+Target phonemes: l ei 6 . b ei 2 . aa 3
+
+
+Source graphemes: d ow
+Roles: O N
+['D', 'AW']
+Source phonemes: D - AW
+Target phonemes: d ou 6
+
+
+Source graphemes: g ul . l a n
+Roles: O N . O N Cd
+['G', 'AH']
+['L', 'AE', 'N']
+Source phonemes: G - AH . L - AE - N
+Target phonemes: g u 2 . l aa n 4
+
+
+Source graphemes: h y . s @ . t e . r i
+Roles: O N . O N . O N . O N
+['HH', 'AY']
+['S', '']
+['T', 'IY']
+['R', 'IY']
+Source phonemes: HH - AY . S -  . T - IY . R - IY
+Target phonemes: h i-t 3 . s i 1 . d ai 2 . l ei 5
+
+
+Source graphemes: ch e . v @ . r o n
+Roles: O N . O N . O N Cd
+['CH', 'EY']
+['V', '']
+['R', 'AA', 'N']
+Source phonemes: CH - EY . V -  . R - AA - N
+Target phonemes: s yu-t 3 . f a-t 6 . l u ng 4
+
+
+Source graphemes: r o . b e . rt @
+Roles: O N . O N . O N
+['R', 'OW']
+['B', 'IY']
+['R', '']
+Source phonemes: R - OW . B - IY . R - 
+Target phonemes: l o 4 . b aa-k 3 . d a-k 6
+
+
+Source graphemes: i . nd o . n e . s i . a
+Roles: N . O N . O N . O N . N
+['AY']
+['N', 'OW']
+['N', '']
+['S', 'IY']
+['AX']
+Source phonemes: AY . N - OW . N -  . S - IY . AX
+Target phonemes: j-a-n 3 . d ou 6 . n ei 4 . s ai 1 . aa 3
+
+
+Source graphemes: b o . s @ . n i . a
+Roles: O N . O N . O N . N
+['B', 'OW']
+['S', '']
+['N', 'IY']
+['AX']
+Source phonemes: B - OW . S -  . N - IY . AX
+Target phonemes: b o 1 . s i 1 . n ei 4 . aa 3
+
+
+Source graphemes: t a n . z @ . n i . a
+Roles: O N Cd . O N . O N . N
+['T', 'AE', 'N']
+['Z', '']
+['N', 'IY']
+['AX']
+Source phonemes: T - AE - N . Z -  . N - IY . AX
+Target phonemes: t aa n 2 . s o-ng 1 . n ei 4 . aa 3
+
+
+Source graphemes: o . s @ . l o
+Roles: N . O N . O N
+['OW']
+['S', '']
+['L', 'OW']
+Source phonemes: OW . S -  . L - OW
+Target phonemes: ou 3 . s i 1 . l u-k 6
+
+
+Source graphemes: b ur . k i . n a
+Roles: O N . O N . O N
+['B', 'B']
+['K', 'IY']
+['N', 'AA']
+Source phonemes: B - B . K - IY . N - AA
+Target phonemes: b ou 3 . g ei 1 . n aa-p 6
+
+
+Source graphemes: r o . m a n . t i . c @
+Roles: O N . O N Cd . O N . O N
+['R', 'OW']
+['M', 'AE', 'N']
+['T', 'IY']
+['K', '']
+Source phonemes: R - OW . M - AE - N . T - IY . K - 
+Target phonemes: l o 4 . m aa n 6 . d ai 3 . h a-k 1
+
+
+Source graphemes: m u s . s o . l i . n i
+Roles: O N Cd . O N . O N . O N
+['M', 'IX', 'S']
+['S', 'OW']
+['L', 'IY']
+['N', 'IY']
+Source phonemes: M - IX - S . S - OW . L - IY . N - IY
+Target phonemes: m a k 6 . s o-k 3 . l ei 5 . n ei 4
+
+
+Source graphemes: e . ng @ . l ish
+Roles: N . O N . O N
+['']
+['NG', '']
+['L', 'IX']
+Source phonemes:  . NG -  . L - IX
+Target phonemes: j-i-ng 1 . g a-t 1 . l ei 6
+
+
+Source graphemes: r i . fl @
+Roles: O N . O N
+['R', 'IY']
+['F', '']
+Source phonemes: R - IY . F - 
+Target phonemes: l oi 4 . f u-k 1
+
+
+Source graphemes: h i . l @ . t o n
+Roles: O N . O N . O N Cd
+['HH', 'AY']
+['L', '']
+['T', 'AH', 'N']
+Source phonemes: HH - AY . L -  . T - AH - N
+Target phonemes: h ei 1 . j i 5 . d eo n 6
+
+
+Source graphemes: h e r . tz @
+Roles: O N Cd . O N
+['HH', '', 'R']
+['TS', '']
+Source phonemes: HH -  - R . TS - 
+Target phonemes: h a k 1 . z i 1
+
+
+Source graphemes: s i n . g a . pr e
+Roles: O N Cd . O N . O N
+['S', 'IH', 'N']
+['G', 'AA']
+['P', 'IY']
+Source phonemes: S - IH - N . G - AA . P - IY
+Target phonemes: s a n 1 . g aa 1 . b o 1
+
+
+Source graphemes: p e n . ns y l . v a . n i . a
+Roles: O N Cd . O N Cd . O N . O N . N
+['P', 'EH', 'N']
+['N', 'IX', 'L']
+['V', 'AX']
+['N', 'IY']
+['AX']
+Source phonemes: P - EH - N . N - IX - L . V - AX . N - IY . AX
+Target phonemes: b a n 1 . z i k 6 . f aa-t 3 . n ei 4 . aa 3
+
+
+Source graphemes: j e . s @ . sc a
+Roles: O N . O N . O N
+['JH', 'AX']
+['S', '']
+['S', 'AX']
+Source phonemes: JH - AX . S -  . S - AX
+Target phonemes: g i-t 3 . s ai 1 . k aa 1
+
+
+Source graphemes: c a m . b o . d i
+Roles: O N Cd . O N . O N
+['K', 'AE', 'M']
+['B', 'OW']
+['D', 'IY']
+Source phonemes: K - AE - M . B - OW . D - IY
+Target phonemes: g aa n 2 . b ou 3 . z aai 6
+
+
+Source graphemes: n o . rm a n . d y
+Roles: O N . O N Cd . O N
+['N', 'OW']
+['R', 'AX', 'N']
+['D', 'IY']
+Source phonemes: N - OW . R - AX - N . D - IY
+Target phonemes: n o-k 6 . m aa n 6 . d ai 6
+
+
+Source graphemes: m i . l o . s e . v i . c @
+Roles: O N . O N . O N . O N . O N
+['M', 'IY']
+['L', 'OW']
+['S', '']
+['V', 'IY']
+['K', '']
+Source phonemes: M - IY . L - OW . S -  . V - IY . K - 
+Target phonemes: m ai 5 . l o-k 3 . s e 2 . w ai 4 . k ei 4
+
+
+Source graphemes: auc . k @ . l a nd
+Roles: N . O N . O N Cd
+['AA']
+['K', '']
+['L', 'AE', 'N']
+Source phonemes: AA . K -  . L - AE - N
+Target phonemes: ou 3 . h aa-k 1 . l aa n 4
+
+
+Source graphemes: h a m . b urg
+Roles: O N Cd . O N
+['HH', 'AE', 'M']
+['B', 'ER']
+Source phonemes: HH - AE - M . B - ER
+Target phonemes: h o n 3 . b ou 2
+
+
+Source graphemes: c o n . g o
+Roles: O N Cd . O N
+['K', 'AA', 'N']
+['G', 'OW']
+Source phonemes: K - AA - N . G - OW
+Target phonemes: g o ng 1 . gw o 2
+
+
+Source graphemes: p o . l @
+Roles: O N . O N
+['P', 'OW']
+['L', '']
+Source phonemes: P - OW . L - 
+Target phonemes: b o 1 . j i 5
+
+
+Source graphemes: c o . l u m . b us
+Roles: O N . O N Cd . O N
+['K', 'OW']
+['L', 'AH', 'M']
+['B', 'AH']
+Source phonemes: K - OW . L - AH - M . B - AH
+Target phonemes: g o 1 . l eo n 4 . b ou 3
+
+
+Source graphemes: b e . nz @
+Roles: O N . O N
+['B', 'IY']
+['N', '']
+Source phonemes: B - IY . N - 
+Target phonemes: b a-n 1 . c i 4
+
+
+Source graphemes: c a . s @ . t il . l o
+Roles: O N . O N . O N . O N
+['K', 'AX']
+['S', '']
+['T', 'IH']
+['L', 'OW']
+Source phonemes: K - AX . S -  . T - IH . L - OW
+Target phonemes: k aa 1 . s i 1 . d ai 3 . l o 4
+
+
+Source graphemes: a . l @ . c a . t e l
+Roles: N . O N . O N . O N Cd
+['AX']
+['L', '']
+['K', 'AX']
+['T', 'EH', 'L']
+Source phonemes: AX . L -  . K - AX . T - EH - L
+Target phonemes: aa 3 . j i 5 . k aa 1 . d a k 6
+
+
+Source graphemes: g o . rs @ . t @
+Roles: O N . O N . O N
+['G', 'OW']
+['R', '']
+['T', '']
+Source phonemes: G - OW . R -  . T - 
+Target phonemes: gw o 1 . s i 1 . d a-k 6
+
+
+Source graphemes: p a . k i . s @ . t a n
+Roles: O N . O N . O N . O N Cd
+['P', 'AA']
+['K', 'IY']
+['S', '']
+['T', 'AE', 'N']
+Source phonemes: P - AA . K - IY . S -  . T - AE - N
+Target phonemes: b aa 1 . g ei 1 . s i 1 . t aa n 2
+
+
+Source graphemes: n a . ld o
+Roles: O N . O N
+['N', 'AA']
+['L', 'OW']
+Source phonemes: N - AA . L - OW
+Target phonemes: n aa 4 . d ou 6
+
+
+Source graphemes: m i . cr o p . h o n
+Roles: O N . O N Cd . O N Cd
+['M', 'IY']
+['K', 'AA', 'PD']
+['HH', 'AA', 'N']
+Source phonemes: M - IY . K - AA - PD . HH - AA - N
+Target phonemes: m a-k 1 . h a k 1 . f u ng 1
+
+
+Source graphemes: b @ . l i . r @
+Roles: O N . O N . O N
+['B', '']
+['L', 'IY']
+['R', '']
+Source phonemes: B -  . L - IY . R - 
+Target phonemes: b ui 3 . l ei 5 . ng aa 5
+
+
+Source graphemes: s o . r o . s @
+Roles: O N . O N . O N
+['S', 'OW']
+['R', 'OW']
+['S', '']
+Source phonemes: S - OW . R - OW . S - 
+Target phonemes: s o-k 3 . l o 4 . s i 1
+
+
+Source graphemes: au . s @ . t i n
+Roles: N . O N . O N Cd
+['OW']
+['S', '']
+['T', 'IH', 'N']
+Source phonemes: OW . S -  . T - IH - N
+Target phonemes: ou 3 . s i 1 . t i ng 1
+
+
+Source graphemes: jz @ . z @
+Roles: O N . O N
+['JH', '']
+['Z', '']
+Source phonemes: JH -  . Z - 
+Target phonemes: z oe-k 3 . s i 6
+
+
+Source graphemes: h ar . v a rd
+Roles: O N . O N Cd
+['HH', 'AA']
+['V', 'AA', 'R']
+Source phonemes: HH - AA . V - AA - R
+Target phonemes: h aa 1 . f a t 6
+
+
+Source graphemes: d i c . k e n . s @
+Roles: O N Cd . O N Cd . O N
+['D', 'IH', 'KD']
+['K', 'EH', 'N']
+['S', '']
+Source phonemes: D - IH - KD . K - EH - N . S - 
+Target phonemes: d i k 6 . g a ng 1 . s i 1
+
+
+Source graphemes: b ul . l @
+Roles: O N . O N
+['B', 'UH']
+['L', '']
+Source phonemes: B - UH . L - 
+Target phonemes: b aa 3 . l i-ng 4
+
+
+Source graphemes: b eet . h o . v e n
+Roles: O N . O N . O N Cd
+['B', 'IY']
+['HH', 'OW']
+['V', 'AX', 'N']
+Source phonemes: B - IY . HH - OW . V - AX - N
+Target phonemes: b ui 3 . d o 1 . f a n 1
+
+
+Source graphemes: m o . z a r . t @
+Roles: O N . O N Cd . O N
+['M', 'OW']
+['Z', 'AA', 'R']
+['T', '']
+Source phonemes: M - OW . Z - AA - R . T - 
+Target phonemes: m o-k 6 . z aa t 3 . d a-k 6
+
+
+Source graphemes: n o . b @ . l @
+Roles: O N . O N . O N
+['N', 'OW']
+['B', '']
+['L', '']
+Source phonemes: N - OW . B -  . L - 
+Target phonemes: n o-k 6 . b ui 3 . j i 5
+
+
+Source graphemes: c o . s @ . t a
+Roles: O N . O N . O N
+['K', 'OW']
+['S', '']
+['T', 'AA']
+Source phonemes: K - OW . S -  . T - AA
+Target phonemes: g o 1 . s i 1 . d aa-t 6
+
+
+Source graphemes: m i . l @ . t o n
+Roles: O N . O N . O N Cd
+['M', 'IY']
+['L', '']
+['T', 'AH', 'N']
+Source phonemes: M - IY . L -  . T - AH - N
+Target phonemes: m a-t 6 . j i 5 . d eo n 6
+
+
+Source graphemes: a . p ol . l o . n i
+Roles: N . O N . O N . O N
+['AX']
+['P', 'AO']
+['L', 'OW']
+['N', 'IY']
+Source phonemes: AX . P - AO . L - OW . N - IY
+Target phonemes: aa 3 . b ou 3 . l u-ng 4 . n ei 4
+
+
+Source graphemes: b uc . k @ . l ey
+Roles: O N . O N . O N
+['B', 'AH']
+['K', '']
+['L', 'EY']
+Source phonemes: B - AH . K -  . L - EY
+Target phonemes: b aa 1 . h a-k 1 . l ei 6
+
+
+Source graphemes: b u . r u n . d @
+Roles: O N . O N Cd . O N
+['B', 'UW']
+['R', 'AH', 'N']
+['D', '']
+Source phonemes: B - UW . R - AH - N . D - 
+Target phonemes: b ou 3 . l u ng 4 . d i-k 6
+
+
+Source graphemes: m e . d @ . vh @
+Roles: O N . O N . O N
+['M', 'IY']
+['D', '']
+['V', '']
+Source phonemes: M - IY . D -  . V - 
+Target phonemes: m a-k 6 . d i-k 6 . m a-n 4
+
+
+Source graphemes: p e p . s i
+Roles: O N Cd . O N
+['P', 'EH', 'PD']
+['S', 'IY']
+Source phonemes: P - EH - PD . S - IY
+Target phonemes: b aa k 3 . s i 6
+
+
+Source graphemes: b i n . g o
+Roles: O N Cd . O N
+['B', 'IH', 'N']
+['G', 'OW']
+Source phonemes: B - IH - N . G - OW
+Target phonemes: b a n 1 . gw o 2
+
+
+Source graphemes: g @ . r a . f @
+Roles: O N . O N . O N
+['NG', '']
+['R', 'AX']
+['F', '']
+Source phonemes: NG -  . R - AX . F - 
+Target phonemes: g o-t 3 . l aai 1 . f u 4
+
+
+Source graphemes: w a . l @ . tz @
+Roles: O N . O N . O N
+['W', 'AA']
+['L', '']
+['TS', '']
+Source phonemes: W - AA . L -  . TS - 
+Target phonemes: w aa 4 . j i 5 . z i 1
+
+
+Source graphemes: b e . l @ . f a . s @ . t @
+Roles: O N . O N . O N . O N . O N
+['B', 'IY']
+['L', '']
+['F', 'AX']
+['S', '']
+['T', '']
+Source phonemes: B - IY . L -  . F - AX . S -  . T - 
+Target phonemes: b ui 3 . j i 5 . f aa-t 3 . s i 1 . d a-k 6
+
+
+Source graphemes: c o . p e . rnc us
+Roles: O N . O N . O N
+['K', 'OW']
+['P', '']
+['R', 'AX']
+Source phonemes: K - OW . P -  . R - AX
+Target phonemes: g o 1 . b aa-k 6 . n ei 4
+
+
+Source graphemes: h u . x @ . l e
+Roles: O N . O N . O N
+['HH', 'UW']
+['K', '']
+['L', 'AX']
+Source phonemes: HH - UW . K -  . L - AX
+Target phonemes: h a-k 1 . s eoi 1 . l ai 4
+
+
+Source graphemes: w el . l i ng . t o n
+Roles: O N . O N Cd . O N Cd
+['W', 'AX']
+['L', 'IH', 'NG']
+['T', 'AH', 'N']
+Source phonemes: W - AX . L - IH - NG . T - AH - N
+Target phonemes: w ai 6 . l i ng 4 . d eo n 6
+
+
+Source graphemes: n i . g e . r @
+Roles: O N . O N . O N
+['N', 'IY']
+['JH', '']
+['R', '']
+Source phonemes: N - IY . JH -  . R - 
+Target phonemes: n ei 4 . j a-t 6 . j i 5
+
+
+Source graphemes: sw eat . sh i rt
+Roles: O N . O N Cd
+['S', 'EH']
+['SH', 'EH', 'R']
+Source phonemes: S - EH . SH - EH - R
+Target phonemes: b o 1 . s eo t 1
+
+
+Source graphemes: b a . l @ . k a n
+Roles: O N . O N . O N Cd
+['B', 'AX']
+['L', '']
+['K', 'AE', 'N']
+Source phonemes: B - AX . L -  . K - AE - N
+Target phonemes: b aa 1 . j i 5 . g o n 3
+
+
+Source graphemes: v e . g a . s @
+Roles: O N . O N . O N
+['V', '']
+['G', 'AA']
+['S', '']
+Source phonemes: V -  . G - AA . S - 
+Target phonemes: w ai 4 . g aa 1 . s i 1
+
+
+Source graphemes: a . l e . x a n . d er
+Roles: N . O N . O N Cd . O N
+['AX']
+['L', 'AX']
+['G', 'AX', 'N']
+['D', 'AXR']
+Source phonemes: AX . L - AX . G - AX - N . D - AXR
+Target phonemes: aa 3 . l i-k 6 . s aa n 1 . d aai 6
+
+
+Source graphemes: th i n . n e
+Roles: O N Cd . O N
+['TH', 'IH', 'N']
+['N', '']
+Source phonemes: TH - IH - N . N - 
+Target phonemes: t i n 1 . n aa 4
+
+
+Source graphemes: m ar . k @
+Roles: O N . O N
+['M', 'AA']
+['K', '']
+Source phonemes: M - AA . K - 
+Target phonemes: m aa 5 . h a-k 1
+
+
+Source graphemes: b @ . nn y
+Roles: O N . O N
+['B', '']
+['N', 'IY']
+Source phonemes: B -  . N - IY
+Target phonemes: b aa-n 1 . n ei 4
+
+
+Source graphemes: e . ng i n
+Roles: N . O N Cd
+['']
+['N', 'IX', 'N']
+Source phonemes:  . N - IX - N
+Target phonemes: j-a-n 5 . k i ng 4
+
+
+Source graphemes: c y . p @ . r u . s @
+Roles: O N . O N . O N . O N
+['S', 'AY']
+['P', '']
+['R', 'UW']
+['S', '']
+Source phonemes: S - AY . P -  . R - UW . S - 
+Target phonemes: c oi 3 . p ou 2 . l ou 6 . s i 1
+
+
+Source graphemes: a . r a . f a . t @
+Roles: N . O N . O N . O N
+['AX']
+['R', 'AX']
+['F', 'AX']
+['T', '']
+Source phonemes: AX . R - AX . F - AX . T - 
+Target phonemes: aa 3 . l aai 1 . f aa-t 3 . d a-k 6
+
+
+Source graphemes: n o . rm a n
+Roles: O N . O N Cd
+['N', 'OW']
+['R', 'AX', 'N']
+Source phonemes: N - OW . R - AX - N
+Target phonemes: n o-k 6 . m aa n 6
+
+
+Source graphemes: a . d @ . r iat . ic
+Roles: N . O N . O N . N
+['AX']
+['D', '']
+['R', 'IY']
+['IH']
+Source phonemes: AX . D -  . R - IY . IH
+Target phonemes: aa 3 . d a-k 1 . l ei 5 . aa 3
+
+
+Source graphemes: op . p e n . h ei . m e r
+Roles: N . O N Cd . O N . O N Cd
+['AA']
+['P', 'EH', 'N']
+['HH', 'EY']
+['M', 'EH', 'AXR']
+Source phonemes: AA . P - EH - N . HH - EY . M - EH - AXR
+Target phonemes: au 1 . b u n 2 . h oi 2 . m a k 6
+
+
+Source graphemes: m a c . c a . rth y
+Roles: O N Cd . O N . O N
+['M', 'AE', 'KD']
+['K', 'AX']
+['R', 'IY']
+Source phonemes: M - AE - KD . K - AX . R - IY
+Target phonemes: m a k 6 . k aa 1 . s e-k 6
+
+
+Source graphemes: k e n . t u c . k y
+Roles: O N Cd . O N Cd . O N
+['K', 'EH', 'N']
+['T', 'AH', 'KD']
+['K', 'AY']
+Source phonemes: K - EH - N . T - AH - KD . K - AY
+Target phonemes: h a ng 2 . t aa p 3 . g ei 1
+
+
+Source graphemes: l @ . nc o ln
+Roles: O N . O N Cd
+['L', '']
+['NG', 'AX', 'N']
+Source phonemes: L -  . NG - AX - N
+Target phonemes: l a-m 4 . h a ng 2
+
+
+Source graphemes: g eor . g e
+Roles: O N . O N
+['JH', 'AXR']
+['JH', '']
+Source phonemes: JH - AXR . JH - 
+Target phonemes: k iu 4 . z i 6
+
+
+Source graphemes: k @ . n i m
+Roles: O N . O N Cd
+['K', '']
+['N', 'IH', 'M']
+Source phonemes: K -  . N - IH - M
+Target phonemes: h a-k 1 . n i ng 4
+
+
+Source graphemes: d ou . g @ . l a . s @
+Roles: O N . O N . O N . O N
+['D', 'UW']
+['NG', '']
+['L', 'AA']
+['S', '']
+Source phonemes: D - UW . NG -  . L - AA . S - 
+Target phonemes: d ou 6 . g aa-k 3 . l aai 1 . s i 1
+
+
+Source graphemes: g o . rd o n
+Roles: O N . O N Cd
+['G', 'OW']
+['R', 'AA', 'N']
+Source phonemes: G - OW . R - AA - N
+Target phonemes: gw o 1 . d a ng 1
+
+
+Source graphemes: m u . n ic . h @
+Roles: O N . O N . O N
+['M', 'UW']
+['N', 'IH']
+['HH', '']
+Source phonemes: M - UW . N - IH . HH - 
+Target phonemes: m ou 6 . n ei 4 . h a-k 1
+
+
+Source graphemes: m o . rm o n
+Roles: O N . O N Cd
+['M', 'OW']
+['R', 'AX', 'N']
+Source phonemes: M - OW . R - AX - N
+Target phonemes: m o 1 . m u n 4
+
+
+Source graphemes: e . ng @ . l a nd
+Roles: N . O N . O N Cd
+['']
+['NG', '']
+['L', 'AE', 'N']
+Source phonemes:  . NG -  . L - AE - N
+Target phonemes: j-i-ng 1 . g aa-k 3 . l aa n 4
+
+
+Source graphemes: b @ . r o wn
+Roles: O N . O N Cd
+['B', '']
+['R', 'OW', 'AW']
+Source phonemes: B -  . R - OW - AW
+Target phonemes: b ou 3 . l o ng 5
+
+
+Source graphemes: t u . r @ . k ey
+Roles: O N . O N . O N
+['T', 'UW']
+['R', '']
+['K', 'IY']
+Source phonemes: T - UW . R -  . K - IY
+Target phonemes: t ou 2 . j i 5 . k ei 4
+
+
+Source graphemes: l yo . n @
+Roles: O N . O N
+['L', 'AY']
+['N', '']
+Source phonemes: L - AY . N - 
+Target phonemes: l ei 5 . ng o-ng 4
+
+
+Source graphemes: m u . h a m . m a . d @
+Roles: O N . O N Cd . O N . O N
+['M', 'UW']
+['HH', 'AE', 'M']
+['M', 'AA']
+['D', '']
+Source phonemes: M - UW . HH - AE - M . M - AA . D - 
+Target phonemes: m u-k 6 . h o n 2 . m a-k 6 . d a-k 1
+
+
+Source graphemes: h e . l @ . s i n . k i
+Roles: O N . O N . O N Cd . O N
+['HH', 'IY']
+['L', '']
+['S', 'IH', 'N']
+['K', 'IY']
+Source phonemes: HH - IY . L -  . S - IH - N . K - IY
+Target phonemes: h a-k 1 . j i 5 . s a n 1 . g ei 1
+
+
+Source graphemes: n o t . t i ng . h a m
+Roles: O N Cd . O N Cd . O N Cd
+['N', 'AA', 'TD']
+['T', 'IH', 'NG']
+['HH', 'AE', 'M']
+Source phonemes: N - AA - TD . T - IH - NG . HH - AE - M
+Target phonemes: n o k 6 . d i ng 6 . h aa m 4
+
+
+Source graphemes: g oe . t e
+Roles: O N . O N
+['G', 'OW']
+['T', 'IY']
+Source phonemes: G - OW . T - IY
+Target phonemes: g o 1 . d a-k 1
+
+
+Source graphemes: d @ . r uc . k e r
+Roles: O N . O N . O N Cd
+['D', '']
+['R', 'AX']
+['K', 'AX', 'R']
+Source phonemes: D -  . R - AX . K - AX - R
+Target phonemes: d a-k 1 . l ou 5 . h a k 1
+
+
+Source graphemes: d a . ll a . s @
+Roles: O N . O N . O N
+['D', 'AA']
+['L', 'AX']
+['S', '']
+Source phonemes: D - AA . L - AX . S - 
+Target phonemes: d aa-t 6 . l aai 1 . s i 1
+
+
+Source graphemes: h i . tl e . r @
+Roles: O N . O N . O N
+['HH', 'AY']
+['TD', '']
+['R', '']
+Source phonemes: HH - AY . TD -  . R - 
+Target phonemes: h ei 1 . d a-k 6 . l a-k 6
+
+
+Source graphemes: m as . s a . ch u . s etts
+Roles: O N . O N . O N . O N
+['M', 'AA']
+['S', 'AA']
+['CH', 'UW']
+['S', 'EH']
+Source phonemes: M - AA . S - AA . CH - UW . S - EH
+Target phonemes: m aa 4 . s aa-t 3 . z yu 1 . c oi 3
+
+
+Source graphemes: b a . s @ . f @
+Roles: O N . O N . O N
+['B', 'AX']
+['S', '']
+['F', '']
+Source phonemes: B - AX . S -  . F - 
+Target phonemes: b aa 1 . s i 1 . f u 1
+
+
+Source graphemes: ch ec . h e n
+Roles: O N . O N Cd
+['CH', 'EH']
+['HH', 'EH', 'N']
+Source phonemes: CH - EH . HH - EH - N
+Target phonemes: c e 1 . s a n 4
+
+
+Source graphemes: f @ . r a n . k @
+Roles: O N . O N Cd . O N
+['F', '']
+['R', 'AE', 'N']
+['K', '']
+Source phonemes: F -  . R - AE - N . K - 
+Target phonemes: f aa-t 3 . l aa n 4 . h a-k 1
+
+
+Source graphemes: l eh . m a n
+Roles: O N . O N Cd
+['L', 'EH']
+['M', 'AE', 'N']
+Source phonemes: L - EH . M - AE - N
+Target phonemes: l eoi 4 . m aa n 6
+
+
+Source graphemes: f au . s @ . t @
+Roles: O N . O N . O N
+['F', 'OW']
+['S', '']
+['T', '']
+Source phonemes: F - OW . S -  . T - 
+Target phonemes: f au 4 . s i 6 . d a-k 1
+
+
+Source graphemes: e . c ua . d o . r @
+Roles: N . O N . O N . O N
+['']
+['K', 'AX']
+['D', 'UW']
+['R', '']
+Source phonemes:  . K - AX . D - UW . R - 
+Target phonemes: aa-k 1 . gw aa 1 . d o 1 . j i 5
+
+
+Source graphemes: cr @ . m e n
+Roles: O N . O N Cd
+['K', '']
+['M', 'EH', 'N']
+Source phonemes: K -  . M - EH - N
+Target phonemes: k aa 1 . m u n 4
+
+
+Source graphemes: b os . s @
+Roles: O N . O N
+['B', 'AA']
+['S', '']
+Source phonemes: B - AA . S - 
+Target phonemes: b o 1 . s i 6
+
+
+Source graphemes: l o . t @
+Roles: O N . O N
+['L', 'OW']
+['T', '']
+Source phonemes: L - OW . T - 
+Target phonemes: l o-k 3 . d a-k 6
+
+
+Source graphemes: n ew . f ou nd . l a nd
+Roles: O N . O N Cd . O N Cd
+['N', 'UW']
+['F', 'AW', 'N']
+['L', 'AE', 'N']
+Source phonemes: N - UW . F - AW - N . L - AE - N
+Target phonemes: n au 2 . f a n 1 . l aa n 4
+
+
+Source graphemes: p uer . t o
+Roles: O N . O N
+['P', 'W']
+['T', 'AX']
+Source phonemes: P - W . T - AX
+Target phonemes: b o 1 . d o 1
+
+
+Source graphemes: m i n . n e . s o . t a
+Roles: O N Cd . O N . O N . O N
+['M', 'IH', 'N']
+['N', '']
+['S', 'OW']
+['T', 'AA']
+Source phonemes: M - IH - N . N -  . S - OW . T - AA
+Target phonemes: m i ng 4 . n ei 4 . s ou 1 . d aa-t 6
+
+
+Source graphemes: au . g u . s @ . t us
+Roles: N . O N . O N . O N
+['OW']
+['G', 'UW']
+['S', '']
+['T', 'AX']
+Source phonemes: OW . G - UW . S -  . T - AX
+Target phonemes: ou 3 . g u 2 . s i 1 . d ou 1
+
+
+Source graphemes: l o ng . l ey
+Roles: O N Cd . O N
+['L', 'AO', 'NG']
+['L', 'EY']
+Source phonemes: L - AO - NG . L - EY
+Target phonemes: l o ng 5 . l ei 6
+
+
+Source graphemes: j a . k ar . t a
+Roles: O N . O N . O N
+['Y', 'AA']
+['K', 'AA']
+['T', 'AA']
+Source phonemes: Y - AA . K - AA . T - AA
+Target phonemes: ng aa 5 . g aa 1 . d aa-t 6
+
+
+Source graphemes: p a r . r ot . t @
+Roles: O N Cd . O N . O N
+['P', 'AA', 'R']
+['R', 'AA']
+['T', '']
+Source phonemes: P - AA - R . R - AA . T - 
+Target phonemes: p aa k 3 . l o 4 . d a-k 6
+
+
+Source graphemes: m a . r a . t o n
+Roles: O N . O N . O N Cd
+['M', 'AA']
+['R', 'AX']
+['T', 'AH', 'N']
+Source phonemes: M - AA . R - AX . T - AH - N
+Target phonemes: m aa 5 . l aai 1 . c u ng 4
+
+
+Source graphemes: p a . l e . st i . n e
+Roles: O N . O N . O N . O N
+['P', 'AA']
+['L', 'AX']
+['S', 'IY']
+['N', '']
+Source phonemes: P - AA . L - AX . S - IY . N - 
+Target phonemes: b aa 1 . l a-k 6 . s i 1 . t aa-n 2
+
+
+Source graphemes: h il . l a . r y
+Roles: O N . O N . O N
+['HH', 'IH']
+['L', 'AA']
+['R', 'IY']
+Source phonemes: HH - IH . L - AA . R - IY
+Target phonemes: h ei 1 . l aai 1 . l ei 6
+
+
+Source graphemes: b ah . r ai n
+Roles: O N . O N Cd
+['B', 'AA']
+['R', 'EY', 'N']
+Source phonemes: B - AA . R - EY - N
+Target phonemes: b aa 1 . l a m 4
+
+
+Source graphemes: j @ . w @
+Roles: O N . O N
+['JH', '']
+['W', '']
+Source phonemes: JH -  . W - 
+Target phonemes: j au 4 . t aai 3
+
+
+Source graphemes: l i . v e . rp ool
+Roles: O N . O N . O N
+['L', 'IY']
+['V', '']
+['R', 'UW']
+Source phonemes: L - IY . V -  . R - UW
+Target phonemes: l ei 6 . m a-t 6 . p ou 2
+
+
+Source graphemes: d a . ph @ . n e
+Roles: O N . O N . O N
+['D', 'AA']
+['F', '']
+['N', '']
+Source phonemes: D - AA . F -  . N - 
+Target phonemes: d aa-t 6 . f u 1 . n ei 4
+
+
+Source graphemes: a . t @ . l a n . t a
+Roles: N . O N . O N Cd . O N
+['AX']
+['T', '']
+['L', 'AE', 'N']
+['T', 'AA']
+Source phonemes: AX . T -  . L - AE - N . T - AA
+Target phonemes: aa 3 . d a-k 6 . l aa n 4 . d aai 6
+
+
+Source graphemes: d e . sch a mp . s @
+Roles: O N . O N Cd . O N
+['D', 'EY']
+['SH', 'AE', 'M']
+['S', '']
+Source phonemes: D - EY . SH - AE - M . S - 
+Target phonemes: d i-k 6 . g a m 1 . s i 1
+
+
+Source graphemes: d el . l @
+Roles: O N . O N
+['D', 'EH']
+['L', '']
+Source phonemes: D - EH . L - 
+Target phonemes: d aai 3 . j i 5
+
+
+Source graphemes: w a . t @ . rl oo
+Roles: O N . O N . O N
+['W', 'AA']
+['T', '']
+['R', 'UW']
+Source phonemes: W - AA . T -  . R - UW
+Target phonemes: w aa-t 6 . t i-t 3 . l ou 4
+
+
+Source graphemes: b @ . rg ar
+Roles: O N . O N
+['B', '']
+['R', 'AXR']
+Source phonemes: B -  . R - AXR
+Target phonemes: b ui 3 . g aa 1
+
+
+Source graphemes: s @ . dn ey
+Roles: O N . O N
+['S', '']
+['D', 'IY']
+Source phonemes: S -  . D - IY
+Target phonemes: s yu-t 3 . l ei 4
+
+
+Source graphemes: n ed . v e . d @
+Roles: O N . O N . O N
+['N', 'EH']
+['V', '']
+['D', '']
+Source phonemes: N - EH . V -  . D - 
+Target phonemes: n ei 4 . w ai 4 . d a-k 6
+
+
+Source graphemes: wd e
+Roles: O N
+['W', '']
+Source phonemes: W - 
+Target phonemes: w ai 4
+
+
+Source graphemes: h o . l @ . m e . s @
+Roles: O N . O N . O N . O N
+['HH', 'OW']
+['L', '']
+['M', 'IY']
+['S', '']
+Source phonemes: HH - OW . L -  . M - IY . S - 
+Target phonemes: f u-k 1 . j i 5 . m o 1 . s i 1
+
+
+Source graphemes: k a . f @ . k a
+Roles: O N . O N . O N
+['K', 'AA']
+['F', '']
+['K', 'AA']
+Source phonemes: K - AA . F -  . K - AA
+Target phonemes: k aa 1 . f u 1 . k aa 1
+
+
+Source graphemes: w ar . s aw
+Roles: O N . O N
+['W', 'AO']
+['S', 'AO']
+Source phonemes: W - AO . S - AO
+Target phonemes: w aa 4 . s aa 1
+
+
+Source graphemes: ch ar . l e . s @
+Roles: O N . O N . O N
+['CH', 'AA']
+['L', 'AX']
+['S', '']
+Source phonemes: CH - AA . L - AX . S - 
+Target phonemes: c aa 4 . j i 5 . s i 1
+
+
+Source graphemes: t @ . t a . w a
+Roles: O N . O N . O N
+['T', '']
+['T', 'AA']
+['W', 'AA']
+Source phonemes: T -  . T - AA . W - AA
+Target phonemes: a k 1 . t aai 3 . w aa 4
+
+
+Source graphemes: c @ . h a . n el
+Roles: O N . O N . O N
+['K', '']
+['HH', 'AA']
+['N', 'AX']
+Source phonemes: K -  . HH - AA . N - AX
+Target phonemes: h oe-ng 1 . n oi 6 . j i 4
+
+
+Source graphemes: t @ . m @
+Roles: O N . O N
+['T', '']
+['M', '']
+Source phonemes: T -  . M - 
+Target phonemes: t o-ng 1 . m ou 5
+
+
+Source graphemes: a . nd e . s @
+Roles: N . O N . O N
+['AX']
+['N', '']
+['S', '']
+Source phonemes: AX . N -  . S - 
+Target phonemes: o-n 1 . d ai 6 . s i 1
+
+
+Source graphemes: g @ . r ee n . w i . ch @
+Roles: O N . O N Cd . O N . O N
+['NG', '']
+['R', 'IY', 'N']
+['W', 'IY']
+['CH', '']
+Source phonemes: NG -  . R - IY - N . W - IY . CH - 
+Target phonemes: g aa-k 3 . l a m 4 . w ai 1 . z i 6
+
+
+Source graphemes: m a . t @ . r a
+Roles: O N . O N . O N
+['M', 'AA']
+['T', '']
+['R', 'AX']
+Source phonemes: M - AA . T -  . R - AX
+Target phonemes: m aa 5 . d a-k 6 . l aai 1
+
+
+Source graphemes: s @ . t e . ph e n
+Roles: O N . O N . O N Cd
+['S', '']
+['T', 'IY']
+['F', 'EH', 'N']
+Source phonemes: S -  . T - IY . F - EH - N
+Target phonemes: s i 2 . d ai 3 . f a n 1
+
+
+Source graphemes: w @ . l e . s @
+Roles: O N . O N . O N
+['W', '']
+['L', 'AX']
+['S', '']
+Source phonemes: W -  . L - AX . S - 
+Target phonemes: w ai 1 . j i 5 . s i 6
+
+
+Source graphemes: d a . n ub
+Roles: O N . O N
+['D', 'AA']
+['N', 'AH']
+Source phonemes: D - AA . N - AH
+Target phonemes: d o 1 . n ou 5
+
+
+Source graphemes: p e . r @
+Roles: O N . O N
+['P', '']
+['R', '']
+Source phonemes: P -  . R - 
+Target phonemes: b e 1 . l ei 4
+
+
+Source graphemes: b @ . r ya nt
+Roles: O N . O N Cd
+['B', '']
+['R', 'AY', 'N']
+Source phonemes: B -  . R - AY - N
+Target phonemes: b aai 3 . j a n 4
+
+
+Source graphemes: l i t . h u . n ia
+Roles: O N Cd . O N . O N
+['L', 'IH', 'TD']
+['HH', 'UW']
+['N', 'IY']
+Source phonemes: L - IH - TD . HH - UW . N - IY
+Target phonemes: l aa p 6 . t ou 4 . j yu-n 2
+
+
+Source graphemes: s a . x o n . s @
+Roles: O N . O N Cd . O N
+['S', 'AA']
+['G', 'Z', 'N']
+['S', '']
+Source phonemes: S - AA . G - Z - N . S - 
+Target phonemes: s aa-t 3 . h a k 1 . s eo-n 3
+
+
+Source graphemes: b a . gg i . o
+Roles: O N . O N . N
+['B', 'AX']
+['JH', 'IY']
+['OW']
+Source phonemes: B - AX . JH - IY . OW
+Target phonemes: b aa 1 . z i 6 . ou 3
+
+
+Source graphemes: a . th e r . t o n
+Roles: N . O N Cd . O N Cd
+['AX']
+['DH', 'AX', 'R']
+['T', 'AH', 'N']
+Source phonemes: AX . DH - AX - R . T - AH - N
+Target phonemes: aai 6 . d a k 1 . d eo n 1
+
+
+Source graphemes: c @ . r oa . t i . a
+Roles: O N . O N . O N . N
+['K', '']
+['R', 'OW']
+['T', 'IY']
+['AX']
+Source phonemes: K -  . R - OW . T - IY . AX
+Target phonemes: h a-k 1 . l o 4 . d ei 6 . aa 3
+
+
+Source graphemes: b ul . g a . r i . a
+Roles: O N . O N . O N . N
+['B', 'UH']
+['G', 'AA']
+['R', 'IY']
+['AX']
+Source phonemes: B - UH . G - AA . R - IY . AX
+Target phonemes: b ou 2 . g aa 1 . l ei 6 . aa 3
+
+
+Source graphemes: p @ . r a . g e
+Roles: O N . O N . O N
+['P', '']
+['R', 'AX']
+['JH', '']
+Source phonemes: P -  . R - AX . JH - 
+Target phonemes: b ou 3 . l aai 1 . g aa-k 3
+
+
+Source graphemes: c @ . l ay
+Roles: O N . O N
+['K', '']
+['L', 'EY']
+Source phonemes: K -  . L - EY
+Target phonemes: h a-k 1 . l oi 4
+
+
+Source graphemes: p i z . z @
+Roles: O N Cd . O N
+['P', 'IH', 'Z']
+['Z', '']
+Source phonemes: P - IH - Z . Z - 
+Target phonemes: b i t 1 . s i-ng 3
+
+
+Source graphemes: e . l @
+Roles: N . O N
+['']
+['L', '']
+Source phonemes:  . L - 
+Target phonemes: aa-k 1 . j i 5
+
+
+Source graphemes: a . s i . a
+Roles: N . O N . N
+['AX']
+['S', 'IY']
+['AX']
+Source phonemes: AX . S - IY . AX
+Target phonemes: aa 3 . s ai 3 . aa 3
+
+
+Source graphemes: v o . d @ . k a
+Roles: O N . O N . O N
+['V', 'OW']
+['D', '']
+['K', 'AA']
+Source phonemes: V - OW . D -  . K - AA
+Target phonemes: f u-k 6 . d a-k 6 . g aa 1
+
+
+Source graphemes: n a . p @ . l e . s @
+Roles: O N . O N . O N . O N
+['N', 'AA']
+['P', '']
+['L', 'AX']
+['S', '']
+Source phonemes: N - AA . P -  . L - AX . S - 
+Target phonemes: n aa 5 . b a-t 1 . l a-k 6 . s i 1
+
+
+Source graphemes: m o . r o c . c o
+Roles: O N . O N Cd . O N
+['M', 'OW']
+['R', 'AA', 'KD']
+['K', 'OW']
+Source phonemes: M - OW . R - AA - KD . K - OW
+Target phonemes: m o 1 . l o k 3 . g o 1
+
+
+Source graphemes: r a . ph ae . l @
+Roles: O N . O N . O N
+['R', 'AX']
+['F', '']
+['L', '']
+Source phonemes: R - AX . F -  . L - 
+Target phonemes: l aai 1 . f ei 1 . j i 5
+
+
+Source graphemes: r i . o . s @
+Roles: O N . N . O N
+['R', 'IY']
+['OW']
+['S', '']
+Source phonemes: R - IY . OW . S - 
+Target phonemes: l ei 5 . ou 3 . s i 1
+
+
+Source graphemes: c af . f e . n e
+Roles: O N . O N . O N
+['K', 'AE']
+['F', 'EY']
+['N', '']
+Source phonemes: K - AE . F - EY . N - 
+Target phonemes: g aa 3 . f e 1 . j a-n 1
+
+
+Source graphemes: r o t . t e r . d a m
+Roles: O N Cd . O N Cd . O N Cd
+['R', 'AA', 'TD']
+['T', 'EH', 'R']
+['D', 'AE', 'M']
+Source phonemes: R - AA - TD . T - EH - R . D - AE - M
+Target phonemes: l u k 6 . d a k 6 . d aa n 1
+
+
+Source graphemes: m e . lb ou . rn e
+Roles: O N . O N . O N
+['M', 'IY']
+['L', 'UW']
+['R', '']
+Source phonemes: M - IY . L - UW . R - 
+Target phonemes: m a-k 6 . j i 5 . b u-n 2
+
+
+Source graphemes: b e c . kh a m
+Roles: O N Cd . O N Cd
+['B', 'EH', 'KD']
+['K', 'AE', 'M']
+Source phonemes: B - EH - KD . K - AE - M
+Target phonemes: b i k 1 . h aa m 4
+
+
+Source graphemes: h id . d i n . k @
+Roles: O N . O N Cd . O N
+['HH', 'IH']
+['D', 'IH', 'N']
+['K', '']
+Source phonemes: HH - IH . D - IH - N . K - 
+Target phonemes: h ei 1 . d i n 1 . h a-k 1
+
+
+Source graphemes: g a . ll u . p @
+Roles: O N . O N . O N
+['G', 'AA']
+['L', 'UW']
+['P', '']
+Source phonemes: G - AA . L - UW . P - 
+Target phonemes: g oi 3 . l o-k 3 . p ou 2
+
+
+Source graphemes: m a . l @ . t a
+Roles: O N . O N . O N
+['M', 'AA']
+['L', '']
+['T', 'AA']
+Source phonemes: M - AA . L -  . T - AA
+Target phonemes: m aa 5 . j i 5 . t aa 1
+
+
+Source graphemes: v o l . t @
+Roles: O N Cd . O N
+['V', 'AX', 'L']
+['T', '']
+Source phonemes: V - AX - L . T - 
+Target phonemes: f u k 6 . d a-k 6
+
+
+Source graphemes: s @ . m i . th @
+Roles: O N . O N . O N
+['S', '']
+['M', 'IY']
+['TH', '']
+Source phonemes: S -  . M - IY . TH - 
+Target phonemes: s i 2 . m a-t 6 . s i 1
+
+
+Source graphemes: e t . h io . p i . a
+Roles: N Cd . O N . O N . N
+['EH', 'TD']
+['HH', 'AY']
+['P', 'AY']
+['AX']
+Source phonemes: EH - TD . HH - AY . P - AY . AX
+Target phonemes: j i 1 . s o-k 3 . b ei 2 . aa 3
+
+
+Source graphemes: sch u . b e . rt @
+Roles: O N . O N . O N
+['SH', 'UW']
+['B', 'IY']
+['R', '']
+Source phonemes: SH - UW . B - IY . R - 
+Target phonemes: s yu 1 . b aa-k 3 . d a-k 6
+
+
+Source graphemes: n e . l @
+Roles: O N . O N
+['N', '']
+['L', '']
+Source phonemes: N -  . L - 
+Target phonemes: n ei 4 . j i 5
+
+
+Source graphemes: n ew . c as . tl e
+Roles: O N . O N . O N
+['N', 'UW']
+['K', 'AX']
+['TD', '']
+Source phonemes: N - UW . K - AX . TD - 
+Target phonemes: n au 2 . k aa 1 . s ou 3
+
+
+Source graphemes: v a n . c ou . v e
+Roles: O N Cd . O N . O N
+['V', 'AE', 'N']
+['K', 'UW']
+['V', '']
+Source phonemes: V - AE - N . K - UW . V - 
+Target phonemes: w a n 1 . g o 1 . w aa 4
+
+
+Source graphemes: m a . d @ . r id
+Roles: O N . O N . O N
+['M', 'AA']
+['D', '']
+['R', 'IH']
+Source phonemes: M - AA . D -  . R - IH
+Target phonemes: m aa 5 . d a-k 1 . l ei 5
+
+
+Source graphemes: w i . l @ . s o n
+Roles: O N . O N . O N Cd
+['W', 'IY']
+['L', '']
+['S', 'AH', 'N']
+Source phonemes: W - IY . L -  . S - AH - N
+Target phonemes: w ai 1 . j i 5 . s eo n 3
+
+
+Source graphemes: c @ . r u . z @
+Roles: O N . O N . O N
+['K', '']
+['R', 'UW']
+['Z', '']
+Source phonemes: K -  . R - UW . Z - 
+Target phonemes: h a-k 1 . l ou 2 . z i 1
+
+
+Source graphemes: wl @ . l y
+Roles: O N . O N
+['W', '']
+['L', 'AY']
+Source phonemes: W -  . L - AY
+Target phonemes: w ai 1 . l ei 6
+
+
+Source graphemes: h ol . l a nd
+Roles: O N . O N Cd
+['HH', 'AO']
+['L', 'AE', 'N']
+Source phonemes: HH - AO . L - AE - N
+Target phonemes: h o 4 . l aa n 4
+
+
+Source graphemes: a . rl i ng . t o n
+Roles: N . O N Cd . O N Cd
+['AX']
+['R', 'IX', 'NG']
+['T', 'AH', 'N']
+Source phonemes: AX . R - IX - NG . T - AH - N
+Target phonemes: aa 3 . l i ng 4 . d eo n 6
+
+
+Source graphemes: m o . rg a n
+Roles: O N . O N Cd
+['M', 'OW']
+['R', 'AX', 'N']
+Source phonemes: M - OW . R - AX - N
+Target phonemes: m o 1 . g a n 1
+
+
+Source graphemes: ch @ . r ys . l e . r @
+Roles: O N . O N . O N . O N
+['CH', '']
+['R', 'IY']
+['L', 'AX']
+['R', '']
+Source phonemes: CH -  . R - IY . L - AX . R - 
+Target phonemes: h a-k 1 . l oi 4 . s i 1 . l a-k 6
+
+
+Source graphemes: g e . r @ . mn i c
+Roles: O N . O N . O N Cd
+['JH', '']
+['R', '']
+['M', 'IX', 'KD']
+Source phonemes: JH -  . R -  . M - IX - KD
+Target phonemes: j a-t 6 . j i 5 . m aa n 6
+
+
+Source graphemes: c o n . n ec . t i . c u t
+Roles: O N Cd . O N . O N . O N Cd
+['K', 'AA', 'N']
+['N', 'EH']
+['T', 'IY']
+['K', 'AH', 'TD']
+Source phonemes: K - AA - N . N - EH . T - IY . K - AH - TD
+Target phonemes: h o ng 1 . n aai 5 . d i-k 6 . h a k 1
+
+
+Source graphemes: b e . rm u . d a
+Roles: O N . O N . O N
+['B', 'IY']
+['R', 'UW']
+['D', 'AA']
+Source phonemes: B - IY . R - UW . D - AA
+Target phonemes: b aa-k 3 . m ou 6 . d aa-t 6
+
+
+Source graphemes: b a . lf ou . r @
+Roles: O N . O N . O N
+['B', 'AX']
+['L', 'UW']
+['R', '']
+Source phonemes: B - AX . L - UW . R - 
+Target phonemes: b aa 1 . f u 3 . j i 5
+
+
+Source graphemes: m ar . s @ . h all
+Roles: O N . O N . O N
+['M', 'AA']
+['S', '']
+['HH', 'AO']
+Source phonemes: M - AA . S -  . HH - AO
+Target phonemes: m aa 5 . h i-t 3 . j i 5
+
+
+Source graphemes: p a nc . k e
+Roles: O N Cd . O N
+['P', 'AE', 'NG']
+['KD', '']
+Source phonemes: P - AE - NG . KD - 
+Target phonemes: b aa n 1 . k i-k 1
+
+
+Source graphemes: m a . s @ . t e r
+Roles: O N . O N . O N Cd
+['M', 'AA']
+['S', '']
+['T', 'EH', 'R']
+Source phonemes: M - AA . S -  . T - EH - R
+Target phonemes: m aa 5 . s i 1 . d a k 6
+
+
+Source graphemes: t e n . n e . ss e
+Roles: O N Cd . O N . O N
+['T', 'EH', 'N']
+['N', '']
+['S', '']
+Source phonemes: T - EH - N . N -  . S - 
+Target phonemes: t i n 4 . n aa-p 6 . s ai 1
+
+
+Source graphemes: b o . r @ . d eaux
+Roles: O N . O N . O N
+['B', 'OW']
+['R', '']
+['D', 'OW']
+Source phonemes: B - OW . R -  . D - OW
+Target phonemes: b o 1 . j i 5 . d o 1
+
+
+Source graphemes: a . d a m . s @
+Roles: N . O N Cd . O N
+['AX']
+['D', 'AE', 'M']
+['S', '']
+Source phonemes: AX . D - AE - M . S - 
+Target phonemes: aa 3 . d o ng 1 . s i 1
+
+
+Source graphemes: wt @ . t @
+Roles: O N . O N
+['W', '']
+['T', '']
+Source phonemes: W -  . T - 
+Target phonemes: ng aa 5 . d a-k 6
+
+
+Source graphemes: h @ . nr y
+Roles: O N . O N
+['HH', '']
+['N', 'IY']
+Source phonemes: HH -  . N - IY
+Target phonemes: h a-ng 1 . l ei 6
+
+
+Source graphemes: jc @ . k @
+Roles: O N . O N
+['JH', '']
+['K', '']
+Source phonemes: JH -  . K - 
+Target phonemes: g i-t 6 . h a-k 1
+
+
+Source graphemes: h e . b @ . r e
+Roles: O N . O N . O N
+['HH', 'IY']
+['B', '']
+['R', 'EY']
+Source phonemes: HH - IY . B -  . R - EY
+Target phonemes: h ei 1 . b aa-k 3 . l oi 4
+
+
+Source graphemes: aus . t @ . r ia
+Roles: N . O N . O N
+['AW']
+['T', '']
+['R', 'IY']
+Source phonemes: AW . T -  . R - IY
+Target phonemes: ou 3 . d ei 6 . l ei 6
+
+
+Source graphemes: a . rms @ . tr o . ng @
+Roles: N . O N . O N . O N
+['AX']
+['R', '']
+['T', 'OW']
+['NG', '']
+Source phonemes: AX . R -  . T - OW . NG - 
+Target phonemes: aa 3 . m ou 5 . s i 1 . z o-ng 3
+
+
+Source graphemes: a . z e . rb ai . j a n
+Roles: N . O N . O N . O N Cd
+['AX']
+['Z', '']
+['R', 'AY']
+['JH', 'AE', 'N']
+Source phonemes: AX . Z -  . R - AY . JH - AE - N
+Target phonemes: aa 3 . c oi 3 . b aai 3 . g oe ng 1
+
+
+Source graphemes: f e . rn a n . d e . z @
+Roles: O N . O N Cd . O N . O N
+['F', 'EY']
+['R', 'AX', 'N']
+['D', 'EY']
+['Z', '']
+Source phonemes: F - EY . R - AX - N . D - EY . Z - 
+Target phonemes: f ai 3 . n aa m 4 . d a-k 1 . z i 1
+
+
+Source graphemes: r a . v e . l @
+Roles: O N . O N . O N
+['R', 'AX']
+['V', '']
+['L', '']
+Source phonemes: R - AX . V -  . L - 
+Target phonemes: l aai 1 . w ai 1 . j i 5
+
+
+Source graphemes: a . ms @ . t e . r @ . d a m
+Roles: N . O N . O N . O N . O N Cd
+['AX']
+['M', '']
+['T', 'IY']
+['R', '']
+['D', 'AE', 'M']
+Source phonemes: AX . M -  . T - IY . R -  . D - AE - M
+Target phonemes: aa 3 . m ou 5 . s i 1 . d a-k 6 . d aa n 1
+
+
+Source graphemes: b u . sh @
+Roles: O N . O N
+['B', 'UW']
+['SH', '']
+Source phonemes: B - UW . SH - 
+Target phonemes: b ou 3 . s yu 4
+
+
+Source graphemes: a . lg ie . r @ . s @
+Roles: N . O N . O N . O N
+['AX']
+['L', 'IY']
+['R', '']
+['S', '']
+Source phonemes: AX . L - IY . R -  . S - 
+Target phonemes: aa 3 . j i 5 . k a-p 6 . j i 5
+
+
+Source graphemes: n a . s @ . d a . q @
+Roles: O N . O N . O N . O N
+['N', 'AA']
+['S', '']
+['D', 'AA']
+['K', '']
+Source phonemes: N - AA . S -  . D - AA . K - 
+Target phonemes: n aa-p 6 . s i 1 . d aa-t 6 . h a-k 1
+
+
+Source graphemes: v a . n i . k @
+Roles: O N . O N . O N
+['V', 'AX']
+['N', 'IY']
+['K', '']
+Source phonemes: V - AX . N - IY . K - 
+Target phonemes: ng aa 5 . n ei 4 . h a-k 1
+
+
+Source graphemes: e . dw a . rd @
+Roles: N . O N . O N
+['']
+['D', 'AX']
+['R', '']
+Source phonemes:  . D - AX . R - 
+Target phonemes: oi 3 . d a-k 1 . w aa 4
+
+
+Source graphemes: au . g u . s @ . t @
+Roles: N . O N . O N . O N
+['OW']
+['G', 'UW']
+['S', '']
+['T', '']
+Source phonemes: OW . G - UW . S -  . T - 
+Target phonemes: ou 3 . g u 2 . s i 1 . d a-k 6
+
+
+Source graphemes: b oh . r @
+Roles: O N . O N
+['B', 'OW']
+['R', '']
+Source phonemes: B - OW . R - 
+Target phonemes: b o 1 . j i 5
+
+
+Source graphemes: th a . tch e . r @
+Roles: O N . O N . O N
+['TH', 'AA']
+['CH', '']
+['R', '']
+Source phonemes: TH - AA . CH -  . R - 
+Target phonemes: d aai 3 . c oe-k 3 . j i 5
+
+
+Source graphemes: h u n . t @
+Roles: O N Cd . O N
+['HH', 'AH', 'N']
+['T', '']
+Source phonemes: HH - AH - N . T - 
+Target phonemes: h a ng 1 . d a-k 6
+
+
+Source graphemes: cr @ . t oo n
+Roles: O N . O N Cd
+['K', '']
+['T', 'UW', 'N']
+Source phonemes: K -  . T - UW - N
+Target phonemes: k aa 1 . t u ng 1
+
+
+Source graphemes: d ort . m u n . d @
+Roles: O N . O N Cd . O N
+['D', 'AO']
+['M', 'AX', 'N']
+['D', '']
+Source phonemes: D - AO . M - AX - N . D - 
+Target phonemes: d o 1 . m u ng 4 . d a-k 6
+
+
+Source graphemes: m oh . s @
+Roles: O N . O N
+['M', 'OW']
+['S', '']
+Source phonemes: M - OW . S - 
+Target phonemes: m o 1 . s i 6
+
+
+Source graphemes: b a . s e . l @
+Roles: O N . O N . O N
+['B', 'AX']
+['S', '']
+['L', '']
+Source phonemes: B - AX . S -  . L - 
+Target phonemes: b aa 1 . c oi 3 . j i 5
+
+
+Source graphemes: h e . m i n . gw ay
+Roles: O N . O N Cd . O N
+['HH', 'IY']
+['M', 'IH', 'N']
+['G', 'EY']
+Source phonemes: HH - IY . M - IH - N . G - EY
+Target phonemes: h oi 2 . m i ng 4 . w ai 1
+
+
+Source graphemes: n e . p a . l @
+Roles: O N . O N . O N
+['N', '']
+['P', 'AA']
+['L', '']
+Source phonemes: N -  . P - AA . L - 
+Target phonemes: n ei 4 . b o-k 6 . j i 5
+
+
+Source graphemes: c a . st @
+Roles: O N . O N
+['K', 'AX']
+['S', '']
+Source phonemes: K - AX . S - 
+Target phonemes: k aa 1 . s i 6
+
+
+Source graphemes: d @ . s @ . n ey
+Roles: O N . O N . O N
+['D', '']
+['S', '']
+['N', 'EY']
+Source phonemes: D -  . S -  . N - EY
+Target phonemes: d i-k 6 . s i 6 . n ei 4
+
+
+Source graphemes: a . s @ . p i . r i n
+Roles: N . O N . O N . O N Cd
+['AX']
+['S', '']
+['P', 'AY']
+['R', 'IX', 'N']
+Source phonemes: AX . S -  . P - AY . R - IX - N
+Target phonemes: aa 3 . s i 1 . p a-t 1 . l a m 4
+
+
+Source graphemes: c a . r i b . b ean
+Roles: O N . O N Cd . O N
+['K', 'AX']
+['R', 'IH', 'BD']
+['B', 'IY']
+Source phonemes: K - AX . R - IH - BD . B - IY
+Target phonemes: g aa 1 . l a k 6 . b ei 2
+
+
+Source graphemes: k a . r oh . s @
+Roles: O N . O N . O N
+['K', 'AA']
+['R', 'OW']
+['S', '']
+Source phonemes: K - AA . R - OW . S - 
+Target phonemes: k aa 1 . l o 4 . s i 1
+
+
+Source graphemes: p @ . l a . t o
+Roles: O N . O N . O N
+['P', '']
+['L', 'AA']
+['T', 'AX']
+Source phonemes: P -  . L - AA . T - AX
+Target phonemes: p aa-k 3 . l aai 1 . t ou 4
+
+
+Source graphemes: b ec . k @
+Roles: O N . O N
+['B', 'EH']
+['K', '']
+Source phonemes: B - EH . K - 
+Target phonemes: b ui 3 . h a-k 1
+
+
+Source graphemes: t o . l @ . s @ . t oy
+Roles: O N . O N . O N . O N
+['T', 'AX']
+['L', '']
+['S', '']
+['T', 'OY']
+Source phonemes: T - AX . L -  . S -  . T - OY
+Target phonemes: t o-k 3 . j i 5 . s i 1 . t aai 3
+
+
+Source graphemes: f i n . l a nd
+Roles: O N Cd . O N Cd
+['F', 'IH', 'N']
+['L', 'AE', 'N']
+Source phonemes: F - IH - N . L - AE - N
+Target phonemes: f a n 1 . l aa n 4
+
+
+Source graphemes: b ag . hd a . d @
+Roles: O N . O N . O N
+['B', 'AE']
+['HH', 'AX']
+['D', '']
+Source phonemes: B - AE . HH - AX . D - 
+Target phonemes: b aa 1 . g aa-k 3 . d aa-t 6
+
+
+Source graphemes: c ya n . id
+Roles: O N Cd . N
+['S', 'AY', 'N']
+['AY']
+Source phonemes: S - AY - N . AY
+Target phonemes: s aa n 1 . aai 1
+
+
+Source graphemes: p o . t @ . sd a m
+Roles: O N . O N . O N Cd
+['P', 'OW']
+['T', '']
+['Z', 'AE', 'M']
+Source phonemes: P - OW . T -  . Z - AE - M
+Target phonemes: b o 1 . c i 4 . t aa n 2
+
+
+Source graphemes: c @ . r e . t e
+Roles: O N . O N . O N
+['K', '']
+['R', 'EY']
+['T', 'IY']
+Source phonemes: K -  . R - EY . T - IY
+Target phonemes: h a-k 1 . l ei 5 . d a-k 6
+
+
+Source graphemes: w a . ll oo n
+Roles: O N . O N Cd
+['W', 'AA']
+['L', 'UW', 'N']
+Source phonemes: W - AA . L - UW - N
+Target phonemes: ng aa 5 . l u ng 4
+
+
+Source graphemes: e . l io . t @
+Roles: N . O N . O N
+['']
+['L', 'IY']
+['T', '']
+Source phonemes:  . L - IY . T - 
+Target phonemes: aai 6 . l oe-k 6 . d a-k 6
+
+
+Source graphemes: a . l @ . b a . n i . a
+Roles: N . O N . O N . O N . N
+['AX']
+['L', '']
+['B', 'AX']
+['N', 'IY']
+['AX']
+Source phonemes: AX . L -  . B - AX . N - IY . AX
+Target phonemes: aa 3 . j i 5 . b aa 1 . n ei 4 . aa 3
+
+
+Source graphemes: k @ . w ai . t @
+Roles: O N . O N . O N
+['K', '']
+['W', 'AA']
+['T', '']
+Source phonemes: K -  . W - AA . T - 
+Target phonemes: f o 1 . w ai 1 . d a-k 6
+
+
+Source graphemes: s a n . t a . n a
+Roles: O N Cd . O N . O N
+['S', 'AE', 'N']
+['T', 'AA']
+['N', 'AA']
+Source phonemes: S - AE - N . T - AA . N - AA
+Target phonemes: s o ng 1 . t aa-p 3 . n aa-p 6
+
+
+Source graphemes: m i . c ael
+Roles: O N . O N
+['M', 'IY']
+['S', 'EY']
+Source phonemes: M - IY . S - EY
+Target phonemes: m ai 5 . g ou 1
+
+
+Source graphemes: w i m . bl e . d o n
+Roles: O N Cd . O N . O N Cd
+['W', 'IH', 'M']
+['B', 'L']
+['D', 'AA', 'N']
+Source phonemes: W - IH - M . B - L . D - AA - N
+Target phonemes: w a n 1 . b ou 3 . d eo n 6
+
+
+Source graphemes: h ig . gs @
+Roles: O N . O N
+['HH', 'IH']
+['NG', '']
+Source phonemes: HH - IH . NG - 
+Target phonemes: h ei 1 . g aa-k 3
+
+
+Source graphemes: ai . ds @
+Roles: N . O N
+['AY']
+['D', '']
+Source phonemes: AY . D - 
+Target phonemes: oi 3 . z i 1
+
+
+Source graphemes: h e . g e . l @
+Roles: O N . O N . O N
+['HH', 'IY']
+['JH', '']
+['L', '']
+Source phonemes: HH - IY . JH -  . L - 
+Target phonemes: h a-k 1 . g aa-k 3 . j i 5
+
+
+Source graphemes: n u . r e m . b erg
+Roles: O N . O N Cd . O N
+['N', 'UW']
+['R', 'EH', 'M']
+['B', 'AXR']
+Source phonemes: N - UW . R - EH - M . B - AXR
+Target phonemes: n au 2 . l eo n 4 . b ou 2
+
+
+Source graphemes: d @ . s @ . t i n
+Roles: O N . O N . O N Cd
+['D', '']
+['S', '']
+['T', 'IH', 'N']
+Source phonemes: D -  . S -  . T - IH - N
+Target phonemes: d a-k 1 . s i 1 . d i ng 1
+
+
+Source graphemes: c ar . t e r
+Roles: O N . O N Cd
+['K', 'AA']
+['T', 'EH', 'R']
+Source phonemes: K - AA . T - EH - R
+Target phonemes: k aa 1 . d a k 6
+
+
+Source graphemes: m ic . k @
+Roles: O N . O N
+['M', 'IH']
+['K', '']
+Source phonemes: M - IH . K - 
+Target phonemes: m ai 5 . h a-k 1
+
+
+Source graphemes: b oein . g @
+Roles: O N . O N
+['B', 'OW']
+['NG', '']
+Source phonemes: B - OW . NG - 
+Target phonemes: b o 1 . j a-m 1
+
+
+Source graphemes: c ar . l o . s @
+Roles: O N . O N . O N
+['K', 'AA']
+['L', 'OW']
+['S', '']
+Source phonemes: K - AA . L - OW . S - 
+Target phonemes: k aa 1 . l o-k 3 . s i 1
+
+
+Source graphemes: d a s . h iel . l @
+Roles: O N Cd . O N . O N
+['D', 'AE', 'S']
+['HH', 'IY']
+['L', '']
+Source phonemes: D - AE - S . HH - IY . L - 
+Target phonemes: d aa t 6 . h ei 1 . j i 5
+
+
+Source graphemes: l u m . p ur
+Roles: O N Cd . O N
+['L', 'AH', 'M']
+['P', 'ER']
+Source phonemes: L - AH - M . P - ER
+Target phonemes: l u ng 4 . b o 1
+
+
+Source graphemes: t o . r @ . nt o
+Roles: O N . O N . O N
+['T', 'AX']
+['R', '']
+['N', 'UW']
+Source phonemes: T - AX . R -  . N - UW
+Target phonemes: d o 1 . l eo-n 4 . d o 1
+
+
+Source graphemes: h u n . t @ . l ey
+Roles: O N Cd . O N . O N
+['HH', 'AH', 'N']
+['T', '']
+['L', 'EY']
+Source phonemes: HH - AH - N . T -  . L - EY
+Target phonemes: h a ng 1 . d a-k 6 . l ei 6
+
+
+Source graphemes: m a . ld i . v e . s @
+Roles: O N . O N . O N . O N
+['M', 'AA']
+['L', 'IY']
+['V', '']
+['S', '']
+Source phonemes: M - AA . L - IY . V -  . S - 
+Target phonemes: m aa 5 . j i 5 . d oi 6 . f u 1
+
+
+Source graphemes: d e . r @ . b a n
+Roles: O N . O N . O N Cd
+['D', 'EY']
+['R', '']
+['B', 'AE', 'N']
+Source phonemes: D - EY . R -  . B - AE - N
+Target phonemes: d a-k 1 . j i 5 . b aa n 1
+
+
+Source graphemes: c a mp . s a . n o
+Roles: O N Cd . O N . O N
+['K', 'AE', 'M']
+['S', 'AA']
+['N', 'OW']
+Source phonemes: K - AE - M . S - AA . N - OW
+Target phonemes: h a m 2 . s aa 1 . n o-k 6
+
+
+Source graphemes: th e . ns @
+Roles: O N . O N
+['DH', '']
+['N', '']
+Source phonemes: DH -  . N - 
+Target phonemes: ng aa 5 . d i-n 2
+
+
+Source graphemes: g @ . r ee n . s @ . p a n
+Roles: O N . O N Cd . O N . O N Cd
+['NG', '']
+['R', 'IY', 'N']
+['S', '']
+['P', 'AE', 'N']
+Source phonemes: NG -  . R - IY - N . S -  . P - AE - N
+Target phonemes: g aa-k 3 . l a m 4 . s i 1 . p u n 1
+
+
+Source graphemes: e . l @ . d o n
+Roles: N . O N . O N Cd
+['']
+['L', '']
+['D', 'AA', 'N']
+Source phonemes:  . L -  . D - AA - N
+Target phonemes: aai 6 . j i 5 . d eo n 1
+
+
+Source graphemes: a . ndr ee s . s e n
+Roles: N . O N Cd . O N Cd
+['AX']
+['N', 'IY', 'Z']
+['S', 'EH', 'N']
+Source phonemes: AX . N - IY - Z . S - EH - N
+Target phonemes: o-n 1 . d a k 1 . s a ng 1
+
+
+Source graphemes: b aye . r @
+Roles: O N . O N
+['B', 'EY']
+['R', '']
+Source phonemes: B - EY . R - 
+Target phonemes: b aai 3 . j a-n 4
+
+
+Source graphemes: v e . n @ . s @
+Roles: O N . O N . O N
+['V', '']
+['N', '']
+['S', '']
+Source phonemes: V -  . N -  . S - 
+Target phonemes: w ai 4 . n aa-p 6 . s i 1
+
+
+Source graphemes: m at . th e
+Roles: O N . O N
+['M', 'AE']
+['DH', '']
+Source phonemes: M - AE . DH - 
+Target phonemes: m aa 5 . t aai 2
+
+
+Source graphemes: l u . t e r
+Roles: O N . O N Cd
+['L', 'UW']
+['T', 'EH', 'R']
+Source phonemes: L - UW . T - EH - R
+Target phonemes: l ou 6 . d a k 1
+
+
+Source graphemes: j @ . hn @
+Roles: O N . O N
+['JH', '']
+['HH', '']
+Source phonemes: JH -  . HH - 
+Target phonemes: j oe-k 3 . h o-n 6
+
+
+Source graphemes: p @ . r us . s i
+Roles: O N . O N . O N
+['P', '']
+['R', 'AH']
+['S', 'IY']
+Source phonemes: P -  . R - AH . S - IY
+Target phonemes: p ou 2 . l ou 5 . s i 6
+
+
+Source graphemes: ch e v . r @ . l e t
+Roles: O N Cd . O N . O N Cd
+['', 'F', 'V']
+['R', '']
+['L', 'EH', 'TD']
+Source phonemes:  - F - V . R -  . L - EH - TD
+Target phonemes: s yu t 3 . f a-t 6 . l aa n 4
+
+
+Source graphemes: v a . l @ . s e
+Roles: O N . O N . O N
+['V', 'AX']
+['L', '']
+['S', '']
+Source phonemes: V - AX . L -  . S - 
+Target phonemes: w aa 4 . j i 5 . z i 1
+
+
+Source graphemes: p @ . r @ . nc e . t o n
+Roles: O N . O N . O N . O N Cd
+['P', '']
+['R', '']
+['N', 'S']
+['T', 'AH', 'N']
+Source phonemes: P -  . R -  . N - S . T - AH - N
+Target phonemes: p ou 2 . l a-m 4 . s i 1 . d eo n 6
+
+
+Source graphemes: ar . m e . n i . a
+Roles: N . O N . O N . N
+['AA']
+['M', 'IY']
+['N', 'IY']
+['AX']
+Source phonemes: AA . M - IY . N - IY . AX
+Target phonemes: aa 3 . m ei 5 . n ei 4 . aa 3
+
+
+Source graphemes: d @ . nm a rk
+Roles: O N . O N Cd
+['D', '']
+['N', 'AA', 'R']
+Source phonemes: D -  . N - AA - R
+Target phonemes: d aa-n 1 . m a k 6
+
+
+Source graphemes: l u . x e m . b ourg
+Roles: O N . O N Cd . O N
+['L', 'UW']
+['K', 'Z', 'EH']
+['B', 'UH']
+Source phonemes: L - UW . K - Z - EH . B - UH
+Target phonemes: l ou 4 . s a m 1 . b ou 2
+
+
+Source graphemes: j e . p @
+Roles: O N . O N
+['JH', 'AX']
+['P', '']
+Source phonemes: JH - AX . P - 
+Target phonemes: g a-t 1 . p ou 2
+
+
+Source graphemes: a . b @ . r a . h a m
+Roles: N . O N . O N . O N Cd
+['AX']
+['B', '']
+['R', 'AX']
+['HH', 'AE', 'M']
+Source phonemes: AX . B -  . R - AX . HH - AE - M
+Target phonemes: aa 3 . b aa-k 3 . l aai 1 . h o n 5
+
+
+Source graphemes: s u r . r ey
+Roles: O N Cd . O N
+['S', 'EH', 'R']
+['R', 'EY']
+Source phonemes: S - EH - R . R - EY
+Target phonemes: s aa t 3 . l ei 5
+
+
+Source graphemes: eic . h e . l @
+Roles: N . O N . O N
+['IH']
+['HH', 'IY']
+['L', '']
+Source phonemes: IH . HH - IY . L - 
+Target phonemes: aai 6 . h i-t 3 . j i 5
+
+
+Source graphemes: v ie . n @ . n a
+Roles: O N . O N . O N
+['V', 'AY']
+['N', '']
+['N', 'AA']
+Source phonemes: V - AY . N -  . N - AA
+Target phonemes: w ai 4 . j aa 5 . n aa-p 6
+
+
+Source graphemes: o . l y m . p i . cs @
+Roles: N . O N Cd . O N . O N
+['OW']
+['L', 'AY', 'M']
+['P', 'AY']
+['K', '']
+Source phonemes: OW . L - AY - M . P - AY . K - 
+Target phonemes: ou 3 . l a m 4 . p a-t 1 . h a-k 1
+
+
+Source graphemes: w il . l ia m
+Roles: O N . O N Cd
+['W', 'AX']
+['L', 'AY', 'M']
+Source phonemes: W - AX . L - AY - M
+Target phonemes: w ai 1 . l i m 4
+
+
+Source graphemes: ch o . c ol . t e
+Roles: O N . O N . O N
+['CH', 'OW']
+['K', 'AX']
+['T', 'IY']
+Source phonemes: CH - OW . K - AX . T - IY
+Target phonemes: z yu 1 . g u 2 . l i-k 6
+
+
+Source graphemes: d ou . g @
+Roles: O N . O N
+['D', 'UW']
+['NG', '']
+Source phonemes: D - UW . NG - 
+Target phonemes: d ou 6 . g aa-k 3
+
+
+Source graphemes: k a . r @
+Roles: O N . O N
+['K', 'AA']
+['R', '']
+Source phonemes: K - AA . R - 
+Target phonemes: k aa 1 . j i 5
+
+
+Source graphemes: c of . f e
+Roles: O N . O N
+['K', 'AO']
+['F', 'EY']
+Source phonemes: K - AO . F - EY
+Target phonemes: g aa 3 . f e 1
+
+
+Source graphemes: b ar . b ie
+Roles: O N . O N
+['B', 'AA']
+['B', 'IY']
+Source phonemes: B - AA . B - IY
+Target phonemes: b aa 1 . b ei 2
+
+
+Source graphemes: h ar . t @
+Roles: O N . O N
+['HH', 'AA']
+['T', '']
+Source phonemes: HH - AA . T - 
+Target phonemes: h aa 1 . d a-k 6
+
+
+Source graphemes: w a . sh i ng . t o n
+Roles: O N . O N Cd . O N Cd
+['W', 'AA']
+['SH', 'IH', 'NG']
+['T', 'AH', 'N']
+Source phonemes: W - AA . SH - IH - NG . T - AH - N
+Target phonemes: w aa 4 . s i ng 6 . d eo n 6
+
+
+Source graphemes: g @ . r as . s e
+Roles: O N . O N . O N
+['NG', '']
+['R', 'AE']
+['S', '']
+Source phonemes: NG -  . R - AE . S - 
+Target phonemes: g aa-k 3 . l aai 1 . s i 1
+
+
+Source graphemes: a . bk @ . h a . z i
+Roles: N . O N . O N . O N
+['AX']
+['B', '']
+['HH', 'AA']
+['Z', 'IY']
+Source phonemes: AX . B -  . HH - AA . Z - IY
+Target phonemes: aa 3 . b ou 3 . h aa 1 . z i 1
+
+
+Source graphemes: p ud . d i ng
+Roles: O N . O N Cd
+['P', 'AH']
+['D', 'IH', 'NG']
+Source phonemes: P - AH . D - IH - NG
+Target phonemes: b ou 3 . d i ng 1
+
+
+Source graphemes: m i . d @ . l a nd
+Roles: O N . O N . O N Cd
+['M', 'IY']
+['D', '']
+['L', 'AE', 'N']
+Source phonemes: M - IY . D -  . L - AE - N
+Target phonemes: m ai 5 . d a-k 6 . l aa n 4
+
+
+Source graphemes: g ot . h e . nb urg
+Roles: O N . O N . O N
+['G', 'AA']
+['HH', 'IY']
+['N', 'AXR']
+Source phonemes: G - AA . HH - IY . N - AXR
+Target phonemes: g o 1 . d a-k 1 . b ou 2
+
+
+Source graphemes: sh a . k es . p ear . e
+Roles: O N . O N . O N . N
+['SH', 'AX']
+['K', 'S']
+['P', 'EH']
+['']
+Source phonemes: SH - AX . K - S . P - EH . 
+Target phonemes: s aa 1 . s i 6 . b ei 2 . aa 3
+
+
+Source graphemes: t oe . f @
+Roles: O N . O N
+['T', 'OW']
+['F', '']
+Source phonemes: T - OW . F - 
+Target phonemes: t o-k 3 . f u-k 1
+
+
+Source graphemes: c @ . hr @ . t i . e n
+Roles: O N . O N . O N . N Cd
+['K', '']
+['HH', '']
+['T', 'IY']
+['EH', 'N']
+Source phonemes: K -  . HH -  . T - IY . EH - N
+Target phonemes: h a-k 1 . l eoi 4 . d ai 3 . o n 1
+
+
+Source graphemes: m o . s @ . c o
+Roles: O N . O N . O N
+['M', 'OW']
+['S', '']
+['K', 'OW']
+Source phonemes: M - OW . S -  . K - OW
+Target phonemes: m o-k 6 . s i 1 . f o 1
+
+
+Source graphemes: z eu . s @
+Roles: O N . O N
+['Z', 'UW']
+['S', '']
+Source phonemes: Z - UW . S - 
+Target phonemes: z au 6 . s i 1
+
+
+python phone_mapper/phone_mapper.py /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/phono_augmented/run_on_test_dir/lex_hyp.txt /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/phono_augmented/run_on_test_dir/units_roles.txt /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/phono_augmented/run_on_test_dir /home/ngohgia/Work/utilities/t2p/t2p_dt.pl
+
+
+[RUN DIR]: /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/phono_augmented/run_on_test_dir
+[LOG DIR]: /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/phono_augmented/run_on_test_dir/log
+
+[COMMAND]: python RunTransliterationWrapper.py /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/corpus/train.lex /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/corpus/test.lex /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/phono_augmented/run_on_test_dir/test.output /home/ngohgia/Work/Cantonese_onset-final_transliterator/test_exp/size700/size700_iter1/phono_augmented/run_on_test_dir /home/ngohgia/Work/utilities/t2p/t2p_dt.pl

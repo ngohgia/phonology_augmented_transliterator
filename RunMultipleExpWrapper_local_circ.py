@@ -15,16 +15,17 @@ for j in range(len(sizes)):
   for itr in range(1, iters[j]+1):
     curr_data_set = 'size' + str(size) + '_iter' + str(itr)
 
-    root_dir = os.path.join('/home/ngohgia/Work/Cantonese_onset-final_transliterator', 'exp_170307', 'size' + str(size), curr_data_set)
+    root_dir = os.path.join('/home/ngohgia/Work/Cantonese_onset-final_transliterator', 'exp_170313', 'size' + str(size), curr_data_set)
     data_dir = os.path.join(root_dir, 'corpus')
 
     ts = time.strftime("%Y-%m-%d_%H-%M-%S")
     # Working directory
     output_dir = os.path.join(root_dir, 'phono_augmented')
     # run_dir = os.path.join(output_dir, 'run_' + ts)
-    run_dir = os.path.join(output_dir, 'run_on_test_dir')
+    run_dir = os.path.join(output_dir, 'run_dir')
     log_dir = os.path.join(run_dir, 'log')
 
+    ### TO BE UNCOMMENTED ######
     if os.path.exists(run_dir):
       shutil.rmtree(run_dir)
 

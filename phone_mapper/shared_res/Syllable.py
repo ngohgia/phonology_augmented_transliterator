@@ -8,11 +8,10 @@ class Syllable:
     self.targ_phons = []
 
   def create_new_syl(self, src_graphs, roles, src_phons, targ_phons):
-    [new_src_graphs, new_targ_phons] = self.expand_onset_coda(src_graphs, targ_phons)
+    self.src_graphs = src_graphs
+    self.targ_phons = targ_phons
     self.src_phons = src_phons 
     self.roles = roles
-    self.src_graphs = new_src_graphs
-    self.targ_phons = new_targ_phons
 
   def get_src_graphs_str(self):
     return (" ").join(self.src_graphs)
@@ -27,7 +26,7 @@ class Syllable:
   def get_targ_phons_str(self):
     return (" ").join(self.targ_phons)
 
-  def expand_onset_coda(self, src_graphs, targ_phons):
+  def expand_nucleus_coda(self, src_graphs, targ_phons):
     MERGER = '-'
     new_src_graphs = []
     new_targ_phons = []
