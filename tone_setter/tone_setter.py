@@ -40,7 +40,7 @@ def read_lex_hyp_file(lex_hyp_path):
 
   all_words = []
   for line in lex_hyp_file:
-    [en_syls_str, roles_str, vie_syls_str] = line.split("\t")[2:5]
+    [en_syls_str, roles_str, vie_syls_str] = line.split("\t")
     # print vie_syls_str
 
     vie_syls = [[unit.strip() for unit in vie_syl.split(" ")[0:len(vie_syl.split(" "))]] for vie_syl in vie_syls_str.split(" . ")]
@@ -225,10 +225,14 @@ for word in all_test_words:
 
 
 test_output_file = open(test_output_file_path, "w")
+tmp_test_output_file = open(test_output_file_path + '.tmp', "w")
 outputs = []
 for word in result_words:
   outputs.append(" . ".join([str(syl) for syl in word.syls]))
 
 for entry in outputs:
+  tmp_test_output_file.write(entry + "\n")
+  entry = entry.replace('-', ' ')
   test_output_file.write(entry + "\n")
 test_output_file.close()
+tmp_test_output_file.close()

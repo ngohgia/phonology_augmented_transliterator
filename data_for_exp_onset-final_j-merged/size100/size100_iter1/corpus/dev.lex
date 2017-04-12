@@ -1,20 +1,20 @@
-beethoven	b ui 3 . d o 1 . f a-n 1
-mozart	m o-k 6 . z aa-t 3 . d a-k 6
-sudan	s ou 1 . d aa-n 1
-nobel	n o-k 6 . b ui 3 . j i 5
-costa	g o 1 . s i 1 . d aa-t 6
-milton	m a-t 6 . j i 5 . d eo-n 6
-apolloni	aa 3 . b ou 3 . l u-ng 4 . n ei 4
-buckley	b aa 1 . h a-k 1 . l ei 6
-christopher	h a-k 1 . l ei 5 . s i 1 . t o-k 3 . f a-t 1
-burundi	b ou 3 . l u-ng 4 . d i-k 6
-medivh	m a-k 6 . d i-k 6 . m a-n 4
-yemen	j-aa 5 . m u-n 4
-panama	b aa 1 . n aa 4 . m aa 5
-pepsi	b aa-k 3 . s i 6
-bingo	b a-n 1 . gw o 2
-graf	g o-t 3 . l aai 1 . f u 4
-waltz	w aa 4 . j i 5 . z i 1
-belfast	b ui 3 . j i 5 . f aa-t 3 . s i 1 . d a-k 6
-shea	s aa 1
-copernicus	g o 1 . b aa-k 6 . n ei 4
+milan	m ai 5 . l aa-n 4
+bus	b aa 1 . s i 6
+kanter	h a-m 2 . d a-k 6
+radar	l eoi 4 . d aa-t 6
+columbus	g o 1 . l eo-n 4 . b ou 3
+hollywood	h ou 2 . l oi 4 . w u 2
+aule	ou 3 . l i-k 6
+maldives	m aa 5 . j i 5 . d oi 6 . f u 1
+pharaoh	f aa-t 3 . l ou 5
+prussia	p ou 2 . l ou 5 . s i 6
+sheffield	c i-t 3 . f ei 1 . j i 5 . d a-k 1
+carlo	k aa 1 . l o 4
+bering	b aa-k 6 . l i-ng 6
+o	ou 3
+guerrero	g o-t 3 . l eoi 4 . n o-k 6
+uzbek	w u 1 . z i 1 . b i-t 6 . h a-k 1
+marshall	m aa 5 . h i-t 3 . j i 5
+robin	l o 4 . b a-n 1
+chelsea	c e 1 . l ou 6 . s i 6
+grant	g o-t 3 . l aa-n 4 . d a-k 6

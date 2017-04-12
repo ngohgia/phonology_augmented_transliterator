@@ -1,20 +1,20 @@
-mandela	m aa-n 6 . d a-k 1 . l aai 1
-hoffman	h o 4 . f u 1 . m aa-n 6
-montage	m u-ng 4 . t aai 3 . k ei 4
-adam	aa 3 . d o-ng 1
-khrushchev	h a-k 1 . l ou 5 . s yu-t 3 . f u 1
-samaranch	s aa-t 3 . m aa 5 . l aa-n 4 . k ei 4
-morphine	m aa 1 . f e 1
-nylon	n ei 4 . l u-ng 4
-einstein	oi 3 . j a-n 1 . s i 1 . t aa-n 2
-frankfurt	f aa-t 3 . l aa-n 4 . h aa-k 1 . f u-k 1
+karohs	k aa 1 . l o 4 . s i 1
+smith	s i 2 . m a-t 6 . s i 1
+sauna	s o-ng 1 . n aa 4
+mardini	m aa 5 . d i-n 1 . n ei 4
+thinner	t i-n 1 . n aa 4
+duque	d ou 6 . g ei 1
+taylor	t aai 3 . l a-k 6
+potsdam	b o 1 . c i 4 . t aa-n 2
+andorra	o-n 1 . d ou 6 . j i 5
+macedonia	m aa 5 . k ei 4 . d eo-n 6
+guava	b aa 1 . ng o-k 6
+chrysler	h a-k 1 . l oi 4 . s i 1 . l a-k 6
+neon	ng ai 4 . h u-ng 4
+green	g aa-k 3 . l a-m 4
+nottingham	n o-k 6 . d i-ng 6 . h aa-m 4
+bohemia	b o 1 . h ei 1 . m ai 5 . aa 3
+hague	h oi 2 . ng aa 4
 klinger	h a-k 1 . l a-m 4 . g aa-k 3
-celtic	c oi 3 . j i 5 . d a-k 6
-nietzsche	n ei 4 . c oi 2
-polka	b o 1 . j i 5 . k aa 1
-chirac	h ei 1 . l aai 1 . h a-k 1
-lysol	l aai 1 . s ou 4
-guerrero	g o-t 3 . l eoi 4 . n o-k 6
-gallon	g aa 1 . l eo-n 4
-nemec	n ei 4 . m ai 5 . s e-k 6
-rupee	l ou 4 . b ei 2
+carter	k aa 1 . d a-k 6
+cartel	k aa 1 . d a-k 6 . j i 5

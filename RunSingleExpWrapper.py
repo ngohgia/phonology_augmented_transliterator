@@ -7,7 +7,7 @@ import logging
 import time
 
 # root_dir = os.path.join('/home/ngohgia/Work/NEWS2016_EnMandarin_phonology_augmented_transliterator', 'exp_20170207', 'size200_iter1')
-root_dir = os.path.join('/home/ngohgia/Work/Cantonese_onset-final_transliterator', 'test_exp', 'size700', 'size700_iter1')
+root_dir = os.path.join(os.getcwd(), 'exp_170403', 'size100', 'size100_set1', 'size100_set1_itr1')
 data_dir = os.path.join(root_dir, 'corpus')
 
 ts = time.strftime("%Y-%m-%d_%H-%M-%S")
@@ -15,11 +15,10 @@ ts = time.strftime("%Y-%m-%d_%H-%M-%S")
 output_dir = os.path.join(root_dir, 'phono_augmented')
 run_dir = os.path.join(output_dir, 'run_on_test_dir')
 log_dir = os.path.join(run_dir, 'log')
-##### UNCOMMENT #####
-# if os.path.exists(run_dir):
-#   shutil.rmtree(run_dir)
-# os.makedirs(run_dir)
-# os.makedirs(log_dir)
+if os.path.exists(run_dir):
+  shutil.rmtree(run_dir)
+os.makedirs(run_dir)
+os.makedirs(log_dir)
 
 training_dev_file_path = os.path.join(data_dir, 'train.lex')
 test_src_file_path = os.path.join(data_dir, 'test.lex')
