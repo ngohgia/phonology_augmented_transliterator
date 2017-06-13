@@ -11,7 +11,6 @@ from LangAssets.WordHyp import WordHyp
 from LangAssets.SearchSpace import SearchCoord
 from LangAssets.Rule import Rule
 from GetSearchSpace import get_search_space_from_lex_hyps
-from GetSearchSpace import read_lex_hyps_from_file
 
 from syl_struct_generator.SylStructGenerator import label_letters
 from syl_struct_generator.SylStructGenerator import set_thres_per_role
@@ -27,20 +26,6 @@ from phon_mapping_prep_code.reconstruct_targ_phons_from_syls import reconstruct_
 from phon_mapping_prep_code.run_sclite import run_sclite
 
 from src_phons_generator.SrcPhonsGenerator import get_phons_with_t2p
-
-if __name__ == '__main__':
-  try:
-    script, best_lex_hyp_file_name, targ_graph_file_path, run_dir, t2p_decoder_path = sys.argv
-  except ValueError:
-    print "Syntax: SplitWordWithSearchSpace.py    best_lex_hyp_file_name       targ_graph_file_path      run_dir     t2p_decoder_path"
-    sys.exit(1)
-
-run_dir = os.path.abspath(run_dir)
-t2p_decoder_path = os.path.abspath(t2p_decoder_path)
-
-#----------------------------------- LOG ---------------------------------------#
-log_file = os.path.abspath(os.path.join(run_dir, "log", "SplitWordWithSearchSpace_log"))
-logging.basicConfig(filename= log_file, level= logging.DEBUG, format='%(message)s')
 
 N_GRAM_LEN = LangAssets.N_GRAM_LEN
 
@@ -102,15 +87,6 @@ MAX_ROLES_RATIOS = {
   ONSET_NUCLEUS_CODA: 0.0,
   REMOVE: 0.0,
 }
-
-#---------------- GET BEST SEARCH SPACE ------------------#
-# Retrieve the best search space from the training + dev
-def get_best_search_space():
-  lex_hyps = read_lex_hyps_from_file(best_lex_hyp_file_name)
-  update_subsyl_roles_ratio(lex_hyps)
-  [search_space, valid_units] = get_search_space_from_lex_hyps(lex_hyps, run_dir)
-  #print search_space.to_str()
-  return [search_space, valid_units]
 
 def update_subsyl_roles_ratio(lex_hyps):
   new_ratios = {}
@@ -179,7 +155,7 @@ def create_search_coord(word, roles, idx):
 
 
 # Generate roles for letter in a word
-def try_generate_roles_no_ref(word, labels, prob_by_letter, roles, pos, best_word_hyps_list, search_space, MAX_ROLES_COUNT, COORD_EPSILON):
+def try_generate_roles_no_ref(word, labels, prob_by_letter, roles, pos, best_word_hyps_list, search_space, valid_units, MAX_ROLES_COUNT, COORD_EPSILON):
   if pos > len(labels):
     # print ("Word: %s" % word)
     # print ("Labels: %s" % str(labels))
@@ -199,7 +175,7 @@ def try_generate_roles_no_ref(word, labels, prob_by_letter, roles, pos, best_wor
     if search_space.get_best_matched_coord_prob(new_search_coord) < COORD_EPSILON:
       return
     if pos == len(labels):
-      try_generate_roles_no_ref(word, labels, prob_by_letter, roles, pos + 1, best_word_hyps_list, search_space, MAX_ROLES_COUNT, COORD_EPSILON)
+      try_generate_roles_no_ref(word, labels, prob_by_letter, roles, pos + 1, best_word_hyps_list, search_space, valid_units, MAX_ROLES_COUNT, COORD_EPSILON)
       return
 
   if labels[pos] == CONSONANT:
@@ -210,8 +186,8 @@ def try_generate_roles_no_ref(word, labels, prob_by_letter, roles, pos, best_wor
         continue
       else:
         role_count[role] = role_count[role] + 1
-        if is_valid_subsyllabic_unit(word, labels, roles[0:pos] + [role] + roles[pos+1:len(labels)], pos):
-          try_generate_roles_no_ref(word, labels, prob_by_letter, roles[0:pos] + [role] + roles[pos+1:len(labels)], pos + 1, best_word_hyps_list, search_space, MAX_ROLES_COUNT, COORD_EPSILON)
+        if is_valid_subsyllabic_unit(word, labels, roles[0:pos] + [role] + roles[pos+1:len(labels)], pos, valid_units):
+          try_generate_roles_no_ref(word, labels, prob_by_letter, roles[0:pos] + [role] + roles[pos+1:len(labels)], pos + 1, best_word_hyps_list, search_space, valid_units, MAX_ROLES_COUNT, COORD_EPSILON)
         role_count[role] = role_count[role] - 1
   elif labels[pos] == VOWEL:
     # Assign all possible roles to a vowel
@@ -226,14 +202,14 @@ def try_generate_roles_no_ref(word, labels, prob_by_letter, roles, pos, best_wor
         continue
       else:
         role_count[role] = role_count[role] + 1
-        if is_valid_subsyllabic_unit(word, labels, roles[0:pos] + [role] + roles[pos+1:len(labels)], pos):
-          try_generate_roles_no_ref(word, labels, prob_by_letter, roles[0:pos] + [role] + roles[pos+1:len(labels)], pos + 1, best_word_hyps_list, search_space, MAX_ROLES_COUNT, COORD_EPSILON)
+        if is_valid_subsyllabic_unit(word, labels, roles[0:pos] + [role] + roles[pos+1:len(labels)], pos, valid_units):
+          try_generate_roles_no_ref(word, labels, prob_by_letter, roles[0:pos] + [role] + roles[pos+1:len(labels)], pos + 1, best_word_hyps_list, search_space, valid_units, MAX_ROLES_COUNT, COORD_EPSILON)
         role_count[role] = role_count[role] - 1
 
 #---------------- CHECK IF A SUBSYLLABIC UNIT IS VALID ------------------#
 # From position pos, look backwards along the string to check if the current
 # subsyllabic unit is valid
-def is_valid_subsyllabic_unit(word, labels, roles, pos):
+def is_valid_subsyllabic_unit(word, labels, roles, pos, valid_units):
   # if the letter under consideration is at the beginning of the string
   # check if the letter is assigned a valid role to be at the
   # beginning of the word
@@ -413,51 +389,32 @@ def is_valid_subsyllabic_unit(word, labels, roles, pos):
     # print ("Subsyllabic unit: %s" % subsyl_unit)
 
     # Check if the subsyl_unit is a valid subsyllabic unit of the role curr_role (onset, nucleus, coda)
+    valid_initials = valid_units[ONSET]
+    valid_finals = valid_units[NUCLEUS]
     if subsyl_unit != "":
       if curr_role == CODA:
         return False
 
       if curr_role == ONSET:
-        if not is_valid_initial(subsyl_unit):
+        if not is_valid_initial(subsyl_unit, valid_initials):
           return False
       elif curr_role == NUCLEUS:
-        if not is_valid_final(subsyl_unit):
+        if not is_valid_final(subsyl_unit, valid_finals):
           return False
 
   return True
 
-def is_valid_final(final):
+def is_valid_final(final, valid_finals):
   vowel_end = len(final) - 1
-  if final == GENERIC_VOWEL:
+
+  if final in valid_finals or final == GENERIC_VOWEL:
     return True
-  else:
-    if GENERIC_VOWEL in final:
-      return False
+  return False
 
-    # get vowel part
-    for i in range(len(final)):
-      if final[i] not in ValidSrcVowels:
-        vowel_end = i
-        break
-
-    if final[vowel_end] in ValidSrcVowels:
-      vowel_end +=1
-
-    if vowel_end == 0 and final[vowel_end] not in ValidSrcVowels:
-      return False
-
-    # get conso part
-    for i in range(vowel_end, len(final)):
-      # print final[i] + "  " + str(final[i] not in ValidSrcConsos)
-      if final[i] not in ValidSrcConsos:
-        return False
-  return True
-
-def is_valid_initial(initial):
-  for i in range(len(initial)):
-    if initial[i] not in ValidSrcConsos:
-      return False
-  return True
+def is_valid_initial(initial, valid_initials):
+  if initial in valid_initials:
+    return True
+  return False
 
 #---------------- GENERATE ALL POSSIBLE ROLES FOR ALPHABETS IN A WORD ------------------#
 # Use the same code employed in SylStructGenerator
@@ -472,7 +429,7 @@ role_count = {}
 for role in PossibleRoles:
   role_count[role] = 0
 
-def generate_roles_no_ref(word, labels, en_phones, search_space, COORD_EPSILON):
+def generate_roles_no_ref(word, labels, en_phones, search_space, valid_units, COORD_EPSILON):
   thres_lvl = 0
 
   MAX_ROLES_COUNT = {}
@@ -485,7 +442,7 @@ def generate_roles_no_ref(word, labels, en_phones, search_space, COORD_EPSILON):
     best_word_hyps_list = []
     roles = [None] * len(labels)
     prob_by_letter = [0.0] * len(labels)
-    try_generate_roles_no_ref(word, labels, prob_by_letter, roles, 0, best_word_hyps_list, search_space, MAX_ROLES_COUNT, COORD_EPSILON)
+    try_generate_roles_no_ref(word, labels, prob_by_letter, roles, 0, best_word_hyps_list, search_space, valid_units, MAX_ROLES_COUNT, COORD_EPSILON)
 
     # best_word_hyps_list = sorted(best_word_hyps_list, key=lambda hyp: hyp.mod_pen)
 
@@ -720,94 +677,77 @@ def report(msg):
   print "%s\n" % msg
   logging.info(msg)
 
-## Timing
-start_time = time.time()
+def split_test_words(search_space, valid_units, input_test_file_path, output_test_file_path, units_and_roles_file_path, t2p_decoder_path, run_dir):
+  run_dir = os.path.abspath(run_dir)
+  t2p_decoder_path = os.path.abspath(t2p_decoder_path)
 
-# ter_stats_file = open(run_dir  + "/TER_stats_run_" + ts, "w")
-# ser_stats_file = open(run_dir  + "/SER_stats_run_" + ts, "w")
-# ter_csv_writer = csv.writer(ter_stats_file)
-# ser_csv_writer = csv.writer(ser_stats_file)
+  input_test_file = open(input_test_file_path, "r")
+  input_test_file_t2p_input_path = os.path.abspath(os.path.join(run_dir, "test.src.cap.txt"))
+  input_test_file_t2p_input_file = open(input_test_file_t2p_input_path, "w")
 
-# Try 10 iterations
-targ_graph_file = open(targ_graph_file_path, "r")
+  for line in input_test_file:
+    input_test_file_t2p_input_file.write(line.upper())
+  input_test_file_t2p_input_file.close()
+  input_test_file.close()
 
-targ_graph_file_t2p_input_path = os.path.abspath(os.path.join(run_dir, "test.src.cap.txt"))
-targ_graph_file_t2p_input_file = open(targ_graph_file_t2p_input_path, "w")
+  targ_t2p_output_path = os.path.abspath(os.path.join(run_dir, "test.src.phones.txt"))
+  get_phons_with_t2p(t2p_decoder_path, input_test_file_t2p_input_path, targ_t2p_output_path)
 
-for line in targ_graph_file:
-  targ_graph_file_t2p_input_file.write(line.upper())
-targ_graph_file_t2p_input_file.close()
-targ_graph_file.close()
+  test_phones = []
+  input_test_file_t2p_output = open(targ_t2p_output_path, "r")
+  for line in input_test_file_t2p_output:
+    test_phones.append(line.strip().split(" "))
+  input_test_file_t2p_output.close()
 
-targ_t2p_output_path = os.path.abspath(os.path.join(run_dir, "test.src.phones.txt"))
-get_phons_with_t2p(t2p_decoder_path, targ_graph_file_t2p_input_path, targ_t2p_output_path)
+  test_split_file = open(output_test_file_path, "w")
+  units_and_roles_file = open(units_and_roles_file_path, "w")
 
-test_phones = []
-targ_graph_file_t2p_output = open(targ_t2p_output_path, "r")
-for line in targ_graph_file_t2p_output:
-  test_phones.append(line.strip().split(" "))
-targ_graph_file_t2p_output.close()
+  solution_found = True
+  count = 0
 
-[search_space, valid_units] = get_best_search_space()
+  input_test_file = open(input_test_file_path, "r")
 
-test_split_file = open(os.path.abspath(os.path.join(run_dir, "test_split.txt")), "w")
-units_and_roles_file = open(os.path.abspath(os.path.join(run_dir, "units_roles.txt")), "w")
+  for line in input_test_file:
+    start_time = time.time()
 
-log_file_path = os.path.join(run_dir, "log", "test_split_log.txt")
-logging.basicConfig(filename= log_file_path, level= logging.DEBUG, format='%(message)s')
-report("---------------------- DECODING TEST FILE ------------------------------")
+    word = line.strip()
+    report("Decoding word: " + word)
 
-search_space_file = open(os.path.abspath(os.path.join(run_dir, "search_space.txt")), "w")
+    labels = label_letters(word)
+    roles = [None] * len(word)
+    en_phones = test_phones[count]
 
-search_space_file.write(search_space.to_str())
-search_space_file.close()
+    best_hyp = WordHyp()
+    COORD_EPSILON = 1.0
+    while COORD_EPSILON >= MIN_COORD_EPSILON:
+      hyps_list = generate_roles_no_ref(word, labels, en_phones, search_space, valid_units, COORD_EPSILON)
 
-solution_found = True
-count = 0
+      if len(hyps_list) > 0:
+        # for hyp in hyps_list:
+        #   hyp.get_str()
 
-targ_graph_file = open(targ_graph_file_path, "r")
+        best_hyp = get_most_prob_hyp(hyps_list, search_space)
 
-for line in targ_graph_file:
-  start_time = time.time()
+        reconstructed_word = str(best_hyp.reconstructed_word)
+        reconstructed_word = reconstructed_word[1:-1]
+        reconstructed_word = [part.strip().split(" ") for part in reconstructed_word.split(" ] [ ")]
+        reconstructed_word = " . ".join(["".join(syl) for syl in reconstructed_word])
 
-  word = line.strip()
-  report("Decoding word: " + word)
+        test_split_file.write(reconstructed_word + "\n")
+        units_and_roles_file.write("\t".join(get_units_roles_from_word(best_hyp.reconstructed_word)) + "\n")
+        report("Generation time: " + str(time.time() - start_time))
+        break
+      else:
+        report("No splitting could be found for " + word)
+        report("Lowering threshold " + word)
+        COORD_EPSILON = COORD_EPSILON / 10.0
 
-  labels = label_letters(word)
-  roles = [None] * len(word)
-  en_phones = test_phones[count]
-
-  best_hyp = WordHyp()
-  COORD_EPSILON = 1.0
-  while COORD_EPSILON >= MIN_COORD_EPSILON:
-    hyps_list = generate_roles_no_ref(word, labels, en_phones, search_space, COORD_EPSILON)
-
-    if len(hyps_list) > 0:
-      # for hyp in hyps_list:
-      #   hyp.get_str()
-
-      best_hyp = get_most_prob_hyp(hyps_list, search_space)
-
-      reconstructed_word = str(best_hyp.reconstructed_word)
-      reconstructed_word = reconstructed_word[1:-1]
-      reconstructed_word = [part.strip().split(" ") for part in reconstructed_word.split(" ] [ ")]
-      reconstructed_word = " . ".join(["".join(syl) for syl in reconstructed_word])
-
-      test_split_file.write(reconstructed_word + "\n")
-      units_and_roles_file.write("\t".join(get_units_roles_from_word(best_hyp.reconstructed_word)) + "\n")
-      report("Generation time: " + str(time.time() - start_time))
-      break
-    else:
-      report("No splitting could be found for " + word)
-      report("Lowering threshold " + word)
-      COORD_EPSILON = COORD_EPSILON / 10.0
-
-  count = count + 1
+    count = count + 1
 
 
-test_split_file.close()
-units_and_roles_file.close()
-targ_graph_file.close()
+  test_split_file.close()
+  units_and_roles_file.close()
+  input_test_file.close()
 
 # word = 'granique'
 # labels = label_letters(word)

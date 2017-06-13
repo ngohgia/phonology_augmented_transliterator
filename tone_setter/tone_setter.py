@@ -26,7 +26,7 @@ NEXT_TONE = LangAssets.NEXT_TONE
 DEFAULT_TONE = LangAssets.DEFAULT_TONE
 
 
-RANK_WEIGHT = 1.0
+RANK_WEIGHT = LangAssets.RANK_WEIGHT
 
 if __name__ == '__main__':
   try:
@@ -48,7 +48,7 @@ def read_lex_hyp_file(lex_hyp_path):
     tones = []
     for vie_syl in vie_syls_str.split(" . "):
       tmp_tone = vie_syl.strip().split(" ")[-1]
-      if not tmp_tone.isdigit():
+      if not tmp_tone[-1].isdigit():
         print "ERROR! at word " + line.strip()
         sys.exit(1)
       else:
@@ -77,7 +77,7 @@ def read_toneless_targ_phon_with_role_file(toneless_targ_phon_with_role_path):
 
     vie_syls = [[unit.strip() for unit in vie_syl.split(" ")] for vie_syl in vie_syls_str.split(" . ")]
     roles = [[unit.strip() for unit in roles_grp.split(" ")] for roles_grp in roles_str.split(" . ")]
-    
+
     new_word = Word()
     for idx in range(len(vie_syls)):
       new_syl = Syllable()
@@ -93,8 +93,8 @@ def get_best_word(word, possible_tones, max_tone_score, syl_idx, best_word, sear
   if syl_idx >= len(word.syls):
     tone_score = score_tone_assignment(word, searchspace)
     
-    # print tone_score
-    # word.print_str()
+    print tone_score
+    word.print_str()
     
     if tone_score > max_tone_score[0]:
       best_word[0] = copy.deepcopy(word)
@@ -134,10 +134,10 @@ def score_tone_assignment(word, searchspace):
 
       # print str(search_point)
 
-      if search_point.coord in searchspace.space:
-        print "Found: " + str(search_point)
-        print searchspace.space[search_point.coord]
-        # print search_point.val in searchspace.space[search_point.coord]
+      # if search_point.coord in searchspace.space:
+      #   print "Found: " + str(search_point)
+      #   print searchspace.space[search_point.coord]
+      #   # print search_point.val in searchspace.space[search_point.coord]
 
       if search_point.coord in searchspace.space and search_point.val in searchspace.space[search_point.coord]:
         syl_score = syl_score + searchspace.space[search_point.coord][search_point.val]/(RANK_WEIGHT * rank)
@@ -149,90 +149,97 @@ def score_tone_assignment(word, searchspace):
 
   return word_score
 
+def set_tones(lex_hyp_path, toneless_targ_phon_with_role_path, run_dir, test_output_file_path):
+  # GET TRAINING DEV DATA
+  tones_searchspace_path = os.path.join(run_dir, "tones.searchspace.txt")
+  all_train_dev_words = read_lex_hyp_file(lex_hyp_path)
 
-# GET TRAINING DEV DATA
-tones_searchspace_path = os.path.join(run_dir, "tones.searchspace.txt")
-all_train_dev_words = read_lex_hyp_file(lex_hyp_path)
+  searchspace = SearchSpace()
+  for word in all_train_dev_words:
+    for idx in range(len(word.syls)):
+      syl = word.syls[idx]
 
-searchspace = SearchSpace()
-for word in all_train_dev_words:
-  for idx in range(len(word.syls)):
-    syl = word.syls[idx]
+      prev_tone = TERMINAL
+      if idx > 0:
+        prev_tone = word.syls[idx-1].tone
 
-    prev_tone = TERMINAL
-    if idx > 0:
-      prev_tone = word.syls[idx-1].tone
+      next_tone = TERMINAL
+      if idx < len(word.syls) - 1:
+        next_tone = word.syls[idx+1].tone
 
-    next_tone = TERMINAL
-    if idx < len(word.syls) - 1:
-      next_tone = word.syls[idx+1].tone
+      new_coord = Coord()
+      new_coord.encode_syl_to_coord(syl, prev_tone, next_tone)
+      extrapolated_coords_with_ranks = new_coord.extrapolate()
+      extrapolated_coords = [coord_with_rank[0] for coord_with_rank in extrapolated_coords_with_ranks]
+      
+      for coord in extrapolated_coords:
+        searchspace.add_new_search_point(coord)
 
-    new_coord = Coord()
-    new_coord.encode_syl_to_coord(syl, prev_tone, next_tone)
-    extrapolated_coords_with_ranks = new_coord.extrapolate()
-    extrapolated_coords = [coord_with_rank[0] for coord_with_rank in extrapolated_coords_with_ranks]
-    
-    for coord in extrapolated_coords:
-      searchspace.add_new_search_point(coord)
+  # NORMALIZE THE SEARCH SPACE
+  searchspace.normalize()
 
-# NORMALIZE THE SEARCH SPACE
-searchspace.normalize()
+  tones_searchspace_file = open(tones_searchspace_path, "w");
+  tones_searchspace_file.write(str(searchspace))
 
-tones_searchspace_file = open(tones_searchspace_path, "w");
-tones_searchspace_file.write(str(searchspace))
+  # GET TEST DATA
+  all_test_words = read_toneless_targ_phon_with_role_file(toneless_targ_phon_with_role_path)
 
-# GET TEST DATA
-all_test_words = read_toneless_targ_phon_with_role_file(toneless_targ_phon_with_role_path)
+  result_words = []
+  for word in all_test_words:
+    # word.print_str()
+    possible_tones = []
 
-result_words = []
-for word in all_test_words:
-  word.print_str()
-  possible_tones = []
+    for idx in range(len(word.syls)):
+      syl = word.syls[idx]
+      
+      prev_tone = TERMINAL
+      if idx > 0:
+        prev_tone = word.syls[idx-1].tone
 
-  for idx in range(len(word.syls)):
-    syl = word.syls[idx]
-    
-    prev_tone = TERMINAL
-    if idx > 0:
-      prev_tone = word.syls[idx-1].tone
+      next_tone = TERMINAL
+      if idx < len(word.syls) - 1:
+        next_tone = word.syls[idx+1].tone
 
-    next_tone = TERMINAL
-    if idx < len(word.syls) - 1:
-      next_tone = word.syls[idx+1].tone
+      tmp_coord = Coord()
+      tmp_coord.encode_syl_to_coord(syl, str(prev_tone), str(next_tone))
+      tmp_coord.coord[ONSET] = ANY_UNIT
+      tmp_coord.coord[CODA] = ANY_UNIT
+      tmp_coord.coord[PREV_TONE] = ANY_UNIT
+      tmp_coord.coord[NEXT_TONE] = ANY_UNIT
 
-    tmp_coord = Coord()
-    tmp_coord.encode_syl_to_coord(syl, str(prev_tone), str(next_tone))
-    tmp_coord.coord[ONSET] = ANY_UNIT
-    tmp_coord.coord[CODA] = ANY_UNIT
-    tmp_coord.coord[PREV_TONE] = ANY_UNIT
-    tmp_coord.coord[NEXT_TONE] = ANY_UNIT
+      search_point = SearchPoint()
+      search_point.import_from_coord(tmp_coord)
 
-    search_point = SearchPoint()
-    search_point.import_from_coord(tmp_coord)
+      # #### DEBUG
+      # print str(search_point)
+      # print str(search_point.coord)
 
-    #print str(search_point)
+      # print str(searchspace)
+      # sys.exit(1)
 
-    if search_point.coord in searchspace.space:
-      possible_tones.append(searchspace.space[search_point.coord].keys())
-    else:
-      possible_tones.append([DEFAULT_TONE])
+      if search_point.coord in searchspace.space:
+        possible_tones.append(searchspace.space[search_point.coord].keys())
+      else:
+        possible_tones.append([DEFAULT_TONE])
+      # print possible_tones
+      # raw_input()
 
-  best_word = [Word()]
-  get_best_word(word, possible_tones, [0.0], 0, best_word, searchspace)
+    best_word = [Word()]
+    get_best_word(word, possible_tones, [0.0], 0, best_word, searchspace)
 
-  best_word = best_word[0]
-  result_words.append(best_word)
+    best_word = best_word[0]
+    result_words.append(best_word)
 
 
-test_output_file = open(test_output_file_path, "w")
-tmp_test_output_file = open(test_output_file_path + '.tmp', "w")
-outputs = []
-for word in result_words:
-  outputs.append(" . ".join([str(syl) for syl in word.syls]))
+  test_output_file = open(test_output_file_path, "w")
+  tmp_test_output_file = open(test_output_file_path + '.tmp', "w")
+  outputs = []
+  for word in result_words:
+    outputs.append(" . ".join([str(syl) for syl in word.syls]))
 
-for entry in outputs:
-  tmp_test_output_file.write(entry + "\n")
-  entry = entry.replace('-', ' ')
-  test_output_file.write(entry + "\n")
-test_output_file.close()
-tmp_test_output_file.close()
+  for entry in outputs:
+    tmp_test_output_file.write(entry + "\n")
+    entry = entry.replace('-', ' ')
+    test_output_file.write(entry + "\n")
+  test_output_file.close()
+  tmp_test_output_file.close()

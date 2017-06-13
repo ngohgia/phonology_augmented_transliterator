@@ -29,20 +29,7 @@ from phon_mapping_prep_code.run_sclite import run_sclite
 
 from src_phons_generator.SrcPhonsGenerator import get_phons_with_t2p
 
-if __name__ == '__main__':
-  try:
-    script, syl_split_lex_hyp_file_name, train_dev_phone_mapping_file_path, run_dir, t2p_decoder_path = sys.argv
-  except ValueError:
-    print "Syntax: SplitWordForPhoneMappingAlignment.py    syl_split_lex_hyp_file_name       train_dev_phone_mapping_file_path      run_dir     t2p_decoder_path"
-    sys.exit(1)
-
-run_dir = os.path.abspath(run_dir)
-t2p_decoder_path = os.path.abspath(t2p_decoder_path)
-
 #----------------------------------- LOG ---------------------------------------#
-log_file = os.path.abspath(os.path.join(run_dir, "log", "SplitWordForPhoneMappingAlignment_log"))
-logging.basicConfig(filename= log_file, level= logging.DEBUG, format='%(message)s')
-
 N_GRAM_LEN = LangAssets.N_GRAM_LEN
 
 ANY = LangAssets.ANY
@@ -103,15 +90,6 @@ MAX_ROLES_RATIOS = {
   ONSET_NUCLEUS_CODA: 0.0,
   REMOVE: 0.0,
 }
-
-#---------------- GET BEST SEARCH SPACE ------------------#
-# Retrieve the best search space from the training + dev
-def get_best_search_space():
-  lex_hyps = read_lex_hyps_from_file(syl_split_lex_hyp_file_name)
-  update_subsyl_roles_ratio(lex_hyps)
-  [search_space, valid_units] = get_search_space_from_lex_hyps(lex_hyps, run_dir)
-  #print search_space.to_str()
-  return [search_space, valid_units]
 
 def update_subsyl_roles_ratio(lex_hyps):
   new_ratios = {}
@@ -738,105 +716,94 @@ def report(msg):
   print "%s\n" % msg
   logging.info(msg)
 
-## Timing
-start_time = time.time()
+def split_words_for_phone_mapping(search_space, train_dev_phone_mapping_file_path, output_lex_hyp_path, t2p_decoder_path, run_dir):
+  run_dir = os.path.abspath(run_dir)
+  t2p_decoder_path = os.path.abspath(t2p_decoder_path)
 
-# ter_stats_file = open(run_dir  + "/TER_stats_run_" + ts, "w")
-# ser_stats_file = open(run_dir  + "/SER_stats_run_" + ts, "w")
-# ter_csv_writer = csv.writer(ter_stats_file)
-# ser_csv_writer = csv.writer(ser_stats_file)
+  train_dev_phone_mapping_file = open(train_dev_phone_mapping_file_path, "r")
 
-# Try 10 iterations
-train_dev_phone_mapping_file = open(train_dev_phone_mapping_file_path, "r")
+  train_dev_phone_mapping_file_t2p_input_path = os.path.abspath(os.path.join(run_dir, "phone_mapping_train_dev.src.cap.txt"))
+  train_dev_phone_mapping_file_t2p_input_file = open(train_dev_phone_mapping_file_t2p_input_path, "w")
 
-train_dev_phone_mapping_file_t2p_input_path = os.path.abspath(os.path.join(run_dir, "phone_mapping_train_dev.src.cap.txt"))
-train_dev_phone_mapping_file_t2p_input_file = open(train_dev_phone_mapping_file_t2p_input_path, "w")
+  all_phone_mapping_targs = []
 
-all_phone_mapping_targs = []
+  for line in train_dev_phone_mapping_file:
+    parts = [part.strip() for part in line.split()]
+    src = parts[0]
+    targ = ' '.join(parts[1:])
+    all_phone_mapping_targs.append(targ)
+    train_dev_phone_mapping_file_t2p_input_file.write(src.upper() + "\n")
+  train_dev_phone_mapping_file_t2p_input_file.close()
+  train_dev_phone_mapping_file.close()
 
-for line in train_dev_phone_mapping_file:
-  parts = [part.strip() for part in line.split()]
-  src = parts[0]
-  targ = ' '.join(parts[1:])
-  all_phone_mapping_targs.append(targ)
-  train_dev_phone_mapping_file_t2p_input_file.write(src.upper() + "\n")
-train_dev_phone_mapping_file_t2p_input_file.close()
-train_dev_phone_mapping_file.close()
+  targ_t2p_output_path = os.path.abspath(os.path.join(run_dir, "phone_mapping_train_dev.src.phones.txt"))
+  get_phons_with_t2p(t2p_decoder_path, train_dev_phone_mapping_file_t2p_input_path, targ_t2p_output_path)
 
-targ_t2p_output_path = os.path.abspath(os.path.join(run_dir, "phone_mapping_train_dev.src.phones.txt"))
-get_phons_with_t2p(t2p_decoder_path, train_dev_phone_mapping_file_t2p_input_path, targ_t2p_output_path)
+  src_phones = []
+  train_dev_phone_mapping_file_t2p_output = open(targ_t2p_output_path, "r")
+  for line in train_dev_phone_mapping_file_t2p_output:
+    src_phones.append(line.strip().split(" "))
+  train_dev_phone_mapping_file_t2p_output.close()
 
-src_phones = []
-train_dev_phone_mapping_file_t2p_output = open(targ_t2p_output_path, "r")
-for line in train_dev_phone_mapping_file_t2p_output:
-  src_phones.append(line.strip().split(" "))
-train_dev_phone_mapping_file_t2p_output.close()
+  unsplittable_lex_hyp_path = os.path.join(run_dir, 'unsplittable_lex_hyp.txt')
 
-[search_space, valid_units] = get_best_search_space()
+  count = 0
+  train_dev_phone_mapping_file = open(train_dev_phone_mapping_file_path, "r")
+  output_lex_hyp_file = open(output_lex_hyp_path, 'w')
+  unsplittable_lex_hyp_file = open(unsplittable_lex_hyp_path, 'w')
 
-lex_hyp_path = os.path.join(run_dir, 'lex_hyp.txt')
-unsplittable_lex_hyp_path = os.path.join(run_dir, 'unsplittable_lex_hyp.txt')
-log_file_path = os.path.join(run_dir, "log", "splitting_for_train_phone_mapping_log.txt")
-logging.basicConfig(filename= log_file_path, level= logging.DEBUG, format='%(message)s')
-report("---------------------- SPLITTING FOR TRAINING PHONE MAPPING ------------------------------")
+  for line in train_dev_phone_mapping_file:
+    start_time = time.time()
 
-count = 0
-train_dev_phone_mapping_file = open(train_dev_phone_mapping_file_path, "r")
-lex_hyp_file = open(lex_hyp_path, 'w')
-unsplittable_lex_hyp_file = open(unsplittable_lex_hyp_path, 'w')
+    parts = [part.strip() for part in line.split()]
 
-for line in train_dev_phone_mapping_file:
-  start_time = time.time()
+    src_graph = parts[0]
+    targ_phones = ' '.join(parts[1:])
+    report("Splitting word: " + src_graph)
 
-  parts = [part.strip() for part in line.split()]
+    labels = label_letters(src_graph)
+    roles = [None] * len(src_graph)
+    en_phones = src_phones[count]
 
-  src_graph = parts[0]
-  targ_phones = ' '.join(parts[1:])
-  report("Splitting word: " + src_graph)
+    best_hyp = WordHyp()
+    COORD_EPSILON = 1.0
+    found = 0
+    while COORD_EPSILON >= MIN_COORD_EPSILON:
+      hyps_list = generate_roles_no_ref(src_graph, labels, en_phones, search_space, COORD_EPSILON)
+      if found:
+        break
 
-  labels = label_letters(src_graph)
-  roles = [None] * len(src_graph)
-  en_phones = src_phones[count]
+      if len(hyps_list) > 0:
+        # for hyp in hyps_list:
+        #   hyp.get_str()
 
-  best_hyp = WordHyp()
-  COORD_EPSILON = 1.0
-  found = 0
-  while COORD_EPSILON >= MIN_COORD_EPSILON:
-    hyps_list = generate_roles_no_ref(src_graph, labels, en_phones, search_space, COORD_EPSILON)
-    if found:
-      break
+        best_hyps = get_most_prob_hyps(hyps_list, search_space)
+        found = 0
 
-    if len(hyps_list) > 0:
-      # for hyp in hyps_list:
-      #   hyp.get_str()
+        for hyp in best_hyps:
+          reconstructed_word = str(hyp.reconstructed_word)
+          reconstructed_word_syls = reconstructed_word[1:-1]
+          reconstructed_word_syls = [part.strip().split(" ") for part in reconstructed_word_syls.split(" ] [ ")]
+          if compare_syl_struct(reconstructed_word_syls, targ_phones):
+            found = 1
+            print "Found a splitting:"
+            print hyp.original + "\t" + reconstructed_word
+            output_lex_hyp_file.write(hyp.original + "\t" + " ".join(hyp.roles) +
+              "\t" + str(hyp.reconstructed_word) + "\t" + \
+              hyp.reconstructed_word.get_encoded_units() + "\t" +
+              targ_phones + "\n")
+            break
 
-      best_hyps = get_most_prob_hyps(hyps_list, search_space)
-      found = 0
+        report("Generation time: " + str(time.time() - start_time))
+        break
+      else:
+        report("Lowering threshold " + src_graph)
+        COORD_EPSILON = COORD_EPSILON / 10.0
 
-      for hyp in best_hyps:
-        reconstructed_word = str(hyp.reconstructed_word)
-        reconstructed_word_syls = reconstructed_word[1:-1]
-        reconstructed_word_syls = [part.strip().split(" ") for part in reconstructed_word_syls.split(" ] [ ")]
-        if compare_syl_struct(reconstructed_word_syls, targ_phones):
-          found = 1
-          print "Found a splitting:"
-          print hyp.original + "\t" + reconstructed_word
-          lex_hyp_file.write(hyp.original + "\t" + " ".join(hyp.roles) +
-            "\t" + str(hyp.reconstructed_word) + "\t" + \
-            hyp.reconstructed_word.get_encoded_units() + "\t" +
-            targ_phones + "\n")
-          break
+    count = count + 1
+    if not found:
+      unsplittable_lex_hyp_file.write(line + '\n')
 
-      report("Generation time: " + str(time.time() - start_time))
-      break
-    else:
-      report("Lowering threshold " + src_graph)
-      COORD_EPSILON = COORD_EPSILON / 10.0
-
-  count = count + 1
-  if not found:
-    unsplittable_lex_hyp_file.write(line + '\n')
-
-train_dev_phone_mapping_file.close()
-lex_hyp_file.close()
-unsplittable_lex_hyp_file.close()
+  train_dev_phone_mapping_file.close()
+  output_lex_hyp_file.close()
+  unsplittable_lex_hyp_file.close()

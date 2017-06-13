@@ -1,7 +1,6 @@
 import sys
 import os
 import time
-import logging
 
 from syl_struct_generator.SylStructGenerator import *
 from approx_phone_alignment.ApproxPhoneAlignment import get_approx_phone_alignment
@@ -10,42 +9,20 @@ from src_phons_generator.SrcPhonsGenerator import *
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-if __name__ == '__main__':
-  try:
-    script, training_lex_path, run_dir, t2p_decoder = sys.argv
-  except ValueError:
-    print "Syntax: GetBestRules.py \t training_lex_path \t run_dir \t t2p_decoder"
-    sys.exit(1)
-
-#----------------------------------- LOG ---------------------------------------#
-log_file = os.path.abspath(os.path.join(run_dir, "log", "GetBestRules_log"))
-logging.basicConfig(filename= log_file, level= logging.DEBUG, format='%(message)s')
-
-unresolved_file = open(os.path.abspath(os.path.join(run_dir, "unresolved_words.txt")), "w")
-least_mod_pen_file = open(os.path.abspath(os.path.join(run_dir, "least_mod_pen.txt")), "w")
-
-lex_hyp_file = open(os.path.abspath(os.path.join(run_dir, "lex_hyp.txt")), "w")
-
-simple_words_hyp_path = os.path.abspath(os.path.join(run_dir, "simple_words_hyp.txt"))
-complex_words_hyp_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp.txt"))
-simple_words_hyp_file = open(simple_words_hyp_path, "w")
-complex_words_hyp_file = open(complex_words_hyp_path, "w")
-
-split_words_file = open(os.path.abspath(os.path.join(run_dir, "split_words.txt")), "w")
-
 #-------------------------------------------------------------------------------#
-t2p_decoder_path = os.path.abspath(t2p_decoder)
+def read_input(training_lex_path):
+  training_lex_file = open(training_lex_path, "r")
+  training_lex = []
 
-training_lex_file = open(training_lex_path, "r")
-training_lex = []
+  # Get words from training-dev lex file
+  for line in training_lex_file:
+    toks = [tok.strip() for tok in line.split()]
+    src = toks[0]
+    targ = ' '.join(toks[1:])
+    training_lex.append([src, targ])
+  training_lex_file.close()
 
-# Get words from training-dev lex file
-for line in training_lex_file:
-  toks = [tok.strip() for tok in line.split()]
-  src = toks[0]
-  targ = ' '.join(toks[1:])
-  training_lex.append([src, targ])
-training_lex_file.close()
+  return training_lex
 
 def add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_struct):
   for idx in range(len(best_word_hyps_list)):
@@ -57,15 +34,23 @@ def add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_str
 
 
 #------- GET ALL THE BEST WORD HYPOTHESIS FROM A SINGLE TRAINING FILE -----------#
-def get_best_hyps_from_single_training(training_lex):
+def get_best_hyps_from_single_training(training_lex, lex_hyp_path, run_dir, t2p_decoder_path):
+  unresolved_file = open(os.path.abspath(os.path.join(run_dir, "unresolved_words.txt")), "w")
+  split_words_file = open(os.path.abspath(os.path.join(run_dir, "split_words.txt")), "w")
+  least_mod_pen_file = open(os.path.abspath(os.path.join(run_dir, "least_mod_pen.txt")), "w")
+  lex_hyp_file = open(lex_hyp_path, "w")
+
+  simple_words_hyp_path = os.path.abspath(os.path.join(run_dir, "simple_words_hyp.txt"))
+  complex_words_hyp_path = os.path.abspath(os.path.join(run_dir, "complex_words_hyp.txt"))
+  simple_words_hyp_file = open(simple_words_hyp_path, "w")
+  complex_words_hyp_file = open(complex_words_hyp_path, "w")
+
   simple_words_hyps = []
   complex_words_hyps = []
 
   for idx in range(len(training_lex)):
     start_time = time.time()
 
-    report("\n#----------------------------------------------#\n")
-    least_mod_pen_file.write("\n#----------------------------------------------#\n")
     word = training_lex[idx][0]
     labels = label_letters(word)
 
@@ -82,15 +67,12 @@ def get_best_hyps_from_single_training(training_lex):
     add_targ_word_to_best_word_hyps(best_word_hyps_list, targ_word, targ_syl_struct)
     
     if len(best_word_hyps_list) == 0:
-      report("No hypothesis found for %s" % word)
-      unresolved_file.write("\t".join(training_lex[idx]))
+      unresolved_file.write("\t".join(training_lex[idx]) + "\n")
     else:
       for word_hyp in best_word_hyps_list:
         # Count the number of generic vowels in the word
         word_hyp.count_generic_vowel()
-        report(word_hyp.get_str())
 
-      report("Roles generation time: %0.1f" % (time.time() - start_time))
 
       # SCORING:
       # Least compound modification penalty
@@ -142,7 +124,6 @@ def get_best_hyps_from_single_training(training_lex):
   best_complex_words_hyps = []
 
   # Score the hypothesis on complex words
-  report("SCORE HYP WITH PHONE ALIGMENTS")
   for word_hyps in complex_words_hyps:
     best_hyp = score_hyp_with_phone_alignment(word_hyps, approx_phone_alignments)
     best_complex_words_hyps.append(best_hyp)
@@ -159,6 +140,10 @@ def get_best_hyps_from_single_training(training_lex):
         "\t" + str(hyp.reconstructed_word) + "\t" + \
         hyp.reconstructed_word.get_encoded_units() + "\t" +
         hyp.ref_targ + "\n")
+
+  unresolved_file.close()
+  split_words_file.close()
+  lex_hyp_file.close()
 
 
 #------- GET HYPOTHESIS WITH LEAST MODIFICATION PENALTY --------------------#
@@ -207,11 +192,6 @@ def get_least_compound_role_count_hyps(hyps_list):
 
   return best_hyps
 
-# Helper function to log and print a message
-def report(msg):
-  print "%s\n" % msg
-  logging.info(msg)
-
-get_best_hyps_from_single_training(training_lex)
-unresolved_file.close()
-split_words_file.close()
+def train_syl_split(training_lex_path, lex_hyp_path, run_dir, t2p_decoder):
+  training_lex = read_input(training_lex_path)
+  get_best_hyps_from_single_training(training_lex, lex_hyp_path, run_dir, t2p_decoder)

@@ -10,6 +10,8 @@ class LangAssets:
   CONSONANT = "C"
   ANY = "ANY"
 
+  MERGER = '-'
+
   DELIMITER = "#"
 
   GENERIC_VOWEL = "@"

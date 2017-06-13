@@ -1,12 +1,12 @@
 #!/bin/bash
 t2p_path=/data/users/ngohgia/data_drive/transliterator/utilities/t2p/t2p_dt.pl
-sclite_path=/mnt/eql/p1/users/imganalysis/ngohgia/transliterator/utilities/sclite/sclite
+sclite_path=/data/users/ngohgia/data_drive/transliterator/utilities/sclite/sclite
 
 root=$(pwd)
-exp_dir=$root/exp_170403
+exp_dir=$root/exp_170502
 syl_split_lex_hyp_file=$root/hcmus_syl_splitting_model/hcmus4256_lex_hyp.txt
 size=700
-num_sets=5
+num_sets=10
 num_iters=5
 
 main() {
@@ -17,23 +17,26 @@ main() {
         part3=_itr$j
 
         work_dir="$exp_dir/$part1/$part1$part2/$part1$part2$part3"
-        run_dir=$work_dir/phono_augmented/run_on_dev_dir
+        run_dir=$work_dir/phono_augmented/run_on_test_dir
         log_dir=$run_dir/log
         mkdir -p $log_dir
 
         train_file=$work_dir/corpus/train.lex
-        test_file=$work_dir/corpus/dev.src
-        output_file=$run_dir/dev.output
+        traindev_file=$work_dir/corpus/train+dev.lex
+        test_file=$work_dir/corpus/test.lex
+        output_file=$run_dir/test.output
+        dev_input_file=$work_dir/corpus/dev.src
+        dev_ref_file=$work_dir/corpus/dev.ref
 
         JOB=`/apps/sysapps/TORQUE/bin/qsub -l nodes=1:ppn=1,mem=10gb -V -q circ-spool<<EOJ
           #!/bin/bash
           #PBS -l walltime=48:00:00
           #PBS -l nodes=1:ppn=1
           #PBS -e "${log_dir}/err_${JOB}.txt"
-          #PBS -e "${log_dir}/out_${JOB}.txt"
+          #PBS -o "${log_dir}/out_${JOB}.txt"
           #PBS -m ae
             cd $root
-            python $root/RunTransliterationWrapper.py $train_file $test_file $syl_split_lex_hyp_file $output_file $run_dir $t2p_path > /dev/null
+            python $root/RunTransliterationWrapper.py $train_file $traindev_file $test_file $output_file $dev_input_file $dev_ref_file $syl_split_lex_hyp_file $run_dir $t2p_path $sclite_path > /dev/null
           `
           echo "JobID = ${JOB} submitted"
     done

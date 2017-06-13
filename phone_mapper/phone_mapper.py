@@ -15,15 +15,6 @@ RANK_WEIGHT = LangAssets.RANK_WEIGHT
 DEFAULT_NUCLEUS = 'e'
 DEFAULT_CODA_ONSET = 't'
 
-if __name__ == '__main__':
-  try:
-    script, lex_hyp_file_path, test_units_roles_path, run_dir, t2p_decoder = sys.argv
-  except ValueError:
-    print "Syntax: phone_mapper.py \t lex_hyp_file_path \t test_units_roles_path \t run_dir \t t2p_decoder"
-    sys.exit(1)
-
-t2p_decoder_path = os.path.abspath(t2p_decoder)
-
 ONSET = "O"
 NUCLEUS = "N"
 CODA = "Cd"
@@ -32,8 +23,8 @@ GENERIC_VOWEL = LangAssets.SCHWA
 
 MERGER = '-'
 
-final_nucleus_coda_map = {}
 
+#--------------------- RANKED SEARCH PT -----------------------------#
 class RankedSearchPt:
   def __init__(self):
     self.search_pt = ""
@@ -50,9 +41,9 @@ def read_split_lex_file(lex_file_path):
 
   all_words = []
   for line in lex_file:
-    [src_syls_str, roles_str, targ_syls_str] = line.split("\t")[2:5]
+    [src_syls_str, roles_str, targ_syls_str] = line.split("\t")
 
-    src_syls = [[unit.strip() for unit in src_syl.strip().split(" ")] for src_syl in src_syls_str[1:len(src_syls_str)-1].split("] [")]
+    src_syls = [[unit.strip() for unit in src_syl.strip().split(" ")] for src_syl in src_syls_str.split(' . ')]
     roles = [[unit.strip() for unit in roles_grp.split(" ")] for roles_grp in roles_str.split(" . ")]
     targ_syls = [[unit.strip() for unit in targ_syl.split(" ")] for targ_syl in targ_syls_str.split(" . ")]
 
@@ -65,34 +56,12 @@ def read_split_lex_file(lex_file_path):
       syl_roles = roles[idx]
 
       new_syl.create_new_syl(src_syl, syl_roles, [], targ_syl)
-
-      src_final = src_syl[-1]
-      targ_final = targ_syl[-2]
-      [new_src_syl, new_targ_syl] = new_syl.expand_nucleus_coda(src_syl, targ_syl)
-
-      if MERGER in targ_final and len(new_targ_syl) >= 3 and targ_final == new_targ_syl[-3] + MERGER + new_targ_syl[-2]:
-        new_syl.src_graphs = new_src_syl
-        new_syl.targ_phons = new_targ_syl
-        if len(syl_roles) == 1:
-          new_syl.roles = [NUCLEUS, CODA]
-        elif len(syl_roles) == 2:
-          new_syl.roles = [ONSET, NUCLEUS, CODA]
-        # print targ_final + ":\t" + new_targ_syl[-3] + "\t" + new_targ_syl[-2]
-        final_nucleus_coda_map[src_final] = [new_src_syl[-2], new_src_syl[-1]]
-        if len(new_syl.roles) != len(new_syl.src_graphs) and len(new_syl.roles) != len(new_syl.targ_phons):
-          print("Something is wrong with splitting nucleus-coda")
-          print new_syl.src_graphs
-          print new_syl.targ_phons
-          print new_syl.roles
-          sys.exit(1)
-
       new_word.add_new_syl(new_syl)
 
-    # new_word.print_str()
     all_words.append(new_word)
 
-  return all_words
   lex_file.close()
+  return all_words
 
 def create_input_for_t2p(all_words, t2p_input_path):
   t2p_input_file = open(t2p_input_path, "w")
@@ -207,15 +176,10 @@ def read_test_units_roles(units_roles_path):
 
       src_final_pos = len(new_syl.src_graphs)-1
       src_final = new_syl.src_graphs[src_final_pos]
-      if src_final in final_nucleus_coda_map:
-        new_syl.src_graphs = new_syl.src_graphs[:src_final_pos] + final_nucleus_coda_map[src_final]
-        if len(new_syl.roles) == 1:
-          new_syl.roles = [NUCLEUS, CODA]
-        elif len(new_syl.roles) == 2:
-          new_syl.roles = [ONSET, NUCLEUS, CODA]
 
       new_word.add_new_syl(new_syl)
-    new_word.print_str()
+    # new_word.print_str()
+    # raw_input()
     all_words.append(new_word)
 
   return all_words
@@ -287,98 +251,58 @@ def get_targ_phons_from_syl(syl, all_coords_ranks, search_space):
 
 
 
+def map_phones(lex_hyp_file_path, test_units_roles_path, run_dir, t2p_decoder_path):
+  #------------------------- GET SEARCH SPACE -----------------------------#
+  all_train_dev_words = read_split_lex_file(lex_hyp_file_path)
 
-#------------------------- GET SEARCH SPACE -----------------------------#
-all_train_dev_words = read_split_lex_file(lex_hyp_file_path)
-
-phon_t2p_input_path = os.path.abspath(os.path.join(run_dir, "phon_t2p_input.txt"))
-phon_t2p_output_path = os.path.abspath(os.path.join(run_dir, "phon_t2p_output.txt"))
-create_input_for_t2p(all_train_dev_words, phon_t2p_input_path)
-get_phons_with_g2p(t2p_decoder_path, phon_t2p_input_path, phon_t2p_output_path)
-add_src_phons_to_syls(all_train_dev_words, phon_t2p_output_path)
-
-search_space_path = os.path.abspath(os.path.join(run_dir, "phon_search_space.txt"))
-phoneme_searchspace = SearchSpace()
-for word in all_train_dev_words:
-  word.print_str()
-  for syl in word.syls:
-    new_coord = Coord()
-    new_coord.encode_unit_to_coord(syl)
-    unit_list = new_coord.to_list()
+  phon_t2p_input_path = os.path.abspath(os.path.join(run_dir, "phon_t2p_input.txt"))
+  phon_t2p_output_path = os.path.abspath(os.path.join(run_dir, "phon_t2p_output.txt"))
+  create_input_for_t2p(all_train_dev_words, phon_t2p_input_path)
+  get_phons_with_g2p(t2p_decoder_path, phon_t2p_input_path, phon_t2p_output_path)
+  add_src_phons_to_syls(all_train_dev_words, phon_t2p_output_path)
     
-    all_coords = []
-    new_coord.extrapolate(unit_list, all_coords, 0)
+  # for word in all_train_dev_words:
+  #   word.print_str()
+  #   raw_input()
 
-    for coord in all_coords:
-      # coord.print_str()
-      phoneme_searchspace.add_new_search_point(coord)
-
-phoneme_searchspace.normalize()
-print_search_space_to_file(phoneme_searchspace, search_space_path)
-
-#------------------------ NUCLEUS-CODA LEX HYP -------------------------#
-nucleus_coda_lex_hyp_path = os.path.abspath(os.path.join(run_dir, "nucleus-coda_lex_hyp.txt"))
-with open(nucleus_coda_lex_hyp_path, 'w') as fh:
+  search_space_path = os.path.abspath(os.path.join(run_dir, "phon_search_space.txt"))
+  phoneme_searchspace = SearchSpace()
   for word in all_train_dev_words:
-    src = " . ".join([syl.get_src_graphs_str() for syl in word.syls])
-    roles = " . ".join([syl.get_roles_str() for syl in word.syls])
-    targ = " . ".join([syl.get_targ_phons_str() for syl in word.syls])
-    fh.write("\t".join([src, roles, targ]) + "\n")
+    word.print_str()
+    for syl in word.syls:
+      new_coord = Coord()
+      new_coord.encode_unit_to_coord(syl)
+      unit_list = new_coord.to_list()
+      
+      all_coords = []
+      new_coord.extrapolate(unit_list, all_coords, 0)
 
-#------------------------- DECODE ---------------------------------------#
-all_test_words = read_test_units_roles(test_units_roles_path)
+      for coord in all_coords:
+        # coord.print_str()
+        phoneme_searchspace.add_new_search_point(coord)
 
-test_units_roles_t2p_input_path = os.path.abspath(os.path.join(run_dir, "test_units_roles_t2p_input.txt"))
-test_units_roles_t2p_output_path = os.path.abspath(os.path.join(run_dir, "test_units_roles_t2p_output.txt"))
-for word in all_test_words:
-  word.print_str()
-create_input_for_t2p(all_test_words, test_units_roles_t2p_input_path)
-get_phons_with_g2p(t2p_decoder_path, test_units_roles_t2p_input_path, test_units_roles_t2p_output_path)
-add_src_phons_to_syls(all_test_words, test_units_roles_t2p_output_path)
+  phoneme_searchspace.normalize()
+  print_search_space_to_file(phoneme_searchspace, search_space_path)
 
-get_all_test_coords(all_test_words, phoneme_searchspace.space)
+  #------------------------- DECODE ---------------------------------------#
+  all_test_words = read_test_units_roles(test_units_roles_path)
 
-test_toneless_output_path = os.path.abspath(os.path.join(run_dir, "test.toneless_with_roles.txt"))
-test_toneless_output_file = open(test_toneless_output_path, "w")
-print "\nPHONE MAPPING RESULTS"
-for word in all_test_words:
-  result = " . ".join([syl.get_targ_phons_str() for syl in word.syls])
-  result = result + "\t" + " . ".join([syl.get_roles_str() for syl in word.syls])
-  print result
-  test_toneless_output_file.write(result + "\n")
-test_toneless_output_file.close()
+  test_units_roles_t2p_input_path = os.path.abspath(os.path.join(run_dir, "test_units_roles_t2p_input.txt"))
+  test_units_roles_t2p_output_path = os.path.abspath(os.path.join(run_dir, "test_units_roles_t2p_output.txt"))
+  for word in all_test_words:
+    word.print_str()
+  create_input_for_t2p(all_test_words, test_units_roles_t2p_input_path)
+  get_phons_with_g2p(t2p_decoder_path, test_units_roles_t2p_input_path, test_units_roles_t2p_output_path)
+  add_src_phons_to_syls(all_test_words, test_units_roles_t2p_output_path)
 
-print test_units_roles_t2p_input_path
+  get_all_test_coords(all_test_words, phoneme_searchspace.space)
 
-#------------------------- UNIT TEST ------------------------------------#
-# for word in all_words:
-#   word.print_str()
-
-#print "Unmatched graphemes and phonemes"
-# for word in all_words:
-#   found = False
-#   for syl in word.syls:
-#     for i in range(len(syl.src_graphs)):
-#       if syl.src_graphs[i] != "@" and syl.src_phons[i] == "":
-#         found = True
-#         break
-#     if found:
-#       break
-#   # if found:
-#   #   word.print_str()
-
-# phoneme_searchspace = SearchSpace()
-# for word in all_words:
-#   for syl in word.syls:
-#     new_coord = Coord()
-#     new_coord.encode_unit_to_coord(syl)
-#     unit_list = new_coord.to_list()
-
-#     all_coords = []
-#     new_coord.extrapolate(unit_list, all_coords, 0)
-
-#     for coord in all_coords:
-#       phoneme_searchspace.add_new_search_point(coord)
-
-# print_search_space_to_file(phoneme_searchspace, search_space_path)
-
+  test_toneless_output_path = os.path.abspath(os.path.join(run_dir, "test.toneless_with_roles.txt"))
+  test_toneless_output_file = open(test_toneless_output_path, "w")
+  print "\nPHONE MAPPING RESULTS"
+  for word in all_test_words:
+    result = " . ".join([syl.get_targ_phons_str() for syl in word.syls])
+    result = result + "\t" + " . ".join([syl.get_roles_str() for syl in word.syls])
+    print result
+    test_toneless_output_file.write(result + "\n")
+  test_toneless_output_file.close()

@@ -5,7 +5,7 @@ import pdb
 import time, datetime
 
 ALL_SIZES = [100, 200, 300, 400, 500, 600, 700]
-ALL_SETS =  [  8,   5,   5,   5,   5,   5,   5]
+ALL_SETS =  [ 10,  10,  10,  10,  10,  10,  10]
 ITR_COUNT = 5
 # ALL_SIZES = [100]
 # ALL_SETS =  [  1]
@@ -19,9 +19,9 @@ def main():
     size = ALL_SIZES[j]
     sets = ALL_SETS[j]
 
-    root = op.join(os.getcwd(), 'exp_170412', 'size' + str(size));
+    root = op.join(os.getcwd(), 'exp_170502', 'size' + str(size));
     ts = datetime.datetime.fromtimestamp(time.time()).strftime('%Y%m%d')
-    output_file = op.join(root, 'PhonoAugmented_size' + str(size) + '_' + ts + '_on_dev.csv')
+    output_file = op.join(root, 'PhonoAugmented_size' + str(size) + '_' + ts + '_on_test.csv')
     with open(output_file, 'w') as output_filehandler:
       for i in xrange(1, sets + 1):
         set_name = 'size{0}_set{1}'.format(size, i)
@@ -34,10 +34,10 @@ def main():
 def score(cwd):
     MERGER = '-'
 
-    run_dir = op.join(cwd, 'phono_augmented', 'run_on_dev_dir')
-    orig_ref_file = op.join(cwd, 'corpus', 'dev.ref')
+    run_dir = op.join(cwd, 'phono_augmented', 'run_on_test_dir')
+    orig_ref_file = op.join(cwd, 'test.ref')
     # ref_file = op.join(cwd, 'corpus', 'dev.ref')
-    ref_file = op.join(cwd, 'corpus', 'dev_for_scoring.ref')
+    ref_file = op.join(cwd, 'corpus', 'test_for_scoring.ref')
     with open(orig_ref_file, 'r') as i_fh:
       with open(ref_file, 'w') as o_fh:
         for line in i_fh:
@@ -45,15 +45,15 @@ def score(cwd):
 
     result = []
 
-    orig_output_file = op.join(run_dir, 'dev.output')
-    output_file = op.join(run_dir, 'dev_for_scoring.output')
+    orig_output_file = op.join(run_dir, 'test.output')
+    output_file = op.join(run_dir, 'test_for_scoring.output')
     # output_file = op.join(run_dir, 'dev.output')
     with open(orig_output_file, 'r') as i_fh:
       with open(output_file, 'w') as o_fh:
         for line in i_fh:
           o_fh.write(line.replace(MERGER, ' '))
 
-    hyp_file = op.join(run_dir, 'dev.hyp')
+    hyp_file = op.join(run_dir, 'test.hyp')
 
     with open(hyp_file, 'w') as hyp_filehandler, open(output_file, 'r') as output_filehandler:
         index = 0

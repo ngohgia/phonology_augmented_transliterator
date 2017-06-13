@@ -7,7 +7,7 @@ import logging
 import time
 
 # root_dir = os.path.join('/home/ngohgia/Work/NEWS2016_EnMandarin_phonology_augmented_transliterator', 'exp_20170207', 'size200_iter1')
-root_dir = os.path.join(os.getcwd(), 'exp_170403', 'size100', 'size100_set1', 'size100_set1_itr1')
+root_dir = os.path.join(os.getcwd(), 'exp_170411', 'size100', 'size100_set1', 'size100_set1_itr1')
 data_dir = os.path.join(root_dir, 'corpus')
 
 ts = time.strftime("%Y-%m-%d_%H-%M-%S")
@@ -20,7 +20,7 @@ if os.path.exists(run_dir):
 os.makedirs(run_dir)
 os.makedirs(log_dir)
 
-training_dev_file_path = os.path.join(data_dir, 'train.lex')
+training_dev_file_path = os.path.join(data_dir, 'train+dev.lex')
 test_src_file_path = os.path.join(data_dir, 'test.lex')
 output_file_path = os.path.join(run_dir, 'test.output')
 path_to_t2p = '/home/ngohgia/Work/utilities/t2p/t2p_dt.pl'

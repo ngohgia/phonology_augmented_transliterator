@@ -3,6 +3,17 @@ class LangAssets:
 
   SCHWA = "@:"
 
+  NULL = '#'
+
+  FINAL = 'F'
+  ONSET = 'O'
+  NUCLEUS = 'N'
+  CODA = 'Cd'
+
+  MERGER = '-'
+
+  FINAL_SPLIT_SMOOTH = 0.9
+
   CLOSER_UNKNOWN_PHONEME_PEN = 10
   CLOSER_UNKNOWN_GRAPHEME_PEN = 15
 

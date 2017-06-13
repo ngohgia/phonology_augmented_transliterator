@@ -35,6 +35,9 @@ REMOVE = "R"
 MAX_THRESH_LEVEL = 3
 
 lang_assets = LangAssets()
+
+MERGER = LangAssets.MERGER
+
 VOWEL = LangAssets.VOWEL
 CONSONANT = LangAssets.CONSONANT
 DELIMITER = LangAssets.DELIMITER
@@ -117,9 +120,9 @@ def export_syl_struct_of_targ_word(word):
       raise SystemExit
       sys.exit(1)
     elif len(targ_phons) == 2:
-      if targ_phons[1] in ValidTargVowels:
+      if targ_phons[1] in ValidTargVowels or MERGER in targ_phons[1]:
         syl_struct = [ONSET, NUCLEUS]
-      elif targ_phons[0] in ValidTargVowels:
+      elif targ_phons[0] in ValidTargVowels or MERGER in targ_phons[0]:
         syl_struct = [NUCLEUS, CODA]
       else:
         print("[ERROR] Syllable of 2 units does not have a valid nucleus")

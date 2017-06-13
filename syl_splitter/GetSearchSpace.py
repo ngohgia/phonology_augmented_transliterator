@@ -41,7 +41,48 @@ def read_lex_hyps_from_file(fname):
   fi.close()
   return lex_hyps
 
-def get_search_space_from_lex_hyps(lex_hyps, run_dir):
+def get_search_space_from_lex_hyps(lex_hyps):
+  valid_units = {ONSET: [], NUCLEUS: [], CODA: []}
+
+  # For each word in the lexicon, randomly pick out
+  # a hypothesis
+  search_space = SearchSpace()
+  
+  for word in lex_hyps:
+    # print word
+    rand_idx = random.randrange(len(lex_hyps[word]))
+    roles = lex_hyps[word][rand_idx][0]
+    reconstructed_word = lex_hyps[word][rand_idx][1]
+    reconstructed_roles = []
+    for syl in lex_hyps[word][rand_idx][2].split("."):
+      for role in syl.strip().split(" "):
+        reconstructed_roles.append(role.strip())
+    targ_word = lex_hyps[word][rand_idx][3]
+    #print reconstructed_roles
+
+    # Reformat the reconstructed_word
+    reconstructed_word = reconstructed_word[1:-1]
+    reconstructed_word = [part.strip().split(" ") for part in reconstructed_word.split(" ] [ ")]
+    reconstructed_syls = reconstructed_word
+    reconstructed_word = " . ".join(["".join(syl) for syl in reconstructed_word])
+
+    # Extract valid subsyllabic units
+    idx = 0
+    for syl in reconstructed_syls:
+      for unit in syl:
+        if unit != GENERIC_VOWEL and unit not in valid_units[reconstructed_roles[idx]]:
+          valid_units[reconstructed_roles[idx]].append(unit)
+        idx = idx + 1
+
+
+    # Convert the word and the letters to a rule and add
+    # the rule to the search space
+    convert_word_labels_to_rule(word, roles, search_space)
+
+  search_space.normalized()
+  return search_space, valid_units
+
+def get_search_space_from_lex_hyps_old(lex_hyps, run_dir):
   valid_units = {ONSET: [], NUCLEUS: [], CODA: []}
 
   # For each word in the lexicon, randomly pick out
